@@ -2,12 +2,8 @@
 title: "Ecosystem Effects of Acidic Deposition"
 format: html
 ---
-
-```{=html}
 <video controls 
        style="width:80%; max-width:900px; display:block; margin:1.5rem auto;">
-```
-
 <source src="https://photos.smugmug.com/Videos/Videos/i-npHchjG/0/Kg5whdSxGWPQXNdwVR4xBtXKjNgV8pGQMLpM8jmL8/1280/Charley%20Driscoll%20talk_edited-1280.mp4" type="video/mp4">
 
 </video>
@@ -15,7 +11,6 @@ format: html
 <p class="video-caption">
 
 In this video, Dr. Charley Driscoll describes the function of lysimeters in measuring soil water and the impacts of soil acidification from acid rain within northern hardwood forest ecosystems. Video filmed at the Throughfall mid Plot in the Hubbard Brook Experimental Forest on May 17, 2024.
-
 </p>
 
 Chapter Editor: Charles Driscoll and Habib Fakharaei
