@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>5&nbsp; Decomposition and Soil Carbon Sequestration</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<link href="./SoilBiology.html" rel="next">
+<link href="./CompositionDynamics.html" rel="prev">
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-821b353f9d95b26937205047da05f2b0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Decomp.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Decomposition and Soil Carbon Sequestration</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./WhatsNew.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">What’s New</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./SiteHistory.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Site, History, and Research Approaches</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ClimateChange.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Climate Change</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Hydrology.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Hydrology</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./CompositionDynamics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Forest Composition and Dynamics</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Decomp.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Decomposition and Soil Carbon Sequestration</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./SoilBiology.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Soil Biology in the Forested Ecosystem</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Biogeochemistry.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Biogeochemistry</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./AtmosphericInputs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">AtmosphericInputs</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./AcidDepositionEffects.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">AcidDepositionEffects</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./MineralWeathering.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">MineralWeathering</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Roots.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Roots</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Nitrogen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Nitrogen</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Phosphorus.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Phosphorus</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./StreamEcosystems.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">StreamEcosystems</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./PhysiologyPhenology.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">PhysiologyPhenology</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ForestManagement.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">ForestManagement</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Beech.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Beech</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Birds.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Birds</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Understory.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Understory</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Scaling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Scaling</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Chapter Sections</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">5.1</span> Introduction</a></li>
+  <li><a href="#leaf-litter-decomposition" id="toc-leaf-litter-decomposition" class="nav-link" data-scroll-target="#leaf-litter-decomposition"><span class="header-section-number">5.2</span> Leaf Litter Decomposition</a></li>
+  <li><a href="#fine-root-decomposition" id="toc-fine-root-decomposition" class="nav-link" data-scroll-target="#fine-root-decomposition"><span class="header-section-number">5.3</span> Fine Root Decomposition</a></li>
+  <li><a href="#decomposition-of-woody-substrates" id="toc-decomposition-of-woody-substrates" class="nav-link" data-scroll-target="#decomposition-of-woody-substrates"><span class="header-section-number">5.4</span> Decomposition of Woody Substrates</a></li>
+  <li><a href="#questions-for-further-study" id="toc-questions-for-further-study" class="nav-link" data-scroll-target="#questions-for-further-study"><span class="header-section-number">5.5</span> Questions for Further Study</a></li>
+  <li><a href="#access-data" id="toc-access-data" class="nav-link" data-scroll-target="#access-data"><span class="header-section-number">5.6</span> Access Data</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">5.7</span> References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const banner = document.createElement("div");
+  banner.className = "hb-banner-global";
+
+  banner.innerHTML = `
+    <a href="https://hubbardbrook.org" class="hb-banner-link">
+      <div class="hb-banner-image">
+        <img src="images/banner.jpg" alt="">
+        <div class="hb-banner-overlay">
+          <div class="hb-banner-title">
+            Online Book: A Synthesis of Scientific Research at Hubbard Brook
+          </div>
+          <div class="hb-banner-subline">
+            [return to hubbardbrook.org]
+          </div>
+        </div>
+      </div>
+    </a>
+  `;
+
+  document.body.prepend(banner);
+});
+</script>
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Decomposition and Soil Carbon Sequestration</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Chapter Editor: Timothy Fahey</p>
+<video controls="" style="width:80%; max-width:900px; display:block; margin:1.5rem auto;">
+<source src="https://photos.smugmug.com/Videos/Videos/i-Xp58p5f/0/L7jWxJM6vT5qCKPpBR7jwR68hPn4bLLc4pvcKzD5p/1280/Christy%20Goodale%20talk_edited-1280.mp4" type="video/mp4">
+</video>
+<p class="video-caption">
+Dr.&nbsp;Christy Goodale speaks about cross-site leaf litter decomposition studies that measure how beech leaves decompose in response to additions of calcium. Video filmed at the Throughfall low (also called “the Wedge”) site at the Hubbard Brook Experimental Forest on May 17, 2024.
+</p>
+<section id="introduction" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">5.1</span> Introduction</h2>
+<p>Litter decomposition in forest ecosystems has been the subject of numerous studies, including several at Hubbard Brook (HB). Decay of aboveground litter is relatively easy to measure and interest in this topic originally revolved largely around ecological questions of mineral nutrient cycling. More recently the realization that forest soil is among the largest carbon pools on earth, and that changes in soil C stock could contribute to changes in atmospheric CO2 concentration, has further stimulated interest in decomposition and its sensitivity to human-accelerated environmental change. Here, we consider the linked processes of plant litter decomposition and soil C sequestration at HB.</p>
+<p>An initial issue to address on this topic is the magnitude of the flux of different forms of litter in the HB forest: leaf and other non-woody aboveground litter, woody aboveground litter (mostly branches), dead boles, and fine and coarse woody roots. As detailed by Fahey et al.&nbsp;(2005) each of these sources of detritus constitutes a significant proportion of the total C input to forest soil at HB. In the mature northern hardwood forest adjacent to WS6 fine litterfall flux (comprised of about 88% leaf litter) averages 171 g C/m2-yr and is nearly constant from year-to-year in the absence of canopy disturbances. In contrast, coarse litterfall (mostly branches) is highly episodic, being associated with severe weather events (windstorms, ice storms, heavy snowfall); Fahey et al.&nbsp;(2005) estimated the long-term average at 20 g C/m2-yr. Even more variable, both temporally and spatially, is input of coarse woody debris associated with tree mortality. Based on long-term inventory in the forest west of WS6, this flux averages 120 g C/m2-yr (Siccama et al.&nbsp;2007). Decomposition rates of these various aboveground detrital inputs differ considerably and their role in supplying soil C is not fully understood.</p>
+<p>Carbon flux of belowground detritus is difficult to quantify directly. Two categories of root detritus are typically distinguished; the ephemeral fine roots of plants (&lt; 1mm diameter) and the more permanent woody roots. Fahey et al.&nbsp;(2005) estimated C input to soil in the HB northern hardwood forest from fine and woody roots at about 90 and 40 g C/m2-yr, respectively, but they emphasized high uncertainty of both estimates. Using these estimates the ratio of aboveground to belowground detrital C input to soil at HB is roughly 1.6. However, rhizosphere C flux (RCF) is an additional large C input to soil and includes root exudation, rhizo-deposition and C allocation to extramatrical mycorrhizal fungal hyphae. This C flux is probably similar in magnitude to fine root mortality (Fahey et al.&nbsp;2005). However, in this chapter we will not consider the decomposition of RCF.</p>
+<p>Decomposition of organic matter has traditionally been represented as an exponential decay process (Olson 1963), analogous to decay of a radioactive isotope, i.e.,</p>
+<p>Eq. 1. X(t) = X (o) e-kt</p>
+<p>Although other formulations sometimes show a better fit to decomposition studies – e.g., a two phase linear decay model – for comparative purposes, the exponential decay coefficient (k) is a convenient parameter. Also, the asymptote in the exponential decay of litter normally does not correspond to zero mass remaining; Berg et al.&nbsp;(1996) noted that decomposition approached a “limit value”, the remaining material being highly recalcitrant. This fraction may include some resistant polymers, especially by-products of microbial decomposition. It is reasonable to assume that some or most of the organic matter sequestered and stabilized in soil is represented by this apparently relatively recalcitrant fraction, although mechanisms other than biochemical resistance to decay contribute to soil C stabilization (Schmidt et al.&nbsp;2011).</p>
+</section>
+<section id="leaf-litter-decomposition" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="leaf-litter-decomposition"><span class="header-section-number">5.2</span> Leaf Litter Decomposition</h2>
+<div style="float: right; width: 40%; margin-left: 1em;">
+<div id="fig-LeafDecomp" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-LeafDecomp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/Decomp/LeafDecompFig.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-LeafDecomp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5.1: Percentage of the original leaf dry weight remaining after various periods of decomposition. Values are means and standeard errors for leaves from the 550-, 670-, and 770-m elevation sites. Sample size = 3 for 0-9 month and 6 for 10-12 month collection times. Single and double asterisks indicate significant (p=0.05) and highly significant (P= 0.01) differences respectively (Gosz et al., 1973)
+</figcaption>
+</figure>
+</div>
+</div>
+<p>Gosz et al.&nbsp;(1973) measured dry weight loss and nutrient release from leaf litter of the three dominant northern hardwood species at HB over a one year period (Figure 1). Decay rate differed by species and decreased in the order of yellow birch, sugar maple, beech with corresponding k values of 0.85, 0.51 and 0.37. They noted that most of the difference between maple and beech was accounted for by greater leaching of soluble compounds from maple than beech leaf litter during the first month; thereafter, decay rates were similar for these two species. However, yellow birch decay following the leaching phase was much faster than beech and maple. Decay rates did not differ significantly across the elevation gradient from 550-770m. Similar patterns were observed at HB by Mellilo et al.&nbsp;(1982) although one-year decay rates were considerably lower (e.g., 0.08 for beech, and 0.25 for sugar maple).</p>
+<p>The rate of decomposition of leaf litter depends upon environment, substrate chemistry and decomposer organisms. It seems likely that the contrasting decay rates of Gosz et al.&nbsp;(1973) and Mellilo et al.&nbsp;(1982) at HB resulted in part from environmental differences between the years of study. From their study at HB, Mellilo et al.&nbsp;(1982) concluded that the lignin to nitrogen concentration ratio provides an effective index of substrate quality for predicting early stages of leaf litter decay; high lignin:N is correlated with slow decay (<a href="#fig-LigNit" class="quarto-xref">Figure&nbsp;<span>5.2</span></a>).</p>
+<p>Lignin is a polyphenolic polymer in plant cell walls that is resistant to decay, being decomposed primarily by oxidative enzymes such as phenol oxidase and peroxidases produced by white-rot fungi. Nitrogen is essential for microbial decomposers and is in relatively short supply in fresh leaf litter owing to efficient resorption of N from foliage prior to senescence (see Nitrogen Cycling chapter).</p>
+<div style="float: left; width: 40%; margin-right: 1em;">
+<div id="fig-LigNit" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-LigNit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/Decomp/Decomp-LigninNitrogenRation.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-LigNit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5.2: Correlations between first-year leaf litter decomposition and litter lignin-to-nitrogen ratio for several tree species at two hardwood forest sites (Melillo et al., 1982)
+</figcaption>
+</figure>
+</div>
+</div>
+<p>The microbial decomposer community is highly diverse and complex, and the role of variation in microbial decomposers in determining leaf litter decay rate is not well understood. At the coarsest level fungi and bacteria are both dominant decomposers, but they are quite distinct in their physiological activity in the decay process (Waring 2013). Both groups produce extracellular enzymes that depolymerize the large biomolecules that contribute most of the mass of litter: cellulose, lignin, hemi-celluloses, proteins and fatty acids. Fungi have higher biomass C:N, broader enzymatic capabilities, slower biomass turnover rates and probably higher carbon-use efficiency than bacteria. In the low pH soils at HB, fungi are more abundant than bacteria and the high substrate C:N of leaf litter also favors fungi over bacteria. The litter decay process and the fate of litter C (and N) are influenced by this high fungal abundance.</p>
+<p>Numerous soil invertebrates also play key roles in leaf litter decomposition. Mites and collembola (spring tails), the dominant soil microinvertebrates, are particularly abundant in the thick surface organic horizon (Fisk et al.&nbsp;2006), but their role in litter decay is not well understood. Litter invertebrates are thought to play their principal role by shredding litter and thereby increasing surface:volume ratio (and decomposability) of the substrate, and through their feeding on microbial saprotrophs.</p>
+<p>Most studies of leaf litter decay are terminated after 1-2 yr, but in terms of soil C sequestration longer-term dynamics are of particular interest. Lovett et al.&nbsp;(2016) quantified 6 yr of decay of the dominant hard wood species at HB (<a href="#fig-LeafLitterDecay" class="quarto-xref">Figure&nbsp;<span>5.3</span></a>). They observed the same order of decay as noted above: beech &lt; maple &lt; birch. Moreover, this order of decay was maintained through six years. The cumulative mass loss after 6 years ranged from 66% for beech to 80% for yellow birch yielding k values of 0.32 and 0.58 yr-1, respectively. In contrast, limit values, calculated from the asymptote of an exponential decay were more similar among species: roughly 20% of the initial mass of leaf litter appeared to be highly resistant to decomposition.</p>
+<div style="float: right; width: 40%; margin-left: 1em;">
+<div id="fig-LeafLitterDecay" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-LeafLitterDecay-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/Decomp/LeafLitterDecay.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-LeafLitterDecay-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5.3: Long-term decay of leaf litter of four tree species at Hubbard Brook (Lovett et al.&nbsp;2016)
+</figcaption>
+</figure>
+</div>
+</div>
+<p>Leaf litter decomposition is expected to be sensitive to human-accelerated environmental changes because of its dependence on climate, substrate quality and decay organisms. Higher temperature and moisture would be expected to increase litter decomposition, especially during the growing season; however, any increase in the frequency of soil freezing owing to diminished snowpack might have the opposite effect, although current evidence is not conclusive (Christenson et al., in prep). One important change in substrate quality could be an increase in leaf litter N resulting from continued high atmospheric N addition, which can reduce foliar N resorption. In the early stages of decay higher substrate N should increase litter decay rates; however, the N addition response is complicated by apparent effect of exogenous N addition on litter decay: especially for lower substrate quality litter, decay rates may be suppressed (Knorr et al.&nbsp;2005). Moreover, higher N is also correlated to less complete long-term litter decomposition (Berg et al.&nbsp;2000), an effect that appears to coincide with N suppression of oxidative enzymes that degrade lignin (Weand et al.&nbsp;2010). Soil acidification resulting from atmospheric deposition can also have an effect on leaf litter decay. Lovett et al.&nbsp;(2016) observed that restoration of soil Ca on WS1 at HB caused more complete decomposition of beech and maple litter, an effect that may contribute to decreased forest floor C content on the treated watershed.</p>
+<p>Perhaps the most prominent biotic effect on litter decay is the colonization of northern forests by European and Asian earthworms. These non-native Annelida taxa can cause the complete disappearance of a leaf litter cohort within a year. Although much of this litter C remains partially decayed in soil, earthworm invasion clearly accelerates litter decay rate (Fahey et al.&nbsp;2013). Exotic earthworms currently are restricted to only a few locations at HB (e.g., riparian forest) probably largely because of their intolerance of low pH soils.</p>
+</section>
+<section id="fine-root-decomposition" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="fine-root-decomposition"><span class="header-section-number">5.3</span> Fine Root Decomposition</h2>
+<p>Belowground, fine roots are analogous to leaves in terms of high tissue quality and rapid turnover. Avoiding methodological artifacts in measuring fine root decay is much more difficult than for leaf litter. Fine roots naturally die in the midst of a complex rhizosphere environment which is impossible to duplicate in a typical litter bag study. A few studies have shown that fine root decay rates in root litter bags are much slower than in situ rates (Dornbush et al.&nbsp;2002) probably in part because the decomposer community is greatly altered (Li et al.&nbsp;2015). Thus, literature conclusions about fine root decay, e.g.&nbsp;that fine roots decompose more slowly than leaf litter (Silver and Miya 2001), must be interpreted with caution.</p>
+<p>At HB, Fahey et al.&nbsp;(1988) observed higher decay over 2 yr of 0.6-1 mm than &lt;0.6 mm roots, a result that agrees with recent studies which attribute this difference to poorer substrate quality of the smallest fine roots (Goebel et al.&nbsp;2011). Some observations of very rapid disappearance of fine roots in situ, using minirhizotrons and root screens (Tierney and Fahey 2001), suggest the possibility of much more rapid decay. Alternatively, these observations may reflect fine root herbivory, a topic that has received little study in forests (Wells et al.&nbsp;2002). Differences in fine root decomposition among tree species also has received little study. At HB decay rates of 0.6-1 mm roots were similar between sugar maple, American beech and yellow birch (Fahey et al.&nbsp;1988).</p>
+</section>
+<section id="decomposition-of-woody-substrates" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="decomposition-of-woody-substrates"><span class="header-section-number">5.4</span> Decomposition of Woody Substrates</h2>
+<p>As noted at the outset, woody litter comprises a large proportion of detrital input to soils in the HB forest; aboveground, branches contribute about 6-7% of total litterfall and boles of dead trees about 39%. Decomposition of branches in the form of logging slash was measured for two years following whole-tree harvest of WS5 at HB (J.W. Hughes, unpublished). Branch decay was not much different among the northern hardwood species, with k values ranging from 0.13 to 0.16, much lower than for leaf litter (0.32-0.58). By comparison, woody roots of similar diameter (2-10 cm) exhibited considerably slower decay than branches (k = 0.056 – 0.03; Fahey et al.&nbsp;1988) and decay was consistently faster for maple than beech and birch. Fahey and Arthur (1994) noted exceptionally high variation in decay rates of woody roots, concurring with observations of bole wood decay at HB (Arthur et al.&nbsp;1993, Johnson et al.&nbsp;2014). We suspect that this variation in wood decay rates is attributed to the decay fungi that first colonize dead wood (Liu et al.&nbsp;2013) because early colonizers often dominate the woody substrate to the exclusion of competitors. Thus, if the first colonizers are the white-rot fungi that are capable of very fast and complete decomposition of wood, then decay rates will be much faster than when slower brown-rot fungi are the first to colonize. Bole wood decay is slower than branches but similar to woody roots. At HB, Arthur et al.&nbsp;(1993) reported an overall k value for wood decay after clearfelling of WS2 of 0.096 yr-1. They noted the order of decay among northern hardwood species: beech &gt; sugar maple &gt; yellow birch. Johnson et al.&nbsp;(2014) measured decay rates of tree boles located beneath mature forest over a 16 year period. Their decay rates were similar to or slightly lower than observed by Arthur et al.&nbsp;(1993) but followed the same order by species: beech (0.097) &gt; maple (0.079) &gt; birch (0.065). No significant effect of bole diameter was detected over the range study (12-32 cm) owing in part to the high variation noted above. Litter Decomposition and Soil C Sequestration</p>
+<p>The sensitivity of litter decomposition to human-accelerated environmental changes raises questions about possible effects on soil C sequestration. The majority of the forest soil C stock is considered highly stable and hence probably insensitive to environmental change; nevertheless, the large pool of potentially labile C in upper soil horizons could respond to changing climate, soil fertility and exotic species invasions. Moreover, forest management activities could be designed to promote increased soil C sequestration as has been shown for agroecosystems.</p>
+<p>Early conclusions that soil organic matter consists largely of highly recalcitrant components of plant detritus have been replaced by the understanding that most soil C is not inherently stable but rather protected from microbial enzyme degradation by physical forces in micro aggregates and in mineral-organic complexes (Schmidt et al.&nbsp;2011). Moreover, most stabilized organic matter bears the biochemical signature of microbes rather than the original plant material from which it was derived. Also, current evidence indicates that belowground rather than aboveground detritus is the principal source of the majority of forest soil C (Matamala et al.&nbsp;2003). These observations are important for understanding how soil C sequestration might respond to global change and forest management activities.</p>
+<p>As noted earlier, Gosz et al.&nbsp;(1973) observed that a considerable proportion of leaf litter weight loss is associated with leaching of soluble organic matter in the early stages of decomposition. Most of this organic matter is retained within the soil profile by adsorption or precipitation on soil humic and mineral particles. Isotopic tracer studies in sugar maple forest indicate that most of this leached organic matter remains highly labile and is soon decomposed by soil microbes (Fahey et al.&nbsp;2011); however, a small proportion likely is stabilized in mineral-organic complexes and micro aggregates. Some recent evidence indicates that dissolved organic matter is co-precipitated in the formation of secondary soil minerals, and hence may be stabilized within the mineral matrix (Lehmann et al, 2008). These processes are the subject of ongoing study of soil formation processes at HB.</p>
+<p>Complex patterns of mobilization and retention of dissolved organic matter within the HB landscape have been revealed by studies of soil C distribution and soil solution and stream chemistry. Comparatively large amounts of DOC are generated in high-elevation conifer-dominated forest (Dittman et al.&nbsp;2007). Retention of DOC occurs throughout the soil profile, but during wet periods considerable lateral flow mobilizes DOC in surface horizons and by-passes the spodic soil horizons, transporting soil C to the stream. The complexity of hydrologic flowpaths (see Hydrology chapter) can lead to considerable redistribution of soil C. For example, DOC generated in shallow bedrock-limited soils is transferred laterally and deposited in deeper soils in lower landscape positions. In the patchwork of perched water tables, soil C accumulates in part because of suppressed microbial activity owing to reducing conditions (Bailey et al.&nbsp;2014). The net effect is considerable spatial variation in soil C pools (Table 1). Because the soil hydrologic processes that influence these patterns of soil C sequestration are sensitive to changing climate, we can anticipate possible responses to increasing precipitation and temperature in the 21st century but the nature of these responses remain highly uncertain.</p>
+<div id="fig-edidecompW6" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-edidecompW6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<iframe src="https://hubbardbrook.github.io/decompCarbon/Fig4_organicMatter_W6.html" width="100%" height="600" style="border: none;">
+</iframe>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-edidecompW6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5.4: Organic matter content of the surface organic horizons (Oie + Oa) on the reference watershed (WS6) at the Hubbard Brook Experimental Forest. Error bars indicate standard errors. (Fahey et al., 2005). This figure is updated with current data available in the Environmental Data Initiative Repository ( Johnson, C.E. 2024. Mass and Chemistry of Organic Horizons and Surface Mineral Soils on Watershed 6 at the Hubbard Brook Experimental Forest, 1976 - present ver 4. Environmental Data Initiative. https://doi.org/10.6073/pasta/ab29c15538e75cafd4a43a30d8033cec (Accessed 2024-04-11). Hover over graph to access interactive controls available at the top right (zoom/pan/etc).
+</figcaption>
+</figure>
+</div>
+<p>The acidic Spodosols that dominate the HB landscape are marked by thick forest floor organic horizons owing largely to limited mixing of detritus with mineral soil by macroinvertebrates (e.g., earthworms). This C pool comprises 19% of the total soil C stock in the HB forest. Early studies in and around HB indicated that C stocks in the organic horizons are highly dynamic, being sensitive to forest harvest with ca. 50% C loss over a decade after cutting (Dominski 1974, Covington 1981); however, subsequent work demonstrated that physical mixing processes into mineral soil probably accounted for most of this pattern, and forest floor organic layers may be much less dynamic than previously supposed (Yanai et al.&nbsp;2003). Long-term monitoring of forest floor C pool in the mature forest at HB has supported the latter interpretation as no significant changes in this C pool were observed between 1977 and 2002 (Figure 4).</p>
+<p>However, most recently we have observed possible decline in the forest floor C stock in the mature forest at HB. Sensitivity of surface soil C to environmental change is further suggested by recent observations of sharp declines in WS1 where the soil Ca lost as a result of acid deposition was experimentally restored in 1999: an astounding 50% decline in forest floor organic C was observed between 1998 and 2014 (Figure 5).</p>
+<p>The cause of this striking response is not fully understood, but slight increases in long-term leaf litter decomposition (Lovett et al 2016) and decreased fine root inputs (Fahey et al.&nbsp;2016) have likely contributed. These observations raise the possibility that depletion of soil Ca by acid rain caused an increase in soil C stocks so that deacidification in the 21st century may result in declining soil C sequestration in some temperate zone forests (Oulehle et al.&nbsp;2011).</p>
+<div id="fig-edidecompW1-6" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-edidecompW1-6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<iframe src="https://hubbardbrook.github.io/decompCarbon/Fig5A_organicMatter.html" width="100%" height="600" style="border: none;">
+</iframe>
+<iframe src="https://hubbardbrook.github.io/decompCarbon/Fig5B_organicMatter.html" width="100%" height="600" style="border: none;">
+</iframe>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-edidecompW1-6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5.5: Changes in organic matter content of forest floor horizons in reference (WS6) and calcium-amended (WS1) watersheds at Hubbard Brook Experimental Forest. This figure is updated with current data available in the Environmental Data Initiative Repository ( Johnson, C.E. 2022. Mass and Chemistry of Organic Horizons and Surface Mineral Soils on Watershed 1 at the Hubbard Brook Experimental Forest 1996-present ver 3. Environmental Data Initiative. https://doi.org/10.6073/pasta/7395cf86c134440f38d800ca59a4857b and Johnson, C.E. 2024. Mass and Chemistry of Organic Horizons and Surface Mineral Soils on Watershed 6 at the Hubbard Brook Experimental Forest, 1976 - present ver 4. Environmental Data Initiative. https://doi.org/10.6073/pasta/ab29c15538e75cafd4a43a30d8033cec (Accessed 2024-04-11). Hover over graph to access interactive controls available at the top right (zoom/pan/etc).
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="questions-for-further-study" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="questions-for-further-study"><span class="header-section-number">5.5</span> Questions for Further Study</h2>
+<ul>
+<li>What biotic and environmental factors cause high interannual variation in leaf litter decomposition?</li>
+<li>How does the community of microbial decomposers vary spatially and temporally? How does that variation influence litter decay?</li>
+<li>What is the true rate of decay of fine roots in situ in the soil, and what environmental and biotic factors influence fine root decay rates?</li>
+<li>What is the cause of the rapid loss of forest floor carbon during natural and experimental (WS1) deacidification of the soil?</li>
+<li>What are the principal sources of soil carbon deep in the soil profile?</li>
+</ul>
+</section>
+<section id="access-data" class="level2" data-number="5.6">
+<h2 data-number="5.6" class="anchored" data-anchor-id="access-data"><span class="header-section-number">5.6</span> Access Data</h2>
+<pre><code>Lovett, G., M. Arthur, and K. Crowley. 2019. Effect of calcium addition on litter decomposition; data from reciprocal litter transplant experiment at Hubbard Brook, NH ver 1. Environmental Data Initiative.
+https://doi.org/10.6073/pasta/f69978b45f6cb5828a38ecaf56145f13
+Johnson, C.E. 2022. Mass and Chemistry of Organic Horizons and Surface Mineral Soils on Watershed 6 at the Hubbard Brook Experimental Forest, 1976 - present ver 3. Environmental Data Initiative.
+https://doi.org/10.6073/pasta/96ef3d45e9a7d719ae7731f0719bd483</code></pre>
+</section>
+<section id="references" class="level2" data-number="5.7">
+<h2 data-number="5.7" class="anchored" data-anchor-id="references"><span class="header-section-number">5.7</span> References</h2>
+<div class="references">
+<p>
+Arthur, M. A., Tritton, L. M., &amp; Fahey, T. J. (1993). Dead bole mass and nutrients remaining 23 years after clear-felling of a northern hardwood forest. <em>Canadian Journal of Forest Research, 23</em>, 1298–1305. <a href="https://doi.org/10.1139/x93-164">https://doi.org/10.1139/x93-164</a>
+</p>
+<p>
+Bailey, S. W., Brousseau, P. A., McGuire, K. J., &amp; Ross, D. S. (2014). Influence of landscape position and transient water table on soil development and carbon distribution in a steep, headwater catchment. <em>Geoderma, 226–227</em>, 279–289. <a href="https://doi.org/10.1016/j.geoderma.2014.02.016">https://doi.org/10.1016/j.geoderma.2014.02.016</a>
+</p>
+<p>
+Berg, B., Johansson, M.-B., Ekbohm, G., McClaugherty, C., Rutigliano, F., &amp; De Santo, A. V. (1996). Maximum decomposition limits of forest litter types: A synthesis. <em>Canadian Journal of Botany, 74</em>, 659–672. <a href="https://doi.org/10.1139/b96-084">https://doi.org/10.1139/b96-084</a>
+</p>
+<p>
+Berg, B., Johansson, M.-B., &amp; Meentemeyer, V. (2000). Litter decomposition in a transect of Norway spruce forests: Substrate quality and climate control. <em>Canadian Journal of Forest Research, 30</em>, 1136–1147. <a href="https://doi.org/10.1139/x00-050">https://doi.org/10.1139/x00-050</a>
+</p>
+<p>
+Covington, W. W. (1981). Changes in forest floor organic matter and nutrient content following clearcutting in northern hardwoods. <em>Ecology, 62</em>(1), 41–48. <a href="https://doi.org/10.2307/1936666">https://doi.org/10.2307/1936666</a>
+</p>
+<p>
+Dittman, J. A., Driscoll, C. T., Groffman, P. M., &amp; Fahey, T. J. (2007). Dynamics of nitrogen and dissolved organic carbon at the Hubbard Brook Experimental Forest. <em>Ecology, 88</em>, 1153–1166. <a href="https://doi.org/10.1890/06-0834">https://doi.org/10.1890/06-0834</a>
+</p>
+<p>
+Dominski, A. S. (1974). <em>Soil nitrate release from a clearcut watershed in the Hubbard Brook Forest, New Hampshire</em>. Yale University. (Unpublished report; no DOI)
+</p>
+<p>
+Dornbush, M. E., Isenhart, T. M., &amp; Raich, J. W. (2002). Quantifying fine-root decomposition: An alternative to buried litterbags. <em>Ecology, 83</em>, 2985–2990. <a href="https://doi.org/10.1890/0012-9658(2002)083[2985:QFRDAA]2.0.CO;2">https://doi.org/10.1890/0012-9658(2002)083[2985:QFRDAA]2.0.CO;2</a>
+</p>
+<p>
+Fahey, T. J., Arthur, M. A., &amp; Hughes, J. W. (1988). Root decomposition and nutrient flux following whole-tree harvest of northern hardwood forest. <em>Forest Science, 34</em>(3), 744–768. <a href="https://doi.org/10.1093/forestscience/34.3.744">https://doi.org/10.1093/forestscience/34.3.744</a>
+</p>
+<p>
+Fahey, T. J., &amp; Arthur, M. A. (1994). Further studies of root decomposition following harvest of a northern hardwood forest. <em>Forest Science, 40</em>(4), 618–629. <a href="https://doi.org/10.1093/forestscience/40.4.618">https://doi.org/10.1093/forestscience/40.4.618</a>
+</p>
+<p>
+Fahey, T. J., Heinz, A. K., Battles, J. J., Fisk, M. C., Driscoll, C. T., Blum, J. D., &amp; Johnson, C. E. (2016). Fine root biomass declined in response to restoration of soil calcium in a northern hardwood forest. <em>Canadian Journal of Forest Research, 46</em>(5), 738–744. <a href="https://doi.org/10.1139/cjfr-2015-0439">https://doi.org/10.1139/cjfr-2015-0439</a>
+</p>
+<p>
+Fahey, T. J., Siccama, T. G., Driscoll, C. T., Likens, G. E., Campbell, J., Johnson, C. E., Aber, J. D., Cole, J. J., Fisk, M. C., Groffman, P. M., Hamburg, S. P., Holmes, R. T., Schwarz, P. A., &amp; Yanai, R. D. (2005). The biogeochemistry of carbon at Hubbard Brook. <em>Biogeochemistry, 75</em>, 109–176. <a href="https://doi.org/10.1007/s10533-004-6321-y">https://doi.org/10.1007/s10533-004-6321-y</a>
+</p>
+<p>
+Fahey, T. J., Yavitt, J. B., Sherman, R. E., Groffman, P. M., Fisk, M. C., &amp; Maerz, J. C. (2011). Transport of carbon and nitrogen between litter and soil organic matter in a northern hardwood forest. <em>Ecosystems, 14</em>(2), 326–340. <a href="https://doi.org/10.1007/s10021-010-9414-y">https://doi.org/10.1007/s10021-010-9414-y</a>
+</p>
+<p>
+Fahey, T. J., Yavitt, J. B., Sherman, R. E., Maerz, J. C., Groffman, P. M., Fisk, M. C., &amp; Bohlen, P. (2013). Earthworm effects on the conversion of litter C and N into soil organic matter in a sugar maple forest. <em>Ecological Applications, 23</em>(5), 1185–1201. <a href="https://doi.org/10.1890/12-1760.1">https://doi.org/10.1890/12-1760.1</a>
+</p>
+<p>
+Fisk, M. C., Kessler, W. R., Goodale, A., Fahey, T. J., Groffman, P. M., &amp; Driscoll, C. T. (2006). Landscape variation in microarthropod response to calcium addition in a northern hardwood forest. <em>Pedobiologia, 50</em>, 69–78. <a href="https://doi.org/10.1016/j.pedobi.2005.09.003">https://doi.org/10.1016/j.pedobi.2005.09.003</a>
+</p>
+<p>
+Goebel, M., Hobbie, S. E., Bulaj, B., Zadworny, M., Archibald, D. D., Oleksyn, J., Reich, P. B., &amp; Eissenstat, D. M. (2011). Decomposition of the finest root branching orders: Linking belowground dynamics to fine-root function and structure. <em>Ecological Monographs, 81</em>, 89–102. <a href="https://doi.org/10.1890/09-2390.1">https://doi.org/10.1890/09-2390.1</a>
+</p>
+<p>
+Gosz, J. R., Likens, G. E., &amp; Bormann, F. H. (1973). Nutrient release from decomposing leaf and branch litter in the Hubbard Brook Forest, New Hampshire. <em>Ecological Monographs, 43</em>, 173–191. <a href="https://doi.org/10.2307/1942196">https://doi.org/10.2307/1942196</a>
+</p>
+<p>
+Johnson, C. E., Siccama, T. G., Denny, E. G., Koppers, M. M., &amp; Vogt, D. J. (2014). In situ decomposition of northern hardwood tree boles: Decay rates and nutrient dynamics in wood and bark. <em>Canadian Journal of Forest Research, 44</em>, 1515–1524. <a href="https://doi.org/10.1139/cjfr-2014-0271">https://doi.org/10.1139/cjfr-2014-0271</a>
+</p>
+<p>
+Knorr, M., Frey, S. D., &amp; Curtis, P. S. (2005). Nitrogen additions and litter decomposition: A meta-analysis. <em>Ecology, 86</em>(12), 3252–3257. <a href="https://doi.org/10.1890/05-0150">https://doi.org/10.1890/05-0150</a>
+</p>
+<p>
+Lehmann, J., Solomon, D., Kinyangi, J., Dathe, L., Wirick, S., &amp; Jacobsen, C. (2008). Spatial complexity of soil organic matter forms at nanometre scales. <em>Nature Geoscience, 1</em>(4), 238–242. <a href="https://doi.org/10.1038/ngeo155">https://doi.org/10.1038/ngeo155</a>
+</p>
+<p>
+Li, A., Fahey, T. J., Pawlowska, T. E., Fisk, M. C., &amp; Burtis, J. (2015). Fine root decomposition, nutrient mobilization and fungal communities in a pine forest ecosystem. <em>Soil Biology &amp; Biochemistry, 83</em>, 76–83. <a href="https://doi.org/10.1016/j.soilbio.2015.01.011">https://doi.org/10.1016/j.soilbio.2015.01.011</a>
+</p>
+<p>
+Liu, W., Schaefer, D., Lu, Q., &amp; Liu, X. (2013). What controls the variability of wood-decay rates? <em>Forest Ecology and Management, 310</em>, 623–631. <a href="https://doi.org/10.1016/j.foreco.2013.08.041">https://doi.org/10.1016/j.foreco.2013.08.041</a>
+</p>
+<p>
+Lovett, G. M., Arthur, M. A., &amp; Crowley, K. F. (2016). Effects of calcium on the rate and extent of litter decomposition in a northern hardwood forest. <em>Ecosystems, 19</em>(1), 87–97. <a href="https://doi.org/10.1007/s10021-015-9926-0">https://doi.org/10.1007/s10021-015-9926-0</a>
+</p>
+<p>
+Matamala, R., Gonzalez-Meler, M. A., Jastrow, J. D., Norby, R. J., &amp; Schlesinger, W. H. (2003). Impacts of fine root turnover on forest NPP and soil C sequestration potential. <em>Science, 302</em>(5649), 1385–1387. <a href="https://doi.org/10.1126/science.1089543">https://doi.org/10.1126/science.1089543</a>
+</p>
+<p>
+Melillo, J. M., Aber, J. D., &amp; Muratore, J. M. (1982). Nitrogen and lignin control of hardwood leaf litter decomposition dynamics. <em>Ecology, 63</em>, 621–626. <a href="https://doi.org/10.2307/1936780">https://doi.org/10.2307/1936780</a>
+</p>
+<p>
+Olson, J. S. (1963). Energy storage and the balance of producers and decomposers in ecological systems. <em>Ecology, 44</em>, 322–331. <a href="https://doi.org/10.2307/1932179">https://doi.org/10.2307/1932179</a>
+</p>
+<p>
+Oulehle, F., Evans, C. D., Hofmeister, J., Krejci, R., Tahovska, K., Persson, T., Cudlin, P., &amp; Hruska, J. (2011). Major changes in forest carbon and nitrogen cycling caused by declining sulphur deposition. <em>Global Change Biology, 17</em>(10), 3115–3129. <a href="https://doi.org/10.1111/j.1365-2486.2011.02468.x">https://doi.org/10.1111/j.1365-2486.2011.02468.x</a>
+</p>
+<p>
+Schmidt, M. W., Torn, M. S., Abiven, S., Dittmar, T., Guggenberger, G., Janssens, I. A., Kleber, M., Kögel-Knabner, I., Lehmann, J., Manning, D. A., &amp; Nannipieri, P. (2011). Persistence of soil organic matter as an ecosystem property. <em>Nature, 478</em>(7367), 49–56. <a href="https://doi.org/10.1038/nature10386">https://doi.org/10.1038/nature10386</a>
+</p>
+<p>
+Siccama, T. G., Fahey, T. J., Johnson, C. E., Sherry, T. W., Denny, E. G., Girdler, B., Likens, G. E., &amp; Schwarz, P. A. (2007). Population and biomass dynamics of trees in a northern hardwood forest at Hubbard Brook. <em>Canadian Journal of Forest Research, 37</em>, 737–749. <a href="https://doi.org/10.1139/X06-261">https://doi.org/10.1139/X06-261</a>
+</p>
+<p>
+Silver, W. L., &amp; Miya, R. K. (2001). Global patterns in root decomposition: Comparisons of climate and litter quality effects. <em>Oecologia, 129</em>(3), 407–419. <a href="https://doi.org/10.1007/s004420100740">https://doi.org/10.1007/s004420100740</a>
+</p>
+<p>
+Tierney, G. L., &amp; Fahey, T. J. (2001). Evaluating minirhizotron estimates of fine root longevity and production in the forest floor of a temperate broadleaf forest. <em>Plant and Soil, 229</em>(2), 167–176. <a href="https://doi.org/10.1023/A:1004813819370">https://doi.org/10.1023/A:1004813819370</a>
+</p>
+<p>
+Waring, B. G. (2013). Exploring relationships between enzyme activities and leaf litter decomposition in a wet tropical forest. <em>Soil Biology &amp; Biochemistry, 64</em>, 89–95. <a href="https://doi.org/10.1016/j.soilbio.2013.04.020">https://doi.org/10.1016/j.soilbio.2013.04.020</a>
+</p>
+<p>
+Weand, M. P., Arthur, M. A., Lovett, G. M., McCulley, R. L., &amp; Weathers, K. C. (2010). Effects of tree species and N additions on forest floor microbial communities and extracellular enzyme activities. <em>Soil Biology &amp; Biochemistry, 42</em>, 2161–2173. <a href="https://doi.org/10.1016/j.soilbio.2010.08.012">https://doi.org/10.1016/j.soilbio.2010.08.012</a>
+</p>
+<p>
+Wells, C. E., Glenn, D. M., &amp; Eissenstat, D. M. (2002). Soil insects alter fine root demography in peach (<em>Prunus persica</em>). <em>Plant, Cell &amp; Environment, 25</em>, 431–439. <a href="https://doi.org/10.1046/j.1365-3040.2002.00830.x">https://doi.org/10.1046/j.1365-3040.2002.00830.x</a>
+</p>
+<p>
+Yanai, R. D., Stehman, S. V., Arthur, M. A., Prescott, C. E., Friedland, A. J., Siccama, T. G., &amp; Binkley, D. (2003). Detecting change in forest floor carbon. <em>Soil Science Society of America Journal, 67</em>(5), 1583–1593. <a href="https://doi.org/10.2136/sssaj2003.1583">https://doi.org/10.2136/sssaj2003.1583</a>
+</p>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./CompositionDynamics.html" class="pagination-link" aria-label="Forest Composition and Dynamics">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Forest Composition and Dynamics</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./SoilBiology.html" class="pagination-link" aria-label="Soil Biology in the Forested Ecosystem">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Soil Biology in the Forested Ecosystem</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
