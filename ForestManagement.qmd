@@ -1,5 +1,5 @@
 ---
-title: "Forest Management"
+title: "Forest Management and Ecosystem Dynamics"
 format: html
 ---
 
