@@ -3,19 +3,22 @@ title: "Ecosystem Effects of Acidic Deposition"
 format: html
 ---
 
-
+```{=html}
 <video controls 
        style="width:80%; max-width:900px; display:block; margin:1.5rem auto;">
-  <source src="https://photos.smugmug.com/Videos/Videos/i-npHchjG/0/Kg5whdSxGWPQXNdwVR4xBtXKjNgV8pGQMLpM8jmL8/1280/Charley%20Driscoll%20talk_edited-1280.mp4" type="video/mp4">
+```
+
+<source src="https://photos.smugmug.com/Videos/Videos/i-npHchjG/0/Kg5whdSxGWPQXNdwVR4xBtXKjNgV8pGQMLpM8jmL8/1280/Charley%20Driscoll%20talk_edited-1280.mp4" type="video/mp4">
+
 </video>
 
 <p class="video-caption">
+
 In this video, Dr. Charley Driscoll describes the function of lysimeters in measuring soil water and the impacts of soil acidification from acid rain within northern hardwood forest ecosystems. Video filmed at the Throughfall mid Plot in the Hubbard Brook Experimental Forest on May 17, 2024.
+
 </p>
 
 Chapter Editor: Charles Driscoll and Habib Fakharaei
-
-
 
 ## Abstract
 
@@ -29,23 +32,25 @@ For more than five decades, research at the HBEF has provided insight on effects
 
 Acidic deposition is comprised of sulfuric and nitric acid derived from sulfur dioxide and nitrogen oxides, respectively, and ammonium resulting from emissions of ammonia. A detailed description of atmospheric deposition at Hubbard Brook and interactions of atmospheric deposition with the forest canopy is provided in another chapter in this volume (see Atmospheric Inputs chapter). Sulfur dioxide and nitrogen oxides originating from human activities are largely emitted to the atmosphere by the burning of fossil fuels, while ammonia is mostly the result of agricultural activities. Once these compounds enter an ecosystem, they can acidify soil and surface waters, bringing about a series of biogeochemical and ecological changes, discussed below. The term acidic deposition encompasses all forms of acid and acidifying compounds that are transported from the atmosphere to the Earth surface, including substances in gases, particles, rain, snow, cloudwater, and fog. Acidic deposition occurs as wet deposition which includes rain, snow, sleet or hail; as dry deposition, which includes atmospheric particles or gases; or as cloud or fog deposition, which is more common at high elevations and in coastal areas. Wet deposition is well characterized by monitoring at more than 270 National Atmospheric Deposition Programs (NADP; https://nadp.slh.wisc.edu/) sites in the U.S. In contrast, dry deposition is highly dependent on topography, meteorological conditions and vegetation characteristics, which can vary markedly over short distances in complex terrains. As a result, dry deposition is poorly characterized and highly uncertain. In the U.S., dry deposition is estimated through the Clean Air Status and Trends Network (CASTNet; http://www.epa.gov/castnet/), which includes about 90 sites.
 
-Sulfuric and nitric acids lower the pH of rain, snow, soil, lakes, and streams. In 1964-65 when the first measurements of the pH of bulk deposition were made at Hubbard Brook, values ranged from 4.0 to 4.3, with an annual volume weighted value of 4.2. These values were 8 to 16 times more acidic than background conditions (pH ~ 5.2). In 2016-17, bulk deposition at Hubbard Brook had an annual average pH value of 5.1, which is only slightly more acidic than background conditions. These higher pH values reflect declines in emissions and acid deposition over the past five decades (see below).
+Sulfuric and nitric acids lower the pH of rain, snow, soil, lakes, and streams. In 1964-65 when the first measurements of the pH of bulk deposition were made at Hubbard Brook, values ranged from 4.0 to 4.3, with an annual volume weighted value of 4.2. These values were 8 to 16 times more acidic than background conditions (pH \~ 5.2). In 2016-17, bulk deposition at Hubbard Brook had an annual average pH value of 5.1, which is only slightly more acidic than background conditions. These higher pH values reflect declines in emissions and acid deposition over the past five decades (see below).
 
 Note that the acidity of precipitation is not only determined by the acidic pollutants (sulfur dioxide, nitrogen oxides) but rather reflects a balance between concentrations of acidic pollutants and acid neutralizing bases, such as calcium and magnesium derived from airborne soil particles and ammonia from agricultural emissions. At many locations in Asia, high concentrations of sulfate and nitrate in precipitation are not accompanied by low pH due to pH buffering from high concentrations of calcium and ammonia.
 
 Acidic deposition trends in the eastern North America, Europe and east Asia mirror emission trends in the atmospheric source area or airshed. The atmospheric source area or airshed is the spatial area that supplies air pollutants that contribute to atmospheric deposition for a given location. Atmospheric source areas can encompass emission sources many hundreds of kilometers from deposition sites. Long-term data from Hubbard Brook show declining concentrations of sulfate in bulk deposition since measurements were initiated the mid 1960s which has coincided with decreases in sulfur dioxide emissions, and decreases in nitrate since the early 2000s due to decreases in nitrogen oxide emissions (see Atmospheric Inputs chapter). Based on these long-term data, a strong positive correlation exists between sulfur dioxide and nitrogen oxide emissions in the U.S. and sulfate concentrations and nitrate concentrations in wet or bulk deposition at Hubbard Brook (@fig-emissions). These observations suggest a cause and effect relationship between emissions of sulfur dioxide and nitrogen oxides and atmospheric deposition of sulfate and nitrate, respectively. Note that the relationships between emissions of sulfur dioxide and concentrations of sulfate in bulk and wet deposition suggest that current concentrations of sulfate are approaching measurements made in remote areas which have been used as estimates of pre-industrial deposition (@fig-emissions). While nitrate concentrations have decreased markedly, they remain somewhat elevated. Moreover, projections for future emission control programs, such as the Affordable Clean Energy plan, indicate that emissions could be decreased further beyond current values. Emissions of ammonia in the U.S. are less well characterized and have exhibited smaller changes.
 
 ![Relationships between U.S. emissions of sulfur dioxide, nitrogen oxides and ammonium and annual volume-weighted concentrations of sulfate (a), nitrate (b), and ammonium (c) in wet deposition at the Hubbard Brook Experimental Forest, NH (NADP NH 02). Also shown are estimates of pre-industrial concentrations of precipitation concentrations and estimates on emissions in 2030 if the Affordable Clean Energy is implemented.](figs/AcidDepEffects/AcidRain_emissions.png){#fig-emissions}
- 
+
 ## Effects of Acidic Deposition on Forest Ecosystems
 
 In acid-sensitive regions, acidic deposition alters soils, stresses forest vegetation, acidifies freshwaters, and harms fish and other aquatic life. These effects can interfere with important ecosystem functions and services, such as forest diversity and productivity and water quality and fisheries. Decades of acidic deposition have made many ecosystems more sensitive to continuing pollution. Moreover, the same pollutants that cause acidic deposition also contribute to an array of other important environmental issues at local, regional, and global scales (see Table 1).
 
-    Problem    Linkage to Acid Deposition
-    Coastal, freshwater and terrestrial eutrophication 	Atmospheric deposition supplies nitrogen to ecosystems as a limiting nutrient increasing plant production and altering species composition.
-    Mercury 	Surface water acidification and sulfate deposition increases mercury accumulation in fish.
-    Visibility 	Sulfate, nitrate and ammonium aerosols diminish visibility and views.
-    Tropospheric ozone/ Climate change 	Emissions of nitrogen oxides contribute to the formation of ozone, and greenhouse gas formation
+```         
+Problem    Linkage to Acid Deposition
+Coastal, freshwater and terrestrial eutrophication  Atmospheric deposition supplies nitrogen to ecosystems as a limiting nutrient increasing plant production and altering species composition.
+Mercury     Surface water acidification and sulfate deposition increases mercury accumulation in fish.
+Visibility  Sulfate, nitrate and ammonium aerosols diminish visibility and views.
+Tropospheric ozone/ Climate change  Emissions of nitrogen oxides contribute to the formation of ozone, and greenhouse gas formation
+```
 
 ### Effects of Acidic Deposition on Forest Soils
 
@@ -67,7 +72,7 @@ Over the last century, acidic deposition has accelerated the loss of relatively 
 
 Aluminum is often released from soil to soil water, lakes, and streams in forested regions with high acidic deposition, low stores of available calcium, and acidic soil (Cronan and Schofield, 1990). One of the most significant ecological effects of acidic deposition is the mobilization of aluminum from soil and a shift in the form of aluminum in water from non-toxic organic forms to highly toxic inorganic forms.
 
-Concentrations of aluminum increase markedly with decreases in pH below 6, particularly the toxic inorganic forms of aluminum. High concentrations of dissolved inorganic aluminum can be toxic to plants, fish, and other organisms. Concentrations of dissolved inorganic aluminum in acid-impacted surface waters in eastern North America and Europe are above levels considered toxic to fish (~ 2 umol/L) and much greater than concentrations observed in forest watersheds that receive low inputs of acidic deposition (Driscoll et al., 1988). Concentrations of dissolved organic matter in soil and surface waters bind dissolved aluminum and mitigate its toxicity.
+Concentrations of aluminum increase markedly with decreases in pH below 6, particularly the toxic inorganic forms of aluminum. High concentrations of dissolved inorganic aluminum can be toxic to plants, fish, and other organisms. Concentrations of dissolved inorganic aluminum in acid-impacted surface waters in eastern North America and Europe are above levels considered toxic to fish (\~ 2 umol/L) and much greater than concentrations observed in forest watersheds that receive low inputs of acidic deposition (Driscoll et al., 1988). Concentrations of dissolved organic matter in soil and surface waters bind dissolved aluminum and mitigate its toxicity.
 
 *Accumulation of sulfur and nitrogen in soil*
 
@@ -76,7 +81,6 @@ Chronic atmospheric deposition of sulfur and nitrogen result in the accumulation
 Elevated nitrogen deposition to forests can also result in the accumulation of nitrogen in soils affecting microbial processes involving transformations of nitrogen, such as mineralization, nitrification and denitrification (see Ch. ##, this volume). Mobilization of nitrate following nitrification can contribute to delayed recovery from acidification in the same way as for sulfate. Unlike sulfur, chemical adsorption of nitrogen is a minor process, and most of the nitrogen is stored in soils in organically bound forms.
 
 ### Effects of acidic deposition on trees
-
 
 ![Conceptual diagram illustrating the mechanisms by which acidic deposition impacts red spruce and sugar maple. Acidic deposition impacts red spruce through loss of membrane calcium due to direct leaching from foliage or reduced uptake of calcium from soil. The loss of membrane calcium makes red spruce more susceptible to winter injury. Acidic deposition results loss of soil available calcium and magnesium and less uptake by sugar maple. This condition may make sugar maple more susceptible to insect or drought stress.](figs/AcidDepEffects/AcidRain_effects_trees.jpg){#fig-trees}
 
@@ -108,11 +112,11 @@ Decreases in pH and elevated concentrations of dissolved inorganic aluminum have
 
 In the Adirondacks, a significant positive relationship exists between the pH and ANC levels in lakes and the number of fish species present in those lakes (@fig-fish). Surveys of 1,469 Adirondack lakes conducted in 1984 and 1987 show that 24 percent of lakes (i.e., 346) in this region did not support fish. These lakes had consistently lower pH and ANC, and higher concentrations of aluminum than lakes that contained one or more species of fish. Experimental studies and field observations demonstrate that even acid-tolerant fish species such as brook trout have been eliminated from some waters.
 
-![Distribution of the mean number of fish species for ranges of acid neutralizing capacity in lakes of the Adirondack region of New York. Also shown are classes of sensitivity to acidification effects: acute- ANC < 0 µeq/L; severe- ANC 0-20 µeq/L; elevated- ANC 20-50 µeq/L; moderate- ANC 50-100 µeq/L; and low- ANC > 100 µeq/L.](figs/AcidDepEffects/AcidRain_fish.png){#fig-fish}
+![Distribution of the mean number of fish species for ranges of acid neutralizing capacity in lakes of the Adirondack region of New York. Also shown are classes of sensitivity to acidification effects: acute- ANC \< 0 µeq/L; severe- ANC 0-20 µeq/L; elevated- ANC 20-50 µeq/L; moderate- ANC 50-100 µeq/L; and low- ANC \> 100 µeq/L.](figs/AcidDepEffects/AcidRain_fish.png){#fig-fish}
 
 Studies demonstrate effects of acidic deposition on fish at three ecosystem levels (Driscoll et al., 2001):
 
-Effects on single organisms (e.g., condition factor -  the relationship between the weight and the length of a fish). Fish condition factor is related to several chemical indicators of acid-base status, including minimum pH. This analysis suggests that fish in acidic streams use more energy to maintain internal chemistry that would otherwise be used for growth.
+Effects on single organisms (e.g., condition factor - the relationship between the weight and the length of a fish). Fish condition factor is related to several chemical indicators of acid-base status, including minimum pH. This analysis suggests that fish in acidic streams use more energy to maintain internal chemistry that would otherwise be used for growth.
 
 Population-level effects (increased mortality). Bioassay experiments show greater mortality in chronically acidic streams than in streams with high acid neutralizing capacity. Eggs and fry are sensitive life history stages for fish.
 
@@ -128,8 +132,8 @@ Trends in surface water chemistry in Europe and northeastern North America indic
 <iframe src="https://hbr-lter.github.io/OnlineBookGraphs/chapters/acid_deposition/StreamChem-W6_longtermTrends.html" width="100%" height="600" style="border: none;">
 
 </iframe>
-Long-term decreases in stream sulfate (-1.57 µeq/L-yr) and nitrate (-0.16 µeq/L-yr) reflect decreases in atmospheric deposition, resulting in increases in pH (+0.008 pH units/yr), acid neutralizing capacity (ANC) (+0.68 µeq/L-yr) and decreases in aluminum, and an insignificant change in dissolved organic carbon (DOC) in streamwater in W6 at the Hubbard Brook Experimental Forest. This figure is updated with current data available in the Environmental Data Initiative Repository. Hover over graph to access interactive controls available at the top right (zoom/pan/etc).
 
+Long-term decreases in stream sulfate (-1.57 µeq/L-yr) and nitrate (-0.16 µeq/L-yr) reflect decreases in atmospheric deposition, resulting in increases in pH (+0.008 pH units/yr), acid neutralizing capacity (ANC) (+0.68 µeq/L-yr) and decreases in aluminum, and an insignificant change in dissolved organic carbon (DOC) in streamwater in W6 at the Hubbard Brook Experimental Forest. This figure is updated with current data available in the Environmental Data Initiative Repository <https://doi.org/10.6073/pasta/90dfefbfc231d337f671632bd9b588f0>. Hover over graph to access interactive controls available at the top right (zoom/pan/etc).
 :::
 
 While sulfate and nitrate concentrations in lakes and streams have decreased in the eastern North America and Europe over the last 20 years, they remain high compared to background conditions. In contrast, sulfate and nitrate concentrations in stream water in southwestern China have increased over the past two decades associated with increases in emissions and atmospheric deposition.
@@ -148,29 +152,26 @@ Beyond emission control, chemical recovery from acid deposition can be accomplis
 <iframe src="https://hbr-lter.github.io/OnlineBookGraphs/chapters/acid_deposition/StreamChem-W1W6_longtermTrends.html" width="100%" height="600" style="border: none;">
 
 </iframe>
- Increase in the calcium, dissolved silica, pH and acid neutralizing capacity and decrease in dissolved inorganic aluminum of streamwater in W1 in response to calcium treatment in 1999. Long-term increase in dissolved organic carbon was observed in streamwater of W1.
 
+Increase in the calcium, dissolved silica, pH and acid neutralizing capacity and decrease in dissolved inorganic aluminum of streamwater in W1 in response to calcium treatment in 1999. Long-term increase in dissolved organic carbon was observed in streamwater of W1. This figure is updated with current data available in the Environmental Data Initiative Repository <https://doi.org/10.6073/pasta/90dfefbfc231d337f671632bd9b588f0>. Hover over graph to access interactive controls available at the top right (zoom/pan/etc).
 :::
 
 An experiment was initiated in 1999 in W1 at the HBEF to examine the role of calcium supply in regulating the structure and function of the forest ecosystem. However, rather than experimentally adding lime (CaCO3), calcium silicate (CaSiO3) or wollastonite was applied uniformly to the entire watershed by helicopter (see photo; Peters et al., 2004) at a level designed to replace the calcium that was lost as a result of a century of acidic deposition. Wollastonite was used as a mechanism for calcium supply in the experiment because it weathers relatively readily and is a silicate mineral, like the most of the native minerals at the HBEF. The wollastonite was finely ground (median diameter 9.6 µm) bound together to pellet size (1.5 to 4 mm diameter) with a lignosulfonate binder. The added wollastonite had a distinctive strontium isotope ratio that allowed for tracing the treatment into ecosystem pools. The pellets disintegrated upon contact with water when they reached the watershed, releasing the finely ground wollastonite for ease in dissolution. The initial response of the watershed was a marked increase in the calcium, dissolved silica, pH and acid neutralizing capacity of streamwater associated with direct stream and near stream inputs of wollastonite (Figure 6). After the initial pulsed input concentrations decreased but not to pre-application values. The added wollastonite was largely retained in the watershed where it dissolved releasing calcium to cation exchange surfaces associated with the forest floor. Over time the added calcium migrated through the forest floor to the mineral soil (Johnson et al., 2014). This watershed treatment resulted in long-term increases in soil solution and stream calcium, dissolved silica, pH, acid neutralizing capacity and dissolved organic carbon and decreases in dissolved inorganic aluminum in W1 compared to the reference watershed (W6; Figure 6). Within years of the treatment, the added calcium was assimilated first by herbaceous vegetation and then overstory trees. The applied wollastonite was able to reverse the effects of acid deposition on decline in the health of red spruce (Hawley et al., 2006) and sugar maple (Juice et al. 2006; Battles et al., 2014), providing clear evidence of the pollutant effects on forests.
 
 ## Questions for Further Study
 
-* How long and to what extent will soil and surface water respond to decreases in emissions and acidic deposition?
-* Will sulfur and nitrogen that has been stored in soil following elevated atmospheric deposition be reversibly lost from ecosystems after inputs decrease or will they be permanently sequestered and how long will it take for this process to occur?
-* Will terrestrial and aquatic biotic resources recover from the effects of acidic deposition?
-* If biological recovery occurs, how long will it take and will biotic communities be different from those prior to the advent of acidic deposition?
-*Will ecosystems experience long-term legacies from effects of elevated acidic deposition?
+-   How long and to what extent will soil and surface water respond to decreases in emissions and acidic deposition?
+-   Will sulfur and nitrogen that has been stored in soil following elevated atmospheric deposition be reversibly lost from ecosystems after inputs decrease or will they be permanently sequestered and how long will it take for this process to occur?
+-   Will terrestrial and aquatic biotic resources recover from the effects of acidic deposition?
+-   If biological recovery occurs, how long will it take and will biotic communities be different from those prior to the advent of acidic deposition? \*Will ecosystems experience long-term legacies from effects of elevated acidic deposition?
 
 ## Access Data
 
-* Hubbard Brook Watershed Ecosystem Record (HBWatER). 2021. Continuous precipitation and stream chemistry data, Hubbard Brook Ecosystem Study, 1963 – present. ver 5. Environmental Data Initiative. https://doi.org/10.6073/pasta/925f84652f1d8590de1da00bd136b005 (Accessed 2021-09-20).
+-   Hubbard Brook Watershed Ecosystem Record (HBWatER). 2021. Continuous precipitation and stream chemistry data, Hubbard Brook Ecosystem Study, 1963 – present. ver 5. Environmental Data Initiative. https://doi.org/10.6073/pasta/925f84652f1d8590de1da00bd136b005 (Accessed 2021-09-20).
 
- 
 ## References
 
-<div class="references">
-
+::: references
 <p>Baldigo, B. P., Roy, K. M., & Driscoll, C. T. (2016). Response of fish assemblages to declining acidic deposition in Adirondack Mountain lakes, 1984–2012. <em>Atmospheric Environment, 146</em>, 223–235. <a href="https://doi.org/10.1016/j.atmosenv.2016.07.049">https://doi.org/10.1016/j.atmosenv.2016.07.049</a></p>
 
 <p>Battles, J. J., Fahey, T. J., Driscoll, C. T., Jr., Blum, J. D., & Johnson, C. E. (2014). Restoring soil calcium reverses forest decline. <em>Environmental Science & Technology Letters, 1</em>, 15–19. <a href="https://doi.org/10.1021/ez400033d">https://doi.org/10.1021/ez400033d</a></p>
@@ -185,11 +186,11 @@ An experiment was initiated in 1999 in W1 at the HBEF to examine the role of cal
 
 <p>Driscoll, C. T., Johnson, N. M., Likens, G. E., & Feller, M. C. (1988). The effects of acidic deposition on stream water chemistry: A comparison between Hubbard Brook, New Hampshire and Jamieson Creek, British Columbia. <em>Water Resources Research, 24</em>, 195–200. <a href="https://doi.org/10.1029/WR024i002p00195">https://doi.org/10.1029/WR024i002p00195</a></p>
 
-<p>Driscoll, C. T., Lawrence, G. B., Bulger, A. J., Butler, T. J., Cronan, C. S., Eagar, C., Lambert, K. F., Likens, G. E., Stoddard, J. L., & Weathers, K. C. (2001). Acidic deposition in the northeastern United States: Sources and inputs, ecosystem effects, and management strategies. <em>BioScience, 51</em>, 180–198. <a href="https://doi.org/10.1641/0006-3568(2001)051[0180:ADITNU]2.0.CO;2">https://doi.org/10.1641/0006-3568(2001)051[0180:ADITNU]2.0.CO;2</a></p>
+<p>Driscoll, C. T., Lawrence, G. B., Bulger, A. J., Butler, T. J., Cronan, C. S., Eagar, C., Lambert, K. F., Likens, G. E., Stoddard, J. L., & Weathers, K. C. (2001). Acidic deposition in the northeastern United States: Sources and inputs, ecosystem effects, and management strategies. <em>BioScience, 51</em>, 180–198. <a href="https://doi.org/10.1641/0006-3568(2001)051[0180:ADITNU]2.0.CO;2">https://doi.org/10.1641/0006-3568(2001)051\[0180:ADITNU\]2.0.CO;2</a></p>
 
 <p>Fakhraei, H., & Driscoll, C. T. (2015). Proton and aluminum binding properties of organic acids in surface waters of the northeastern U.S. <em>Environmental Science & Technology, 49</em>, 2939–2947. <a href="https://doi.org/10.1021/es504024u">https://doi.org/10.1021/es504024u</a></p>
 
-<p>Fenn, M. E., Baron, J. S., Allen, E. B., Rueth, H. M., Nydick, K. R., Geiser, L., Bowman, W. D., Sickman, J. O., Meixner, T., Johnson, D. W., & Neitlich, P. (2003). Ecological effects of nitrogen deposition in the western United States. <em>BioScience, 53</em>, 404–420. <a href="https://doi.org/10.1641/0006-3568(2003)053[0404:EEONDI]2.0.CO;2">https://doi.org/10.1641/0006-3568(2003)053[0404:EEONDI]2.0.CO;2</a></p>
+<p>Fenn, M. E., Baron, J. S., Allen, E. B., Rueth, H. M., Nydick, K. R., Geiser, L., Bowman, W. D., Sickman, J. O., Meixner, T., Johnson, D. W., & Neitlich, P. (2003). Ecological effects of nitrogen deposition in the western United States. <em>BioScience, 53</em>, 404–420. <a href="https://doi.org/10.1641/0006-3568(2003)053[0404:EEONDI]2.0.CO;2">https://doi.org/10.1641/0006-3568(2003)053\[0404:EEONDI\]2.0.CO;2</a></p>
 
 <p>Gilliam, F. S., Burns, D. A., Driscoll, C. T., Frey, S. D., Lovett, G. M., & Watmough, S. A. (2019). Decreased atmospheric nitrogen deposition in eastern North America: Predicted responses of forest ecosystems. <em>Environmental Pollution, 244</em>, 560–574. <a href="https://doi.org/10.1016/j.envpol.2018.09.135">https://doi.org/10.1016/j.envpol.2018.09.135</a></p>
 
@@ -230,5 +231,4 @@ An experiment was initiated in 1999 in W1 at the HBEF to examine the role of cal
 <p>Sutton, M. A., et al. (2011). <em>The European nitrogen assessment</em>. Cambridge University Press.</p>
 
 <p>Wason, J. W., & Dovčiak, M. (2017). Tree demography and species range shifts. <em>Global Change Biology, 23</em>, 3335–3347. <a href="https://doi.org/10.1111/gcb.13584">https://doi.org/10.1111/gcb.13584</a></p>
-
-</div>
+:::
