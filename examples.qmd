@@ -22,7 +22,7 @@ __figure float right__
 ![Atmospheric deposition collectors at Hubbard Brook.](figs/Intro/Rain_GaugeB.jpg){#fig-rain-gauge}
 
 :::
-
+From smugmug, get link from share/embed/video/hidef
 <video controls 
        style="width:80%; max-width:900px; display:block; margin:1.5rem auto;">
   <source src="https://photos.smugmug.com/Videos/Videos/i-5Tq4SH6/0/LjWKPMdNBk3GT7QSmZNJvDPQMhthpr2qkft6Dzg92/1280/Pam%20Templer%20talk_edited-1280.mp4" type="video/mp4">

@@ -214,7 +214,7 @@ The behavior of K in the HB watersheds provides some insights into
 controls of element fluxes at the catchment scale. As noted, K is highly
 soluble and leachable and in high demand for uptake by the vegetation.
 Likens et al. (1994) attributed the observed summer decline in stream
-water K in W6 (@fig-potassioum) in part to vegetation uptake by the deciduous
+water K in W6 (@fig-potassium) in part to vegetation uptake by the deciduous
 forest, and an autumn peak in K concentration to rapid leaching from
 fallen leaf litter (Gosz et al. 1973, see below). Following whole-tree
 harvest of adjacent W5, K concentrations in the stream increased

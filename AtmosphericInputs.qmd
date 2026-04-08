@@ -1,5 +1,5 @@
 ---
-title: "AtmosphericInputs"
+title: "Atmospheric Inputs"
 format: html
 ---
 
