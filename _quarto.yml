@@ -13,6 +13,7 @@ book:
     - ClimateChange.qmd
     - Hydrology.qmd
     - CompositionDynamics.qmd
+    - BiomassProductivity.qmd
     - Decomp.qmd
     - SoilBiology.qmd
     - Biogeochemistry.qmd

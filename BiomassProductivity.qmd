@@ -30,9 +30,7 @@ forest resides in the biomass of the trees and understanding the factors
 regulating forest biomass and its accumulation is of fundamental
 importance to ecologists and foresters, alike.
 
-Figure 1. Changes in living biomass during ecosystem development after
-clear-cutting based on the average of two JABOWA simulations. (Bormann
-and Likens, 1979).
+![Changes in living biomass during ecosystem development after clear-cutting based on the average of two JABOWA simulations. (Bormann and Likens, 1979).](figs/biomass/biomassclearcut.png){#fig-biomassclearcut}
 
 In their classic treatise, Pattern and Process in a Forested Ecosystem,
 Bormann and Likens (1979) developed a conceptual model for spatial and
@@ -41,7 +39,7 @@ upon observations at Hubbard Brook and other regional forests. In the
 temporal domain, they proposed four phases of ecosystem development
 following large-scale disturbances (e.g., windstorm, clearcut harvest),
 culminating in a steady-state phase in which total biomass fluctuates
-around an equilibrium value (Figure 1). Measurements at Hubbard Brook
+around an equilibrium value (@fig-biomassclearcut). Measurements at Hubbard Brook
 and elsewhere in the northern hardwood region have provided new insights
 about this conceptual model and the magnitude and timing of forest
 biomass accumulation.
@@ -108,17 +106,7 @@ with site quality and forest age, as discussed later, but averages about
 organisms averages less than 0.6% that of plants, and is mostly (\~ 96%)
 comprised of soil microbes (bacteria, fungi).
 
-Figure 2. Spatial pattern of estimated aboveground biomass in the
-reference watershed (W6) and across the Hubbard Brook valley in 1997.
-The W6 map is based on a 100% survey, gridded at 25 x 25 m spatial
-scale. The valley-wide interpolations are based on 450 plots (0.05 ha
-each). Error estimates are given in the text. (Fahey et al., 2005).
-
-Figure 2. Spatial pattern of estimated aboveground biomass in the
-reference watershed (W6) and across the Hubbard Brook valley in 1997.
-The W6 map is based on a 100% survey, gridded at 25 x 25 m spatial
-scale. The valley-wide interpolations are based on 450 plots (0.05 ha
-each). Error estimates are given in the text. (Fahey et al., 2005).
+![Spatial pattern of estimated aboveground biomass in the reference watershed (W6) and across the Hubbard Brook valley in 1997. The W6 map is based on a 100% survey, gridded at 25 x 25 m spatial scale. The valley-wide interpolations are based on 450 plots (0.05 ha each). Error estimates are given in the text. (Fahey et al., 2005).](figs/biomass/biomassmap.png){#fig-biomassmap}
 
 Forest biomass represents one of the largest and most sensitive carbon
 pools on Earth and for that reason, ecologists and policy-makers have
@@ -129,17 +117,17 @@ boreal woodlands, and intermediate values in temperate deciduous
 forests. Within the Hubbard Brook valley a two-fold range of aboveground
 biomass is observed in the ca. 100-yr-old-forest, with lowest values in
 fir-birch-spruce forest on thin soils at higher elevations and highest
-values in mixed hemlock-hardwoods in the lower valley (Figure 2).
+values in mixed hemlock-hardwoods in the lower valley (@fig-biomassmap).
 
 Both tree species composition and site quality influence patterns of
 maximum forest biomass that accumulates in the northern forest region.
 For example, Kelty (1989) observed that mixed hemlock-hardwood stands
 support significantly higher biomass than pure hardwood stands, perhaps
 because of canopy architecture interactions; a similar pattern is seen
-in the lower valley at HBEF (Figure 2). The site quality influence also
+in the lower valley at HBEF (@fig-biomassmap). The site quality influence also
 appears clearly at HBEF in the considerably higher biomass in enriched
 soil, “cove” sites on W6 in comparison with adjacent stands on thin
-soils of steeper slopes (Figure 2, inset).
+soils of steeper slopes (@fig-biomassmap, inset).
 
 The northern forest is recognized as a significant sink for C,
 influencing the global C budget. This is in part because historical
@@ -151,7 +139,7 @@ factors as well as management and policy decisions. The conceptual model
 of Bormann and Likens (1979) and its application in simulation models
 originally suggested a transient, maximum forest biomass attained at
 forest age 150-200 yr followed by slight decline to the steady-state,
-old-growth phase (Figure 1). Empirical data from the Hubbard Brook
+old-growth phase (@fig-biomassclearcut). Empirical data from the Hubbard Brook
 forest indicate that live tree biomass reached a plateau much lower than
 predicted and at the age of only about 80 yr, owing to a variety of
 factors including exotic insect pests and pathogens (e.g. beech bark
@@ -177,7 +165,7 @@ Biomass of the forest in the reference watershed, W6, has been estimated
 periodically since 1965 by measuring the diameter of every tree in the
 watershed and applying the allometric equations; these measurements
 provide a detailed picture of changes in biomass for this previously
-aggrading forest (Figure 2-2). As noted earlier, the Hubbard Brook
+aggrading forest (@fig-biomassw1w6graph). As noted earlier, the Hubbard Brook
 Forest accumulated biomass from the age of about 55 years in the early
 1960s until the age of about 80 years in the 1980s. Since that time live
 biomass on W6 has levelled off and even shown some significant decreases
@@ -188,7 +176,7 @@ decline is undoubtedly associated with depletion of soil base cations by
 acid deposition (see Acid Rain chapter). For example, the experimental
 replacement on W1 of calcium, lost as a result of soil leaching in the
 20th century, reinvigorated sugar maple and consequently biomass
-accumulation resumed in the early 21st century (Figure 2-2). Continued
+accumulation resumed in the early 21st century (@fig-biomassw1w6graph). Continued
 monitoring of these forests and perhaps another dose of calcium will be
 needed to further inform these trends.
 
@@ -196,10 +184,7 @@ Aboveground live tree biomass of the forest on reference watershed 6 and
 adjacent Ca-treated watershed 1. Error bars indicate 95% confidence
 intervals based on DBH measurements of all trees on the watersheds.
 
-Figure 2-2. Aboveground live tree biomass of the forest on reference
-watershed 6 and adjacent Ca-treated watershed 1. Error bars indicate 95%
-confidence intervals based on DBH measurements of all trees on the
-watersheds.
+![Aboveground live tree biomass of the forest on reference watershed 6 and adjacent Ca-treated watershed 1. Error bars indicate 95% confidence intervals based on DBH measurements of all trees on the watersheds.](figs/biomass/biomassW1W6.jpg){#fig-biomassw1w6graph}
 
 ## Primary Productivity
 
@@ -218,7 +203,10 @@ not possible and accounting for a variety of other losses of organic
 material from plant tissues during a measurement interval also can be
 challenging. In theory NPP could be quantified as:
 
-Eq. 1. NPP = ∆B + M + H + L + V,
+$$
+NPP = ∆B + M + H + L + V
+$$ {#eq-npp}
+
 
 where ∆B is net change in biomass and M, H, L, and V are losses of
 organic matter from plant tissues owing to mortality, herbivory,
@@ -232,7 +220,7 @@ estimate forest NPP at Hubbard Brook we quantify changes in live tree
 biomass using the allometric equations (described above) and we estimate
 the principal loss terms, tree mortality and mortality of ephemeral
 tissues (leaves and fine roots). Some of the other loss terms in
-Equation 1 also have been measured at Hubbard Brook. Although H, L and V
+@eq-npp also have been measured at Hubbard Brook. Although H, L and V
 usually comprise a relatively small proportion of aboveground NPP
 (ANPP), herbivory can be substantial during rare irruptions of
 defoliating insects. For example, during the peak year of a 3-yr
@@ -242,16 +230,36 @@ patches of 100% defoliation (Holmes and Sturges 1975). Finally, loss
 terms for belowground NPP (BNPP) are notoriously difficult to measure
 and can comprise a substantial portion of NPP that is particularly
 sensitive to environmental changes, climate, atmospheric CO2 and soil
-fertility. Table 1. Biomass and production components of northern
-hardwood forest at Hubbard Brook (adapted from Fahey et al., 2005).
-Biomass Components g/m2 (1997) Foliage 402 Branch 5436 Bark 1220 Wood
-11932 Total aboveground biomass 18990 (248) Root crown 1580 Lateral
-woody roots 2920 Fine roots (\< 1mm) 522 Total belowground biomass 5022
-(638) Total plant biomass 24012
+fertility.
 
-Production Components g/m2-yr (1997) Aboveground annual tissues 342
-Aboveground perennial tissues 366 Total ANPP 708 (62) Fine roots 182
-Coarse roots 76 Rhizosphere flux 160 Total BNPP 418 Total NPP 1126
+<div style="width: 50%; margin: auto;">
+**Table 1. Biomass and production components of northern hardwood forest at Hubbard Brook (adapted from Fahey et al., 2005).**
+
+| Biomass Components              | g/m² (1997)     |
+|--------------------------------|----------------:|
+| Foliage                        |             402 |
+| Branch                         |            5436 |
+| Bark                           |            1220 |
+| Wood                           |           11932 |
+| **Total aboveground biomass**  | **18990 (248)** |
+| Root crown                     |            1580 |
+| Lateral woody roots            |            2920 |
+| Fine roots (< 1 mm)            |             522 |
+| **Total belowground biomass**  | **5022 (638)**  |
+| **Total plant biomass**        | **24012**       |
+
+| Production Components          | g/m²·yr (1997)  |
+|--------------------------------|----------------:|
+| Aboveground annual tissues     |             342 |
+| Aboveground perennial tissues  |             366 |
+| **Total ANPP**                 | **708 (62)**    |
+| Fine roots                     |             182 |
+| Coarse roots                   |              76 |
+| Rhizosphere flux               |             160 |
+| **Total BNPP**                 | **418**         |
+| **Total NPP**                  | **1126**        |
+
+</div>
 
 The first estimates of ANPP of the Hubbard Brook forest were calculated
 in the 1960s by Whittaker et al. (1974). At that time the forest on W6
@@ -261,21 +269,21 @@ of the same forest at age ca. 90 yrs to be 708 g/m2-yr (Table 1).
 Roughly half of this total was associated with increment of woody tissue
 and half with replacement of ephemeral tissue (mostly foliage). The ANPP
 of the northern hardwood forest at Hubbard Brook is similar to a variety
-of other mature Acer-dominated forests worldwide (Table 2). Table 2.
-Aboveground net primary productivity and forest production efficiency
-for selected mature Acer-dominated forests (From Fahey et al., 2005)
-Location Ref.d/ ANPP
+of other mature Acer-dominated forests worldwide (Table 2). 
 
-(g/m2-yr) FPEa/
+**Table 2. Aboveground net primary productivity and forest production efficiency for selected mature Acer-dominated forests (from Fahey et al., 2005)**
 
-LAI-basis FPEb/
-
-Mass-basis Wood PEc/ HBEF, NH age = 45 yr 1 924 147 2.28 na HBEF, NH age
-= 85 yr 2 708 112 1.76 0.91 Indiana mesic slope 3 678 161 2.19 1.28
-Indiana bottomland 3 639 141 2.06 1.04 Wisconsin 4 755 137 2.02 1.02
-Wisconsin sandy outwash 5 480 161 na na Wisconsin ground moraine 5 920
-133 na na Himalayas, India 6 990 193 1.80 0.80 Upstate New York 7 772
-119 2.38 1.23
+| Location                         | Ref. d/ | ANPP (g/m²·yr) | FPE a/ (LAI-basis) | FPE b/ (Mass-basis) | Wood PE c/ |
+|----------------------------------|:-------:|---------------:|-------------------:|--------------------:|-----------:|
+| HBEF, NH age = 45 yr             |    1    |            924 |                147 |                2.28 |         na |
+| HBEF, NH age = 85 yr             |    2    |            708 |                112 |                1.76 |       0.91 |
+| Indiana mesic slope              |    3    |            678 |                161 |                2.19 |       1.28 |
+| Indiana bottomland               |    3    |            639 |                141 |                2.06 |       1.04 |
+| Wisconsin                        |    4    |            755 |                137 |                2.02 |       1.02 |
+| Wisconsin sandy outwash          |    5    |            480 |                161 |                  na |         na |
+| Wisconsin ground moraine         |    5    |            920 |                133 |                  na |         na |
+| Himalayas, India                 |    6    |            990 |                193 |                1.80 |       0.80 |
+| Upstate New York                 |    7    |            772 |                119 |                2.38 |       1.23 |
 
 Belowground production (BNPP) includes the growth of perennial woody
 roots, the replacement of ephemeral fine roots as well as organic matter
@@ -295,18 +303,14 @@ the Hubbard Brook valley for 1990-1995.The interpolations are based on
 370 plots for which diameter growth of all trees (\> 10 cm DBH) was
 measured. Error estimates are given in the text. (Fahey et al., 2005)
 
-Figure 3. Spatial pattern of estimated aboveground net primary
-productivity across the Hubbard Brook valley for 1990-1995.The
-interpolations are based on 370 plots for which diameter growth of all
-trees (\> 10 cm DBH) was measured. Error estimates are given in the
-text. (Fahey et al., 2005)
+![Spatial pattern of estimated aboveground net primary productivity across the Hubbard Brook valley for 1990-1995.The interpolations are based on 370 plots for which diameter growth of all trees (\> 10 cm DBH) was measured. Error estimates are given in the text. (Fahey et al. 2005).](figs/biomass/nppmap.png){#fig-nppmap}
 
 The spatial pattern of ANPP of the Hubbard Brook forest generally
-reflects that of biomass (compare Figure 2 vs. 3).
+reflects that of biomass (compare @fig-biomassmap vs. @fig-biomassmap).
 
 For example, 42% of the variation in woody biomass production is
 explained by aboveground biomass across the 370 plots represented in
-Figure 2 and 3. The most notable decoupling between biomass and
+@fig-biomassmap and @fig-biomassmap. The most notable decoupling between biomass and
 productivity is for fir-birch-spruce dominated stands at the upper
 elevations, where the production:biomass ratio is notably higher than
 elsewhere in the HB valley. The temporal pattern of NPP following
@@ -317,17 +321,7 @@ forests (Ryan et al. 1997) and has been attributed to a wide range of
 causes. These temporal and spatial patterns beg the basic question: what
 limits NPP in the Hubbard Brook forest?
 
-Figure 4. The effect of growing season length on simulated primary
-productivity using the model PnET-II (Aber et al. 1995) parameterized
-for a northern hardwood forest at the HBEF. Leaf area duration (LAIMo)
-represents the product of daily estimated forest LAI and monthly time
-intervals for each year. (Fahey et al., 2005).
-
-Figure 4. The effect of growing season length on simulated primary
-productivity using the model PnET-II (Aber et al. 1995) parameterized
-for a northern hardwood forest at the HBEF. Leaf area duration (LAIMo)
-represents the product of daily estimated forest LAI and monthly time
-intervals for each year. (Fahey et al., 2005).
+![The effect of growing season length on simulated primary productivity using the model PnET-II (Aber et al. 1995) parameterized for a northern hardwood forest at the HBEF. Leaf area duration (LAIMo) represents the product of daily estimated forest LAI and monthly time intervals for each year. (Fahey et al., 2005).](figs/biomass/psn-vs-lai.png){#fig-psnvlai}
 
 In general, forest NPP is limited by a variety of environmental
 conditions (e.g., temperature) and resources. In the cold temperate
@@ -344,7 +338,7 @@ simulation model PnET about 25% of annual variation in GPP can be
 explained by growing season length; however, plant respiration also is
 greater in years with long, warm seasons, so that the effect on NPP is
 much lower (e.g., only 6% of annual in net photosynthesis is explained
-by growing season length; Figure 4).
+by growing season length; @fig-psnvlai).
 
 Another atmospheric condition that limits forest NPP is atmospheric CO2
 concentration as demonstrated in free-air CO2 enrichment (FACE) studies
@@ -383,15 +377,7 @@ limitation of NPP in mature forests was mixed. Recent results from an
 ongoing N x P nutrient amendment experiment in and around HBEF suggest
 that P limitation may be widespread in mature northern hardwood forests.
 
-Figure. 5. ANPP for three elevational zones of W2 (open diamond, lower
-third; open square, middle third; open triangle, upper third) compared
-with site averages for conventionally harvested sites (solid squares).
-(Reiners et al., 2012).
-
-Figure. 5. ANPP for three elevational zones of W2 (open diamond, lower
-third; open square, middle third; open triangle, upper third) compared
-with site averages for conventionally harvested sites (solid squares).
-(Reiners et al., 2012).
+![ANPP for three elevational zones of W2 (open diamond, lower third; open square, middle third; open triangle, upper third) compared with site averages for conventionally harvested sites (solid squares) (Reiners et al., 2012).](figs/biomass/anppElevation.png){#fig-anppelevation}
 
 The effects of natural variation in soil nutrient availability on
 biomass accumulation and NPP of the Hubbard Brook forest have been
@@ -428,7 +414,7 @@ sources of forest regeneration; and greatly reduced the abundance of
 fast-growing pin cherry. Surprisingly, despite an initial lag in biomass
 accumulation and net primary productivity, the forest on W2 followed a
 trajectory similar to (though on the low end) of comparable sites that
-had been harvested by conventional methods (Figure 5).
+had been harvested by conventional methods (@fig-anppelevation).
 
 The slowest growth and biomass accumulation were observed in the upper
 elevation zone of the watershed where soils are thinner and less fertile
@@ -459,7 +445,7 @@ including stem/branch surfaces and requires correction factors. In the
 deciduous northern hardwood forest that dominates the Hubbard Brook
 landscape, LAI can also be measured conveniently by quantifying leaf
 litterfall. Litterfall records for the Hubbard Brook Forest go back over
-thirty years (Figure 6) and also allow estimation of LAI of each of the
+thirty years (@fig-lai) and also allow estimation of LAI of each of the
 various tree species.
 
 The total LAI of the northern hardwood forest adjacent to reference W6
@@ -469,7 +455,7 @@ across the study area is observed (Figure #): the highest values of 7 to
 8 are observed in coves with enriched soils and sugar maple dominance
 while the lowest values (3.5 to 4) coincide with thin depleted soils in
 the upper watershed. Comparison between the reference forest adjacent to
-W6 and the Ca-treated W1 (Figure #) illustrates the role of soil base
+W6 and the Ca-treated W1 (@fig-lai) illustrates the role of soil base
 status and sugar maple health in regulating forest LAI and NPP in the
 experimental watersheds at Hubbard Brook. These patterns reflect site
 quality variation that clearly constrains the NPP of the wider forest
@@ -478,8 +464,7 @@ landscape.
 The temporal pattern in LAI also reflects the effect of disturbances. In
 particular, a clear decrease in forest LAI accompanied disturbance by
 the 1998 ice storm: LAI was reduced in half for two years before
-gradually recovering to pre-disturbance levels by about 2003-4 (Figure
-6). Since that time LAI has been relatively constant on a large-scale
+gradually recovering to pre-disturbance levels by about 2003-4 (@fig-lai). Since that time LAI has been relatively constant on a large-scale
 average, although localized decreases have been observed resulting from
 smaller disturbances (late-spring frost, microburst windstorm).
 Continued monitoring is needed to allow researchers to capture effects
@@ -491,10 +476,7 @@ litterfall A. adjacent to reference watershed 6 and B. calcium-treated
 watershed 1. Data points indicate annual estimates for six monitored
 forest stands adjacent to W6 and three stands in W1.
 
-Figure 6. Leaf area index of northern hardwood forest measured based on
-leaf litterfall A. adjacent to reference watershed 6 and B.
-calcium-treated watershed 1. Data points indicate annual estimates for
-six monitored forest stands adjacent to W6 and three stands in W1.
+![Leaf area index of northern hardwood forest measured based on leaf litterfall A. adjacent to reference watershed 6 and B. calcium-treated watershed 1. Data points indicate annual estimates for six monitored forest stands adjacent to W6 and three stands in W1.](figs/biomass/lai.jpg){#fig-lai}
 
 ## Questions for Further Study.
 
