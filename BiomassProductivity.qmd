@@ -306,11 +306,11 @@ measured. Error estimates are given in the text. (Fahey et al., 2005)
 ![Spatial pattern of estimated aboveground net primary productivity across the Hubbard Brook valley for 1990-1995.The interpolations are based on 370 plots for which diameter growth of all trees (\> 10 cm DBH) was measured. Error estimates are given in the text. (Fahey et al. 2005).](figs/biomass/nppmap.png){#fig-nppmap}
 
 The spatial pattern of ANPP of the Hubbard Brook forest generally
-reflects that of biomass (compare @fig-biomassmap vs. @fig-biomassmap).
+reflects that of biomass (compare @fig-biomassmap vs. @fig-nppmap).
 
 For example, 42% of the variation in woody biomass production is
 explained by aboveground biomass across the 370 plots represented in
-@fig-biomassmap and @fig-biomassmap. The most notable decoupling between biomass and
+@fig-biomassmap and @fig-nppmap. The most notable decoupling between biomass and
 productivity is for fir-birch-spruce dominated stands at the upper
 elevations, where the production:biomass ratio is notably higher than
 elsewhere in the HB valley. The temporal pattern of NPP following
