@@ -4,7 +4,8 @@ format: html
 ---
 
 Chapter Editors: Dana Warren and Timothy Fahey
-Introduction
+
+## Introduction
 
 For outdoor enthusiasts, forest streams provide among the most attractive venues: the babbling brook, clear cold water cascading over craggy boulders; deep pools inviting a dive to the bottom; trout darting under banks; and a drink of pure refreshment (“champagne for dogs”). The symphony of the babbling brook lulls one to sleep whether on a welcome rest stop on a long hike or an overnight backpacking trip. From an ecological standpoint streams act as an important conduit for matter and energy leaving the forested ecosystem, but also form a distinct and complex ecosystem in their own right. The Hubbard Brook Ecosystem Study (HBES) pioneered investigation of streams as discrete ecosystems in which a diverse biotic community stores and processes energy and mineral nutrients and delivers products to downstream ecosystems and the atmosphere (Fisher and Likens 1972, Meyer and Likens 1979, Bilby and Likens 1980). The base of new knowledge provided by early studies of Bear Brook within the Hubbard Brook Experimental Forest (HBEF), together with ongoing work linking aquatic and terrestrial ecosystems, stimulated the continuing search for a better understanding of stream ecosystem dynamics. In this chapter we provide a brief overview of some key insights provided by the HBES into the structure and function of headwater streams that drain the forests of this montane landscape.
 The physical template of HBEF streams
