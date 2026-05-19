@@ -3,6 +3,7 @@ title: "Nitrogen"
 format: html
 ---
 
+<div id="sec-nitrogenchapter"></div>
 
 <video controls 
        style="width:80%; max-width:900px; display:block; margin:1.5rem auto;">
@@ -70,21 +71,22 @@ During the initial stages of leaf litter decay, the N concentration in the litte
 
 After the first year of decomposition, net N mineralization of leaf litter supplies plant available N in forest soil. The larger process of N mineralization in bulk soil has been measured for HB soils using both in situ and laboratory incubation methods. This process tends to track soil temperature on a seasonal basis (Groffman et al. 2009) and high annual variation is observed (@fig-nminnit) with annual estimates (31-171 kg N/ha-yr) bracketing N uptake calculations (75 kgN/ha-yr).
 
+![Long-term pattern of potential N mineralization (left) and potential nitrification (right) in reference (West of 6) and calcium-amended (W1) watersheds at Hubbard Brook. (P. M. Groffman, unpublished data).](figs/nitrogen/NminNitrif.png){#fig-nminnit}
+
 The causes of annual variation in soil N mineralization and nitrification are not well understood, but include apparent effects of severe soil freezing and canopy disturbance (e.g., ice storm; Dittman et al. 2007). Soil N mineralization rates are generally lower at lower elevations in the northern hardwood forest at HB; these differences are tentatively attributed to drought effects (Duran et al. 2014, Bohlen et al. 2001).
 
 Net nitrification in bulk soil is measured using the same methods as net mineralization. In general, nitrification rate is roughly half of net mineralization at HB, but this also varies annually, seasonally and spatially (Groffman et al. 2009). The principal factor influencing annual variation in nitrification is plant root uptake: when uptake of N is reduced by forest disturbances, the NH4+ substrate released during decomposition accumulates in soil and nitrification rate can greatly increase. This effect was first observed during devegetation of WS2, as nitrate in stream water reached very high concentrations (over 50 mg/L; Likens et al. 1970). Similarly, natural disturbances that reduce plant uptake -- soil freezing, insect defoliation, ice storm – also result in high nitrification rates and NO3 leaching from soils (Houlton et al. 2003).
 
-![Long-term pattern of potential N mineralization (left) and potential nitrification (right) in reference (West of 6) and calcium-amended (W1) watersheds at Hubbard Brook. (P. M. Groffman, unpublished data).](figs/nitrogen/NminNitrif.png){#fig-nminnit}
 
 Nitrogen transport through soils and to streams at HB varies systematically across the watershed landscape (Dittman et al. 2007). In the upper elevation conifer forest dissolved organic N is dominant in soil and surface waters whereas NO3 is the predominant N form in hardwood forest zones in both soil solutions and streams. Within the soil profile N retention is centered in the densely rooted upper mineral soil, but N retention also occurs in subsoil and stream, suggesting that physical and streamside processes also contribute to ecosystem N retention. Hydrologic flow paths can override both biotic and abiotic retention mechanisms, as direct flushing of N occurs from surface organic horizons into the stream by lateral flow, during wet periods (Dittman et al. 2007).
 
 
-![Ecosystem-scale mass balance of N at Hubbard Brook Watershed 6, a northern hardwood forest that was aggrading biomass until approximately 1982, for a 37 year period during which the vegetation and forest floor were measured seven and six times, respectively  (Yanai et al., 2013).](figs/nitrogen/massbalance.jpg){#fig-massbal}
-
- 
 ## Missing Source to Missing Sink
 
 As noted at the outset of this chapter, an enduring mystery about the HB nitrogen cycle is why the mature forest ecosystem continues to strongly retain N in apparent conflict with the theory of N saturation: what is the missing sink for N now that forest biomass is no longer accumulating? In fact, in the early years of the study when the younger forest was rapidly accumulating N in biomass the question was what is the missing source of N (@fig-massbal).
+
+![Ecosystem-scale mass balance of N at Hubbard Brook Watershed 6, a northern hardwood forest that was aggrading biomass until approximately 1982, for a 37 year period during which the vegetation and forest floor were measured seven and six times, respectively  (Yanai et al., 2013).](figs/nitrogen/massbalance.jpg){#fig-massbal}
+
 
 Two possible explanations, not mutually exclusive, now appear most likely. First, recent measurements suggest that gaseous losses of N, especially via denitrification, may be larger than traditionally expected for the generally coarse, well-drained and aerated soils at HB (Wexler et al. 2014, Morse et al. 2015). If so, then gaseous N loss could contribute an important missing sink for N. To account for the changing long-term N balance – from missing source to missing sink – denitrification rates must have changed dramatically between the 1960's-1970's and the1990's-present time period. Some limited empirical observations support lower N2O fluxes 35 yrs ago (Keller et al. 1983) than more recently (Groffman et al. 2006). Higher soil NO3 concentrations resulting from lower plant demand and increasing soil temperature and moisture from regional climate change (see Climate Change chapter) could contribute to higher denitrification in HB soils.
 
@@ -113,76 +115,72 @@ Recent declines in atmospheric N deposition and unexplained declines in N export
 
 ## References
 
-<div class="references">
+Aber, J. D., McDowell, W., Nadelhoffer, K. J., Magill, A., Berntson, G., Kamakea, M., McNulty, S., Currie, W., Rustad, L., & Fernandez, I. (1998). Nitrogen saturation in temperate forest ecosystems. *BioScience, 48*(11), 921–934. [https://doi.org/10.2307/1313296](https://doi.org/10.2307/1313296){target="_blank" rel="noopener"}
 
-<p>Aber, J. D., McDowell, W., Nadelhoffer, K. J., Magill, A., Berntson, G., Kamakea, M., McNulty, S., Currie, W., Rustad, L., & Fernandez, I. (1998). Nitrogen saturation in temperate forest ecosystems. <em>BioScience, 48</em>, 921–934. <a href="https://doi.org/10.2307/1313296">https://doi.org/10.2307/1313296</a></p>
+Arthur, M. A., Tritton, L. M., & Fahey, T. J. (1993). Dead bole mass and nutrients remaining 23 years after clear-felling of a northern hardwood forest. *Canadian Journal of Forest Research, 23*(7), 1298–1305. [https://doi.org/10.1139/x93-166](https://doi.org/10.1139/x93-166){target="_blank" rel="noopener"}
 
-<p>Arthur, M. A., Tritton, L. M., & Fahey, T. J. (1993). Dead bole mass and nutrients remaining 23 years after clear-felling of a northern hardwood forest. <em>Canadian Journal of Forest Research, 23</em>, 1298–1305. <a href="https://doi.org/10.1139/x93-164">https://doi.org/10.1139/x93-164</a></p>
+Bohlen, P. J., Groffman, P. M., Driscoll, C. T., Fahey, T. J., & Siccama, T. G. (2001). Plant-soil-microbial interactions in a northern hardwood forest. *Ecology, 82*(4), 965–978. [https://doi.org/10.1890/0012-9658(2001)082[0965:PSMIIA]2.0.CO;2](https://doi.org/10.1890/0012-9658(2001)082[0965:PSMIIA]2.0.CO;2){target="_blank" rel="noopener"}
 
-<p>Bohlen, P. J., Groffman, P. M., Driscoll, C. T., Fahey, T. J., & Siccama, T. G. (2001). Plant–soil–microbial interactions in a northern montane hardwood forest. <em>Ecology, 82</em>(4), 965–978. <a href="https://doi.org/10.1890/0012-9658(2001)082[0965:PSMIIN]2.0.CO;2">https://doi.org/10.1890/0012-9658(2001)082[0965:PSMIIN]2.0.CO;2</a></p>
+Bormann, B. T., Keller, C. K., Wang, D., & Bormann, F. H. (2002). Lessons from the sandbox: Is unexplained nitrogen real? *Ecosystems, 5*(7), 727–733. [https://doi.org/10.1007/s10021-002-0189-2](https://doi.org/10.1007/s10021-002-0189-2){target="_blank" rel="noopener"}
 
-<p>Bormann, B. T., Keller, C. K., Wang, D., & Bormann, F. H. (2002). Lessons from the sandbox: Is unexplained nitrogen real? <em>Ecosystems, 5</em>, 727–733. <a href="https://doi.org/10.1007/s10021-002-0205-8">https://doi.org/10.1007/s10021-002-0205-8</a></p>
+Cleavitt, N. L., Fahey, T. J., Groffman, P. M., Hardy, J. P., Henry, K. S., & Driscoll, C. T. (2008). Effects of soil freezing on fine roots in a northern hardwood forest. *Canadian Journal of Forest Research, 38*(1), 82–91. [https://doi.org/10.1139/X07-133](https://doi.org/10.1139/X07-133){target="_blank" rel="noopener"}
 
-<p>Cleavitt, N. L., Fahey, T. J., Groffman, P. M., Hardy, J. P., Henry, K. S., & Driscoll, C. T. (2008). Effects of soil freezing on fine roots in a northern hardwood forest. <em>Canadian Journal of Forest Research, 38</em>(1), 82–91. <a href="https://doi.org/10.1139/X07-133">https://doi.org/10.1139/X07-133</a></p>
+Comerford, D. P., Schaberg, P. G., Templer, P. H., Socci, A. M., Campbell, J. L., & Wallin, K. F. (2013). Influence of experimental snow removal on root and canopy physiology of sugar maple trees in a northern hardwood forest. *Oecologia, 171*(1), 261–269. [https://doi.org/10.1007/s00442-012-2393-x](https://doi.org/10.1007/s00442-012-2393-x){target="_blank" rel="noopener"}
 
-<p>Comerford, D. P., Schaberg, P. G., Templer, P. H., Socci, A. M., Campbell, J. L., & Wallin, K. F. (2013). Influence of experimental snow removal on root and canopy physiology of sugar maple trees. <em>Oecologia, 171</em>, 261–269. <a href="https://doi.org/10.1007/s00442-012-2409-3">https://doi.org/10.1007/s00442-012-2409-3</a></p>
+Dittman, J. A., Driscoll, C. T., Groffman, P. M., & Fahey, T. J. (2007). Dynamics of nitrogen and dissolved organic carbon at the Hubbard Brook Experimental Forest. *Ecology, 88*(5), 1153–1166. [https://doi.org/10.1890/06-0834](https://doi.org/10.1890/06-0834){target="_blank" rel="noopener"}
 
-<p>Dittman, J. A., Driscoll, C. T., Groffman, P. M., & Fahey, T. J. (2007). Dynamics of nitrogen and dissolved organic carbon at the Hubbard Brook Experimental Forest. <em>Ecology, 88</em>, 1153–1166. <a href="https://doi.org/10.1890/06-0834">https://doi.org/10.1890/06-0834</a></p>
+Durán, J., Morse, J. L., Groffman, P. M., Campbell, J. L., Christenson, L. M., Driscoll, C. T., Fahey, T. J., Fisk, M. C., Mitchell, M. J., & Templer, P. H. (2014). Winter climate change affects growing-season soil microbial biomass and activity in northern hardwood forests. *Global Change Biology, 20*(11), 3568–3577. [https://doi.org/10.1111/gcb.12624](https://doi.org/10.1111/gcb.12624){target="_blank" rel="noopener"}
 
-<p>Durán, J., Morse, J. L., Groffman, P. M., Campbell, J. L., Christenson, L. M., Driscoll, C. T., Fahey, T. J., Fisk, M. C., Mitchell, M. J., & Templer, P. H. (2014). Winter climate change affects growing-season soil microbial biomass and activity. <em>Global Change Biology, 20</em>, 3568–3577. <a href="https://doi.org/10.1111/gcb.12624">https://doi.org/10.1111/gcb.12624</a></p>
+Fahey, T. J., Yavitt, J. B., Sherman, R. E., Groffman, P. M., Fisk, M. C., & Maerz, J. C. (2011). Transport of carbon and nitrogen between litter and soil organic matter in a northern hardwood forest. *Ecosystems, 14*(3), 326–340. [https://doi.org/10.1007/s10021-011-9414-1](https://doi.org/10.1007/s10021-011-9414-1){target="_blank" rel="noopener"}
 
-<p>Fahey, T. J., Yavitt, J. B., Sherman, R. E., Groffman, P. M., Fisk, M. C., & Maerz, J. C. (2011). Transport of carbon and nitrogen between litter and soil organic matter. <em>Ecosystems, 14</em>, 326–340. <a href="https://doi.org/10.1007/s10021-011-9414-1">https://doi.org/10.1007/s10021-011-9414-1</a></p>
+Fahey, T. J., Hughes, J. W., Pu, M., & Arthur, M. A. (1988). Root decomposition and nutrient flux following whole-tree harvest of northern hardwood forest. *Forest Science, 34*(3), 744–768. [https://doi.org/10.1093/forestscience/34.3.744](https://doi.org/10.1093/forestscience/34.3.744){target="_blank" rel="noopener"}
 
-<p>Fahey, T. J., Hughes, J. W., Pu, M., & Arthur, M. A. (1988). Root decomposition and nutrient flux following whole-tree harvest. <em>Forest Science, 34</em>, 744–768.</p>
+Fitzhugh, R. D., Driscoll, C. T., Groffman, P. M., Tierney, G. L., Fahey, T. J., & Hardy, J. P. (2001). Effects of soil freezing disturbance on soil solution nitrogen, phosphorus, and carbon chemistry in a northern hardwood ecosystem. *Biogeochemistry, 56*(2), 215–238. [https://doi.org/10.1023/A:1013076609950](https://doi.org/10.1023/A:1013076609950){target="_blank" rel="noopener"}
 
-<p>Fitzhugh, R. D., Driscoll, C. T., Groffman, P. M., Tierney, G. L., Fahey, T. J., & Hardy, J. P. (2001). Effects of soil freezing disturbance on soil solution chemistry. <em>Biogeochemistry, 56</em>, 215–238. <a href="https://doi.org/10.1023/A:1013076609950">https://doi.org/10.1023/A:1013076609950</a></p>
+Gordon, W. S., & Jackson, R. B. (2000). Nutrient concentrations in fine roots. *Ecology, 81*(1), 275–280. [https://doi.org/10.1890/0012-9658(2000)081[0275:NCIFR]2.0.CO;2](https://doi.org/10.1890/0012-9658(2000)081[0275:NCIFR]2.0.CO;2){target="_blank" rel="noopener"}
 
-<p>Gordon, W. S., & Jackson, R. B. (2000). Nutrient concentrations in fine roots. <em>Ecology, 81</em>, 275–280. <a href="https://doi.org/10.1890/0012-9658(2000)081[0275:NCIFR]2.0.CO;2">https://doi.org/10.1890/0012-9658(2000)081[0275:NCIFR]2.0.CO;2</a></p>
+Gosz, J. R., Likens, G. E., & Bormann, F. H. (1972). Nutrient content of litterfall on the Hubbard Brook Experimental Forest, New Hampshire. *Ecology, 53*(5), 769–784. [https://doi.org/10.2307/1934293](https://doi.org/10.2307/1934293){target="_blank" rel="noopener"}
 
-<p>Gosz, J. R., Likens, G. E., & Bormann, F. H. (1972). Nutrient content of litterfall. <em>Ecology, 53</em>, 769–784. <a href="https://doi.org/10.2307/1934305">https://doi.org/10.2307/1934305</a></p>
+Groffman, P. M., Hardy, J. P., Driscoll, C. T., & Fahey, T. J. (2006). Snow depth, soil freezing, and fluxes of carbon dioxide, nitrous oxide and methane in a northern hardwood forest. *Global Change Biology, 12*(9), 1748–1760. [https://doi.org/10.1111/j.1365-2486.2006.01194.x](https://doi.org/10.1111/j.1365-2486.2006.01194.x){target="_blank" rel="noopener"}
 
-<p>Groffman, P. M., Hardy, J. P., Driscoll, C. T., & Fahey, T. J. (2006). Snow depth and soil freezing effects on greenhouse gas fluxes. <em>Global Change Biology, 12</em>, 1748–1760. <a href="https://doi.org/10.1111/j.1365-2486.2006.01194.x">https://doi.org/10.1111/j.1365-2486.2006.01194.x</a></p>
+Groffman, P., Hardy, J., Fisk, M., Fahey, T., & Driscoll, C. (2009). Climate variation and soil carbon and nitrogen cycling processes in a northern hardwood forest. *Ecosystems, 12*(6), 927–943. [https://doi.org/10.1007/s10021-009-9268-y](https://doi.org/10.1007/s10021-009-9268-y){target="_blank" rel="noopener"}
 
-<p>Groffman, P. M., Hardy, J. P., Fisk, M. C., Fahey, T. J., & Driscoll, C. T. (2009). Climate variation and soil carbon and nitrogen cycling. <em>Ecosystems, 12</em>, 927–943. <a href="https://doi.org/10.1007/s10021-009-9268-5">https://doi.org/10.1007/s10021-009-9268-5</a></p>
+Groffman, P. M., Driscoll, C. T., Durán, J., Campbell, J. L., Christenson, L. M., Fahey, T. J., Fisk, M. C., Fuss, C., Likens, G. E., Lovett, G., Rustad, L., & Templer, P. H. (2018). Nitrogen oligotrophication in northern hardwood forests. *Biogeochemistry, 141*(3), 523–539. [https://doi.org/10.1007/s10533-018-0445-y](https://doi.org/10.1007/s10533-018-0445-y){target="_blank" rel="noopener"}
 
-<p>Groffman, P. M., Driscoll, C. T., Durán, J., Campbell, J. L., Christenson, L. M., Fahey, T. J., et al. (2018). Nitrogen oligotrophication in northern hardwood forests. <em>Biogeochemistry, 141</em>, 523–539. <a href="https://doi.org/10.1007/s10533-018-0445-y">https://doi.org/10.1007/s10533-018-0445-y</a></p>
+Houlton, B. Z., Driscoll, C. T., Fahey, T. J., Likens, G. E., Groffman, P. M., Bernhardt, E. S., & Buso, D. C. (2003). Nitrogen dynamics in ice storm-damaged forest ecosystems: Implications for nitrogen limitation theory. *Ecosystems, 6*(5), 431–443. [https://doi.org/10.1007/s10021-002-0198-1](https://doi.org/10.1007/s10021-002-0198-1){target="_blank" rel="noopener"}
 
-<p>Houlton, B. Z., Driscoll, C. T., Fahey, T. J., Likens, G. E., Groffman, P. M., Bernhardt, E. S., & Buso, D. C. (2003). Nitrogen dynamics in ice storm-damaged forests. <em>Ecosystems, 6</em>, 431–443. <a href="https://doi.org/10.1007/s10021-002-0203-x">https://doi.org/10.1007/s10021-002-0203-x</a></p>
+Hughes, J. W., & Fahey, T. J. (1994). Litterfall dynamics and ecosystem recovery during forest development. *Forest Ecology and Management, 63*(2–3), 181–198. [https://doi.org/10.1016/0378-1127(94)90110-4](https://doi.org/10.1016/0378-1127(94)90110-4){target="_blank" rel="noopener"}
 
-<p>Hughes, J. W., & Fahey, T. J. (1994). Litterfall dynamics and ecosystem recovery. <em>Forest Ecology and Management, 63</em>, 181–198. <a href="https://doi.org/10.1016/0378-1127(94)90105-8">https://doi.org/10.1016/0378-1127(94)90105-8</a></p>
+Johnson, C. E., Driscoll, C. T., Blum, J. D., Fahey, T. J., & Battles, J. J. (2014). Soil chemical dynamics after calcium silicate addition to a northern hardwood forest. *Soil Science Society of America Journal, 78*(4), 1458–1468. [https://doi.org/10.2136/sssaj2014.03.0114](https://doi.org/10.2136/sssaj2014.03.0114){target="_blank" rel="noopener"}
 
-<p>Johnson, C. E., Driscoll, C. T., Blum, J. D., Fahey, T. J., & Battles, J. J. (2014). Soil chemical dynamics after calcium silicate addition. <em>Soil Science Society of America Journal, 78</em>, 1458–1468. <a href="https://doi.org/10.2136/sssaj2014.03.0114">https://doi.org/10.2136/sssaj2014.03.0114</a></p>
+Keller, M., Goreau, T. J., Wofsy, S. C., Kaplan, W. A., & McElroy, M. B. (1983). Production of nitrous oxide and consumption of methane by forest soils. *Geophysical Research Letters, 10*(12), 1156–1159. [https://doi.org/10.1029/GL010i012p01156](https://doi.org/10.1029/GL010i012p01156){target="_blank" rel="noopener"}
 
-<p>Keller, M., Goreau, T. J., Wofsy, S. C., Kaplan, W. A., & McElroy, M. B. (1983). Production of nitrous oxide and consumption of methane by forest soils. <em>Geophysical Research Letters, 10</em>, 1156–1159. <a href="https://doi.org/10.1029/GL010i012p01156">https://doi.org/10.1029/GL010i012p01156</a></p>
+Li, A., & Fahey, T. J. (2013). Nitrogen translocation to fresh litter in northern hardwood forest. *Ecosystems, 16*(3), 521–528. [https://doi.org/10.1007/s10021-012-9627-y](https://doi.org/10.1007/s10021-012-9627-y){target="_blank" rel="noopener"}
 
-<p>Li, A., & Fahey, T. J. (2013). Nitrogen translocation to fresh litter. <em>Ecosystems, 16</em>(3), 521–528. <a href="https://doi.org/10.1007/s10021-012-9627-y">https://doi.org/10.1007/s10021-012-9627-y</a></p>
+Likens, G. E., Bormann, F. H., Johnson, N. M., Fisher, D. W., & Pierce, R. S. (1970). Effects of forest cutting and herbicide treatment on nutrient budgets in the Hubbard Brook watershed-ecosystem. *Ecological Monographs, 40*(1), 23–47. [https://doi.org/10.2307/1942440](https://doi.org/10.2307/1942440){target="_blank" rel="noopener"}
 
-<p>Likens, G. E., Bormann, F. H., Johnson, N. M., Fisher, D. W., & Pierce, R. S. (1970). Effects of forest cutting on nutrient budgets. <em>Ecological Monographs, 40</em>, 23–47. <a href="https://doi.org/10.2307/1942440">https://doi.org/10.2307/1942440</a></p>
+Lovett, G. M., Nolan, S. S., Driscoll, C. T., & Fahey, T. J. (1996). Factors regulating throughfall flux in a forested landscape. *Canadian Journal of Forest Research, 26*(12), 2134–2144. [https://doi.org/10.1139/x26-242](https://doi.org/10.1139/x26-242){target="_blank" rel="noopener"}
 
-<p>Lovett, G. M., Nolan, S. S., Driscoll, C. T., & Fahey, T. J. (1996). Factors regulating throughfall flux. <em>Canadian Journal of Forest Research, 26</em>, 2134–2144. <a href="https://doi.org/10.1139/x26-241">https://doi.org/10.1139/x26-241</a></p>
+Melillo, J. M., Aber, J. D., & Muratore, J. F. (1982). Nitrogen and lignin control of hardwood leaf litter decomposition dynamics. *Ecology, 63*(3), 621–626. [https://doi.org/10.2307/1936780](https://doi.org/10.2307/1936780){target="_blank" rel="noopener"}
 
-<p>Melillo, J. M., Aber, J. D., & Muratore, J. F. (1982). Nitrogen and lignin control of decomposition. <em>Ecology, 63</em>, 621–626. <a href="https://doi.org/10.2307/1936780">https://doi.org/10.2307/1936780</a></p>
+Morse, J. L., Durán, J., & Groffman, P. M. (2015). Soil denitrification fluxes in a northern hardwood forest: The importance of snowmelt and implications for ecosystem N budgets. *Ecosystems, 18*(3), 520–532. [https://doi.org/10.1007/s10021-015-9844-2](https://doi.org/10.1007/s10021-015-9844-2){target="_blank" rel="noopener"}
 
-<p>Morse, J. L., Durán, J., & Groffman, P. M. (2015). Soil denitrification fluxes in a northern hardwood forest. <em>Ecosystems, 18</em>(3), 520–532. <a href="https://doi.org/10.1007/s10021-015-9844-2">https://doi.org/10.1007/s10021-015-9844-2</a></p>
+Nambiar, E. K., & Fife, D. N. (1991). Nutrient translocation in temperate conifers. *Tree Physiology, 9*(1–2), 185–207. [https://doi.org/10.1093/treephys/9.1-2.185](https://doi.org/10.1093/treephys/9.1-2.185){target="_blank" rel="noopener"}
 
-<p>Nambiar, E. K., & Fife, D. N. (1991). Nutrient translocation in temperate conifers. <em>Tree Physiology, 9</em>, 185–207.</p>
+Rhoads, A. G., Hamburg, S. P., Fahey, T. J., Siccama, T. G., Hane, E. N., Battles, J., Cogbill, C., Randall, J., & Wilson, G. (2002). Effects of a intense ice storm on the structure of a northern hardwood forest. *Canadian Journal of Forest Research, 32*(9), 1763–1775. [https://doi.org/10.1139/x02-089](https://doi.org/10.1139/x02-089){target="_blank" rel="noopener"}
 
-<p>Rhoads, A. G., Hamburg, S. P., Fahey, T. J., Siccama, T. G., Hane, E. N., Battles, J., Cogbill, C., Randall, J., & Wilson, G. (2002). Effects of a large ice storm on forest structure. <em>Canadian Journal of Forest Research, 32</em>, 1763–1775. <a href="https://doi.org/10.1139/x02-104">https://doi.org/10.1139/x02-104</a></p>
+Roskowski, J. (1980). Nitrogen fixation in hardwood forests of the northeastern United States. *Plant and Soil, 54*(1), 33–44. [https://doi.org/10.1007/BF02181997](https://doi.org/10.1007/BF02181997){target="_blank" rel="noopener"}
 
-<p>Roskowski, J. (1980). Nitrogen fixation in hardwood forests. <em>Plant and Soil, 54</em>, 33–44. <a href="https://doi.org/10.1007/BF02181829">https://doi.org/10.1007/BF02181829</a></p>
+Ryan, D. F., & Bormann, F. H. (1982). Nutrient resorption in northern hardwood forests. *BioScience, 32*(1), 29–32. [https://doi.org/10.2307/1308751](https://doi.org/10.2307/1308751){target="_blank" rel="noopener"}
 
-<p>Ryan, D. F., & Bormann, F. H. (1982). Nutrient resorption in northern hardwood forests. <em>BioScience, 32</em>, 29–32. <a href="https://doi.org/10.2307/1308539">https://doi.org/10.2307/1308539</a></p>
+Schlesinger, W. H. (2009). On the fate of anthropogenic nitrogen. *Proceedings of the National Academy of Sciences, 106*(1), 203–208. [https://doi.org/10.1073/pnas.0810193105](https://doi.org/10.1073/pnas.0810193105){target="_blank" rel="noopener"}
 
-<p>Schlesinger, W. H. (2009). On the fate of anthropogenic nitrogen. <em>Proceedings of the National Academy of Sciences, 106</em>, 203–208. <a href="https://doi.org/10.1073/pnas.0810193105">https://doi.org/10.1073/pnas.0810193105</a></p>
+Tierney, G. L., & Fahey, T. J. (2002). Fine root turnover in a northern hardwood forest: a direct comparison of the radiocarbon and minirhizotron methods. *Canadian Journal of Forest Research, 32*(9), 1692–1697. [https://doi.org/10.1139/x02-123](https://doi.org/10.1139/x02-123){target="_blank" rel="noopener"}
 
-<p>Tierney, G. L., & Fahey, T. J. (2002). Fine root turnover comparison methods. <em>Canadian Journal of Forest Research, 32</em>, 1692–1697. <a href="https://doi.org/10.1139/x02-097">https://doi.org/10.1139/x02-097</a></p>
+Tierney, G. L., Fahey, T. J., Groffman, P. M., Hardy, J. P., Fitzhugh, R. D., & Driscoll, C. T. (2001). Soil freezing alters fine root dynamics in a northern hardwood forest. *Biogeochemistry, 56*(2), 175–190. [https://doi.org/10.1023/A:1013072519889](https://doi.org/10.1023/A:1013072519889){target="_blank" rel="noopener"}
 
-<p>Tierney, G. L., Fahey, T. J., Groffman, P. M., Hardy, J. P., Fitzhugh, R. D., & Driscoll, C. T. (2001). Soil freezing alters fine root dynamics. <em>Biogeochemistry, 56</em>, 175–190.</p>
+Vitousek, P. M., & Howarth, R. W. (1991). Nitrogen limitation on land and in the sea: how can it occur? *Biogeochemistry, 13*(2), 87–115. [https://doi.org/10.1007/BF00002772](https://doi.org/10.1007/BF00002772){target="_blank" rel="noopener"}
 
-<p>Vitousek, P. M., & Howarth, R. W. (1991). Nitrogen limitation on land and in the sea. <em>Biogeochemistry, 13</em>, 87–115. <a href="https://doi.org/10.1007/BF00002772">https://doi.org/10.1007/BF00002772</a></p>
+Wexler, S. K., Goodale, C. L., McGuire, K. J., Bailey, S. W., & Groffman, P. M. (2014). Isotopic signals of summer denitrification in a northern hardwood forested catchment. *Proceedings of the National Academy of Sciences, 111*(46), 16413–16418. [https://doi.org/10.1073/pnas.1404321111](https://doi.org/10.1073/pnas.1404321111){target="_blank" rel="noopener"}
 
-<p>Wexler, S. K., Goodale, C. L., McGuire, K. J., Bailey, S. W., & Groffman, P. M. (2014). Isotopic signals of summer denitrification. <em>Proceedings of the National Academy of Sciences, 111</em>(46), 16413–16418. <a href="https://doi.org/10.1073/pnas.1404321111">https://doi.org/10.1073/pnas.1404321111</a></p>
-
-<p>Yanai, R. D., Vadeboncoeur, M. A., Hamburg, S. P., Arthur, M. A., Fuss, C. B., Groffman, P. M., Siccama, T. G., & Driscoll, C. T. (2013). From missing source to missing sink. <em>Environmental Science & Technology, 47</em>, 11440–11448. <a href="https://doi.org/10.1021/es402572y">https://doi.org/10.1021/es402572y</a></p>
-
-</div>
+Yanai, R. D., Vadeboncoeur, M. A., Hamburg, S. P., Arthur, M. A., Fuss, C. B., Groffman, P. M., Siccama, T. G., & Driscoll, C. T. (2013). From missing source to missing sink: long-term changes in the nitrogen budget of a northern hardwood forest. *Environmental Science & Technology, 47*(20), 11440–11448. [https://doi.org/10.1021/es4025723](https://doi.org/10.1021/es4025723){target="_blank" rel="noopener"}

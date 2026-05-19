@@ -53,6 +53,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -290,8 +319,14 @@ document.addEventListener("DOMContentLoaded", function() {
 </header>
 
 
+<div id="sec-sitehistorychapter">
+
+</div>
 <p>Chapter Editor(s): Timothy Fahey</p>
 <p>For over 60 years scientists have been studying the dynamics of forests and linked aquatic ecosystems in the Hubbard Brook Experimental Forest, New Hampshire, USA. The Hubbard Brook Ecosystem Study (HBES) is an ongoing effort to understand the ecology, hydrology, energetics and biogeochemistry of this temperate forest ecosystem. The synthesis that follows provides an overview of several components of the HBES interpreted in light of current understanding at the level of the advanced student. The objective is to provide interested researchers with a succinct summary that will be helpful for guiding research and education efforts.</p>
+<section id="site-description" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="site-description"><span class="header-section-number">1.1</span> Site Description</h2>
+<p>The Hubbard Brook Experimental Forest (HBEF) is located in the southern part of the White Mountain National Forest (WMNF) in central New Hampshire (<a href="#fig-map" class="quarto-xref">Figure&nbsp;<span>1.1</span></a>). The HBEF is characteristic of much of the White Mountain National Forest (Fahey et al.&nbsp;2015) The National Forest has hilly, occasionally steep topography; coarse, acidic, glacially-derived soils; bedrock dominated by metamorphic rock of igneous and sedimentary origin; northern hardwood forests on lower slopes and spruce-fir forests at higher elevations (above ca. 800 m).</p>
 <div id="fig-map" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-map-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -302,9 +337,6 @@ Figure&nbsp;1.1: Hubbard Brook Experimental Forest Map
 </figcaption>
 </figure>
 </div>
-<section id="site-description" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="site-description"><span class="header-section-number">1.1</span> Site Description</h2>
-<p>The Hubbard Brook Experimental Forest (HBEF) is located in the southern part of the White Mountain National Forest (WMNF) in central New Hampshire (<a href="#fig-map" class="quarto-xref">Figure&nbsp;<span>1.1</span></a>). The HBEF is characteristic of much of the White Mountain National Forest (Fahey et al.&nbsp;2015) The National Forest has hilly, occasionally steep topography; coarse, acidic, glacially-derived soils; bedrock dominated by metamorphic rock of igneous and sedimentary origin; northern hardwood forests on lower slopes and spruce-fir forests at higher elevations (above ca. 800 m).</p>
 </section>
 <section id="climate" class="level2" data-number="1.2">
 <h2 data-number="1.2" class="anchored" data-anchor-id="climate"><span class="header-section-number">1.2</span> Climate</h2>
@@ -316,7 +348,7 @@ Figure&nbsp;1.1: Hubbard Brook Experimental Forest Map
 </section>
 <section id="geology" class="level2" data-number="1.3">
 <h2 data-number="1.3" class="anchored" data-anchor-id="geology"><span class="header-section-number">1.3</span> Geology</h2>
-<p>The eastern portion of the Experimental Forest (watersheds 1-6, and 9 included; Figure 1) is underlain by a complex assemblage of metasedimentary and igneous rocks. The major map unit is the Silurian Rangeley Formation, consisting of quartz mica schist and quartzite interbedded with sulfidic schist and calc-silicate granulite. Originally deposited as mudstones, sandstones and conglomerates, these rocks have been metamorphosed to sillimanite grade and have undergone four stages of deformation. Deformation style evident in outcrops is primarily tight isoclinal folds. However joints, slickensides and mylonites indicate brittle deformation as well. The metamorphic rocks were later intruded by a variety of igneous rocks including the Devonian Concord Granite, pegmatites, and Mesozoic diabase and lamprophyre dikes. The western portion of the forest (portions of watersheds 7 and 8 included) is underlain by the Devonian Kinsman Granodiorite, a foliated granitic rock with megacrysts of potassium feldspar.</p>
+<p>The eastern portion of the Experimental Forest (watersheds 1-6, and 9 included; <a href="#fig-map" class="quarto-xref">Figure&nbsp;<span>1.1</span></a>) is underlain by a complex assemblage of metasedimentary and igneous rocks. The major map unit is the Silurian Rangeley Formation, consisting of quartz mica schist and quartzite interbedded with sulfidic schist and calc-silicate granulite. Originally deposited as mudstones, sandstones and conglomerates, these rocks have been metamorphosed to sillimanite grade and have undergone four stages of deformation. Deformation style evident in outcrops is primarily tight isoclinal folds. However joints, slickensides and mylonites indicate brittle deformation as well. The metamorphic rocks were later intruded by a variety of igneous rocks including the Devonian Concord Granite, pegmatites, and Mesozoic diabase and lamprophyre dikes. The western portion of the forest (portions of watersheds 7 and 8 included) is underlain by the Devonian Kinsman Granodiorite, a foliated granitic rock with megacrysts of potassium feldspar.</p>
 <p>Continental glaciers, which blanketed the region during the Pleistocene and retreated some 13,000 years ago, removed most preexisting soils. Glacial movement was primarily in a southeasterly direction as indicated by striations on bedrock surfaces, and by fragments of rocks in the till which are typical of bedrock to the northwest of the Hubbard Brook Valley. Materials deposited by the glacier are highly variable in degree of sorting and grain size, ranging from clays to 10m diameter boulders. The depth of glacial deposits ranges from zero on ridgetops and in stream valleys (resulting in bedrock outcrops) to 50m in the vicinity of Mirror Lake. Poorly sorted glacial till, commonly 2m thick, covers the bedrock in most of the valley. Ice contact terraces in the lower valley, consisting of well sorted sands and gravels, are typically tens of meters thick.</p>
 </section>
 <section id="soils" class="level2" data-number="1.4">
@@ -401,7 +433,7 @@ Table&nbsp;1.1: Summary soils data for Watershed 5 at the HBEF (after Johnson et
 </section>
 <section id="historical-perspective" class="level2" data-number="1.6">
 <h2 data-number="1.6" class="anchored" data-anchor-id="historical-perspective"><span class="header-section-number">1.6</span> Historical Perspective</h2>
-<p>The Hubbard Brook Experimental Forest was established by the U.S. Department of Agriculture (USDA) Forest Service in 1955 as a major center for hydrologic research in New England. The initial size delineated for research was a 3,037-ha, bowl-shaped Valley (Figure 1).</p>
+<p>The Hubbard Brook Experimental Forest was established by the U.S. Department of Agriculture (USDA) Forest Service in 1955 as a major center for hydrologic research in New England. The initial size delineated for research was a 3,037-ha, bowl-shaped Valley (<a href="#fig-map" class="quarto-xref">Figure&nbsp;<span>1.1</span></a>).</p>
 <p>During the first eight years following the establishment of the HBEF, the Northeastern Research Station of the USDA Forest Service developed a network of precipitation and stream-gauging stations, and installed weather instrumentation, as well as soil and vegetation monitoring sites on small experimental watersheds. Data from these installations combined with several initial studies formed the hydrometeorologic foundation for much of the future research at the HBEF. The major emphasis in these early studies was to determine the impact of forest land management on water yield,water quality, and flood flow.</p>
 <p>The Hubbard Brook Ecosystem Study originated in 1960 with the idea of using a small watershed approach to study element flux and cycling. The initial development of the HBES was slow and deliberate. The entire effort during the first two years, 1963-1965, was conducted by three scientists and one technician at Dartmouth College and three scientists and one technician from the USDA Forest Service (USDA-FS). At that time, there were no precedents to follow since comprehensive studies of ecosystems had not been initiated. Using the small watershed approach, studies of element-hydrologic interactions were conducted to form a basis for subsequent process-level and experimental research. In this regard, the investigators were fortunate to rather quickly develop quantitative element budgets for replicated ecosystems. These results provided insight into the function of natural ecosystems and helped focus future lines of research. It was agreed that slow growth would be more manageable and would allow for interaction among all senior investigators, ensuring proper coordination and development of the overall study. Research problems that were timely and particularly pertinent to the overall research goals of the study were identified. From the beginning, the HBES has emphasized the value of knowledge derived from cooperative research. At the same time, individual research freedom has always been encouraged among both cooperating scientists and graduate students. This policy has been largely responsible for the intellectual growth of the HBES, as well as its role as a center for undergraduate and graduate education in ecosystem science.</p>
 <p>HBES has developed into a relatively complex matrix of projects involving a large number of scientists from diverse disciplines. Beginning in 1987, core funding for the HBES has been provided through the Long-term Ecological Research (LTER) network of the National Science Foundation. Together with support from the USDA Forest Service, the LTER program provides base funding for most monitoring activities in the HBES. Individuals or groups of researchers are supported by competitive grants to pursue a variety of specific research studies in the HBES in cooperation with the LTER program. From 1963, over 1750 publications have been produced through the HBES, providing a wealth of information on the structure, function and development of forest, stream and lake ecosystems.</p>
@@ -409,13 +441,13 @@ Table&nbsp;1.1: Summary soils data for Watershed 5 at the HBEF (after Johnson et
 </section>
 <section id="conceptual-background" class="level2" data-number="1.7">
 <h2 data-number="1.7" class="anchored" data-anchor-id="conceptual-background"><span class="header-section-number">1.7</span> Conceptual Background</h2>
-<p>The mission of the Hubbard Brook Ecosystem Study is to improve understanding of the response of northern forest ecosystems to natural and anthropogenic disturbances. In the overall conceptual model underlying the Study (<a href="#fig-conceptual-diagram" class="quarto-xref">Figure&nbsp;<span>1.2</span></a>), three types of disturbances - changing atmospheric chemistry, climate, and biota - drive changes in the interacting components of the ecosystem, including vegetation, biogeochemistry, hydrology, and food webs. These changes play out on a template that includes the biogeophysical characteristics of the landscape. The ecosystem responses may feedback to modify the template and alter biotic change. The template and the functional responses change through time in response to the disturbances and internal drivers.</p>
-<div id="fig-conceptual-diagram" class="quarto-float quarto-figure quarto-figure-center anchored">
+<p>The mission of the Hubbard Brook Ecosystem Study is to improve understanding of the response of northern forest ecosystems to natural and anthropogenic disturbances. In the overall conceptual model underlying the Study (<a href="#fig-sitehist-conceptual-diagram" class="quarto-xref">Figure&nbsp;<span>1.2</span></a>), three types of disturbances - changing atmospheric chemistry, climate, and biota - drive changes in the interacting components of the ecosystem, including vegetation, biogeochemistry, hydrology, and food webs. These changes play out on a template that includes the biogeophysical characteristics of the landscape. The ecosystem responses may feedback to modify the template and alter biotic change. The template and the functional responses change through time in response to the disturbances and internal drivers.</p>
+<div id="fig-sitehist-conceptual-diagram" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-conceptual-diagram-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-sitehist-conceptual-diagram-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="figs/Intro/ConceptualDiagram.png" class="img-fluid figure-img">
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-conceptual-diagram-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sitehist-conceptual-diagram-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1.2: Conceptual model underlying the Hubbard Brook Ecosystem Study
 </figcaption>
 </figure>
@@ -453,7 +485,7 @@ Figure&nbsp;1.5: The conceptual model of the hierarchical response of ecosystem 
 </figcaption>
 </figure>
 </div>
-<p>Our conceptual model of the biogeophysical template on an idealized hillslope (<a href="#fig-biophysical-template" class="quarto-xref">Figure&nbsp;<span>1.6</span></a>) shows five slope positions along a depth-to-bedrock gradient that results in predictable variation in soils, shallow groundwater movement, and saturation frequency. Hydro-bio-pedo interactions along these soil-slope variations structure vegetation and other biota, form linkages with temporary and perennial streams, and shape the complex functional responses of ecosystem components (<a href="#fig-conceptual-diagram" class="quarto-xref">Figure&nbsp;<span>1.2</span></a>).</p>
+<p>Our conceptual model of the biogeophysical template on an idealized hillslope (<a href="#fig-biophysical-template" class="quarto-xref">Figure&nbsp;<span>1.6</span></a>) shows five slope positions along a depth-to-bedrock gradient that results in predictable variation in soils, shallow groundwater movement, and saturation frequency. Hydro-bio-pedo interactions along these soil-slope variations structure vegetation and other biota, form linkages with temporary and perennial streams, and shape the complex functional responses of ecosystem components (<a href="#fig-sitehist-conceptual-diagram" class="quarto-xref">Figure&nbsp;<span>1.2</span></a>).</p>
 <div id="fig-biophysical-template" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-biophysical-template-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -467,15 +499,20 @@ Figure&nbsp;1.6: The conceptual model of the biogeophysical template on an ideal
 </section>
 <section id="research-approaches" class="level2" data-number="1.8">
 <h2 data-number="1.8" class="anchored" data-anchor-id="research-approaches"><span class="header-section-number">1.8</span> Research Approaches</h2>
-<p>The framework for the HBES is the small watershed approach which provides precise quantitative water and element input-output budgets for the forested ecosystems. In a catchment where the underlying bedrock is impermeable, water falling on the catchment leaves only by evapotranspiration (ET) or as stream discharge. By quantifying the latter, annual ET can be calculated by difference:</p>
-<p>Eq. 1. AET = Precipitation – stream discharge</p>
-<p>For chemical elements without a gas phase at Earth temperature, the small watershed also allows estimation of soil weathering (Johnson et al.&nbsp;1981):</p>
-<p>Eq. 2. Weathering = stream output – atmospheric input + ∆ storage</p>
+<p>The framework for the HBES is the small watershed approach which provides precise quantitative water and element input-output budgets for the forested ecosystems. In a catchment where the underlying bedrock is impermeable, water falling on the catchment leaves only by evapotranspiration (ET) or as stream discharge. By quantifying the latter, annual ET can be calculated by difference {<a href="#eq-et" class="quarto-xref">Equation&nbsp;<span>1.1</span></a>}</p>
+<p><span id="eq-et"><span class="math display">\[
+AET = Precipitation – stream discharge
+\tag{1.1}\]</span></span></p>
+<p>For chemical elements without a gas phase at Earth temperature, the small watershed also allows estimation of soil weathering (Johnson et al.&nbsp;1981) {<a href="#eq-weathering" class="quarto-xref">Equation&nbsp;<span>1.2</span></a>}</p>
+<p><span id="eq-weathering"><span class="math display">\[
+Weathering = stream output – atmospheric input + ∆ storage
+\tag{1.2}\]</span></span></p>
 <p>Here, the stream output and atmospheric input of an element are determined as the product of water flux and the element concentration in the water. The ∆ storage term refers to any change in the stock or pool of an element in the soil organic matter or vegetation biomass in the ecosystem. For example, when vegetation biomass is aggrading some of the chemicals weathered from soil minerals are accumulating in the trees rather than lost in stream discharge and the ∆ storage term is positive in Equation 2. Also, some elements enter the ecosystems as dry rather than wet deposition (e.g.&nbsp;dust particles), and this flux is included in the atmospheric input term.</p>
 <p>For elements with gaseous phases (e.g., N, C), separate measurements of gas fluxes in and out of the ecosystem are needed to estimate material budgets (see below). Experimental manipulations (e.g., forest harvest, fertilization) can be applied at the small watershed scale to quantify whole ecosystem responses (Bormann et al.&nbsp;1974). The internal processes determining the whole ecosystem responses are measured at the plot scale at selected locations within or nearby the small watershed. Together these measurements form the basis for much of the research in the HBES including long-term monitoring as detailed below.</p>
 </section>
 <section id="atmospheric-inputs" class="level2" data-number="1.9">
 <h2 data-number="1.9" class="anchored" data-anchor-id="atmospheric-inputs"><span class="header-section-number">1.9</span> Atmospheric Inputs</h2>
+<p>Atmospheric deposition of elements to the ecosystem is the sum of wet and dry deposition. Measurement of wet deposition has been conducted on a weekly basis since 1963 at a network of sampling sites across the HBEF (<a href="#fig-rain-gauge" class="quarto-xref">Figure&nbsp;<span>1.7</span></a>). All major dissolved solutes are measured and together with precipitation water volume from standard rain gauges, element fluxes in wet deposition are determined.</p>
 <div style="float: left; width: 40%; margin-right: 1em;">
 <div id="fig-rain-gauge" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -488,11 +525,11 @@ Figure&nbsp;1.7: Atmospheric deposition collectors at Hubbard Brook.
 </figure>
 </div>
 </div>
-<p>Atmospheric deposition of elements to the ecosystem is the sum of wet and dry deposition. Measurement of wet deposition has been conducted on a weekly basis since 1963 at a network of sampling sites across the HBEF (Figure 7). All major dissolved solutes are measured and together with precipitation water volume from standard rain gauges, element fluxes in wet deposition are determined.</p>
 <p>Dry deposition of particles and gases is more difficult to quantify than wet deposition and can constitute a substantial proportion of the input of several important elements, especially nitrogen and sulfur, that are derived partly from pollutant emissions. Some of the dry deposition can be captured on artificial samplers or as canopy throughfall, but the calculation of dry deposition flux is complex and uncertain, and we refer the reader to detailed explanations in the literature (Likens et al.&nbsp;2002).</p>
 </section>
 <section id="stream-output" class="level2" data-number="1.10">
 <h2 data-number="1.10" class="anchored" data-anchor-id="stream-output"><span class="header-section-number">1.10</span> Stream Output</h2>
+<p>Stream discharge of water from nine small watersheds in the HBEF is measured continuously with 90o or 120o V-notch weirs located at the base of the surveyed catchments (<a href="#fig-weir-photo" class="quarto-xref">Figure&nbsp;<span>1.8</span></a>). The weirs continuously measure stage height in a stilling pond above the weir outlet. Each weir is calibrated by directly measuring the relationship between stage height and water flux. To calculate element fluxes, water samples for chemical analysis are collected weekly just above each weir. More frequent measurements to more precisely quantify storm-event fluxes have been conducted periodically using automated samplers. Flux of particulate matter is measured by removing accumulated material in the weir stilling pond periodically. The flux of fine suspended solids during large storm events also has been measured using permeable bags positioned below the weir.</p>
 <div style="float: right; width: 40%; margin-left: 1em;">
 <div id="fig-weir-photo" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -505,7 +542,6 @@ Figure&nbsp;1.8: Photograph of a V-notch weir at Hubbard Brook
 </figure>
 </div>
 </div>
-<p>Stream discharge of water from nine small watersheds in the HBEF is measured continuously with 90o or 120o V-notch weirs located at the base of the surveyed catchments (<a href="#fig-weir-photo" class="quarto-xref">Figure&nbsp;<span>1.8</span></a>). The weirs continuously measure stage height in a stilling pond above the weir outlet. Each weir is calibrated by directly measuring the relationship between stage height and water flux. To calculate element fluxes, water samples for chemical analysis are collected weekly just above each weir. More frequent measurements to more precisely quantify storm-event fluxes have been conducted periodically using automated samplers. Flux of particulate matter is measured by removing accumulated material in the weir stilling pond periodically. The flux of fine suspended solids during large storm events also has been measured using permeable bags positioned below the weir.</p>
 </section>
 <section id="forest-vegetation" class="level2" data-number="1.11">
 <h2 data-number="1.11" class="anchored" data-anchor-id="forest-vegetation"><span class="header-section-number">1.11</span> Forest Vegetation</h2>
@@ -518,6 +554,7 @@ Figure&nbsp;1.8: Photograph of a V-notch weir at Hubbard Brook
 <section id="gaseous-output" class="level2" data-number="1.13">
 <h2 data-number="1.13" class="anchored" data-anchor-id="gaseous-output"><span class="header-section-number">1.13</span> Gaseous Output</h2>
 <p>The small watershed approach does not, by itself, account for outputs in gas phase, an important flux pathways for the nutrient element nitrogen. Gaseous flux of N remains a key uncertainty in the N budget at the HBEF (Yanai et al.&nbsp;2013). The principal gaseous flux of N results from denitrification, a process that is notoriously variable in space and time. The flux chamber approach, in which the accumulation of gaseous N diffusing from soil is measured over short time intervals (e.g.&nbsp;minutes), is applied routinely to estimate flux of nitrous oxide in several plots in and around the experimental watersheds at the HBEF. Unfortunately, because of the high background in the atmosphere this approach is not effective for measuring N2 flux. Laboratory, isotopic and modeling approaches have provided indirect estimates of N2 flux from soils (e.g., Wexler et al.&nbsp;2014).</p>
+<p>Fluxes of carbon dioxide and water vapor from the forest ecosystem can be estimated using aerodynamic approaches with eddy flux towers. Recently, an eddy flux tower has been installed in the lower valley at the HBEF and began collecting data in 2016 (<a href="#fig-flux-tower" class="quarto-xref">Figure&nbsp;<span>1.9</span></a>). The facility will soon provide the first direct estimates of gross primary production, autotrophic and total ecosystem respiration, and net ecosystem productivity for the forest in the footprint of the tower.</p>
 <div style="float: left; width: 40%; margin-right: 1em;">
 <div id="fig-flux-tower" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -530,7 +567,6 @@ Figure&nbsp;1.9: Photograph of flux tower instrumentation at Hubbard Brook.
 </figure>
 </div>
 </div>
-<p>Fluxes of carbon dioxide and water vapor from the forest ecosystem can be estimated using aerodynamic approaches with eddy flux towers. Recently, an eddy flux tower has been installed in the lower valley at the HBEF and began collecting data in 2016 (<a href="#fig-flux-tower" class="quarto-xref">Figure&nbsp;<span>1.9</span></a>). The facility will soon provide the first direct estimates of gross primary production, autotrophic and total ecosystem respiration, and net ecosystem productivity for the forest in the footprint of the tower.</p>
 </section>
 <section id="internal-element-fluxes" class="level2" data-number="1.14">
 <h2 data-number="1.14" class="anchored" data-anchor-id="internal-element-fluxes"><span class="header-section-number">1.14</span> Internal Element Fluxes</h2>
@@ -539,44 +575,27 @@ Figure&nbsp;1.9: Photograph of flux tower instrumentation at Hubbard Brook.
 </section>
 <section id="references" class="level2" data-number="1.15">
 <h2 data-number="1.15" class="anchored" data-anchor-id="references"><span class="header-section-number">1.15</span> References</h2>
-<div class="references">
-<p>
-Bormann, F. H., Likens, G. E., Siccama, T. G., Pierce, R. S., &amp; Eaton, J. S. (1974). The export of nutrients and recovery of stable conditions following deforestation at Hubbard Brook. <em>Ecological Monographs, 44</em>(3), 255–277. <a href="https://doi.org/10.2307/1942311">https://doi.org/10.2307/1942311</a>
-</p>
-<p>
-Cho, Y., Driscoll, C. T., Johnson, C. E., &amp; Siccama, T. G. (2010). Chemical changes in soil and soil solution after calcium silicate addition to a northern hardwood forest. <em>Biogeochemistry, 100</em>, 3–20. <a href="https://doi.org/10.1007/s10533-009-9397-6">https://doi.org/10.1007/s10533-009-9397-6</a>
-</p>
-<p>
-Fahey, T. J., Templer, P. H., Anderson, B. T., Battles, J. J., Campbell, J. L., Driscoll, C. T., Fusco, A. R., Green, M. B., Kassam, K. A. S., Rodenhouse, N. L., &amp; Rustad, L. (2015). The promise and peril of intensive site-based ecological research: Insights from the Hubbard Brook ecosystem study. <em>Ecology, 96</em>(4), 885–901. <a href="https://doi.org/10.1890/14-1043.1">https://doi.org/10.1890/14-1043.1</a>
-</p>
-<p>
-Johnson, C. E., Johnson, A. H., Huntington, T. G., &amp; Siccama, T. G. (1991). Whole-tree clear-cutting effects on soil horizons and organic-matter pools. <em>Soil Science Society of America Journal, 55</em>, 497–502. <a href="https://doi.org/10.2136/sssaj1991.03615995005500020042x">https://doi.org/10.2136/sssaj1991.03615995005500020042x</a>
-</p>
-<p>
-Johnson, N. M., Driscoll, C. T., Eaton, J. S., Likens, G. E., &amp; McDowell, W. H. (1981). Acid rain, dissolved aluminum and chemical weathering at the Hubbard Brook Experimental Forest, New Hampshire. <em>Geochimica et Cosmochimica Acta, 45</em>(9), 1421–1437. <a href="https://doi.org/10.1016/0016-7037(81)90276-3">https://doi.org/10.1016/0016-7037(81)90276-3</a>
-</p>
-<p>
-Likens, G. E., Driscoll, C. T., Buso, D. C., Mitchell, M. J., Lovett, G. M., Bailey, S. W., Siccama, T. G., Reiners, W. A., &amp; Alewell, C. (2002). The biogeochemistry of sulfur at Hubbard Brook. <em>Biogeochemistry, 60</em>(3), 235–316. <a href="https://doi.org/10.1023/A:1020972100496">https://doi.org/10.1023/A:1020972100496</a>
-</p>
-<p>
-Lovett, G. M., Nolan, S. S., Driscoll, C. T., &amp; Fahey, T. J. (1996). Factors regulating throughfall flux in a New Hampshire forested landscape. <em>Canadian Journal of Forest Research, 26</em>, 2134–2144. <a href="https://doi.org/10.1139/x26-241">https://doi.org/10.1139/x26-241</a>
-</p>
-<p>
-Ryan, D. F., &amp; Bormann, F. H. (1982). Nutrient resorption in northern hardwood forests. <em>BioScience, 32</em>(1), 29–32. <a href="https://doi.org/10.2307/1308541">https://doi.org/10.2307/1308541</a>
-</p>
-<p>
-Siccama, T. G., Hamburg, S. P., Arthur, M. A., Yanai, R. D., Bormann, F. H., &amp; Likens, G. E. (1994). Corrections to allometric equations and plant tissue chemistry for Hubbard Brook Experimental Forest. <em>Ecology, 75</em>(1), 246–248. <a href="https://doi.org/10.2307/1939407">https://doi.org/10.2307/1939407</a>
-</p>
-<p>
-Wexler, S. K., Goodale, C. L., McGuire, K. J., Bailey, S. W., &amp; Groffman, P. M. (2014). Isotopic signals of summer denitrification in a northern hardwood forested catchment. <em>Proceedings of the National Academy of Sciences, 111</em>(46), 16413–16418. <a href="https://doi.org/10.1073/pnas.1404321111">https://doi.org/10.1073/pnas.1404321111</a>
-</p>
-<p>
-Whittaker, R. H., Bormann, F. H., Likens, G. E., &amp; Siccama, T. G. (1974). The Hubbard Brook ecosystem study: Forest biomass and production. <em>Ecological Monographs, 44</em>(2), 233–254. <a href="https://doi.org/10.2307/1942313">https://doi.org/10.2307/1942313</a>
-</p>
-<p>
-Yanai, R. D., Vadeboncoeur, M. A., Hamburg, S. P., Arthur, M. A., Fuss, C. B., Groffman, P. M., Siccama, T. G., &amp; Driscoll, C. T. (2013). From missing source to missing sink: Long-term changes in the nitrogen budget of a northern hardwood forest. <em>Environmental Science &amp; Technology, 47</em>(20), 11440–11448. <a href="https://doi.org/10.1021/es402572j">https://doi.org/10.1021/es402572j</a>
-</p>
-</div>
+<p>Bormann, F. H., Likens, G. E., Siccama, T. G., Pierce, R. S., &amp; Eaton, J. S. (1974). The export of nutrients and recovery of stable conditions following deforestation at Hubbard Brook. <em>Ecological Monographs, 44</em>(3), 255–277. <a href="https://doi.org/10.2307/2937031" target="_blank">https://doi.org/10.2307/2937031</a></p>
+<p>Cho, Y., Driscoll, C. T., Johnson, C. E., &amp; Siccama, T. G. (2010).<br>
+Chemical changes in soil and soil solution after calcium silicate addition to a northern hardwood forest. <em>Biogeochemistry, 100</em>, 103–???. <a href="https://doi.org/10.1007/s10533-009-9397-6" target="_blank">https://doi.org/10.1007/s10533-009-9397-6</a></p>
+<p>Fahey, T. J., Templer, P. H., Anderson, B. T., Battles, J. J., Campbell, J. L., Driscoll, C. T., Fusco, A. R., Green, M. B., Kassam, K. A. S., Rodenhouse, N. L., &amp; Rustad, L. (2015).<br>
+The promise and peril of intensive site-based ecological research: Insights from the Hubbard Brook ecosystem study. <em>Ecology, 96</em>(4), 885–901. <a href="https://doi.org/10.1890/14-1043.1" target="_blank">https://doi.org/10.1890/14-1043.1</a></p>
+<p>Johnson, C. E., Johnson, A. H., Huntington, T. G., &amp; Siccama, T. G. (1991).<br>
+Whole-tree clear-cutting effects on soil horizons and organic-matter pools. <em>Soil Science Society of America Journal, 55</em>, 497–502. <a href="https://doi.org/10.2136/sssaj1991.03615995005500020035x" target="_blank">https://doi.org/10.2136/sssaj1991.03615995005500020035x</a></p>
+<p>Johnson, N. M., Driscoll, C. T., Eaton, J. S., Likens, G. E., &amp; McDowell, W. H. (1981).<br>
+Acid rain, dissolved aluminum, and chemical weathering at the Hubbard Brook Experimental Forest, New Hampshire. <em>Geochimica et Cosmochimica Acta, 45</em>(9), 1421–1437. <a href="https://doi.org/10.1016/0016-7037(81)90276-0" target="_blank">https://doi.org/10.1016/0016-7037(81)90276-0</a></p>
+<p>Likens, G. E., Driscoll, C. T., Buso, D. C., Mitchell, M. J., Lovett, G. M., Bailey, S. W., Siccama, T. G., Reiners, W. A., &amp; Alewell, C. (2002).<br>
+The biogeochemistry of sulfur at Hubbard Brook. <em>Biogeochemistry, 60</em>(3), 235–316. <a href="https://doi.org/10.1023/A:1020972100496" target="_blank">https://doi.org/10.1023/A:1020972100496</a></p>
+<p>Lovett, G. M., Nolan, S. S., Driscoll, C. T., &amp; Fahey, T. J. (1996).<br>
+Factors regulating throughfall flux in a New Hampshire forested landscape. <em>Canadian Journal of Forest Research, 26</em>, 2134–2144. <a href="https://doi.org/10.1139/x26-242" target="_blank">https://doi.org/10.1139/x26-242</a></p>
+<p>Ryan, D. F., &amp; Bormann, F. H. (1982). Nutrient resorption in northern hardwood forests. <em>BioScience, 32</em>(1), 29–32. <a href="https://doi.org/10.2307/1308751" target="_blank">https://doi.org/10.2307/1308751</a></p>
+<p>Siccama, T. G., Hamburg, S. P., Arthur, M. A., Yanai, R. D., Bormann, F. H., &amp; Likens, G. E. (1994).<br>
+Corrections to allometric equations and plant tissue chemistry for Hubbard Brook Experimental Forest. <em>Ecology, 75</em>(1), 246–248. <a href="https://doi.org/10.2307/1939398" target="_blank">https://doi.org/10.2307/1939398</a></p>
+<p>Wexler, S. K., Goodale, C. L., McGuire, K. J., Bailey, S. W., &amp; Groffman, P. M. (2014).<br>
+Isotopic signals of summer denitrification in a northern hardwood forested catchment. <em>Proceedings of the National Academy of Sciences, 111</em>(46), 16413–16418. <a href="https://doi.org/10.1073/pnas.1404321111" target="_blank">https://doi.org/10.1073/pnas.1404321111</a></p>
+<p>Whittaker, R. H., Bormann, F. H., Likens, G. E., &amp; Siccama, T. G. (1974).<br>
+The Hubbard Brook ecosystem study: Forest biomass and production. <em>Ecological Monographs, 44</em>(2), 233–254. <a href="https://doi.org/10.2307/1942313" target="_blank">https://doi.org/10.2307/1942313</a></p>
+<p>Yanai, R. D., Vadeboncoeur, M. A., Hamburg, S. P., Arthur, M. A., Fuss, C. B., Groffman, P. M., Siccama, T. G., &amp; Driscoll, C. T. (2013). From missing source to missing sink: Long-term changes in the nitrogen budget of a northern hardwood forest. <em>Environmental Science &amp; Technology, 47</em>(20), 11440–11448. <a href="https://doi.org/10.1021/es4025723" target="_blank">https://doi.org/10.1021/es4025723</a></p>
 
 
 </section>
@@ -686,6 +705,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

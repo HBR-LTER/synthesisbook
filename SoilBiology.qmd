@@ -3,6 +3,9 @@ title: "Soil Biology in the Forested Ecosystem"
 format: html
 ---
 
+<div id="sec-soilbiologychapter"></div>
+
+
 # Where do the leaves go: The importance of soil biology in the forest ecosystem.
 
 Chapter Editors: Peter Groffman and Melany Fisk
@@ -39,7 +42,7 @@ The suite of microbial biomass and activity measurements includes microbial biom
 
 At the same time that fumigated and inoculated samples are incubating, parallel incubations of unfumigated soil provide estimates of microbial respiration, potential net nitrogen mineralization, and potential net nitrification. These process rates are calculated from the accumulation of carbon dioxide, ammonium plus nitrate, and nitrate only respectively. Results from these incubations can also be expressed as pools of labile carbon and nitrogen. Samples are also analyzed for denitrification potential using a short term anaerobic assay (Groffman et al. 1999).
 
-Microbial biomass carbon (@fig-MicrobialCarbon) and nitrogen (@fig-MicrobialNitrogen) content vary markedly with soil horizon, with higher concentrations in the Oie (surface, less decomposed organic material) than in the Oa (just below the Oie, more decomposed organic material) and much lower levels in the top 10 cm of the mineral soil. These differences closely track the organic matter content of the different horizons and are consistent with ideas that microbial biomass represents approximately 1% of the total soil organic carbon pool (Anderson and Domsch 1989). The C:N (F@fig-MicrobialCN) of the microbial biomass does not consistently vary with soil horizon.
+Microbial biomass carbon (@fig-MicrobialCarbon) and nitrogen (@fig-MicrobialNitrogen) content vary markedly with soil horizon, with higher concentrations in the Oie (surface, less decomposed organic material) than in the Oa (just below the Oie, more decomposed organic material) and much lower levels in the top 10 cm of the mineral soil. These differences closely track the organic matter content of the different horizons and are consistent with ideas that microbial biomass represents approximately 1% of the total soil organic carbon pool (Anderson and Domsch 1989). The C:N (@fig-MicrobialCN) of the microbial biomass does not consistently vary with soil horizon.
 
 ::: {#fig-MicrobialCarbon}
 <iframe src="https://hubbardbrook.github.io/soilBiology/f1_micro_biomass_C.html" width="100%" height="600" style="border: none;">
@@ -80,7 +83,7 @@ Microbial respiration in the Oie, Oa and mineral soil horizons in the Bear Brook
 
 :::
 
-An increase in microbial biomass carbon would be consistent with long-term declines in watershed nitrogen export (see Nitrogen Cycling chapter) that have been observed at Hubbard Brook and with ideas about a climate and carbon-driven nitrogen oligotrophication that has developed since the 1990’s (Durán et al. 2016, Groffman et al. 2018). These ideas center on increases in the flow of carbon from the atmosphere through vegetation and into soils driven by increases in atmospheric CO2 (Drake et al. 2011, Zak et al. 2011) and from the forest floor into soils by deacidificaton (Oulehle et al. 2011). Increases in carbon flow to soil should lead to increases in microbial biomass and respirable carbon (or soil respiration, @fig-MicrobialRespiration), which would increase demand for microbial biomass nitrogen and the C:N of the microbial biomass. While there are hints of such increases in our long-term data, more detailed and high resolution studies are needed to determine if these dynamics are occurring at Hubbard Brook. 
+An increase in microbial biomass carbon would be consistent with long-term declines in watershed nitrogen export (see Nitrogen Cycling chapter) that have been observed at Hubbard Brook and with ideas about a climate and carbon-driven nitrogen oligotrophication that has developed since the 1990’s (Durán et al. 2016, Groffman et al. 2018). These ideas center on increases in the flow of carbon from the atmosphere through vegetation and into soils driven by increases in atmospheric CO2 (Drake et al. 2011, Zak et al. 2011) and from the forest floor into soils by deacidification (Oulehle et al. 2011). Increases in carbon flow to soil should lead to increases in microbial biomass and respirable carbon (or soil respiration, @fig-MicrobialRespiration), which would increase demand for microbial biomass nitrogen and the C:N of the microbial biomass. While there are hints of such increases in our long-term data, more detailed and high resolution studies are needed to determine if these dynamics are occurring at Hubbard Brook. 
 
 We have most recently observed a striking increase in emissions of CO2 from soils in and around Hubbard Brook (Mann et al. 2024, Possinger et al. 2025). Long-term field monitoring of soil respiration at HBEF and accompanying the MELNHE experiment at a suite of sites in the region both indicate a doubling of CO2 emissions beginning in about 2012-2013 and continuing to the present (@fig-co2flux). These observations are consistent with the hypothesized increased flow of C through trees to soil. The mystery now is what mechanisms can account for such an abrupt change in soil C cycling. More detailed and high resolution studies are needed to determine the causes of these dynamics in the soils at Hubbard Brook. 
 
@@ -131,11 +134,11 @@ Long-term enrichment of N from anthropogenic deposition is likely one of the mos
 
 ::: {style="float: right; width: 40%; margin-right: 1em;"}
 
-![Relationships among microarthropods, microbial C, and fine root biomass (n = 8 sites) along elevation gradients at Hubbard Brook. Circles represent hardwood sites, diamonds represent spruce-fir sites. From Fisk et al. (2006)](figs/SoilBiology/SoilBiology_Arthropods.png){#SoilBiology_Arthropods}
+![Relationships among microarthropods, microbial C, and fine root biomass (n = 8 sites) along elevation gradients at Hubbard Brook. Circles represent hardwood sites, diamonds represent spruce-fir sites. From Fisk et al. (2006)](figs/SoilBiology/SoilBiology_Arthropods.png){#fig-SoilBiology_Arthropods}
 
 :::
 
-The long-term microbial biomass carbon and nitrogen monitoring sites have been used as a platform for analysis of soil faunal populations at Hubbard Brook. Fisk et al. 2010 extracted microarthropods from soil cores collected from the Oe + Oa layers of the forest floor. Microarthropods in all samples were separated into four major groups for enumeration: Collembola, and three Acari suborders (Mesostigmata, Prostigmata, and Oribatei). These data and the long-term microbial biomass and activity data were used to explore relationships among detrital C sources, decomposer microorganisms, microarthropod abundance, and nitrogen availability across the landscape. Microarthropod abundances in the forest floor were very high (Oe + Oa horizons; 106,000/m2 to 184,500/m2) and varied with elevation, with consistently higher numbers in low-elevation hardwoods and upper conifer zones and lower abundance in mid- and high-elevation hardwoods. Similar patterns were observed for microbial biomass C and respiration in the Oie horizon suggesting that microarthropod abundance and microbial biomass respond to similar factors across the landscape (@fig-MicrobialCarbon). Neither microbial biomass nor microarthropod abundance were related to forest floor mass or to annual aboveground fine litterfall flux. However, a positive correlation with fine root biomass (@fig-MicrobialCarbon) suggests that roots may be the key source of carbon for both groups.
+The long-term microbial biomass carbon and nitrogen monitoring sites have been used as a platform for analysis of soil faunal populations at Hubbard Brook. Fisk et al. 2010 extracted microarthropods from soil cores collected from the Oe + Oa layers of the forest floor. Microarthropods in all samples were separated into four major groups for enumeration: Collembola, and three Acari suborders (Mesostigmata, Prostigmata, and Oribatei). These data and the long-term microbial biomass and activity data were used to explore relationships among detrital C sources, decomposer microorganisms, microarthropod abundance, and nitrogen availability across the landscape. Microarthropod abundances in the forest floor were very high (Oe + Oa horizons; 106,000/m2 to 184,500/m2) and varied with elevation, with consistently higher numbers in low-elevation hardwoods and upper conifer zones and lower abundance in mid- and high-elevation hardwoods. Similar patterns were observed for microbial biomass C and respiration in the Oie horizon suggesting that microarthropod abundance and microbial biomass respond to similar factors across the landscape (@fig-SoilBiology_Arthropods). Neither microbial biomass nor microarthropod abundance were related to forest floor mass or to annual aboveground fine litterfall flux. However, a positive correlation with fine root biomass (@fig-SoilBiology_Arthropods) suggests that roots may be the key source of carbon for both groups.
 
 Christenson et al. 2018 examined litter and soil invertebrates along elevation gradients at Hubbard Brook to explore the role of climate, especially winter snow depth and soil freezing, as a controller of invertebrates and litter decomposition. Overall abundance and richness of invertebrates in litter declined with elevation, while the diversity and abundance of soil invertebrates did not vary along the gradient. Relationships between invertebrate communities, snow depth, soil temperature, soil moisture and decomposition were complex suggesting that more detailed studies of climate drivers and change are needed to predict future changes. Templer et al. 2012b explored these drivers in more detail with a snow-removal treatment that increased the depth and duration of soil frost, decreased soil temperatures, and led to a reduced abundance of some arthropod taxa, including Araneae, Pseudoscorpionida, Hymenoptera, Collembola, adult Coleoptera, and larval Diptera and an increase in other taxa, including Hemiptera. Delayed snowpack also decreased arthropod richness by 30% and Simpson’s index of diversity by 22% during the subsequent growing season. These experimental results suggest that winter climate changes may reduce the abundance and alter the community composition of arthropods living in the forest floor, which could have implications for how the forests at Hubbard Brook respond to future environmental change.
 
@@ -163,142 +166,139 @@ We give these examples not to diminish the importance or decrease interest in de
 
 ## References
 
-<p>Anderson, T. H., & Domsch, K. H. (1985). Determination of ecophysiological maintenance carbon requirements of soil microorganisms in a dormant state. <em>Biology and Fertility of Soils, 1</em>, 81–89. <a href="https://doi.org/10.1007/BF00255134">https://doi.org/10.1007/BF00255134</a></p>
+Anderson, T. H., & Domsch, K. H. (1985). Determination of ecophysiological maintenance carbon requirements of soil microorganisms in a dormant state. *Biology and Fertility of Soils, 1*, 81–89. [https://doi.org/10.1007/BF00255134](https://doi.org/10.1007/BF00255134){target="_blank" rel="noopener"}
 
-<p>Anderson, T. H., & Domsch, K. H. (1989). Ratios of microbial biomass carbon to total organic carbon in arable soils. <em>Soil Biology & Biochemistry, 21</em>, 471–479. <a href="https://doi.org/10.1016/0038-0717(89)90117-X">https://doi.org/10.1016/0038-0717(89)90117-X</a></p>
+Anderson, T. H., & Domsch, K. H. (1989). Ratios of microbial biomass carbon to total organic carbon in arable soils. *Soil Biology & Biochemistry, 21*, 471–479. [https://doi.org/10.1016/0038-0717(89)90117-X](https://doi.org/10.1016/0038-0717(89)90117-X){target="_blank" rel="noopener"}
 
-<p>Battles, J. J., Fahey, T. J., Driscoll, C. T., Jr., Blum, J. D., & Johnson, C. E. (2014). Restoring soil calcium reverses forest decline. <em>Environmental Science & Technology Letters, 1</em>, 15–19. <a href="https://doi.org/10.1021/ez400033d">https://doi.org/10.1021/ez400033d</a></p>
+Battles, J. J., Fahey, T. J., Driscoll, C. T., Jr., Blum, J. D., & Johnson, C. E. (2014). Restoring soil calcium reverses forest decline. *Environmental Science & Technology Letters, 1*, 15–19. [https://doi.org/10.1021/ez400033d](https://doi.org/10.1021/ez400033d){target="_blank" rel="noopener"}
 
-<p>Beier, C. M., Woods, A. M., Hotopp, K. P., Gibbs, J. P., Mitchell, M. J., Dovčiak, M., Leopold, D. J., Lawrence, G. B., & Page, B. D. (2012). Changes in faunal and vegetation communities along a soil calcium gradient in northern hardwood forests. <em>Canadian Journal of Forest Research, 42</em>, 1141–1152. <a href="https://doi.org/10.1139/x2012-066">https://doi.org/10.1139/x2012-066</a></p>
+Beier, C. M., Woods, A. M., Hotopp, K. P., Gibbs, J. P., Mitchell, M. J., Dovčiak, M., Leopold, D. J., Lawrence, G. B., & Page, B. D. (2012). Changes in faunal and vegetation communities along a soil calcium gradient in northern hardwood forests. *Canadian Journal of Forest Research, 42*, 1141–1152. [https://doi.org/10.1139/x2012-071](https://doi.org/10.1139/x2012-071){target="_blank" rel="noopener"}
 
-<p>Blagodatskaya, E., & Kuzyakov, Y. (2013). Active microorganisms in soil: Critical review of estimation criteria and approaches. <em>Soil Biology & Biochemistry, 67</em>, 192–211. <a href="https://doi.org/10.1016/j.soilbio.2013.08.024">https://doi.org/10.1016/j.soilbio.2013.08.024</a></p>
+Blagodatskaya, E., & Kuzyakov, Y. (2013). Active microorganisms in soil: Critical review of estimation criteria and approaches. *Soil Biology & Biochemistry, 67*, 192–211. [https://doi.org/10.1016/j.soilbio.2013.08.024](https://doi.org/10.1016/j.soilbio.2013.08.024){target="_blank" rel="noopener"}
 
-<p>Bohlen, P. J., Groffman, P. M., Driscoll, C. T., Fahey, T. J., & Siccama, T. G. (2001). Plant–soil–microbial interactions in a northern hardwood forest. <em>Ecology, 82</em>, 965–978. <a href="https://doi.org/10.1890/0012-9658(2001)082[0965:PSMIIA]2.0.CO;2">https://doi.org/10.1890/0012-9658(2001)082\[0965:PSMIIA\]2.0.CO;2</a></p>
+Bohlen, P. J., Groffman, P. M., Driscoll, C. T., Fahey, T. J., & Siccama, T. G. (2001). Plant–soil–microbial interactions in a northern hardwood forest. *Ecology, 82*, 965–978. [https://doi.org/10.1890/0012-9658(2001)082[0965:PSMIIA]2.0.CO;2](https://doi.org/10.1890/0012-9658(2001)082[0965:PSMIIA]2.0.CO;2){target="_blank" rel="noopener"}
 
-<p>Bohlen, P. J., Groffman, P. M., Fahey, T. J., Fisk, M. C., Suarez, E., Pelletier, D. M., & Fahey, R. T. (2004). Ecosystem consequences of exotic earthworm invasion of north temperate forests. <em>Ecosystems, 7</em>, 1–12. <a href="https://doi.org/10.1007/s10021-003-0126-z">https://doi.org/10.1007/s10021-003-0126-z</a></p>
+Bohlen, P. J., Groffman, P. M., Fahey, T. J., Fisk, M. C., Suarez, E., Pelletier, D. M., & Fahey, R. T. (2004). Ecosystem consequences of exotic earthworm invasion of north temperate forests. *Ecosystems, 7*, 1–12. [https://doi.org/10.1007/s10021-003-0126-z](https://doi.org/10.1007/s10021-003-0126-z){target="_blank" rel="noopener"}
 
-<p>Bormann, F. H., & Likens, G. E. (1967). Nutrient cycling. <em>Science, 155</em>, 424–429. <a href="https://doi.org/10.1126/science.155.3761.424">https://doi.org/10.1126/science.155.3761.424</a></p>
+Bormann, F. H., & Likens, G. E. (1967). Nutrient cycling. *Science, 155*, 424–429. [https://doi.org/10.1126/science.155.3761.424](https://doi.org/10.1126/science.155.3761.424){target="_blank" rel="noopener"}
 
-<p>Brookes, P. C., Tate, K. R., & Jenkinson, D. S. (1983). The adenylate energy-charge of the soil microbial biomass. <em>Soil Biology & Biochemistry, 15</em>, 9–16. <a href="https://doi.org/10.1016/0038-0717(83)90125-1">https://doi.org/10.1016/0038-0717(83)90125-1</a></p>
+Brookes, P. C., Tate, K. R., & Jenkinson, D. S. (1983). The adenylate energy-charge of the soil microbial biomass. *Soil Biology & Biochemistry, 15*, 9–16. [https://doi.org/10.1016/0038-0717(83)90112-8](https://doi.org/10.1016/0038-0717(83)90112-8){target="_blank" rel="noopener"}
 
-<p>Brussaard, L. (1998). Soil fauna, guilds, functional groups and ecosystem processes. <em>Applied Soil Ecology, 9</em>, 123–135. <a href="https://doi.org/10.1016/S0929-1393(98)00065-1">https://doi.org/10.1016/S0929-1393(98)00065-1</a></p>
+Brussaard, L. (1998). Soil fauna, guilds, functional groups and ecosystem processes. *Applied Soil Ecology, 9*, 123–135. [https://doi.org/10.1016/S0929-1393(98)00066-3](https://doi.org/10.1016/S0929-1393(98)00066-3){target="_blank" rel="noopener"}
 
-<p>Campbell, J. L., Socci, A. M., & Templer, P. H. (2014). Increased nitrogen leaching following soil freezing is due to decreased root uptake in a northern hardwood forest. <em>Global Change Biology, 20</em>, 2663–2673. <a href="https://doi.org/10.1111/gcb.12532">https://doi.org/10.1111/gcb.12532</a></p>
+Campbell, J. L., Socci, A. M., & Templer, P. H. (2014). Increased nitrogen leaching following soil freezing is due to decreased root uptake in a northern hardwood forest. *Global Change Biology, 20*, 2663–2673. [https://doi.org/10.1111/gcb.12532](https://doi.org/10.1111/gcb.12532){target="_blank" rel="noopener"}
 
-<p>Carini, P., Marsden, P. J., Leff, J. W., Morgan, E. E., Strickland, M. S., & Fierer, N. (2016). Relic DNA is abundant in soil and obscures estimates of soil microbial diversity. <em>Nature Microbiology, 2</em>, 16242. <a href="https://doi.org/10.1038/nmicrobiol.2016.242">https://doi.org/10.1038/nmicrobiol.2016.242</a></p>
+Carini, P., Marsden, P. J., Leff, J. W., Morgan, E. E., Strickland, M. S., & Fierer, N. (2016). Relic DNA is abundant in soil and obscures estimates of soil microbial diversity. *Nature Microbiology, 2*, 16242. [https://doi.org/10.1038/nmicrobiol.2016.242](https://doi.org/10.1038/nmicrobiol.2016.242){target="_blank" rel="noopener"}
 
-<p>Christenson, L. M., Mitchell, M. J., Groffman, P. M., & Lovett, G. M. (2010). Winter climate change implications for decomposition in northeastern forests: Comparisons of sugar maple litter to herbivore fecal inputs. <em>Global Change Biology, 16</em>, 2589–2601. <a href="https://doi.org/10.1111/j.1365-2486.2010.02103.x">https://doi.org/10.1111/j.1365-2486.2010.02103.x</a></p>
+Christenson, L. M., Mitchell, M. J., Groffman, P. M., & Lovett, G. M. (2010). Winter climate change implications for decomposition in northeastern forests. *Global Change Biology, 16*, 2589–2601. [https://doi.org/10.1656/045.024.s721](https://doi.org/10.1656/045.024.s721){target="_blank" rel="noopener"}
 
-<p>Cleavitt, N. L., Fahey, T. J., Groffman, P. M., Hardy, J. P., Henry, K. S., & Driscoll, C. T. (2008). Effects of soil freezing on fine roots in a northern hardwood forest. <em>Canadian Journal of Forest Research, 38</em>, 82–91. <a href="https://doi.org/10.1139/X07-133">https://doi.org/10.1139/X07-133</a></p>
+Cleavitt, N. L., Fahey, T. J., Groffman, P. M., Hardy, J. P., Henry, K. S., & Driscoll, C. T. (2008). Effects of soil freezing on fine roots. *Canadian Journal of Forest Research, 38*, 82–91. [https://doi.org/10.1139/X07-133](https://doi.org/10.1139/X07-133){target="_blank" rel="noopener"}
 
-<p>Coleman, D. C., Crossley, D. A., & Hendrix, P. F. (2004). <em>Fundamentals of soil ecology</em> (2nd ed.). Elsevier.</p>
+Coleman, D. C., Crossley, D. A., & Hendrix, P. F. (2004). *Fundamentals of soil ecology* (2nd ed.). Elsevier.
 
-<p>Deacon, L. J., Pryce-Miller, E. J., Frankland, J. C., Bainbridge, B. W., Moore, P. D., & Robinson, C. H. (2006). Diversity and function of decomposer fungi from a grassland soil. <em>Soil Biology & Biochemistry, 38</em>, 7–20. <a href="https://doi.org/10.1016/j.soilbio.2005.04.021">https://doi.org/10.1016/j.soilbio.2005.04.021</a></p>
+Deacon, L. J., Pryce-Miller, E. J., Frankland, J. C., Bainbridge, B. W., Moore, P. D., & Robinson, C. H. (2006). Diversity and function of decomposer fungi. *Soil Biology & Biochemistry, 38*, 7–20. [https://doi.org/10.1016/j.soilbio.2005.04.013](https://doi.org/10.1016/j.soilbio.2005.04.013){target="_blank" rel="noopener"}
 
-<p>Dix, N. J., & Webster, J. (1995). <em>Fungal ecology</em>. Chapman & Hall.</p>
+Dix, N. J., & Webster, J. (1995). *Fungal ecology*. Chapman & Hall.
 
-<p>Dove, N. C., & Keeton, W. S. (2015). Structural complexity enhancement increases fungal species richness in northern hardwood forests. <em>Fungal Ecology, 13</em>, 181–192. <a href="https://doi.org/10.1016/j.funeco.2014.09.009">https://doi.org/10.1016/j.funeco.2014.09.009</a></p>
+Dove, N. C., & Keeton, W. S. (2015). Structural complexity enhancement increases fungal richness. *Fungal Ecology, 13*, 181–192. [https://doi.org/10.1016/j.funeco.2014.09.009](https://doi.org/10.1016/j.funeco.2014.09.009){target="_blank" rel="noopener"}
 
-<p>Drake, J. E., Gallet-Budynek, A., Hofmockel, K. S., Bernhardt, E. S., Billings, S. A., Jackson, R. B., et al. (2011). Increases in the flux of carbon belowground stimulate nitrogen uptake and sustain long-term forest productivity under elevated CO₂. <em>Ecology Letters, 14</em>, 349–357. <a href="https://doi.org/10.1111/j.1461-0248.2011.01593.x">https://doi.org/10.1111/j.1461-0248.2011.01593.x</a></p>
+Drake, J. E., et al. (2011). Increased carbon flux belowground stimulates nitrogen uptake. *Ecology Letters, 14*, 349–357. [https://doi.org/10.1111/j.1461-0248.2011.01593.x](https://doi.org/10.1111/j.1461-0248.2011.01593.x){target="_blank" rel="noopener"}
 
-<p>Driscoll, C. T., Lawrence, G. B., Bulger, A. J., Butler, T. J., Cronan, C. S., Eagar, C., et al. (2001). Acidic deposition in the northeastern United States: Sources and inputs, ecosystem effects, and management strategies. <em>BioScience, 51</em>, 180–198. <a href="https://doi.org/10.1641/0006-3568(2001)051[0180:ADITNU]2.0.CO;2">https://doi.org/10.1641/0006-3568(2001)051\[0180:ADITNU\]2.0.CO;2</a></p>
+Driscoll, C. T., et al. (2001). Acidic deposition in the northeastern United States. *BioScience, 51*, 180–198. [https://doi.org/10.1641/0006-3568(2001)051[0180:ADITNU]2.0.CO;2](https://doi.org/10.1641/0006-3568(2001)051[0180:ADITNU]2.0.CO;2){target="_blank" rel="noopener"}
 
-<p>Driscoll, C. T., Whitall, D., Aber, J., Boyer, E., Castro, C., Cronan, C., et al. (2003). Nitrogen pollution in the northeastern United States: Sources, effects, and management options. <em>BioScience, 53</em>, 357–374. <a href="https://doi.org/10.1641/0006-3568(2003)053[0357:NPITNU]2.0.CO;2">https://doi.org/10.1641/0006-3568(2003)053\[0357:NPITNU\]2.0.CO;2</a></p>
+Driscoll, C. T., et al. (2003). Nitrogen pollution in the northeastern United States. *BioScience, 53*, 357–374. [https://doi.org/10.1641/0006-3568(2003)053[0357:NPITNU]2.0.CO;2](https://doi.org/10.1641/0006-3568(2003)053[0357:NPITNU]2.0.CO;2){target="_blank" rel="noopener"}
 
-<p>Durán, J., Morse, J. L., Groffman, P. M., Campbell, J. L., Christenson, L. M., Driscoll, C. T., Fahey, T. J., Fisk, M. C., Likens, G. E., Melillo, J. M., Mitchell, M. J., Templer, P. H., & Vadeboncoeur, M. A. (2016). Climate change decreases nitrogen pools and mineralization rates in northern hardwood forests. <em>Ecosphere, 7</em>, e01251. <a href="https://doi.org/10.1002/ecs2.1251">https://doi.org/10.1002/ecs2.1251</a></p>
+Durán, J., et al. (2016). Climate change decreases nitrogen pools. *Ecosphere, 7*, e01251. [https://doi.org/10.1002/ecs2.1251](https://doi.org/10.1002/ecs2.1251){target="_blank" rel="noopener"}
 
-<p>Edwards, C. A. (1991). The assessment of populations of soil-inhabiting invertebrates. <em>Agriculture, Ecosystems & Environment, 34</em>, 145–176. <a href="https://doi.org/10.1016/0167-8809(91)90102-4">https://doi.org/10.1016/0167-8809(91)90102-4</a></p>
+Edwards, C. A. (1991). Soil invertebrate populations. *Agriculture, Ecosystems & Environment, 34*, 145–176. 
 
-<p>Fahey, T. J., Yavitt, J. B., Sherman, R. E., Groffman, P. M., Fisk, M. C., & Maerz, J. C. (2011). Transport of carbon and nitrogen between litter and soil organic matter in a northern hardwood forest. <em>Ecosystems, 14</em>(2), 326–340. <a href="https://doi.org/10.1007/s10021-010-9414-y">https://doi.org/10.1007/s10021-010-9414-y</a></p>
+Fahey, T. J., et al. (2011).Transport of Carbon and Nitrogen Between Litter and Soil Organic Matter in a Northern Hardwood Forest. *Ecosystems, 14*, 326–340. [https://doi.org/10.1007/s10021-011-9414-1](https://doi.org/10.1007/s10021-011-9414-1){target="_blank" rel="noopener"}
 
-<p>Finzi, A. C., Norby, R. J., Calfapietra, C., Gallet-Budynek, A., Gielen, B., Holmes, W. E., Hoosbeek, M. R., Iversen, C. M., Jackson, R. B., Kubiske, M. E., Ledford, J., Liberloo, M., Oren, R., Polle, A., Pritchard, S., Zak, D. R., Schlesinger, W. H., & Ceulemans, R. (2007). Increases in nitrogen uptake rather than nitrogen-use efficiency support higher rates of temperate forest productivity under elevated CO₂. <em>Proceedings of the National Academy of Sciences, 104</em>, 14014–14019. <a href="https://doi.org/10.1073/pnas.0706518104">https://doi.org/10.1073/pnas.0706518104</a></p>
+Finzi, A. C., et al. (2007). Increases in nitrogen uptake rather than nitrogen-use efficiency support higher rates of temperate forest productivity under elevated CO2. *PNAS, 104*, 14014–14019. [https://doi.org/10.1073/pnas.0706518104](https://doi.org/10.1073/pnas.0706518104){target="_blank" rel="noopener"}
 
-<p>Fisk, M. C., Santangelo, S., & Minick, K. J. (2015). Carbon mineralization is promoted by phosphorus and reduced by nitrogen addition in the organic horizon of northern hardwood forests. <em>Soil Biology & Biochemistry, 81</em>, 212–218. <a href="https://doi.org/10.1016/j.soilbio.2014.11.018">https://doi.org/10.1016/j.soilbio.2014.11.018</a></p>
+Fisk, M. C., et al. (2015).Carbon mineralization is promoted by phosphorus and reduced by nitrogen addition in the organic horizon of northern hardwood forests. *Soil Biology & Biochemistry, 81*, 212–218. [https://doi.org/10.1016/j.soilbio.2014.11.022](https://doi.org/10.1016/j.soilbio.2014.11.022){target="_blank" rel="noopener"}
 
-<p>Fisk, M. C., Sobieraj, J. H., Fahey, T. J., Costello, A. M., & Crist, T. O. (2011). Rhizosphere disturbance influences fungal colonization and community development on dead fine roots. <em>Plant and Soil, 341</em>, 279–293. <a href="https://doi.org/10.1007/s11104-010-0644-0">https://doi.org/10.1007/s11104-010-0644-0</a></p>
+Fisk, M. C., et al. (2011). Rhizosphere disturbance influences fungal colonization and community development on dead fine roots. *Plant and Soil, 341*, 279–293. [https://doi.org/10.1007/s11104-010-0643-4](https://doi.org/10.1007/s11104-010-0643-4){target="_blank" rel="noopener"}
 
-<p>Fisk, M. C., Fahey, T. J., & Groffman, P. M. (2010). Carbon resources, soil organisms, and nitrogen availability: Landscape patterns in a northern hardwood forest. <em>Forest Ecology and Management, 260</em>, 1175–1183. <a href="https://doi.org/10.1016/j.foreco.2010.06.039">https://doi.org/10.1016/j.foreco.2010.06.039</a></p>
+Fisk, M. C., et al. (2010). Carbon resources, soil organisms, and nitrogen availability: Landscape patterns in a northern hardwood forest. *Forest Ecology and Management, 260*, 1175–1183. [https://doi.org/10.1016/j.foreco.2010.07.009](https://doi.org/10.1016/j.foreco.2010.07.009){target="_blank" rel="noopener"}
 
-<p>Fisk, M. C., Kessler, W. R., Goodale, A., Fahey, T. J., Groffman, P. M., & Driscoll, C. T. (2006). Landscape variation in microarthropod response to calcium addition in a northern hardwood forest ecosystem. <em>Pedobiologia, 50</em>, 69–78. <a href="https://doi.org/10.1016/j.pedobi.2005.09.003">https://doi.org/10.1016/j.pedobi.2005.09.003</a></p>
+Fitzhugh, R. D., et al. (2001). Effects of soil freezing disturbance on soil solution nitrogen, phosphorus, and carbon chemistry in a northern hardwood ecosystem. *Biogeochemistry, 56*, 215–238. [https://doi.org/10.1023/A:1013076609950](https://doi.org/10.1023/A:1013076609950){target="_blank" rel="noopener"}
 
-<p>Fitzhugh, R. D., Driscoll, C. T., Groffman, P. M., Tierney, G. L., Fahey, T. J., & Hardy, J. P. (2001). Effects of soil freezing disturbance on soil solution nitrogen, phosphorus, and carbon chemistry in a northern hardwood ecosystem. <em>Biogeochemistry, 56</em>, 215–238. <a href="https://doi.org/10.1023/A:1013036600370">https://doi.org/10.1023/A:1013036600370</a></p>
+Fukami, T., et al. (2010). Assembly history dictates ecosystem functioning: evidence from wood decomposer communities. *Ecology Letters, 13*, 675–684. [https://doi.org/10.1111/j.1461-0248.2010.01465.x](https://doi.org/10.1111/j.1461-0248.2010.01465.x){target="_blank" rel="noopener"}
 
-<p>Fukami, T., Dickie, I. A., Wilkie, J. P., Paulus, B. C., Park, D., Roberts, A., Buchanan, P. K., & Allen, R. B. (2010). Assembly history dictates ecosystem functioning: Evidence from wood decomposer communities. <em>Ecology Letters, 13</em>, 675–684. <a href="https://doi.org/10.1111/j.1461-0248.2010.01465.x">https://doi.org/10.1111/j.1461-0248.2010.01465.x</a></p>
+Giller, P. S. (1996). The diversity of soil communities, the ‘poor man's tropical rainforest’. *Biodiversity & Conservation, 5*, 135–168. [https://doi.org/10.1007/BF00055827](https://doi.org/10.1007/BF00055827){target="_blank" rel="noopener"}
 
-<p>Giller, P. S. (1996). The diversity of soil communities, the ‘poor man's tropical rainforest’. <em>Biodiversity & Conservation, 5</em>, 135–168. <a href="https://doi.org/10.1007/BF00055827">https://doi.org/10.1007/BF00055827</a></p>
+Groffman, P. M., et al. (2001a). Colder soils in a warmer world: A snow manipulation study in a northern hardwood forest ecosystem. *Biogeochemistry, 56*, 135–150. [https://doi.org/10.1023/A:1013039830323](https://doi.org/10.1023/A:1013039830323){target="_blank" rel="noopener"}
 
-<p>Groffman, P. M., Driscoll, C. T., Fahey, T. J., Hardy, J. P., Fitzhugh, R. D., & Tierney, G. L. (2001a). Colder soils in a warmer world: A snow manipulation study in a northern hardwood forest ecosystem. <em>Biogeochemistry, 56</em>, 135–150. <a href="https://doi.org/10.1023/A:1013039830323">https://doi.org/10.1023/A:1013039830323</a></p>
+Groffman, P. M., et al. (2001b). Effects of mild winter freezing on soil nitrogen and carbon dynamics in a northern hardwood forest. *Biogeochemistry, 56*, 191–213. [https://doi.org/10.1023/A:1013024603959](https://doi.org/10.1023/A:1013024603959){target="_blank" rel="noopener"}
 
-<p>Groffman, P. M., Driscoll, C. T., Fahey, T. J., Hardy, J. P., Fitzhugh, R. D., & Tierney, G. L. (2001b). Effects of mild winter freezing on soil nitrogen and carbon dynamics in a northern hardwood forest. <em>Biogeochemistry, 56</em>, 191–213. <a href="https://doi.org/10.1023/A:1013036027656">https://doi.org/10.1023/A:1013036027656</a></p>
+Groffman, P. M., & Fisk, M. C. (2011). Calcium constrains plant control over forest ecosystem nitrogen cycling. *Ecology, 92*, 2035–2042. [https://doi.org/10.1890/11-0461.1](https://doi.org/10.1890/11-0461.1){target="_blank" rel="noopener"}
 
-<p>Groffman, P. M., & Fisk, M. C. (2011). Calcium constrains plant control over forest ecosystem nitrogen cycling. <em>Ecology, 92</em>, 2035–2042. <a href="https://doi.org/10.1890/10-2186.1">https://doi.org/10.1890/10-2186.1</a></p>
+Groffman, P. M., et al. (2006).Calcium Additions and Microbial Nitrogen Cycle Processes in a Northern Hardwood Forest. *Ecosystems, 9*, 1289–1305. [https://doi.org/10.1007/s10021-006-0177-z](https://doi.org/10.1007/s10021-006-0177-z){target="_blank" rel="noopener"} 
 
-<p>Groffman, P. M., Fisk, M. C., Driscoll, C. T., Likens, G. E., Fahey, T. J., Eagar, C., & Pardo, L. H. (2006). Calcium additions and microbial nitrogen cycle processes in a northern hardwood forest. <em>Ecosystems, 9</em>, 1289–1305. <a href="https://doi.org/10.1007/s10021-006-0178-x">https://doi.org/10.1007/s10021-006-0178-x</a></p>
+Houlton, B. Z., et al. (2003). Nitrogen Dynamics in Ice Storm-Damaged Forest Ecosystems: Implications for Nitrogen Limitation Theory. *Ecosystems, 6*, 431–443. [https://doi.org/10.1007/s10021-002-0198-1](https://doi.org/10.1007/s10021-002-0198-1){target="_blank" rel="noopener"}
 
-<p>Houlton, B. Z., Driscoll, C. T., Fahey, T. J., Likens, G. E., Groffman, P. M., Bernhardt, E. S., & Buso, D. C. (2003). Nitrogen dynamics in ice storm-damaged forest ecosystems: Implications for nitrogen limitation theory. <em>Ecosystems, 6</em>, 431–443. <a href="https://doi.org/10.1007/s10021-002-0202-8">https://doi.org/10.1007/s10021-002-0202-8</a></p>
+Hughes, J. W., & Fahey, T. J. (1994). Litterfall dynamics and ecosystem recovery during forest development. *Forest Ecology and Management, 63*, 181–198. [https://doi.org/10.1016/0378-1127(94)90110-4](https://doi.org/10.1016/0378-1127(94)90110-4){target="_blank" rel="noopener"}
 
-<p>Hughes, J. W., & Fahey, T. J. (1994). Litterfall dynamics and ecosystem recovery during forest development. <em>Forest Ecology and Management, 63</em>, 181–198. <a href="https://doi.org/10.1016/0378-1127(94)90108-2">https://doi.org/10.1016/0378-1127(94)90108-2</a></p>
+Jenkinson, D. S., & Powlson, D. S. (1976). The effects of biocidal treatments on metabolism in soil—V: A method for measuring soil biomass. *Soil Biology & Biochemistry, 8*, 209–213. [https://doi.org/10.1016/0038-0717(76)90005-5](https://doi.org/10.1016/0038-0717(76)90005-5){target="_blank" rel="noopener"}
 
-<p>Jenkinson, D. S., & Powlson, D. S. (1976). The effects of biocidal treatments on metabolism in soil V. A method for measuring soil biomass. <em>Soil Biology & Biochemistry, 8</em>, 209–213. <a href="https://doi.org/10.1016/0038-0717(76)90005-5">https://doi.org/10.1016/0038-0717(76)90005-5</a></p>
+Juice, S. M., et al. (2006). Response of sugar maple to calcium additions in northern hardwood forest. *Ecology, 87*, 1267–1280. [https://doi.org/10.1890/0012-9658(2006)87[1267:ROSMTC]2.0.CO;2](https://doi.org/10.1890/0012-9658(2006)87[1267:ROSMTC]2.0.CO;2){target="_blank" rel="noopener"}
 
-<p>Juice, S. M., Fahey, T. J., Siccama, T. G., Driscoll, C. T., Denny, E. G., Eagar, C., Cleavitt, N. L., Minocha, R., & Richardson, A. D. (2006). Response of sugar maple to calcium addition to a northern hardwood forest. <em>Ecology, 87</em>, 1267–1280. <a href="https://doi.org/10.1890/0012-9658(2006)87[1267:ROSMTC]2.0.CO;2">https://doi.org/10.1890/0012-9658(2006)87[1267:ROSMTC]2.0.CO;2</a></p>
+Kallenbach, C. M., et al. (2016).Direct evidence for microbial-derived soil organic matter formation and its ecophysiological controls. *Nature Communications, 7*, 13630. [https://doi.org/10.1038/ncomms13630](https://doi.org/10.1038/ncomms13630){target="_blank" rel="noopener"}
 
-<p>Kallenbach, C. M., Frey, S. D., & Grandy, A. S. (2016). Direct evidence for microbial-derived soil organic matter formation and its ecophysiological controls. <em>Nature Communications, 7</em>, 13630. <a href="https://doi.org/10.1038/ncomms13630">https://doi.org/10.1038/ncomms13630</a></p>
+Koyama, A., et al. (2014). Soil bacterial community composition altered by increased nutrient availability in Arctic tundra soils. *Frontiers in Microbiology, 5*, 516. [https://doi.org/10.3389/fmicb.2014.00516](https://doi.org/10.3389/fmicb.2014.00516){target="_blank" rel="noopener"}
 
-<p>Koyama, A., Wallenstein, M. D., Simpson, R. T., & Moore, J. C. (2014). Soil bacterial community composition altered by increased nutrient availability in Arctic tundra soils. <em>Frontiers in Microbiology, 5</em>, 516. <a href="https://doi.org/10.3389/fmicb.2014.00516">https://doi.org/10.3389/fmicb.2014.00516</a></p>
+Lennon, J. T., & Jones, S. E. (2011). Microbial seed banks: the ecological and evolutionary implications of dormancy. *Nature Reviews Microbiology, 9*, 119–130. [https://doi.org/10.1038/nrmicro2504](https://doi.org/10.1038/nrmicro2504){target="_blank" rel="noopener"}
 
-<p>Lennon, J. T., & Jones, S. E. (2011). Microbial seed banks: The ecological and evolutionary implications of dormancy. <em>Nature Reviews Microbiology, 9</em>, 119–130. <a href="https://doi.org/10.1038/nrmicro2504">https://doi.org/10.1038/nrmicro2504</a></p>
+Li, A., & Fahey, T. J. (2013). Nitrogen Translocation to Fresh Litter in Northern Hardwood Forest. *Ecosystems, 16*, 521–528. [https://www.jstor.org/stable/23501476](https://www.jstor.org/stable/23501476){target="_blank" rel="noopener"}
 
-<p>Li, A., & Fahey, T. J. (2013). Nitrogen translocation to fresh litter in a northern hardwood forest. <em>Ecosystems, 16</em>(3), 521–528. <a href="https://doi.org/10.1007/s10021-012-9624-1">https://doi.org/10.1007/s10021-012-9624-1</a></p>
+Likens, G. E., et al. (1969). Nitrification and nutrient loss. *Science, 163*, 1205–1206. [https://doi.org/10.1126/science.163.3872.1205](https://doi.org/10.1126/science.163.3872.1205){target="_blank" rel="noopener"}
 
-<p>Likens, G. E., Bormann, F. H., & Johnson, N. M. (1969). Nitrification: Importance to nutrient losses from a cutover forested ecosystem. <em>Science, 163</em>, 1205–1206. <a href="https://doi.org/10.1126/science.163.3872.1205">https://doi.org/10.1126/science.163.3872.1205</a></p>
+Lindahl, B. D., et al. (2007). Spatial separation of litter decomposition and mycorrhizal nitrogen uptake. *New Phytologist, 173*, 611–620. [https://doi.org/10.1111/j.1469-8137.2006.01936.x](https://doi.org/10.1111/j.1469-8137.2006.01936.x){target="_blank" rel="noopener"}
 
-<p>Lindahl, B. D., Ihrmark, K., Boberg, J., Trumbore, S. E., Högberg, P., Stenlid, J., & Finlay, R. D. (2007). Spatial separation of litter decomposition and mycorrhizal nitrogen uptake in a boreal forest. <em>New Phytologist, 173</em>, 611–620. <a href="https://doi.org/10.1111/j.1469-8137.2006.01936.x">https://doi.org/10.1111/j.1469-8137.2006.01936.x</a></p>
+Melillo, J. M., et al. (2011). Soil warming, carbon–nitrogen interactions, and forest carbon budgets. *PNAS, 108*, 9508–9512. [https://doi.org/10.1073/pnas.1018189108](https://doi.org/10.1073/pnas.1018189108){target="_blank" rel="noopener"}
 
-<p>Melillo, J. M., et al. (2011). Soil warming, carbon–nitrogen interactions, and forest carbon budgets. <em>Proceedings of the National Academy of Sciences, 108</em>, 9508–9512. <a href="https://doi.org/10.1073/pnas.1018189108">https://doi.org/10.1073/pnas.1018189108</a></p>
+Morrison, E. W., et al. (2016). Chronic nitrogen additions fundamentally restructure the soil fungal community in a temperate forest. *Fungal Ecology, 23*, 48–57. [https://doi.org/10.1016/j.funeco.2016.05.011](https://doi.org/10.1016/j.funeco.2016.05.011){target="_blank" rel="noopener"}
 
-<p>Morrison, E. W., Frey, S. D., Sadowsky, J. J., van Diepen, L. T. A., Thomas, W. K., & Pringle, A. (2016). Chronic nitrogen additions fundamentally restructure the soil fungal community in a temperate forest. <em>Fungal Ecology, 23</em>, 48–57. <a href="https://doi.org/10.1016/j.funeco.2016.06.011">https://doi.org/10.1016/j.funeco.2016.06.011</a></p>
+Oulehle, F., et al. (2011). Major changes in forest carbon and nitrogen cycling caused by declining sulphur deposition. *Global Change Biology, 17*, 3115–3129. [https://doi.org/10.1111/j.1365-2486.2011.02468.x](https://doi.org/10.1111/j.1365-2486.2011.02468.x){target="_blank" rel="noopener"}
 
-<p>Oulehle, F., Evans, C. D., Hofmeister, J., Krejci, R., Tahovska, K., Persson, T., Cudlin, P., & Hruska, J. (2011). Major changes in forest carbon and nitrogen cycling caused by declining sulphur deposition. <em>Global Change Biology, 17</em>, 3115–3129. <a href="https://doi.org/10.1111/j.1365-2486.2011.02468.x">https://doi.org/10.1111/j.1365-2486.2011.02468.x</a></p>
+Paul, E. A. (Ed.). (2007). *Soil microbiology, ecology, and biochemistry*. Academic Press.
 
-<p>Paul, E. A. (Ed.). (2007). <em>Soil microbiology, ecology, and biochemistry</em> (3rd ed.). Academic Press.</p>
+Peay, K. G., et al. (2016). Dimensions of biodiversity in the Earth mycobiome. *Nature Reviews Microbiology, 14*, 434–447. [https://doi.org/10.1038/nrmicro.2016.59](https://doi.org/10.1038/nrmicro.2016.59){target="_blank" rel="noopener"}
 
-<p>Peay, K. G., Kennedy, P. G., & Talbot, J. M. (2016). Dimensions of biodiversity in the Earth mycobiome. <em>Nature Reviews Microbiology, 14</em>, 434–447. <a href="https://doi.org/10.1038/nrmicro.2016.59">https://doi.org/10.1038/nrmicro.2016.59</a></p>
+Prosser, J. I. (2012). Ecosystem processes and interactions in a morass of diversity. *FEMS Microbiology Ecology, 81*, 507–519. [https://doi.org/10.1111/j.1574-6941.2012.01435.x](https://doi.org/10.1111/j.1574-6941.2012.01435.x){target="_blank" rel="noopener"}
 
-<p>Prosser, J. I. (2012). Ecosystem processes and interactions in a morass of diversity. <em>FEMS Microbiology Ecology, 81</em>, 507–519. <a href="https://doi.org/10.1111/j.1574-6941.2012.01435.x">https://doi.org/10.1111/j.1574-6941.2012.01435.x</a></p>
+Shaver, G. R., et al. (2000). Global Warming and Terrestrial Ecosystems: A Conceptual Framework for Analysis. *BioScience, 50*, 871–882. [https://doi.org/10.1641/0006-3568(2000)050[0871:GWATEA]2.0.CO;2](https://doi.org/10.1641/0006-3568(2000)050[0871:GWATEA]2.0.CO;2){target="_blank" rel="noopener"}
 
-<p>Shaver, G. R., et al. (2000). Global warming and terrestrial ecosystems: A conceptual framework for analysis. <em>BioScience, 50</em>, 871–882. <a href="https://doi.org/10.1641/0006-3568(2000)050[0871:GWATEA]2.0.CO;2">https://doi.org/10.1641/0006-3568(2000)050[0871:GWATEA]2.0.CO;2</a></p>
+Smith, M. S., & Tiedje, J. M. (1979).Phases of denitrification following oxygen depletion in soil. *Soil Biology & Biochemistry, 11*, 261–267. [https://doi.org/10.1016/0038-0717(79)90071-3](https://doi.org/10.1016/0038-0717(79)90071-3){target="_blank" rel="noopener"}
 
-<p>Smith, M. S., & Tiedje, J. M. (1979). Phases of denitrification following oxygen depletion in soil. <em>Soil Biology & Biochemistry, 11</em>, 261–267. <a href="https://doi.org/10.1016/0038-0717(79)90071-3">https://doi.org/10.1016/0038-0717(79)90071-3</a></p>
+Smith, S. E., & Read, D. J. (2010). *Mycorrhizal symbiosis*. Academic Press.
 
-<p>Smith, S. E., & Read, D. J. (2010). <em>Mycorrhizal symbiosis</em>. Academic Press.</p>
+Sorensen, P. O., et al. (2018). Winter soil freeze-thaw cycles lead to reductions in soil microbial biomass and activity not compensated for by soil warming. *Soil Biology & Biochemistry, 116*, 39–47. [https://doi.org/10.1016/j.soilbio.2017.09.026](https://doi.org/10.1016/j.soilbio.2017.09.026){target="_blank" rel="noopener"}
 
-<p>Sorensen, P. O., Finzi, A. C., Giasson, M.-A., Reinmann, A. B., Sanders-DeMott, R., & Templer, P. H. (2018). Winter soil freeze–thaw cycles reduce soil microbial biomass and activity. <em>Soil Biology & Biochemistry, 116</em>, 39–47. <a href="https://doi.org/10.1016/j.soilbio.2017.09.025">https://doi.org/10.1016/j.soilbio.2017.09.025</a></p>
+Sorensen, P. O., et al. (2016a). Reduced snow cover alters root-microbe interactions and decreases nitrification rates in a northern hardwood forest. *Ecology, 97*, 3359–3368. [https://doi.org/10.1002/ecy.1599](https://doi.org/10.1002/ecy.1599){target="_blank" rel="noopener"}
 
-<p>Sorensen, P. O., Templer, P. H., Christenson, L., Duran, J., Fahey, T., Fisk, M. C., Groffman, P. M., Morse, J. L., & Finzi, A. C. (2016a). Reduced snow cover alters root–microbe interactions. <em>Ecology, 97</em>, 3359–3368. <a href="https://doi.org/10.1002/ecy.1602">https://doi.org/10.1002/ecy.1602</a></p>
+Sorensen, P. O., et al. (2016b). Contrasting effects of winter snowpack and soil frost on growing season microbial biomass and enzyme activity in two mixed-hardwood forests. *Biogeochemistry, 128*, 141–154. [https://doi.org/10.1007/s10533-016-0199-3](https://doi.org/10.1007/s10533-016-0199-3){target="_blank" rel="noopener"}
 
-<p>Sorensen, P. O., Templer, P. H., & Finzi, A. C. (2016b). Effects of winter snowpack and soil frost on microbial biomass. <em>Biogeochemistry, 128</em>, 141–154. <a href="https://doi.org/10.1007/s10533-016-0200-1">https://doi.org/10.1007/s10533-016-0200-1</a></p>
+Stahl, P. D., et al. (1995). Sources of error in direct microscopic methods for estimation of fungal biomass in soil. *Soil Biology & Biochemistry, 27*, 1091–1097. [https://doi.org/10.1016/0038-0717(94)00204-E](https://doi.org/10.1016/0038-0717(94)00204-E){target="_blank" rel="noopener"}
 
-<p>Stahl, P. D., Parkin, T. B., & Eash, N. S. (1995). Sources of error in microscopic methods for estimating fungal biomass. <em>Soil Biology & Biochemistry, 27</em>, 1091–1097. <a href="https://doi.org/10.1016/0038-0717(95)00032-4">https://doi.org/10.1016/0038-0717(95)00032-4</a></p>
+Stursová, M., et al. (2016). Small-scale spatial heterogeneity of ecosystem properties, microbial community composition and microbial activities in a temperate mountain forest soil. *FEMS Microbiology Ecology, 92*. [https://doi.org/10.1093/femsec/fiw185](https://doi.org/10.1093/femsec/fiw185){target="_blank" rel="noopener"}
 
-<p>Stursová, M., Barta, J., Šantrůčková, H., & Baldrian, P. (2016). Small-scale spatial heterogeneity of microbial communities in forest soil. <em>FEMS Microbiology Ecology, 92</em>. <a href="https://doi.org/10.1093/femsec/fiw185">https://doi.org/10.1093/femsec/fiw185</a></p>
+Tate, K. R. (Ed.). (2017). *Microbial biomass*. World Scientific.
 
-<p>Tate, K. R. (Ed.). (2017). <em>Microbial biomass: A paradigm shift in terrestrial biogeochemistry</em>. World Scientific.</p>
+Tedersoo, L., et al. (2014). Global diversity and geography of soil fungi. *Science, 346*, 1256688. [https://doi.org/10.1126/science.1256688](https://doi.org/10.1126/science.1256688){target="_blank" rel="noopener"}
 
-<p>Tedersoo, L., et al. (2014). Global diversity and geography of soil fungi. <em>Science, 346</em>, 1256688. <a href="https://doi.org/10.1126/science.1256688">https://doi.org/10.1126/science.1256688</a></p>
+Templer, P. H., et al. (2012). Impact of a reduced winter snowpack on litter arthropod abundance and diversity in a northern hardwood forest ecosystem. *Biology and Fertility of Soils, 48*, 413–424. [https://doi.org/10.1007/s00374-011-0636-3](https://doi.org/10.1007/s00374-011-0636-3){target="_blank" rel="noopener"}
 
-<p>Templer, P. H., et al. (2012). Impact of reduced winter snowpack on litter arthropods. <em>Biology and Fertility of Soils, 48</em>, 413–424. <a href="https://doi.org/10.1007/s00374-011-0644-3">https://doi.org/10.1007/s00374-011-0644-3</a></p>
+Tierney, G. L., et al. (2001). Soil freezing alters fine root dynamics in a northern hardwood forest. *Biogeochemistry, 56*, 175–190. [https://doi.org/10.1023/A:1013072519889](https://doi.org/10.1023/A:1013072519889){target="_blank" rel="noopener"}
 
-<p>Tierney, G. L., Fahey, T. J., Groffman, P. M., Hardy, J. P., Fitzhugh, R. D., & Driscoll, C. T. (2001). Soil freezing alters fine root dynamics in a northern hardwood forest. <em>Biogeochemistry, 56</em>, 175–190. <a href="https://doi.org/10.1023/A:1013036827835">https://doi.org/10.1023/A:1013036827835</a></p>
+Treseder, K. K., et al. (2018). Arbuscular mycorrhizal fungi as mediators of ecosystem responses to nitrogen deposition: A trait-based predictive framework. *Journal of Ecology, 106*, 480–489. [https://doi.org/10.1111/1365-2745.12919](https://doi.org/10.1111/1365-2745.12919){target="_blank" rel="noopener"}
 
-<p>Treseder, K. K., et al. (2018). Arbuscular mycorrhizal fungi as mediators of ecosystem responses to nitrogen deposition. <em>Journal of Ecology, 106</em>, 480–489. <a href="https://doi.org/10.1111/1365-2745.12927">https://doi.org/10.1111/1365-2745.12927</a></p>
+van Diepen, L. T. A., et al. (2011). Simulated nitrogen deposition affects community structure of arbuscular mycorrhizal fungi in northern hardwood forests. *Molecular Ecology, 20*, 799–811. [https://doi.org/10.1111/j.1365-294X.2010.04969.x](https://doi.org/10.1111/j.1365-294X.2010.04969.x){target="_blank" rel="noopener"}
 
-<p>van Diepen, L. T. A., Lilleskov, E. A., & Pregitzer, K. S. (2011). Nitrogen deposition effects on mycorrhizal fungi. <em>Molecular Ecology, 20</em>, 799–811. <a href="https://doi.org/10.1111/j.1365-294X.2010.04974.x">https://doi.org/10.1111/j.1365-294X.2010.04974.x</a></p>
+van Diepen, L. T. A., et al. (2017). Fungi exposed to chronic nitrogen enrichment are less able to decay leaf litter. *Ecology, 98*, 5–11. [https://doi.org/10.1002/ecy.1635](https://doi.org/10.1002/ecy.1635){target="_blank" rel="noopener"}
 
-<p>van Diepen, L. T. A., Frey, S. D., Landis, E. A., Morrison, E. W., & Pringle, A. (2017). Fungi exposed to chronic nitrogen enrichment are less able to decay litter. <em>Ecology, 98</em>(1), 5–11. <a href="https://doi.org/10.1002/ecy.1620">https://doi.org/10.1002/ecy.1620</a></p>
+Zak, D. R., et al. (2011). Forest productivity under CO₂ and O₃. *Ecology Letters, 14*, 1220–1226. [https://doi.org/10.1111/j.1461-0248.2011.01692.x](https://doi.org/10.1111/j.1461-0248.2011.01692.x){target="_blank" rel="noopener"}
 
-<p>Zak, D. R., Pregitzer, K. S., Kubiske, M. E., & Burton, A. J. (2011). Forest productivity under elevated CO₂ and O₃. <em>Ecology Letters, 14</em>, 1220–1226. <a href="https://doi.org/10.1111/j.1461-0248.2011.01692.x">https://doi.org/10.1111/j.1461-0248.2011.01692.x</a></p>
+Zimmerman, N., et al. (2014). The unseen world: environmental microbial sequencing and identification methods for ecologists. *Frontiers in Ecology and the Environment, 12*, 224–231. [https://doi.org/10.1890/130055](https://doi.org/10.1890/130055){target="_blank" rel="noopener"}
 
-<p>Zimmerman, N., Izard, J., Klatt, C., Zhou, J., & Aronson, E. (2014). Environmental microbial sequencing methods for ecologists. <em>Frontiers in Ecology and the Environment, 12</em>, 224–231. <a href="https://doi.org/10.1890/130164">https://doi.org/10.1890/130164</a></p>
-
-</div>

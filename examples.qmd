@@ -49,3 +49,51 @@ __Sample to insert plotly from github.io__
 Seed production for sugar maple (ASCA) and American beech (FAGR) at Hubbard Brook Experimental Forest, NH from 1993-2016. A-B: Bars show the annual mean for all collectors and asterisks denote mast years. The long-term mean is shown by a solid line. C-D: The standardized deviation of annual seed production from the long-term means (ASD). The dotted line shows the positive reflection of the minimum standardized deviate used to denote mast years as indicated in A. These data were first published in Cleavitt and Fahey (2017). This figure is updated with current data available in the Environmental Data Initiative Repository (Fahey, T. and N. Cleavitt. 2025. Tree Seed Data at the Hubbard Brook Experimental Forest, 1993 - ongoing ver 4. Environmental Data Initiative. https://doi.org/10.6073/pasta/19e69d787124d60ccdfede1b5b813061). Hover over graph to access interactive controls available at the top right (zoom/pan/etc).
 
 :::
+
+
+$$
+NPP = ∆B + M + H + L + V
+$$ {#eq-npp}
+
+
+############# how to link to another chapter  ######################
+
+Create anchor in chapter:
+<div id="sec-climatechangechapter"></div>
+
+Create link in another chapter:
+See [Climate Change](climatechangechapter.qmd}
+
+
+################ create table with anchor ######################
+<div style="width: 50%; margin: auto;">
+
+| Biomass Components              | g/m² (1997)     |
+|--------------------------------|----------------:|
+| Foliage                        |             402 |
+| Branch                         |            5436 |
+| Bark                           |            1220 |
+| Wood                           |           11932 |
+| **Total aboveground biomass**  | **18990 (248)** |
+| Root crown                     |            1580 |
+| Lateral woody roots            |            2920 |
+| Fine roots (< 1 mm)            |             522 |
+| **Total belowground biomass**  | **5022 (638)**  |
+| **Total plant biomass**        | **24012**       |
+
+| Production Components          | g/m²·yr (1997)  |
+|--------------------------------|----------------:|
+| Aboveground annual tissues     |             342 |
+| Aboveground perennial tissues  |             366 |
+| **Total ANPP**                 | **708 (62)**    |
+| Fine roots                     |             182 |
+| Coarse roots                   |              76 |
+| Rhizosphere flux               |             160 |
+| **Total BNPP**                 | **418**         |
+| **Total NPP**                  | **1126**        |
+: **Biomass and production components of northern hardwood forest at Hubbard Brook (adapted from Fahey et al., 2005).** {#tbl-biocomp}
+</div>
+
+
+
+

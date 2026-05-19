@@ -53,6 +53,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -282,6 +311,9 @@ document.addEventListener("DOMContentLoaded", function() {
 </header>
 
 
+<div id="sec-decompchapter">
+
+</div>
 <p>Chapter Editor: Timothy Fahey</p>
 <video controls="" style="width:80%; max-width:900px; display:block; margin:1.5rem auto;">
 <source src="https://photos.smugmug.com/Videos/Videos/i-Xp58p5f/0/L7jWxJM6vT5qCKPpBR7jwR68hPn4bLLc4pvcKzD5p/1280/Christy%20Goodale%20talk_edited-1280.mp4" type="video/mp4">
@@ -294,12 +326,15 @@ Dr.&nbsp;Christy Goodale speaks about cross-site leaf litter decomposition studi
 <p>Litter decomposition in forest ecosystems has been the subject of numerous studies, including several at Hubbard Brook (HB). Decay of aboveground litter is relatively easy to measure and interest in this topic originally revolved largely around ecological questions of mineral nutrient cycling. More recently the realization that forest soil is among the largest carbon pools on earth, and that changes in soil C stock could contribute to changes in atmospheric CO2 concentration, has further stimulated interest in decomposition and its sensitivity to human-accelerated environmental change. Here, we consider the linked processes of plant litter decomposition and soil C sequestration at HB.</p>
 <p>An initial issue to address on this topic is the magnitude of the flux of different forms of litter in the HB forest: leaf and other non-woody aboveground litter, woody aboveground litter (mostly branches), dead boles, and fine and coarse woody roots. As detailed by Fahey et al.&nbsp;(2005) each of these sources of detritus constitutes a significant proportion of the total C input to forest soil at HB. In the mature northern hardwood forest adjacent to WS6 fine litterfall flux (comprised of about 88% leaf litter) averages 171 g C/m2-yr and is nearly constant from year-to-year in the absence of canopy disturbances. In contrast, coarse litterfall (mostly branches) is highly episodic, being associated with severe weather events (windstorms, ice storms, heavy snowfall); Fahey et al.&nbsp;(2005) estimated the long-term average at 20 g C/m2-yr. Even more variable, both temporally and spatially, is input of coarse woody debris associated with tree mortality. Based on long-term inventory in the forest west of WS6, this flux averages 120 g C/m2-yr (Siccama et al.&nbsp;2007). Decomposition rates of these various aboveground detrital inputs differ considerably and their role in supplying soil C is not fully understood.</p>
 <p>Carbon flux of belowground detritus is difficult to quantify directly. Two categories of root detritus are typically distinguished; the ephemeral fine roots of plants (&lt; 1mm diameter) and the more permanent woody roots. Fahey et al.&nbsp;(2005) estimated C input to soil in the HB northern hardwood forest from fine and woody roots at about 90 and 40 g C/m2-yr, respectively, but they emphasized high uncertainty of both estimates. Using these estimates the ratio of aboveground to belowground detrital C input to soil at HB is roughly 1.6. However, rhizosphere C flux (RCF) is an additional large C input to soil and includes root exudation, rhizo-deposition and C allocation to extramatrical mycorrhizal fungal hyphae. This C flux is probably similar in magnitude to fine root mortality (Fahey et al.&nbsp;2005). However, in this chapter we will not consider the decomposition of RCF.</p>
-<p>Decomposition of organic matter has traditionally been represented as an exponential decay process (Olson 1963), analogous to decay of a radioactive isotope, i.e.,</p>
-<p>Eq. 1. X(t) = X (o) e-kt</p>
+<p>Decomposition of organic matter has traditionally been represented as an exponential decay process (Olson 1963), analogous to decay of a radioactive isotope, i.e.&nbsp;(<a href="#eq-decay" class="quarto-xref">Equation&nbsp;<span>6.1</span></a>)</p>
+<p><span id="eq-decay"><span class="math display">\[
+X(t) = X (o) e-kt
+\tag{6.1}\]</span></span></p>
 <p>Although other formulations sometimes show a better fit to decomposition studies – e.g., a two phase linear decay model – for comparative purposes, the exponential decay coefficient (k) is a convenient parameter. Also, the asymptote in the exponential decay of litter normally does not correspond to zero mass remaining; Berg et al.&nbsp;(1996) noted that decomposition approached a “limit value”, the remaining material being highly recalcitrant. This fraction may include some resistant polymers, especially by-products of microbial decomposition. It is reasonable to assume that some or most of the organic matter sequestered and stabilized in soil is represented by this apparently relatively recalcitrant fraction, although mechanisms other than biochemical resistance to decay contribute to soil C stabilization (Schmidt et al.&nbsp;2011).</p>
 </section>
 <section id="leaf-litter-decomposition" class="level2" data-number="6.2">
 <h2 data-number="6.2" class="anchored" data-anchor-id="leaf-litter-decomposition"><span class="header-section-number">6.2</span> Leaf Litter Decomposition</h2>
+<p>Gosz et al.&nbsp;(1973) measured dry weight loss and nutrient release from leaf litter of the three dominant northern hardwood species at HB over a one year period (<a href="#fig-LeafDecomp" class="quarto-xref">Figure&nbsp;<span>6.1</span></a>). Decay rate differed by species and decreased in the order of yellow birch, sugar maple, beech with corresponding k values of 0.85, 0.51 and 0.37. They noted that most of the difference between maple and beech was accounted for by greater leaching of soluble compounds from maple than beech leaf litter during the first month; thereafter, decay rates were similar for these two species. However, yellow birch decay following the leaching phase was much faster than beech and maple. Decay rates did not differ significantly across the elevation gradient from 550-770m. Similar patterns were observed at HB by Mellilo et al.&nbsp;(1982) although one-year decay rates were considerably lower (e.g., 0.08 for beech, and 0.25 for sugar maple).</p>
 <div style="float: right; width: 40%; margin-left: 1em;">
 <div id="fig-LeafDecomp" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -307,12 +342,11 @@ Dr.&nbsp;Christy Goodale speaks about cross-site leaf litter decomposition studi
 <img src="figs/Decomp/LeafDecompFig.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-LeafDecomp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;6.1: Percentage of the original leaf dry weight remaining after various periods of decomposition. Values are means and standeard errors for leaves from the 550-, 670-, and 770-m elevation sites. Sample size = 3 for 0-9 month and 6 for 10-12 month collection times. Single and double asterisks indicate significant (p=0.05) and highly significant (P= 0.01) differences respectively (Gosz et al., 1973)
+Figure&nbsp;6.1: Percentage of the original leaf dry weight remaining after various periods of decomposition. Values are means and standard errors for leaves from the 550-, 670-, and 770-m elevation sites. Sample size = 3 for 0-9 month and 6 for 10-12 month collection times. Single and double asterisks indicate significant (p=0.05) and highly significant (P= 0.01) differences respectively (Gosz et al., 1973)
 </figcaption>
 </figure>
 </div>
 </div>
-<p>Gosz et al.&nbsp;(1973) measured dry weight loss and nutrient release from leaf litter of the three dominant northern hardwood species at HB over a one year period (Figure 1). Decay rate differed by species and decreased in the order of yellow birch, sugar maple, beech with corresponding k values of 0.85, 0.51 and 0.37. They noted that most of the difference between maple and beech was accounted for by greater leaching of soluble compounds from maple than beech leaf litter during the first month; thereafter, decay rates were similar for these two species. However, yellow birch decay following the leaching phase was much faster than beech and maple. Decay rates did not differ significantly across the elevation gradient from 550-770m. Similar patterns were observed at HB by Mellilo et al.&nbsp;(1982) although one-year decay rates were considerably lower (e.g., 0.08 for beech, and 0.25 for sugar maple).</p>
 <p>The rate of decomposition of leaf litter depends upon environment, substrate chemistry and decomposer organisms. It seems likely that the contrasting decay rates of Gosz et al.&nbsp;(1973) and Mellilo et al.&nbsp;(1982) at HB resulted in part from environmental differences between the years of study. From their study at HB, Mellilo et al.&nbsp;(1982) concluded that the lignin to nitrogen concentration ratio provides an effective index of substrate quality for predicting early stages of leaf litter decay; high lignin:N is correlated with slow decay (<a href="#fig-LigNit" class="quarto-xref">Figure&nbsp;<span>6.2</span></a>).</p>
 <p>Lignin is a polyphenolic polymer in plant cell walls that is resistant to decay, being decomposed primarily by oxidative enzymes such as phenol oxidase and peroxidases produced by white-rot fungi. Nitrogen is essential for microbial decomposers and is in relatively short supply in fresh leaf litter owing to efficient resorption of N from foliage prior to senescence (see Nitrogen Cycling chapter).</p>
 <div style="float: left; width: 40%; margin-right: 1em;">
@@ -368,18 +402,16 @@ Figure&nbsp;6.4: Organic matter content of the surface organic horizons (Oie + O
 </figcaption>
 </figure>
 </div>
-<p>The acidic Spodosols that dominate the HB landscape are marked by thick forest floor organic horizons owing largely to limited mixing of detritus with mineral soil by macroinvertebrates (e.g., earthworms). This C pool comprises 19% of the total soil C stock in the HB forest. Early studies in and around HB indicated that C stocks in the organic horizons are highly dynamic, being sensitive to forest harvest with ca. 50% C loss over a decade after cutting (Dominski 1974, Covington 1981); however, subsequent work demonstrated that physical mixing processes into mineral soil probably accounted for most of this pattern, and forest floor organic layers may be much less dynamic than previously supposed (Yanai et al.&nbsp;2003). Long-term monitoring of forest floor C pool in the mature forest at HB has supported the latter interpretation as no significant changes in this C pool were observed between 1977 and 2002 (Figure 4).</p>
-<p>However, most recently we have observed possible decline in the forest floor C stock in the mature forest at HB. Sensitivity of surface soil C to environmental change is further suggested by recent observations of sharp declines in WS1 where the soil Ca lost as a result of acid deposition was experimentally restored in 1999: an astounding 50% decline in forest floor organic C was observed between 1998 and 2014 (Figure 5).</p>
+<p>The acidic Spodosols that dominate the HB landscape are marked by thick forest floor organic horizons owing largely to limited mixing of detritus with mineral soil by macroinvertebrates (e.g., earthworms). This C pool comprises 19% of the total soil C stock in the HB forest. Early studies in and around HB indicated that C stocks in the organic horizons are highly dynamic, being sensitive to forest harvest with ca. 50% C loss over a decade after cutting (Dominski 1974, Covington 1981); however, subsequent work demonstrated that physical mixing processes into mineral soil probably accounted for most of this pattern, and forest floor organic layers may be much less dynamic than previously supposed (Yanai et al.&nbsp;2003). Long-term monitoring of forest floor C pool in the mature forest at HB has supported the latter interpretation as no significant changes in this C pool were observed between 1977 and 2002 (<a href="#fig-organicmatterplotly" class="quarto-xref">Figure&nbsp;<span>6.5</span></a>).</p>
+<p>However, most recently we have observed possible decline in the forest floor C stock in the mature forest at HB. Sensitivity of surface soil C to environmental change is further suggested by recent observations of sharp declines in WS1 where the soil Ca lost as a result of acid deposition was experimentally restored in 1999: an astounding 50% decline in forest floor organic C was observed between 1998 and 2014 (<a href="#fig-organicmatterplotly" class="quarto-xref">Figure&nbsp;<span>6.5</span></a>).</p>
 <p>The cause of this striking response is not fully understood, but slight increases in long-term leaf litter decomposition (Lovett et al 2016) and decreased fine root inputs (Fahey et al.&nbsp;2016) have likely contributed. These observations raise the possibility that depletion of soil Ca by acid rain caused an increase in soil C stocks so that deacidification in the 21st century may result in declining soil C sequestration in some temperate zone forests (Oulehle et al.&nbsp;2011).</p>
-<div id="fig-edidecompW1-6" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div id="fig-organicmatterplotly" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-edidecompW1-6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<iframe src="https://hubbardbrook.github.io/decompCarbon/Fig5A_organicMatter.html" width="100%" height="600" style="border: none;">
-</iframe>
+<div aria-describedby="fig-organicmatterplotly-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <iframe src="https://hubbardbrook.github.io/decompCarbon/Fig5B_organicMatter.html" width="100%" height="600" style="border: none;">
 </iframe>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-edidecompW1-6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-organicmatterplotly-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;6.5: Changes in organic matter content of forest floor horizons in reference (WS6) and calcium-amended (WS1) watersheds at Hubbard Brook Experimental Forest. This figure is updated with current data available in the Environmental Data Initiative Repository ( Johnson, C.E. 2022. Mass and Chemistry of Organic Horizons and Surface Mineral Soils on Watershed 1 at the Hubbard Brook Experimental Forest 1996-present ver 3. Environmental Data Initiative. https://doi.org/10.6073/pasta/7395cf86c134440f38d800ca59a4857b and Johnson, C.E. 2024. Mass and Chemistry of Organic Horizons and Surface Mineral Soils on Watershed 6 at the Hubbard Brook Experimental Forest, 1976 - present ver 4. Environmental Data Initiative. https://doi.org/10.6073/pasta/ab29c15538e75cafd4a43a30d8033cec (Accessed 2024-04-11). Hover over graph to access interactive controls available at the top right (zoom/pan/etc).
 </figcaption>
 </figure>
@@ -404,113 +436,41 @@ https://doi.org/10.6073/pasta/96ef3d45e9a7d719ae7731f0719bd483</code></pre>
 </section>
 <section id="references" class="level2" data-number="6.7">
 <h2 data-number="6.7" class="anchored" data-anchor-id="references"><span class="header-section-number">6.7</span> References</h2>
-<div class="references">
-<p>
-Arthur, M. A., Tritton, L. M., &amp; Fahey, T. J. (1993). Dead bole mass and nutrients remaining 23 years after clear-felling of a northern hardwood forest. <em>Canadian Journal of Forest Research, 23</em>, 1298–1305. <a href="https://doi.org/10.1139/x93-164">https://doi.org/10.1139/x93-164</a>
-</p>
-<p>
-Bailey, S. W., Brousseau, P. A., McGuire, K. J., &amp; Ross, D. S. (2014). Influence of landscape position and transient water table on soil development and carbon distribution in a steep, headwater catchment. <em>Geoderma, 226–227</em>, 279–289. <a href="https://doi.org/10.1016/j.geoderma.2014.02.016">https://doi.org/10.1016/j.geoderma.2014.02.016</a>
-</p>
-<p>
-Berg, B., Johansson, M.-B., Ekbohm, G., McClaugherty, C., Rutigliano, F., &amp; De Santo, A. V. (1996). Maximum decomposition limits of forest litter types: A synthesis. <em>Canadian Journal of Botany, 74</em>, 659–672. <a href="https://doi.org/10.1139/b96-084">https://doi.org/10.1139/b96-084</a>
-</p>
-<p>
-Berg, B., Johansson, M.-B., &amp; Meentemeyer, V. (2000). Litter decomposition in a transect of Norway spruce forests: Substrate quality and climate control. <em>Canadian Journal of Forest Research, 30</em>, 1136–1147. <a href="https://doi.org/10.1139/x00-050">https://doi.org/10.1139/x00-050</a>
-</p>
-<p>
-Covington, W. W. (1981). Changes in forest floor organic matter and nutrient content following clearcutting in northern hardwoods. <em>Ecology, 62</em>(1), 41–48. <a href="https://doi.org/10.2307/1936666">https://doi.org/10.2307/1936666</a>
-</p>
-<p>
-Dittman, J. A., Driscoll, C. T., Groffman, P. M., &amp; Fahey, T. J. (2007). Dynamics of nitrogen and dissolved organic carbon at the Hubbard Brook Experimental Forest. <em>Ecology, 88</em>, 1153–1166. <a href="https://doi.org/10.1890/06-0834">https://doi.org/10.1890/06-0834</a>
-</p>
-<p>
-Dominski, A. S. (1974). <em>Soil nitrate release from a clearcut watershed in the Hubbard Brook Forest, New Hampshire</em>. Yale University. (Unpublished report; no DOI)
-</p>
-<p>
-Dornbush, M. E., Isenhart, T. M., &amp; Raich, J. W. (2002). Quantifying fine-root decomposition: An alternative to buried litterbags. <em>Ecology, 83</em>, 2985–2990. <a href="https://doi.org/10.1890/0012-9658(2002)083[2985:QFRDAA]2.0.CO;2">https://doi.org/10.1890/0012-9658(2002)083[2985:QFRDAA]2.0.CO;2</a>
-</p>
-<p>
-Fahey, T. J., Arthur, M. A., &amp; Hughes, J. W. (1988). Root decomposition and nutrient flux following whole-tree harvest of northern hardwood forest. <em>Forest Science, 34</em>(3), 744–768. <a href="https://doi.org/10.1093/forestscience/34.3.744">https://doi.org/10.1093/forestscience/34.3.744</a>
-</p>
-<p>
-Fahey, T. J., &amp; Arthur, M. A. (1994). Further studies of root decomposition following harvest of a northern hardwood forest. <em>Forest Science, 40</em>(4), 618–629. <a href="https://doi.org/10.1093/forestscience/40.4.618">https://doi.org/10.1093/forestscience/40.4.618</a>
-</p>
-<p>
-Fahey, T. J., Heinz, A. K., Battles, J. J., Fisk, M. C., Driscoll, C. T., Blum, J. D., &amp; Johnson, C. E. (2016). Fine root biomass declined in response to restoration of soil calcium in a northern hardwood forest. <em>Canadian Journal of Forest Research, 46</em>(5), 738–744. <a href="https://doi.org/10.1139/cjfr-2015-0439">https://doi.org/10.1139/cjfr-2015-0439</a>
-</p>
-<p>
-Fahey, T. J., Siccama, T. G., Driscoll, C. T., Likens, G. E., Campbell, J., Johnson, C. E., Aber, J. D., Cole, J. J., Fisk, M. C., Groffman, P. M., Hamburg, S. P., Holmes, R. T., Schwarz, P. A., &amp; Yanai, R. D. (2005). The biogeochemistry of carbon at Hubbard Brook. <em>Biogeochemistry, 75</em>, 109–176. <a href="https://doi.org/10.1007/s10533-004-6321-y">https://doi.org/10.1007/s10533-004-6321-y</a>
-</p>
-<p>
-Fahey, T. J., Yavitt, J. B., Sherman, R. E., Groffman, P. M., Fisk, M. C., &amp; Maerz, J. C. (2011). Transport of carbon and nitrogen between litter and soil organic matter in a northern hardwood forest. <em>Ecosystems, 14</em>(2), 326–340. <a href="https://doi.org/10.1007/s10021-010-9414-y">https://doi.org/10.1007/s10021-010-9414-y</a>
-</p>
-<p>
-Fahey, T. J., Yavitt, J. B., Sherman, R. E., Maerz, J. C., Groffman, P. M., Fisk, M. C., &amp; Bohlen, P. (2013). Earthworm effects on the conversion of litter C and N into soil organic matter in a sugar maple forest. <em>Ecological Applications, 23</em>(5), 1185–1201. <a href="https://doi.org/10.1890/12-1760.1">https://doi.org/10.1890/12-1760.1</a>
-</p>
-<p>
-Fisk, M. C., Kessler, W. R., Goodale, A., Fahey, T. J., Groffman, P. M., &amp; Driscoll, C. T. (2006). Landscape variation in microarthropod response to calcium addition in a northern hardwood forest. <em>Pedobiologia, 50</em>, 69–78. <a href="https://doi.org/10.1016/j.pedobi.2005.09.003">https://doi.org/10.1016/j.pedobi.2005.09.003</a>
-</p>
-<p>
-Goebel, M., Hobbie, S. E., Bulaj, B., Zadworny, M., Archibald, D. D., Oleksyn, J., Reich, P. B., &amp; Eissenstat, D. M. (2011). Decomposition of the finest root branching orders: Linking belowground dynamics to fine-root function and structure. <em>Ecological Monographs, 81</em>, 89–102. <a href="https://doi.org/10.1890/09-2390.1">https://doi.org/10.1890/09-2390.1</a>
-</p>
-<p>
-Gosz, J. R., Likens, G. E., &amp; Bormann, F. H. (1973). Nutrient release from decomposing leaf and branch litter in the Hubbard Brook Forest, New Hampshire. <em>Ecological Monographs, 43</em>, 173–191. <a href="https://doi.org/10.2307/1942196">https://doi.org/10.2307/1942196</a>
-</p>
-<p>
-Johnson, C. E., Siccama, T. G., Denny, E. G., Koppers, M. M., &amp; Vogt, D. J. (2014). In situ decomposition of northern hardwood tree boles: Decay rates and nutrient dynamics in wood and bark. <em>Canadian Journal of Forest Research, 44</em>, 1515–1524. <a href="https://doi.org/10.1139/cjfr-2014-0271">https://doi.org/10.1139/cjfr-2014-0271</a>
-</p>
-<p>
-Knorr, M., Frey, S. D., &amp; Curtis, P. S. (2005). Nitrogen additions and litter decomposition: A meta-analysis. <em>Ecology, 86</em>(12), 3252–3257. <a href="https://doi.org/10.1890/05-0150">https://doi.org/10.1890/05-0150</a>
-</p>
-<p>
-Lehmann, J., Solomon, D., Kinyangi, J., Dathe, L., Wirick, S., &amp; Jacobsen, C. (2008). Spatial complexity of soil organic matter forms at nanometre scales. <em>Nature Geoscience, 1</em>(4), 238–242. <a href="https://doi.org/10.1038/ngeo155">https://doi.org/10.1038/ngeo155</a>
-</p>
-<p>
-Li, A., Fahey, T. J., Pawlowska, T. E., Fisk, M. C., &amp; Burtis, J. (2015). Fine root decomposition, nutrient mobilization and fungal communities in a pine forest ecosystem. <em>Soil Biology &amp; Biochemistry, 83</em>, 76–83. <a href="https://doi.org/10.1016/j.soilbio.2015.01.011">https://doi.org/10.1016/j.soilbio.2015.01.011</a>
-</p>
-<p>
-Liu, W., Schaefer, D., Lu, Q., &amp; Liu, X. (2013). What controls the variability of wood-decay rates? <em>Forest Ecology and Management, 310</em>, 623–631. <a href="https://doi.org/10.1016/j.foreco.2013.08.041">https://doi.org/10.1016/j.foreco.2013.08.041</a>
-</p>
-<p>
-Lovett, G. M., Arthur, M. A., &amp; Crowley, K. F. (2016). Effects of calcium on the rate and extent of litter decomposition in a northern hardwood forest. <em>Ecosystems, 19</em>(1), 87–97. <a href="https://doi.org/10.1007/s10021-015-9926-0">https://doi.org/10.1007/s10021-015-9926-0</a>
-</p>
-<p>
-Matamala, R., Gonzalez-Meler, M. A., Jastrow, J. D., Norby, R. J., &amp; Schlesinger, W. H. (2003). Impacts of fine root turnover on forest NPP and soil C sequestration potential. <em>Science, 302</em>(5649), 1385–1387. <a href="https://doi.org/10.1126/science.1089543">https://doi.org/10.1126/science.1089543</a>
-</p>
-<p>
-Melillo, J. M., Aber, J. D., &amp; Muratore, J. M. (1982). Nitrogen and lignin control of hardwood leaf litter decomposition dynamics. <em>Ecology, 63</em>, 621–626. <a href="https://doi.org/10.2307/1936780">https://doi.org/10.2307/1936780</a>
-</p>
-<p>
-Olson, J. S. (1963). Energy storage and the balance of producers and decomposers in ecological systems. <em>Ecology, 44</em>, 322–331. <a href="https://doi.org/10.2307/1932179">https://doi.org/10.2307/1932179</a>
-</p>
-<p>
-Oulehle, F., Evans, C. D., Hofmeister, J., Krejci, R., Tahovska, K., Persson, T., Cudlin, P., &amp; Hruska, J. (2011). Major changes in forest carbon and nitrogen cycling caused by declining sulphur deposition. <em>Global Change Biology, 17</em>(10), 3115–3129. <a href="https://doi.org/10.1111/j.1365-2486.2011.02468.x">https://doi.org/10.1111/j.1365-2486.2011.02468.x</a>
-</p>
-<p>
-Schmidt, M. W., Torn, M. S., Abiven, S., Dittmar, T., Guggenberger, G., Janssens, I. A., Kleber, M., Kögel-Knabner, I., Lehmann, J., Manning, D. A., &amp; Nannipieri, P. (2011). Persistence of soil organic matter as an ecosystem property. <em>Nature, 478</em>(7367), 49–56. <a href="https://doi.org/10.1038/nature10386">https://doi.org/10.1038/nature10386</a>
-</p>
-<p>
-Siccama, T. G., Fahey, T. J., Johnson, C. E., Sherry, T. W., Denny, E. G., Girdler, B., Likens, G. E., &amp; Schwarz, P. A. (2007). Population and biomass dynamics of trees in a northern hardwood forest at Hubbard Brook. <em>Canadian Journal of Forest Research, 37</em>, 737–749. <a href="https://doi.org/10.1139/X06-261">https://doi.org/10.1139/X06-261</a>
-</p>
-<p>
-Silver, W. L., &amp; Miya, R. K. (2001). Global patterns in root decomposition: Comparisons of climate and litter quality effects. <em>Oecologia, 129</em>(3), 407–419. <a href="https://doi.org/10.1007/s004420100740">https://doi.org/10.1007/s004420100740</a>
-</p>
-<p>
-Tierney, G. L., &amp; Fahey, T. J. (2001). Evaluating minirhizotron estimates of fine root longevity and production in the forest floor of a temperate broadleaf forest. <em>Plant and Soil, 229</em>(2), 167–176. <a href="https://doi.org/10.1023/A:1004813819370">https://doi.org/10.1023/A:1004813819370</a>
-</p>
-<p>
-Waring, B. G. (2013). Exploring relationships between enzyme activities and leaf litter decomposition in a wet tropical forest. <em>Soil Biology &amp; Biochemistry, 64</em>, 89–95. <a href="https://doi.org/10.1016/j.soilbio.2013.04.020">https://doi.org/10.1016/j.soilbio.2013.04.020</a>
-</p>
-<p>
-Weand, M. P., Arthur, M. A., Lovett, G. M., McCulley, R. L., &amp; Weathers, K. C. (2010). Effects of tree species and N additions on forest floor microbial communities and extracellular enzyme activities. <em>Soil Biology &amp; Biochemistry, 42</em>, 2161–2173. <a href="https://doi.org/10.1016/j.soilbio.2010.08.012">https://doi.org/10.1016/j.soilbio.2010.08.012</a>
-</p>
-<p>
-Wells, C. E., Glenn, D. M., &amp; Eissenstat, D. M. (2002). Soil insects alter fine root demography in peach (<em>Prunus persica</em>). <em>Plant, Cell &amp; Environment, 25</em>, 431–439. <a href="https://doi.org/10.1046/j.1365-3040.2002.00830.x">https://doi.org/10.1046/j.1365-3040.2002.00830.x</a>
-</p>
-<p>
-Yanai, R. D., Stehman, S. V., Arthur, M. A., Prescott, C. E., Friedland, A. J., Siccama, T. G., &amp; Binkley, D. (2003). Detecting change in forest floor carbon. <em>Soil Science Society of America Journal, 67</em>(5), 1583–1593. <a href="https://doi.org/10.2136/sssaj2003.1583">https://doi.org/10.2136/sssaj2003.1583</a>
-</p>
-</div>
+<p>Arthur, M. A., Tritton, L. M., &amp; Fahey, T. J. (1993). Dead bole mass and nutrients remaining 23 years after clear-felling of a northern hardwood forest. <em>Canadian Journal of Forest Research, 23</em>, 1298–1305. <a href="https://doi.org/10.1139/x93-166" target="_blank" rel="noopener">https://doi.org/10.1139/x93-166</a></p>
+<p>Bailey, S. W., Brousseau, P. A., McGuire, K. J., &amp; Ross, D. S. (2014). Influence of landscape position and transient water table on soil development and carbon distribution in a steep, headwater catchment. <em>Geoderma, 226–227</em>, 279–289. <a href="https://doi.org/10.1016/j.geoderma.2014.02.017" target="_blank" rel="noopener">https://doi.org/10.1016/j.geoderma.2014.02.017</a></p>
+<p>Berg, B., Johansson, M.-B., Ekbohm, G., McClaugherty, C., Rutigliano, F., &amp; De Santo, A. V. (1996). Maximum decomposition limits of forest litter types: A synthesis. <em>Canadian Journal of Botany, 74</em>, 659–672. <a href="https://doi.org/10.1139/b96-084" target="_blank" rel="noopener">https://doi.org/10.1139/b96-084</a></p>
+<p>Berg, B., Johansson, M.-B., &amp; Meentemeyer, V. (2000). Litter decomposition in a transect of Norway spruce forests: Substrate quality and climate control. <em>Canadian Journal of Forest Research, 30</em>, 1136–1147. https://doi.org/10.1139/x00-04](https://doi.org/10.1139/x00-04){target=“_blank” rel=“noopener”}</p>
+<p>Covington, W. W. (1981). Changes in forest floor organic matter and nutrient content following clearcutting in northern hardwoods. <em>Ecology, 62</em>(1), 41–48. <a href="https://doi.org/10.2307/1936666" target="_blank" rel="noopener">https://doi.org/10.2307/1936666</a></p>
+<p>Dittman, J. A., Driscoll, C. T., Groffman, P. M., &amp; Fahey, T. J. (2007). Dynamics of nitrogen and dissolved organic carbon at the Hubbard Brook Experimental Forest. <em>Ecology, 88</em>, 1153–1166. <a href="https://doi.org/10.1890/06-0834" target="_blank" rel="noopener">https://doi.org/10.1890/06-0834</a></p>
+<p>Dominski, A. S. (1974). Soil nitrate release from a clearcut watershed in the Hubbard Brook Forest, New Hampshire. Unpublished report, School of Forestry and Environmental Studies, Yale University.</p>
+<p>Dornbush, M. E., Isenhart, T. M., &amp; Raich, J. W. (2002). Quantifying fine-root decomposition: An alternative to buried litterbags. <em>Ecology, 83</em>, 2985–2990. <a href="https://doi.org/10.1890/0012-9658(2002)083%5B2985:QFRDAA%5D2.0.CO;2" target="_blank" rel="noopener">https://doi.org/10.1890/0012-9658(2002)083%5B2985:QFRDAA%5D2.0.CO;2</a></p>
+<p>Fahey, T. J., Yavitt, J. B., Sherman, R. E., Maerz, J. C., Groffman, P. M., Fisk, M. C., &amp; Bohlen, P. (2013). Earthworm effects on the conversion of litter C and N into soil organic matter in a sugar maple forest. <em>Ecological Applications, 23</em>(5), 1185–1201. <a href="https://doi.org/10.1890/12-1760.1" target="_blank" rel="noopener">https://doi.org/10.1890/12-1760.1</a></p>
+<p>Fahey, T. J., Siccama, T. G., Driscoll, C. T., Likens, G. E., Campbell, J., Johnson, C. E., Aber, J. D., Cole, J. J., Fisk, M. C., Groffman, P. M., Hamburg, S. P., Holmes, R. T., Schwarz, P. A., &amp; Yanai, R. D. (2005). The biogeochemistry of carbon at Hubbard Brook. <em>Biogeochemistry, 75</em>, 109–176. <a href="https://doi.org/10.1007/s10533-004-6321-y" target="_blank" rel="noopener">https://doi.org/10.1007/s10533-004-6321-y</a></p>
+<p>Fahey, T. J., Hughes, J. W., Pu, M., &amp; Arthur, M. A. (1988). Root decomposition and nutrient flux following whole-tree harvest of northern hardwood forest. <em>Forest Science, 34</em>(3), 744–768. <a href="https://doi.org/10.1093/forestscience/34.3.744" target="_blank" rel="noopener">https://doi.org/10.1093/forestscience/34.3.744</a></p>
+<p>Fahey, T. J., &amp; Arthur, M. A. (1994). Further studies of root decomposition following harvest of a northern hardwood forest. <em>Forest Science, 40</em>(4), 618–629.</p>
+<p>Fahey, T. J., Heinz, A. K., Battles, J. J., Fisk, M. C., Driscoll, C. T., Blum, J. D., &amp; Johnson, C. E. (2016). Fine root biomass declined in response to restoration of soil calcium in a northern hardwood forest. <em>Canadian Journal of Forest Research, 46</em>(5), 738–744. <a href="https://doi.org/10.1139/cjfr-2015-0434" target="_blank" rel="noopener">https://doi.org/10.1139/cjfr-2015-0434</a></p>
+<p>Fahey, T. J., Yavitt, J. B., Sherman, R. E., Groffman, P. M., Fisk, M. C., &amp; Maerz, J. C. (2011). Transport of carbon and nitrogen between litter and soil organic matter in a northern hardwood forest. <em>Ecosystems, 14</em>(2), 326–340. <a href="https://doi.org/10.1007/s10021-011-9414-1" target="_blank" rel="noopener">https://doi.org/10.1007/s10021-011-9414-1</a></p>
+<p>Fisk, M. C., Kessler, W. R., Goodale, C. L., Fahey, T. J., Groffman, P. M., &amp; Driscoll, C. T. (2006). Landscape variation in microarthropod response to calcium addition in a northern hardwood forest. <em>Pedobiologia, 50</em>, 69–78. <a href="https://doi.org/10.1016/j.pedobi.2005.11.001" target="_blank" rel="noopener">https://doi.org/10.1016/j.pedobi.2005.11.001</a></p>
+<p>Goebel, M., Hobbie, S. E., Bulaj, B., Zadworny, M., Archibald, D. D., Oleksyn, J., Reich, P. B., &amp; Eissenstat, D. M. (2011). Decomposition of the finest root branching orders: Linking belowground dynamics to fine-root function and structure. <em>Ecological Monographs, 81</em>, 89–102. <a href="https://doi.org/10.1890/09-2390.1" target="_blank" rel="noopener">https://doi.org/10.1890/09-2390.1</a></p>
+<p>Gosz, J. R., Likens, G. E., &amp; Bormann, F. H. (1973). Nutrient release from decomposing leaf and branch litter in the Hubbard Brook Forest, New Hampshire. <em>Ecological Monographs, 43</em>, 173–191. <a href="https://doi.org/10.2307/1942193" target="_blank" rel="noopener">https://doi.org/10.2307/1942193</a></p>
+<p>Johnson, C. E., Siccama, T. G., Denny, E. G., Koppers, M. M., &amp; Vogt, D. J. (2014). In situ decomposition of northern hardwood tree boles: Decay rates and nutrient dynamics in wood and bark. <em>Canadian Journal of Forest Research, 44</em>, 1515–1524. <a href="https://doi.org/10.1139/cjfr-2014-0221" target="_blank" rel="noopener">https://doi.org/10.1139/cjfr-2014-0221</a></p>
+<p>Knorr, M., Frey, S. D., &amp; Curtis, P. S. (2005). Nitrogen additions and litter decomposition: A meta-analysis. <em>Ecology, 86</em>(12), 3252–3257. <a href="https://doi.org/10.1890/05-0150" target="_blank" rel="noopener">https://doi.org/10.1890/05-0150</a></p>
+<p>Lehmann, J., Solomon, D., Kinyangi, J., Dathe, L., Wirick, S., &amp; Jacobsen, C. (2008). Spatial complexity of soil organic matter forms at nanometre scales. <em>Nature Geoscience, 1</em>, 238–242. <a href="https://doi.org/10.1038/ngeo155" target="_blank" rel="noopener">https://doi.org/10.1038/ngeo155</a></p>
+<p>Li, A., Fahey, T. J., Pawlowska, T. E., Fisk, M. C., &amp; Burtis, J. (2015). Fine root decomposition, nutrient mobilization and fungal communities in a pine forest ecosystem. <em>Soil Biology &amp; Biochemistry, 83</em>, 76–83. <a href="https://doi.org/10.1016/j.soilbio.2015.01.019" target="_blank" rel="noopener">https://doi.org/10.1016/j.soilbio.2015.01.019</a></p>
+<p>Liu, W., Schaefer, D., Lu, Q., &amp; Liu, X. (2013). What controls the variability of wood-decay rates? <em>Forest Ecology and Management, 310</em>, 623–631. <a href="https://doi.org/10.1016/j.foreco.2013.09.013" target="_blank" rel="noopener">https://doi.org/10.1016/j.foreco.2013.09.013</a></p>
+<p>Lovett, G. M., Arthur, M. A., &amp; Crowley, K. F. (2016). Effects of calcium on the rate and extent of litter decomposition in a northern hardwood forest. <em>Ecosystems, 19</em>(1), 87–97. <a href="https://doi.org/10.1007/s10021-015-9919-0" target="_blank" rel="noopener">https://doi.org/10.1007/s10021-015-9919-0</a></p>
+<p>Matamala, R., Gonzalez-Meler, M. A., Jastrow, J. D., Norby, R. J., &amp; Schlesinger, W. H. (2003). Impacts of fine root turnover on forest NPP and soil C sequestration potential. <em>Science, 302</em>(5649), 1385–1387. <a href="https://doi.org/10.1126/science.1089543" target="_blank" rel="noopener">https://doi.org/10.1126/science.1089543</a></p>
+<p>Melillo, J. M., Aber, J. D., &amp; Muratore, J. M. (1982). Nitrogen and lignin control of hardwood leaf litter decomposition dynamics. <em>Ecology, 63</em>, 621–626. <a href="https://doi.org/10.2307/1936780" target="_blank" rel="noopener">https://doi.org/10.2307/1936780</a></p>
+<p>Olson, J. S. (1963). Energy storage and the balance of producers and decomposers in ecological systems. <em>Ecology, 44</em>, 322–331. <a href="https://doi.org/10.2307/1932179" target="_blank" rel="noopener">https://doi.org/10.2307/1932179</a></p>
+<p>Oulehle, F., Evans, C. D., Hofmeister, J., Krejci, R., Tahovska, K., Persson, T., Cudlin, P., &amp; Hruska, J. (2011). Major changes in forest carbon and nitrogen cycling caused by declining sulphur deposition. <em>Global Change Biology, 17</em>(10), 3115–3129. <a href="https://doi.org/10.1111/j.1365-2486.2011.02468.x" target="_blank" rel="noopener">https://doi.org/10.1111/j.1365-2486.2011.02468.x</a></p>
+<p>Schmidt, M. W., Torn, M. S., Abiven, S., Dittmar, T., Guggenberger, G., Janssens, I. A., Kleber, M., Kögel-Knabner, I., Lehmann, J., Manning, D. A., &amp; Nannipieri, P. (2011). Persistence of soil organic matter as an ecosystem property. <em>Nature, 478</em>(7367), 49–56. <a href="https://doi.org/10.1038/nature10386" target="_blank" rel="noopener">https://doi.org/10.1038/nature10386</a></p>
+<p>Siccama, T. G., Fahey, T. J., Johnson, C. E., Sherry, T. W., Denny, E. G., Girdler, B., Likens, G. E., &amp; Schwarz, P. A. (2007). Population and biomass dynamics of trees in a northern hardwood forest at Hubbard Brook. <em>Canadian Journal of Forest Research, 37</em>, 737–749. <a href="https://doi.org/10.1139/X06-261" target="_blank" rel="noopener">https://doi.org/10.1139/X06-261</a></p>
+<p>Silver, W. L., &amp; Miya, R. K. (2001). Global patterns in root decomposition: Comparisons of climate and litter quality effects. <em>Oecologia, 129</em>(3), 407–419. <a href="https://doi.org/10.1007/s004420100740" target="_blank" rel="noopener">https://doi.org/10.1007/s004420100740</a></p>
+<p>Tierney, G. L., &amp; Fahey, T. J. (2001). Evaluating minirhizotron estimates of fine root longevity and production in the forest floor of a temperate broadleaf forest. <em>Plant and Soil, 229</em>(2), 167–176. <a href="https://doi.org/10.1023/A:1004829423160" target="_blank" rel="noopener">https://doi.org/10.1023/A:1004829423160</a></p>
+<p>Waring, B. G. (2013). Exploring relationships between enzyme activities and leaf litter decomposition in a wet tropical forest. <em>Soil Biology &amp; Biochemistry, 64</em>, 89–95. <a href="https://doi.org/10.1016/j.soilbio.2013.04.010" target="_blank" rel="noopener">https://doi.org/10.1016/j.soilbio.2013.04.010</a></p>
+<p>Weand, M. P., Arthur, M. A., Lovett, G. M., McCulley, R. L., &amp; Weathers, K. C. (2010). Effects of tree species and N additions on forest floor microbial communities and extracellular enzyme activities. <em>Soil Biology &amp; Biochemistry, 42</em>, 2161–2173. <a href="https://doi.org/10.1016/j.soilbio.2010.08.012" target="_blank" rel="noopener">https://doi.org/10.1016/j.soilbio.2010.08.012</a></p>
+<p>Wells, C. E., Glenn, D. M., &amp; Eissenstat, D. M. (2002). Soil insects alter fine root demography in peach (<em>Prunus persica</em>). <em>Plant, Cell &amp; Environment, 25</em>, 431–439. <a href="https://doi.org/10.1046/j.1365-3040.2002.00793.x" target="_blank" rel="noopener">https://doi.org/10.1046/j.1365-3040.2002.00793.x</a></p>
+<p>Yanai, R. D., Stehman, S. V., Arthur, M. A., Prescott, C. E., Friedland, A. J., Siccama, T. G., &amp; Binkley, D. (2003). Detecting change in forest floor carbon. <em>Soil Science Society of America Journal, 67</em>(5), 1583–1593. <a href="https://doi.org/10.2136/sssaj2003.1583" target="_blank" rel="noopener">https://doi.org/10.2136/sssaj2003.1583</a></p>
 
 
 </section>
@@ -620,6 +580,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

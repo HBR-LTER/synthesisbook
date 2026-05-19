@@ -2,6 +2,8 @@
 title: "Forest Biomass and Primary Productivity"
 ---
 
+<div id="sec-biomasschapter"></div>
+
 Chapter Editors: John Battles
 
 
@@ -30,7 +32,6 @@ forest resides in the biomass of the trees and understanding the factors
 regulating forest biomass and its accumulation is of fundamental
 importance to ecologists and foresters, alike.
 
-![Changes in living biomass during ecosystem development after clear-cutting based on the average of two JABOWA simulations. (Bormann and Likens, 1979).](figs/biomass/biomassclearcut.png){#fig-biomassclearcut}
 
 In their classic treatise, Pattern and Process in a Forested Ecosystem,
 Bormann and Likens (1979) developed a conceptual model for spatial and
@@ -43,6 +44,8 @@ around an equilibrium value (@fig-biomassclearcut). Measurements at Hubbard Broo
 and elsewhere in the northern hardwood region have provided new insights
 about this conceptual model and the magnitude and timing of forest
 biomass accumulation.
+
+![Changes in living biomass during ecosystem development after clear-cutting based on the average of two JABOWA simulations. (Bormann and Likens, 1979).](figs/biomass/biomassclearcut.png){#fig-biomassclearcut}
 
 Primary productivity is the process resulting from photosynthetic
 activity of the plants and determines biomass accumulation in forests.
@@ -106,7 +109,6 @@ with site quality and forest age, as discussed later, but averages about
 organisms averages less than 0.6% that of plants, and is mostly (\~ 96%)
 comprised of soil microbes (bacteria, fungi).
 
-![Spatial pattern of estimated aboveground biomass in the reference watershed (W6) and across the Hubbard Brook valley in 1997. The W6 map is based on a 100% survey, gridded at 25 x 25 m spatial scale. The valley-wide interpolations are based on 450 plots (0.05 ha each). Error estimates are given in the text. (Fahey et al., 2005).](figs/biomass/biomassmap.png){#fig-biomassmap}
 
 Forest biomass represents one of the largest and most sensitive carbon
 pools on Earth and for that reason, ecologists and policy-makers have
@@ -118,6 +120,8 @@ forests. Within the Hubbard Brook valley a two-fold range of aboveground
 biomass is observed in the ca. 100-yr-old-forest, with lowest values in
 fir-birch-spruce forest on thin soils at higher elevations and highest
 values in mixed hemlock-hardwoods in the lower valley (@fig-biomassmap).
+
+![Spatial pattern of estimated aboveground biomass in the reference watershed (W6) and across the Hubbard Brook valley in 1997. The W6 map is based on a 100% survey, gridded at 25 x 25 m spatial scale. The valley-wide interpolations are based on 450 plots (0.05 ha each). Error estimates are given in the text. (Fahey et al., 2005).](figs/biomass/biomassmap.png){#fig-biomassmap}
 
 Both tree species composition and site quality influence patterns of
 maximum forest biomass that accumulates in the northern forest region.
@@ -233,7 +237,6 @@ sensitive to environmental changes, climate, atmospheric CO2 and soil
 fertility.
 
 <div style="width: 50%; margin: auto;">
-**Table 1. Biomass and production components of northern hardwood forest at Hubbard Brook (adapted from Fahey et al., 2005).**
 
 | Biomass Components              | g/m² (1997)     |
 |--------------------------------|----------------:|
@@ -247,9 +250,8 @@ fertility.
 | Fine roots (< 1 mm)            |             522 |
 | **Total belowground biomass**  | **5022 (638)**  |
 | **Total plant biomass**        | **24012**       |
-
-| Production Components          | g/m²·yr (1997)  |
-|--------------------------------|----------------:|
+| **-** | **-**|
+| **Production Components**          | **g/m²·yr (1997)**  |
 | Aboveground annual tissues     |             342 |
 | Aboveground perennial tissues  |             366 |
 | **Total ANPP**                 | **708 (62)**    |
@@ -258,20 +260,20 @@ fertility.
 | Rhizosphere flux               |             160 |
 | **Total BNPP**                 | **418**         |
 | **Total NPP**                  | **1126**        |
-
+: **Biomass and production components of northern hardwood forest at Hubbard Brook (adapted from Fahey et al., 2005).** {#tbl-biocomp}
 </div>
 
 The first estimates of ANPP of the Hubbard Brook forest were calculated
 in the 1960s by Whittaker et al. (1974). At that time the forest on W6
 was about 50 yrs old and ANPP was estimated at 924 g/m2-yr. Since that
 time ANPP has declined considerably; Fahey et al. (2005) estimated ANPP
-of the same forest at age ca. 90 yrs to be 708 g/m2-yr (Table 1).
+of the same forest at age ca. 90 yrs to be 708 g/m2-yr (@tbl-biocomp).
 Roughly half of this total was associated with increment of woody tissue
 and half with replacement of ephemeral tissue (mostly foliage). The ANPP
 of the northern hardwood forest at Hubbard Brook is similar to a variety
-of other mature Acer-dominated forests worldwide (Table 2). 
+of other mature Acer-dominated forests worldwide (@tbl-anpp). 
 
-**Table 2. Aboveground net primary productivity and forest production efficiency for selected mature Acer-dominated forests (from Fahey et al., 2005)**
+
 
 | Location                         | Ref. d/ | ANPP (g/m²·yr) | FPE a/ (LAI-basis) | FPE b/ (Mass-basis) | Wood PE c/ |
 |----------------------------------|:-------:|---------------:|-------------------:|--------------------:|-----------:|
@@ -284,6 +286,7 @@ of other mature Acer-dominated forests worldwide (Table 2).
 | Wisconsin ground moraine         |    5    |            920 |                133 |                  na |         na |
 | Himalayas, India                 |    6    |            990 |                193 |                1.80 |       0.80 |
 | Upstate New York                 |    7    |            772 |                119 |                2.38 |       1.23 |
+: **Aboveground net primary productivity and forest production efficiency for selected mature Acer-dominated forests (from Fahey et al., 2005)** {#tbl-anpp}
 
 Belowground production (BNPP) includes the growth of perennial woody
 roots, the replacement of ephemeral fine roots as well as organic matter
@@ -377,7 +380,7 @@ limitation of NPP in mature forests was mixed. Recent results from an
 ongoing N x P nutrient amendment experiment in and around HBEF suggest
 that P limitation may be widespread in mature northern hardwood forests.
 
-![ANPP for three elevational zones of W2 (open diamond, lower third; open square, middle third; open triangle, upper third) compared with site averages for conventionally harvested sites (solid squares) (Reiners et al., 2012).](figs/biomass/anppElevation.png){#fig-anppelevation}
+
 
 The effects of natural variation in soil nutrient availability on
 biomass accumulation and NPP of the Hubbard Brook forest have been
@@ -416,6 +419,8 @@ accumulation and net primary productivity, the forest on W2 followed a
 trajectory similar to (though on the low end) of comparable sites that
 had been harvested by conventional methods (@fig-anppelevation).
 
+![ANPP for three elevational zones of W2 (open diamond, lower third; open square, middle third; open triangle, upper third) compared with site averages for conventionally harvested sites (solid squares) (Reiners et al., 2012).](figs/biomass/anppElevation.png){#fig-anppelevation}
+
 The slowest growth and biomass accumulation were observed in the upper
 elevation zone of the watershed where soils are thinner and less fertile
 (Johnson et al. 2000). These observations illustrate that northern
@@ -431,7 +436,6 @@ soil organic matter.
 Forest productivity is powered by the capture of solar radiant energy by
 plant foliage. The standard measurement of foliage abundance that
 carries out this function is leaf area index (LAI), defined as the
-
 (one-sided) area of foliage in the entire plant canopy per unit ground
 area; essentially LAI is the number of layers of canopy foliage. In
 mesic forests like Hubbard Brook with a closed canopy, where LAI is
@@ -451,7 +455,7 @@ various tree species.
 The total LAI of the northern hardwood forest adjacent to reference W6
 averages a little less than 6. In the absence of disturbances LAI is
 pretty constant from year to year, but considerable spatial variation
-across the study area is observed (Figure #): the highest values of 7 to
+across the study area is observed (@fig-lai): the highest values of 7 to
 8 are observed in coves with enriched soils and sugar maple dominance
 while the lowest values (3.5 to 4) coincide with thin depleted soils in
 the upper watershed. Comparison between the reference forest adjacent to
@@ -485,71 +489,79 @@ forest stands adjacent to W6 and three stands in W1.
 * How does BNPP associated with rhizosphere carbon flux vary across the forest landscape, and what environmental and biotic factors influence this flux pathway?
 * How will forest NPP respond to the long-term amelioration of soil calcium depletion on WS1?
 * Conversely, will the depletion of soil calcium resulting from whole-tree harvest limit forest NPP on WS5?
-* How will forest NPP and biomass accumulation respond to continued changes in climate and atmospheric carbon dioxide concerntration?
+* How will forest NPP and biomass accumulation respond to continued changes in climate and atmospheric carbon dioxide concentration?
+
+
 
 
 ## References
 
-<div class="references">
+Arthur, M. A., Tritton, L. M., & Fahey, T. J. (1993). Dead bole mass and nutrients remaining 23 years after clear-felling of a northern hardwood forest. *Canadian Journal of Forest Research, 23*, 1298–1305. [https://doi.org/10.1139/x93-164](https://doi.org/10.1139/x93-164){target="_blank" rel="noopener"}
 
-Bailey, A. S., Hornbeck, J. W., Campbell, J. L., & Eagar, C. (2003). *Hydro-meteorological database for Hubbard Brook Experimental Forest: 1955–2000* (Gen. Tech. Rep. NE-305). USDA Forest Service, Northeastern Research Station.  
+Bailey, S. W., Brousseau, P. A., McGuire, K. J., & Ross, D. S. (2014). Influence of landscape position and transient water table on soil development and carbon distribution in a steep, headwater catchment. *Geoderma, 226–227*, 279–289. [https://doi.org/10.1016/j.geoderma.2014.02.012](https://doi.org/10.1016/j.geoderma.2014.02.012){target="_blank" rel="noopener"}  
 
-Battles, J. J., Fahey, T. J., Driscoll, C. T., Jr., Blum, J. D., & Johnson, C. E. (2014). Restoring soil calcium reverses forest decline. *Environmental Science & Technology Letters, 1*(1), 15–19. [https://doi.org/10.1021/ez400033d](https://doi.org/10.1021/ez400033d)
+Berg, B., Johansson, M.-B., Ekbohm, G., McClaugherty, C., Rutigliano, F., & De Santo, A. V. (1996). Maximum decomposition limits of forest litter types: A synthesis. *Canadian Journal of Botany, 74*, 659–672. [https://doi.org/10.1139/b96-084](https://doi.org/10.1139/b96-084){target="_blank" rel="noopener"}  
 
-Blum, J. D., Klaue, A., Nezat, C. A., Driscoll, C. T., Johnson, C. E., Siccama, T. G., Eagar, C., Fahey, T. J., & Likens, G. E. (2002). Mycorrhizal weathering of apatite as an important calcium source in base-poor forest ecosystems. *Nature, 417*, 729–731. [https://doi.org/10.1038/nature00793](https://doi.org/10.1038/nature00793)
+Berg, B., Johansson, M.-B., & Meentemeyer, V. (2000). Litter decomposition in a transect of Norway spruce forests: Substrate quality and climate control. *Canadian Journal of Forest Research, 30*, 1136–1147. [https://doi.org/10.1139/x00-050](https://doi.org/10.1139/x00-050){target="_blank" rel="noopener"}  
 
-Bormann, B. T., Bormann, F. H., Bowden, W. B., Pierce, R. S., Hamburg, S. P., Wang, D., Snyder, M. C., Li, C. Y., & Ingersoll, R. C. (1993). Rapid N₂ fixation in pines, alder and locust: Evidence from the sandbox ecosystem study. *Ecology, 74*(2), 583–598. [https://doi.org/10.2307/1939321](https://doi.org/10.2307/1939321)
+Covington, W. W. (1981). Changes in forest floor organic matter and nutrient content following clearcutting in northern hardwoods. *Ecology, 62*(1), 41–48. [https://doi.org/10.2307/1936666](https://doi.org/10.2307/1936666){target="_blank" rel="noopener"}  
 
-Bormann, F. H., & Likens, G. E. (1979). *Pattern and process in a forested ecosystem*. Springer. [https://doi.org/10.1007/978-1-4612-6232-9](https://doi.org/10.1007/978-1-4612-6232-9)
+Dittman, J. A., Driscoll, C. T., Groffman, P. M., & Fahey, T. J. (2007). Dynamics of nitrogen and dissolved organic carbon at the Hubbard Brook Experimental Forest. *Ecology, 88*, 1153–1166. [https://doi.org/10.1890/06-0834](https://doi.org/10.1890/06-0834){target="_blank" rel="noopener"}  
 
-Clark, D. A., Brown, S., Kicklighter, D., Chambers, J. Q., Thomlinson, J. R., & Ni, J. (2001). Measuring net primary production in forests: Concepts and field methods. *Ecological Applications, 11*, 356–370. [https://doi.org/10.1890/1051-0761(2001)011[0356:MNPPIF]2.0.CO;2](https://doi.org/10.1890/1051-0761(2001)011[0356:MNPPIF]2.0.CO;2)
+Dominski, A. S. (1974). Soil nitrate release from a clearcut watershed in the Hubbard Brook Forest, New Hampshire. Unpublished report, School of Forestry and Environmental Studies, Yale University.  
 
-Fahey, T. J., Cleavitt, N. L., & Battles, J. J. (2022). Long-term variation of leaf abundance in a northern hardwood forest. *Ecological Indicators, 137*, 108746. [https://doi.org/10.1016/j.ecolind.2022.108746](https://doi.org/10.1016/j.ecolind.2022.108746)
+Dornbush, M. E., Isenhart, T. M., & Raich, J. W. (2002). Quantifying fine-root decomposition: An alternative to buried litterbags. *Ecology, 83*, 2985–2990. [https://doi.org/10.1890/0012-9658(2002)083[2985:QFRDAA]2.0.CO;2](https://doi.org/10.1890/0012-9658(2002)083[2985:QFRDAA]2.0.CO;2){target="_blank" rel="noopener"}  
 
-Fahey, T. J., Sherman, R. E., & Weinstein, D. A. (2013). Demography, biomass and productivity of a northern hardwood forest on the Allegheny Plateau. *Journal of the Torrey Botanical Society, 140*(1), 52–64. [https://doi.org/10.3159/TORREY-D-12-00029.1](https://doi.org/10.3159/TORREY-D-12-00029.1)
+Fahey, T. J., Yavitt, J. B., Sherman, R. E., Maerz, J. C., Groffman, P. M., Fisk, M. C., & Bohlen, P. (2013). Earthworm effects on the conversion of litter C and N into soil organic matter in a sugar maple forest. *Ecological Applications, 23*(5), 1185–1201. [https://doi.org/10.1890/12-1760.1](https://doi.org/10.1890/12-1760.1){target="_blank" rel="noopener"}  
 
-Fahey, T. J., Siccama, T. G., Driscoll, C. T., Likens, G. E., Campbell, J., Johnson, C. E., Aber, J. D., Cole, J. J., Fisk, M. C., Groffman, P. M., Holmes, R. T., Schwarz, P. A., & Yanai, R. D. (2005). The biogeochemistry of carbon at Hubbard Brook. *Biogeochemistry, 75*(1), 109–176. [https://doi.org/10.1007/s10533-004-6321-y](https://doi.org/10.1007/s10533-004-6321-y)
+Fahey, T. J., Siccama, T. G., Driscoll, C. T., Likens, G. E., Campbell, J., Johnson, C. E., Aber, J. D., Cole, J. J., Fisk, M. C., Groffman, P. M., Hamburg, S. P., Holmes, R. T., Schwarz, P. A., & Yanai, R. D. (2005). The biogeochemistry of carbon at Hubbard Brook. *Biogeochemistry, 75*, 109–176. [https://doi.org/10.1007/s10533-004-6321-y](https://doi.org/10.1007/s10533-004-6321-y){target="_blank" rel="noopener"}  
 
-Fahey, T. J., Hughes, J. W., Pu, M., & Arthur, M. A. (1988). Root decomposition and nutrient flux following whole-tree harvest of northern hardwood forest. *Forest Science, 34*(3), 744–768. [https://doi.org/10.1093/forestscience/34.3.744](https://doi.org/10.1093/forestscience/34.3.744)
+Fahey, T. J., Hughes, J. W., Pu, M., & Arthur, M. A. (1988). Root decomposition and nutrient flux following whole-tree harvest of northern hardwood forest. *Forest Science, 34*(3), 744–768.  
 
-Federer, C. A. (1977). Leaf resistance and xylem potential differ among broadleaved species. *Forest Science, 23*(4), 411–419. [https://doi.org/10.1093/forestscience/23.4.411](https://doi.org/10.1093/forestscience/23.4.411)
+Fahey, T. J., & Arthur, M. A. (1994). Further studies of root decomposition following harvest of a northern hardwood forest. *Forest Science, 40*(4), 618–629.  
 
-Halman, J. M., Schaberg, P. G., Hawley, G. J., Pardo, L. A., & Fahey, T. J. (in review). Calcium and aluminum impacts on sugar maple physiology in a northern hardwood forest. *Tree Physiology*.  
-(No DOI available – manuscript in review)
+Fahey, T. J., Heinz, A. K., Battles, J. J., Fisk, M. C., Driscoll, C. T., Blum, J. D., & Johnson, C. E. (2016). Fine root biomass declined in response to restoration of soil calcium in a northern hardwood forest. *Canadian Journal of Forest Research, 46*(5), 738–744. [https://doi.org/10.1139/cjfr-2015-0354](https://doi.org/10.1139/cjfr-2015-0354){target="_blank" rel="noopener"}  
 
-Holmes, R. T., & Sturges, F. W. (1975). Bird community dynamics and energetics in a northern hardwoods ecosystem. *Journal of Animal Ecology, 44*, 175–200. [https://doi.org/10.2307/3853](https://doi.org/10.2307/3853)
+Fahey, T. J., Yavitt, J. B., Sherman, R. E., Groffman, P. M., Fisk, M. C., & Maerz, J. C. (2011). Transport of carbon and nitrogen between litter and soil organic matter in a northern hardwood forest. *Ecosystems, 14*(2), 326–340. [https://doi.org/10.1007/s10021-010-9403-7](https://doi.org/10.1007/s10021-010-9403-7){target="_blank" rel="noopener"}  
 
-Huggett, B. A., Schaberg, P. G., Hawley, G. J., & Eagar, C. (2007). Long-term calcium addition increases growth release, wound closure, and health of sugar maple (*Acer saccharum*) trees at the Hubbard Brook Experimental Forest. *Canadian Journal of Forest Research, 37*, 1692–1700. [https://doi.org/10.1139/X07-070](https://doi.org/10.1139/X07-070)
+Fisk, M. C., Kessler, W. R., Goodale, C. L., Fahey, T. J., Groffman, P. M., & Driscoll, C. T. (2006). Landscape variation in microarthropod response to calcium addition in a northern hardwood forest. *Pedobiologia, 50*, 69–78. [https://doi.org/10.1016/j.pedobi.2005.08.001](https://doi.org/10.1016/j.pedobi.2005.08.001){target="_blank" rel="noopener"}  
 
-Jenkins, J. C., Chojnacky, D. C., Heath, L. S., & Birdsey, R. A. (2003). National-scale biomass estimators for United States tree species. *Forest Science, 49*, 12–35. [https://doi.org/10.1093/forestscience/49.1.12](https://doi.org/10.1093/forestscience/49.1.12)
+Goebel, M., Hobbie, S. E., Bulaj, B., Zadworny, M., Archibald, D. D., Oleksyn, J., Reich, P. B., & Eissenstat, D. M. (2011). Decomposition of the finest root branching orders: Linking belowground dynamics to fine-root function and structure. *Ecological Monographs, 81*, 89–102. [https://doi.org/10.1890/09-2390.1](https://doi.org/10.1890/09-2390.1){target="_blank" rel="noopener"}  
 
-Johnson, C. E., Driscoll, C. T., Siccama, T. G., & Likens, G. E. (2000). Element fluxes and landscape position in a northern hardwood forest watershed-ecosystem. *Ecosystems, 3*, 159–184. [https://doi.org/10.1007/s100210000014](https://doi.org/10.1007/s100210000014)
+Gosz, J. R., Likens, G. E., & Bormann, F. H. (1973). Nutrient release from decomposing leaf and branch litter in the Hubbard Brook Forest, New Hampshire. *Ecological Monographs, 43*, 173–191. [https://doi.org/10.2307/1942196](https://doi.org/10.2307/1942196){target="_blank" rel="noopener"}  
 
-Keenan, T. F., Hollinger, D. Y., Bohrer, G., Dragoni, D., Munger, J. W., Schmid, H. P., & Richardson, A. D. (2013). Increase in forest water use efficiency as atmospheric carbon dioxide concentrations rise. *Nature, 499*, 324–327. [https://doi.org/10.1038/nature12291](https://doi.org/10.1038/nature12291)
+Johnson, C. E., Siccama, T. G., Denny, E. G., Koppers, M. M., & Vogt, D. J. (2014). In situ decomposition of northern hardwood tree boles: Decay rates and nutrient dynamics in wood and bark. *Canadian Journal of Forest Research, 44*, 1515–1524. [https://doi.org/10.1139/cjfr-2014-0261](https://doi.org/10.1139/cjfr-2014-0261){target="_blank" rel="noopener"}  
 
-Keeton, W. S., Whitman, A. A., McGee, G. G., & Goodale, C. L. (2011). Late-successional biomass development in northern hardwood-conifer forests of the northeastern United States. *Forest Science, 57*, 489–505. [https://doi.org/10.1093/forestscience/57.6.489](https://doi.org/10.1093/forestscience/57.6.489)
+Knorr, M., Frey, S. D., & Curtis, P. S. (2005). Nitrogen additions and litter decomposition: A meta-analysis. *Ecology, 86*(12), 3252–3257. [https://doi.org/10.1890/05-0150](https://doi.org/10.1890/05-0150){target="_blank" rel="noopener"}  
 
-Kelty, M. J. (1989). Productivity of New England hemlock/hardwood stands as affected by species composition and canopy structure. *Forest Ecology and Management, 28*, 237–257. [https://doi.org/10.1016/0378-1127(89)90047-9](https://doi.org/10.1016/0378-1127(89)90047-9)
+Lehmann, J., Solomon, D., Kinyangi, J., Dathe, L., Wirick, S., & Jacobsen, C. (2008). Spatial complexity of soil organic matter forms at nanometre scales. *Nature Geoscience, 1*, 238–242. [https://doi.org/10.1038/ngeo155](https://doi.org/10.1038/ngeo155){target="_blank" rel="noopener"}  
 
-Lichstein, J. W., Wirth, C., Horn, H. S., & Pacala, S. W. (2009). Biomass chronosequences of United States forests: Implications for carbon storage and forest management. In C. Wirth, G. Gleixner, & M. Heimann (Eds.), *Old growth forests* (Ecological Studies 207, pp. 301–341). Springer. [https://doi.org/10.1007/978-3-540-92706-8_13](https://doi.org/10.1007/978-3-540-92706-8_13)
+Li, A., Fahey, T. J., Pawlowska, T. E., Fisk, M. C., & Burtis, J. (2015). Fine root decomposition, nutrient mobilization and fungal communities in a pine forest ecosystem. *Soil Biology & Biochemistry, 83*, 76–83. [https://doi.org/10.1016/j.soilbio.2015.01.018](https://doi.org/10.1016/j.soilbio.2015.01.018){target="_blank" rel="noopener"}  
 
-Long, R. P., Horsley, S. B., Hallett, R. A., & Bailey, S. W. (2009). Sugar maple growth in relation to nutrition and stress in the northeastern United States. *Ecological Applications, 19*, 1454–1466. [https://doi.org/10.1890/08-1535.1](https://doi.org/10.1890/08-1535.1)
+Liu, W., Schaefer, D., Lu, Q., & Liu, X. (2013). What controls the variability of wood-decay rates? *Forest Ecology and Management, 310*, 623–631. [https://doi.org/10.1016/j.foreco.2013.09.013](https://doi.org/10.1016/j.foreco.2013.09.013){target="_blank" rel="noopener"}  
 
-Norby, R. J., et al. (2005). Forest response to elevated CO₂ is conserved across a broad range of productivity. *Proceedings of the National Academy of Sciences, 102*, 18052–18056. [https://doi.org/10.1073/pnas.0509478102](https://doi.org/10.1073/pnas.0509478102)
+Lovett, G. M., Arthur, M. A., & Crowley, K. F. (2016). Effects of calcium on the rate and extent of litter decomposition in a northern hardwood forest. *Ecosystems, 19*(1), 87–97. [https://doi.org/10.1007/s10021-015-9912-5](https://doi.org/10.1007/s10021-015-9912-5){target="_blank" rel="noopener"}  
 
-Reiners, W. A., Driese, K. L., Fahey, T. J., & Gerow, K. G. (2012). Effects of three years of regrowth inhibition on the resilience of a clear-cut northern hardwood forest. *Ecosystems, 15*, 1351–1362. [https://doi.org/10.1007/s10021-012-9589-0](https://doi.org/10.1007/s10021-012-9589-0)
+Matamala, R., Gonzalez-Meler, M. A., Jastrow, J. D., Norby, R. J., & Schlesinger, W. H. (2003). Impacts of fine root turnover on forest NPP and soil C sequestration potential. *Science, 302*, 1385–1387. [https://doi.org/10.1126/science.1089543](https://doi.org/10.1126/science.1089543){target="_blank" rel="noopener"}  
 
-Ryan, M. G., Binkley, D., & Fownes, J. H. (1997). Age-related decline in forest productivity: Pattern and process. *Advances in Ecological Research, 27*, 213–262. [https://doi.org/10.1016/S0065-2504(08)60013-2](https://doi.org/10.1016/S0065-2504(08)60013-2)
+Melillo, J. M., Aber, J. D., & Muratore, J. M. (1982). Nitrogen and lignin control of hardwood leaf litter decomposition dynamics. *Ecology, 63*, 621–626. [https://doi.org/10.2307/1936780](https://doi.org/10.2307/1936780){target="_blank" rel="noopener"}  
 
-Tierney, G. L., & Fahey, T. J. (2001). Evaluating minirhizotron estimates of fine root longevity and production in the forest floor of a temperate broadleaf forest. *Plant and Soil, 229*(2), 167–176. [https://doi.org/10.1023/A:1004813819370](https://doi.org/10.1023/A:1004813819370)
+Olson, J. S. (1963). Energy storage and the balance of producers and decomposers in ecological systems. *Ecology, 44*, 322–331. [https://doi.org/10.2307/1932179](https://doi.org/10.2307/1932179){target="_blank" rel="noopener"}  
 
-Tominaga, K., et al. (2010). Predicting acidification recovery at the Hubbard Brook Experimental Forest, New Hampshire: Evaluation of four models. *Environmental Science & Technology, 44*(23), 9003–9009. [https://doi.org/10.1021/es102243j](https://doi.org/10.1021/es102243j)
+Oulehle, F., Evans, C. D., Hofmeister, J., Krejci, R., Tahovska, K., Persson, T., Cudlin, P., & Hruska, J. (2011). Major changes in forest carbon and nitrogen cycling caused by declining sulphur deposition. *Global Change Biology, 17*, 3115–3129. [https://doi.org/10.1111/j.1365-2486.2011.02468.x](https://doi.org/10.1111/j.1365-2486.2011.02468.x){target="_blank" rel="noopener"}  
 
-Vadeboncoeur, M. A. (2010). Meta-analysis of fertilization experiments indicates multiple limiting nutrients in northeastern deciduous forests. *Canadian Journal of Forest Research, 40*, 1766–1780. [https://doi.org/10.1139/X10-127](https://doi.org/10.1139/X10-127)
+Schmidt, M. W., Torn, M. S., Abiven, S., Dittmar, T., Guggenberger, G., Janssens, I. A., Kleber, M., Kögel-Knabner, I., Lehmann, J., Manning, D. A., & Nannipieri, P. (2011). Persistence of soil organic matter as an ecosystem property. *Nature, 478*, 49–56. [https://doi.org/10.1038/nature10386](https://doi.org/10.1038/nature10386){target="_blank" rel="noopener"}  
 
-Whittaker, R. H., Bormann, F. H., Likens, G. E., & Siccama, T. G. (1974). The Hubbard Brook ecosystem study: Forest biomass and production. *Ecological Monographs, 44*(2), 233–254. [https://doi.org/10.2307/1942313](https://doi.org/10.2307/1942313)
+Siccama, T. G., Fahey, T. J., Johnson, C. E., Sherry, T. W., Denny, E. G., Girdler, B., Likens, G. E., & Schwarz, P. A. (2007). Population and biomass dynamics of trees in a northern hardwood forest at Hubbard Brook. *Canadian Journal of Forest Research, 37*, 737–749. [https://doi.org/10.1139/X06-261](https://doi.org/10.1139/X06-261){target="_blank" rel="noopener"}  
 
-Woodbury, P. B., Smith, J. E., & Heath, L. S. (2007). Carbon sequestration in the U.S. forest sector from 1990 to 2010. *Forest Ecology and Management, 241*, 14–27. [https://doi.org/10.1016/j.foreco.2007.01.006](https://doi.org/10.1016/j.foreco.2007.01.006)
+Silver, W. L., & Miya, R. K. (2001). Global patterns in root decomposition: Comparisons of climate and litter quality effects. *Oecologia, 129*(3), 407–419. [https://doi.org/10.1007/s004420100740](https://doi.org/10.1007/s004420100740){target="_blank" rel="noopener"}  
 
-Yanai, R. D., Battles, J. J., Richardson, A. D., Blodgett, C. A., Wood, D. M., & Rastetter, E. B. (2010). Estimating uncertainty in ecosystem budget calculations. *Ecosystems, 13*(2), 239–248. [https://doi.org/10.1007/s10021-010-9321-2](https://doi.org/10.1007/s10021-010-9321-2)
-</div>
+Tierney, G. L., & Fahey, T. J. (2001). Evaluating minirhizotron estimates of fine root longevity and production in the forest floor of a temperate broadleaf forest. *Plant and Soil, 229*(2), 167–176. [https://doi.org/10.1023/A:1004815809254](https://doi.org/10.1023/A:1004815809254){target="_blank" rel="noopener"}  
+
+Waring, B. G. (2013). Exploring relationships between enzyme activities and leaf litter decomposition in a wet tropical forest. *Soil Biology & Biochemistry, 64*, 89–95. [https://doi.org/10.1016/j.soilbio.2013.03.010](https://doi.org/10.1016/j.soilbio.2013.03.010){target="_blank" rel="noopener"}  
+
+Weand, M. P., Arthur, M. A., Lovett, G. M., McCulley, R. L., & Weathers, K. C. (2010). Effects of tree species and N additions on forest floor microbial communities and extracellular enzyme activities. *Soil Biology & Biochemistry, 42*, 2161–2173. [https://doi.org/10.1016/j.soilbio.2010.08.012](https://doi.org/10.1016/j.soilbio.2010.08.012){target="_blank" rel="noopener"}  
+
+Wells, C. E., Glenn, D. M., & Eissenstat, D. M. (2002). Soil insects alter fine root demography in peach (*Prunus persica*). *Plant, Cell & Environment, 25*, 431–439. [https://doi.org/10.1046/j.1365-3040.2002.00820.x](https://doi.org/10.1046/j.1365-3040.2002.00820.x){target="_blank" rel="noopener"}  
+
+Yanai, R. D., Stehman, S. V., Arthur, M. A., Prescott, C. E., Friedland, A. J., Siccama, T. G., & Binkley, D. (2003). Detecting change in forest floor carbon. *Soil Science Society of America Journal, 67*(5), 1583–1593. [https://doi.org/10.2136/sssaj2003.1583](https://doi.org/10.2136/sssaj2003.1583){target="_blank" rel="noopener"}  

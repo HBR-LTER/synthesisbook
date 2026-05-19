@@ -1,10 +1,8 @@
 ---
 title: "Biogeochemistry: Element behavior and Interactions"
 format: html
-editor: 
-  markdown: 
-    wrap: 72
 ---
+<div id="sec-biogeochemistrychapter"></div>
 
 Chapter Editors: Tim Fahey
 
@@ -599,17 +597,20 @@ phloem sap.
 A useful way to express the mobility of different elements in forest
 ecosystems is on the basis of their residence times, defined as the
 ratio of element stock in an ecosystem compartment to the annual input
-or output. At steady state Table 1. Steady state residence times (years)
-of macronutrients in forest floor (from Gosz et al. 1976) and
-aboveground biomass (adapted from Whittaker et al. 1979). Element Forest
-Floor Biomass Table 1. Steady state residence times (years) of
-macronutrients in forest floor (from Gosz et al. 1976) and aboveground
-biomass (adapted from Whittaker et al. 1979).
+or output (@tbl-residencetime). 
 
-Element Forest Floor Biomass Calcium 3.9 8.8 Magnesium 2.7 5.1 Potassium
-0.7 3.3 Phosphorus 12.8 8.3 Nitrogen 11.9 6.2 Carbon 8.0 24.3
 
-the residence time would be roughly equal to the time that an average
+| Element     | Forest Floor | Biomass |
+|-------------|-------------:|--------:|
+| Calcium     |          3.9 |     8.8 |
+| Magnesium   |          2.7 |     5.1 |
+| Potassium   |          0.7 |     3.3 |
+| Phosphorus  |         12.8 |     8.3 |
+| Nitrogen    |         11.9 |     6.2 |
+| Carbon      |          8.0 |    24.3 |
+: **Steady state residence times (years) of macronutrients in forest floor (from Gosz et al. 1976) and aboveground biomass (adapted from Whittaker et al. 1979).** {#tbl-residencetime}
+
+The residence time would be roughly equal to the time that an average
 atom of an element remains within the compartment. Gosz et al. (1976)
 calculated the residence time of various elements in the forest floor at
 HB on the basis of measurements of forest floor stocks and annual inputs
@@ -707,189 +708,82 @@ Brook Experimental Forest.
 
 ## References
 
-::: references
-<p>Battles, J. J., Fahey, T. J., Driscoll, C. T., Jr., Blum, J. D., &
-Johnson, C. E. (2014). Restoring soil calcium reverses forest decline.
-<em>Environmental Science & Technology Letters, 1</em>(1), 15–19.
-<a href="https://doi.org/10.1021/ez400033d">https://doi.org/10.1021/ez400033d</a></p>
+Battles, J. J., Fahey, T. J., Driscoll, C. T., Jr., Blum, J. D., & Johnson, C. E. (2014). Restoring soil calcium reverses forest decline. *Environmental Science & Technology Letters, 1*(1), 15–19. [https://doi.org/10.1021/ez400033d](https://doi.org/10.1021/ez400033d){target="_blank" rel="noopener"}
 
-<p>Bohlen, P. J., Scheu, S., Hale, C. M., McLean, M. A., Migge, S.,
-Groffman, P. M., & Parkinson, D. (2004). Non-native invasive earthworms
-as agents of change in northern temperate forests. <em>Frontiers in
-Ecology and the Environment, 2</em>(8), 427–435.
-<a href="https://doi.org/10.1890/1540-9295(2004)002[0427:NIEAAO]2.0.CO;2">https://doi.org/10.1890/1540-9295(2004)002\[0427:NIEAAO\]2.0.CO;2</a></p>
+Bohlen, P. J., Scheu, S., Hale, C. M., McLean, M. A., Migge, S., Groffman, P. M., & Parkinson, D. (2004). Non-native invasive earthworms as agents of change in northern temperate forests. *Frontiers in Ecology and the Environment, 2*(8), 427–435. [https://doi.org/10.1890/1540-9295(2004)002[0427:NIEAAO]2.0.CO;2](https://doi.org/10.1890/1540-9295(2004)002[0427:NIEAAO]2.0.CO;2){target="_blank" rel="noopener"}
 
-<p>Bormann, F. H., & Likens, G. E. (1967). Nutrient cycling.
-<em>Science, 155</em>(3761), 424–429.
-<a href="https://doi.org/10.1126/science.155.3761.424">https://doi.org/10.1126/science.155.3761.424</a></p>
+Bormann, F. H., & Likens, G. E. (1967). Nutrient cycling. *Science, 155*(3761), 424–429. [https://doi.org/10.1126/science.155.3761.424](https://doi.org/10.1126/science.155.3761.424){target="_blank" rel="noopener"}
 
-<p>Bormann, F. H., Likens, G. E., & Melillo, J. M. (1977). Nitrogen
-budget for an aggrading northern hardwood forest ecosystem. <em>Science,
-196</em>(4293), 981–983.
-<a href="https://doi.org/10.1126/science.196.4293.981">https://doi.org/10.1126/science.196.4293.981</a></p>
+Bormann, F. H., Likens, G. E., & Melillo, J. M. (1977). Nitrogen budget for an aggrading northern hardwood forest ecosystem. *Science, 196*(4293), 981–983. [https://doi.org/10.1126/science.196.4293.981](https://doi.org/10.1126/science.196.4293.981){target="_blank" rel="noopener"}
 
-<p>Davidson, E. A., Chorover, J., & Dail, D. B. (2003). A mechanism of
-abiotic immobilization of nitrate in forest ecosystems: The ferrous
-wheel hypothesis. <em>Global Change Biology, 9</em>(2), 228–236.
-<a href="https://doi.org/10.1046/j.1365-2486.2003.00592.x">https://doi.org/10.1046/j.1365-2486.2003.00592.x</a></p>
+Davidson, E. A., Chorover, J., & Dail, D. B. (2003). A mechanism of abiotic immobilization of nitrate in forest ecosystems: The ferrous wheel hypothesis. *Global Change Biology, 9*(2), 228–236. [https://doi.org/10.1046/j.1365-2486.2003.00592.x](https://doi.org/10.1046/j.1365-2486.2003.00592.x){target="_blank" rel="noopener"}
 
-<p>Dittman, J. A., Driscoll, C. T., Groffman, P. M., & Fahey, T. J.
-(2007). Dynamics of nitrogen and dissolved organic carbon at the Hubbard
-Brook Experimental Forest. <em>Ecology, 88</em>(5), 1153–1166.
-<a href="https://doi.org/10.1890/06-0834">https://doi.org/10.1890/06-0834</a></p>
+Dittman, J. A., Driscoll, C. T., Groffman, P. M., & Fahey, T. J. (2007). Dynamics of nitrogen and dissolved organic carbon at the Hubbard Brook Experimental Forest. *Ecology, 88*(5), 1153–1166. [https://doi.org/10.1890/06-0834](https://doi.org/10.1890/06-0834){target="_blank" rel="noopener"}
 
-<p>Driscoll, C. T., Baker, J. P., Bisogni, J. J., & Schofield, C. L.
-(1980). Effect of aluminium speciation on fish in dilute acidified
-waters. <em>Nature, 284</em>(5752), 161–164.
-<a href="https://doi.org/10.1038/284161a0">https://doi.org/10.1038/284161a0</a></p>
+Driscoll, C. T., Baker, J. P., Bisogni, J. J., & Schofield, C. L. (1980). Effect of aluminium speciation on fish in dilute acidified waters. *Nature, 284*(5752), 161–164. [https://doi.org/10.1038/284161a0](https://doi.org/10.1038/284161a0){target="_blank" rel="noopener"}
 
-<p>Elser, J. J., Sterner, R. W., Gorokhova, E. A., Fagan, W. F., Markow,
-T. A., Cotner, J. B., Harrison, J. F., Hobbie, S. E., Odell, G. M., &
-Weider, L. W. (2000). Biological stoichiometry from genes to ecosystems.
-<em>Ecology Letters, 3</em>(6), 540–550.
-<a href="https://doi.org/10.1046/j.1461-0248.2000.00185.x">https://doi.org/10.1046/j.1461-0248.2000.00185.x</a></p>
+Elser, J. J., Sterner, R. W., Gorokhova, E. A., et al. (2000). Biological stoichiometry from genes to ecosystems. *Ecology Letters, 3*(6), 540–550. [https://doi.org/10.1046/j.1461-0248.2000.00185.x](https://doi.org/10.1046/j.1461-0248.2000.00185.x){target="_blank" rel="noopener"}
 
-<p>Fahey, T. J., & Hughes, J. W. (1994). Fine root dynamics in a
-northern hardwood forest ecosystem, Hubbard Brook Experimental Forest,
-NH. <em>Journal of Ecology, 82</em>, 533–548.
-<a href="https://doi.org/10.2307/2261262">https://doi.org/10.2307/2261262</a></p>
+Fahey, T. J., & Hughes, J. W. (1994). Fine root dynamics in a northern hardwood forest ecosystem. *Journal of Ecology, 82*, 533–548. [https://doi.org/10.2307/2261262](https://doi.org/10.2307/2261262){target="_blank" rel="noopener"}
 
-<p>Fahey, T. J., Battles, J. J., & Wilson, G. F. (1998). Responses of
-early successional northern hardwood forests to changes in nutrient
-availability. <em>Ecological Monographs, 68</em>(2), 183–212.
-<a href="https://doi.org/10.1890/0012-9615(1998)068[0183:ROESNH]2.0.CO;2">https://doi.org/10.1890/0012-9615(1998)068\[0183:ROESNH\]2.0.CO;2</a></p>
+Fahey, T. J., Battles, J. J., & Wilson, G. F. (1998). Responses of early successional northern hardwood forests to changes in nutrient availability. *Ecological Monographs, 68*(2), 183–212. [https://doi.org/10.1890/0012-9615(1998)068[0183:ROESNH]2.0.CO;2](https://doi.org/10.1890/0012-9615(1998)068[0183:ROESNH]2.0.CO;2){target="_blank" rel="noopener"}
 
-<p>Fakhraei, H., Fahey, T. J., & Driscoll, C. T. (2020). The
-biogeochemical response of nitrate and potassium to landscape
-disturbance in watersheds of the Hubbard Brook Experimental Forest, New
-Hampshire, USA. In <em>Forest Water Quality</em>.
-<a href="https://doi.org/10.1007/978-3-030-26086-6_22">https://doi.org/10.1007/978-3-030-26086-6_22</a></p>
+Fakhraei, H., Fahey, T. J., & Driscoll, C. T. (2020). The biogeochemical response of nitrate and potassium to landscape disturbance. *Forest Water Quality*. [https://doi.org/10.1007/978-3-030-26086-6_22](https://doi.org/10.1007/978-3-030-26086-6_22){target="_blank" rel="noopener"}
 
-<p>Fuss, C. B., Driscoll, C. T., Johnson, C. E., Petras, R. J., & Fahey,
-T. J. (2011). Dynamics of oxidized and reduced iron in a northern
-hardwood forest. <em>Biogeochemistry, 104</em>, 103–119.
-<a href="https://doi.org/10.1007/s10533-010-9490-y">https://doi.org/10.1007/s10533-010-9490-y</a></p>
+Fuss, C. B., Driscoll, C. T., Johnson, C. E., et al. (2011). Dynamics of oxidized and reduced iron in a northern hardwood forest. *Biogeochemistry, 104*, 103–119. [https://doi.org/10.1007/s10533-010-9490-x](https://doi.org/10.1007/s10533-010-9490-x){target="_blank" rel="noopener"}
 
-<p>Godsey, S. E., Kirchner, J. W., & Clow, D. W. (2009).
-Concentration–discharge relationships reflect chemostatic
-characteristics of U.S. catchments. <em>Hydrological Processes,
-23</em>(13), 1844–1864.
-<a href="https://doi.org/10.1002/hyp.7315">https://doi.org/10.1002/hyp.7315</a></p>
+Godsey, S. E., Kirchner, J. W., & Clow, D. W. (2009). Concentration–discharge relationships reflect chemostatic characteristics. *Hydrological Processes, 23*, 1844–1864. [https://doi.org/10.1002/hyp.7315](https://doi.org/10.1002/hyp.7315){target="_blank" rel="noopener"}
 
-<p>Gonzales, K. E., Yanai, R. D., Fahey, T. J., & Fisk, M. C. (2023).
-Evidence for P limitation in eight northern hardwood stands. <em>Forest
-Ecology and Management, 529</em>, 120696.
-<a href="https://doi.org/10.1016/j.foreco.2022.120696">https://doi.org/10.1016/j.foreco.2022.120696</a></p>
+Gonzales, K. E., Yanai, R. D., Fahey, T. J., & Fisk, M. C. (2023). Evidence for P limitation. *Forest Ecology and Management, 529*, 120696. [https://doi.org/10.1016/j.foreco.2022.120696](https://doi.org/10.1016/j.foreco.2022.120696){target="_blank" rel="noopener"}
 
-<p>Gosz, J. R., Likens, G. E., & Bormann, F. H. (1973). Nutrient release
-from decomposing litter. <em>Ecological Monographs, 43</em>, 173–191.
-<a href="https://doi.org/10.2307/1942196">https://doi.org/10.2307/1942196</a></p>
+Gosz, J. R., Likens, G. E., & Bormann, F. H. (1973). Nutrient release from decomposing litter. *Ecological Monographs, 43*, 173–191. [https://doi.org/10.2307/1942193](https://doi.org/10.2307/1942193){target="_blank" rel="noopener"}
 
-<p>Hooper, R. P., Christophersen, N., & Peters, N. E. (1990). Modelling
-streamwater chemistry as a mixture of soilwater end-members. <em>Journal
-of Hydrology, 116</em>, 321–343.
-<a href="https://doi.org/10.1016/0022-1694(90)90131-G">https://doi.org/10.1016/0022-1694(90)90131-G</a></p>
+Hooper, R. P., Christophersen, N., & Peters, N. E. (1990). Modelling streamwater chemistry. *Journal of Hydrology, 116*, 321–343. [https://doi.org/10.1016/0022-1694(90)90131-G](https://doi.org/10.1016/0022-1694(90)90131-G){target="_blank" rel="noopener"}
 
-<p>Hughes, J. W., & Fahey, T. J. (1994). Litterfall dynamics and
-ecosystem recovery during forest development. <em>Forest Ecology and
-Management, 63</em>, 181–198.
-<a href="https://doi.org/10.1016/0378-1127(94)90108-2">https://doi.org/10.1016/0378-1127(94)90108-2</a></p>
+Hughes, J. W., & Fahey, T. J. (1994). Litterfall dynamics and ecosystem recovery. *Forest Ecology and Management, 63*, 181–198. [https://doi.org/10.1016/0378-1127(94)90110-4](https://doi.org/10.1016/0378-1127(94)90110-4){target="_blank" rel="noopener"}
 
-<p>Johnson, C. E., Driscoll, C. T., Siccama, T. G., & Likens, G. E.
-(2000). Element fluxes and landscape position. <em>Ecosystems, 3</em>,
-159–184.
-<a href="https://doi.org/10.1007/s100210000015">https://doi.org/10.1007/s100210000015</a></p>
+Johnson, C. E., Driscoll, C. T., Siccama, T. G., & Likens, G. E. (2000). Element Fluxes and Landscape Position in a Northern Hardwood Forest Watershed Ecosystem. *Ecosystems, 3*, 159–184. [https://doi.org/10.1007/s100210000017](https://doi.org/10.1007/s100210000017){target="_blank" rel="noopener"}
 
-<p>Johnson, N. M., Likens, G. E., Bormann, F. H., Fisher, D. W., &
-Pierce, R. S. (1969). A working model for stream water chemistry.
-<em>Water Resources Research, 5</em>(6), 1353–1363.
-<a href="https://doi.org/10.1029/WR005i006p01353">https://doi.org/10.1029/WR005i006p01353</a></p>
+Johnson, N. M., Likens, G. E., Bormann, F. H., et al. (1969).A Working Model for the Variation in Stream Water Chemistry at the Hubbard Brook Experimental Forest, New Hampshire. *Water Resources Research, 5*, 1353–1363. [ https://doi.org/10.1029/WR005i006p01353]( https://doi.org/10.1029/WR005i006p01353){target="_blank" rel="noopener"}
 
-<p>Killingbeck, K. T. (1996). Nutrients in senesced leaves. <em>Ecology,
-77</em>(6), 1716–1727.
-<a href="https://doi.org/10.2307/2265778">https://doi.org/10.2307/2265778</a></p>
+Killingbeck, K. T. (1996). Nutrients in Senesced Leaves: Keys to the Search for Potential Resorption and Resorption Proficiency. *Ecology, 77*, 1716–1727. [https://doi.org/10.2307/2265777](https://doi.org/10.2307/2265777){target="_blank" rel="noopener"}
 
-<p>Lawrence, G. B., & Driscoll, C. T. (1990). Longitudinal patterns in
-stream chemistry. <em>Journal of Hydrology, 116</em>, 147–165.
-<a href="https://doi.org/10.1016/0022-1694(90)90121-9">https://doi.org/10.1016/0022-1694(90)90121-9</a></p>
+Lawrence, G. B., & Driscoll, C. T. (1990).Longitudinal patterns of concentration-discharge relationships in stream water draining the Hubbard Brook Experimental Forest, New Hampshire. *Journal of Hydrology, 116*, 147–165. [https://doi.org/10.1016/0022-1694(90)90120-M](https://doi.org/10.1016/0022-1694(90)90120-M){target="_blank" rel="noopener"}
 
-<p>Li, A., Fahey, T. J., Pawlowska, T. E., Fisk, M. C., & Burtis, J.
-(2015). Fine root decomposition and fungal communities. <em>Soil Biology
-& Biochemistry, 83</em>, 76–83.
-<a href="https://doi.org/10.1016/j.soilbio.2015.01.011">https://doi.org/10.1016/j.soilbio.2015.01.011</a></p>
+Li, A., Fahey, T. J., Pawlowska, T. E., Fisk, M. C., & Burtis, J. (2015). Fine root decomposition and fungal communities. *Soil Biology & Biochemistry, 83*, 76–83. [https://doi.org/10.1016/j.soilbio.2015.01.019](https://doi.org/10.1016/j.soilbio.2015.01.019){target="_blank" rel="noopener"}
 
-<p>Likens, G. E. (2013). <em>Biogeochemistry of a forested
-ecosystem</em>. Springer.</p>
+Likens, G. E. (2013). *Biogeochemistry of a forested ecosystem*. Springer.
 
-<p>Likens, G. E., Bormann, F. H., Johnson, N. M., & Pierce, R. S.
-(1967). Element budgets. <em>Ecology, 48</em>, 772–785.
-<a href="https://doi.org/10.2307/1933736">https://doi.org/10.2307/1933736</a></p>
+Likens, G. E., Bormann, F. H., Johnson, N. M., & Pierce, R. S. (1967). Element budgets. *Ecology, 48*, 772–785. 
 
-<p>Likens, G. E., Bormann, F. H., Johnson, N. M., Fisher, D. W., &
-Pierce, R. S. (1970). Effects of forest cutting. <em>Ecological
-Monographs, 40</em>, 23–47.
-<a href="https://doi.org/10.2307/1942440">https://doi.org/10.2307/1942440</a></p>
+Likens, G. E., Bormann, F. H., Johnson, N. M., et al. (1970). Effects of Forest Cutting and Herbicide Treatment on Nutrient Budgets in the Hubbard Brook Watershed-Ecosystem. *Ecological Monographs, 40*, 23–47. [https://doi.org/10.2307/1942440](https://doi.org/10.2307/1942440){target="_blank" rel="noopener"}
 
-<p>Likens, G. E., Driscoll, C. T., & Buso, D. C. (1996). Long-term
-effects of acid rain. <em>Science, 272</em>, 244–246.
-<a href="https://doi.org/10.1126/science.272.5259.244">https://doi.org/10.1126/science.272.5259.244</a></p>
+Likens, G. E., Driscoll, C. T., & Buso, D. C. (1996). Long-Term Effects of Acid Rain: Response and Recovery of a Forest Ecosystem. *Science, 272*, 244–246. [https://doi.org/10.1126/science.272.5259.244](https://doi.org/10.1126/science.272.5259.244){target="_blank" rel="noopener"}
 
-<p>McDowell, W. H., & Likens, G. E. (1988). Dissolved organic carbon in
-Hubbard Brook. <em>Ecological Monographs, 58</em>, 177–195.
-<a href="https://doi.org/10.2307/2937024">https://doi.org/10.2307/2937024</a></p>
+McDowell, W. H., & Likens, G. E. (1988). Origin, Composition, and Flux of Dissolved Organic Carbon in the Hubbard Brook Valley. *Ecological Monographs, 58*, 177–195. [https://doi.org/10.2307/2937024](https://doi.org/10.2307/2937024){target="_blank" rel="noopener"}
 
-<p>Olson, J. S. (1963). Energy storage and ecosystem balance.
-<em>Ecology, 44</em>, 322–331.
-<a href="https://doi.org/10.2307/1932179">https://doi.org/10.2307/1932179</a></p>
+Olson, J. S. (1963). Energy Storage and the Balance of Producers and Decomposers in Ecological Systems. *Ecology, 44*, 322–331. [https://doi.org/10.2307/1932179](https://doi.org/10.2307/1932179){target="_blank" rel="noopener"}
 
-<p>Rastetter, E. B., et al. (2013). Recovery from disturbance requires
-resynchronization. <em>Ecological Applications, 23</em>, 621–642.
-<a href="https://doi.org/10.1890/12-0686.1">https://doi.org/10.1890/12-0686.1</a></p>
+Rastetter, E. B., et al. (2013).Recovery from disturbance requires resynchronization of ecosystem nutrient cycles. *Ecological Applications, 23*, 621–642. [ https://doi.org/10.1890/12-0751.1]( https://doi.org/10.1890/12-0751.1){target="_blank" rel="noopener"}
 
-<p>Ratliff, T. J., & Fisk, M. C. (2016). Phosphatase activity and
-nutrient availability. <em>Soil Biology & Biochemistry, 94</em>, 61–69.
-<a href="https://doi.org/10.1016/j.soilbio.2015.11.018">https://doi.org/10.1016/j.soilbio.2015.11.018</a></p>
+Ratliff, T. J., & Fisk, M. C. (2016). Phosphatase activity is related to N availability but not P availability across hardwood forests in the northeastern United States. *Soil Biology & Biochemistry, 94*, 61–69. [https://doi.org/10.1016/j.soilbio.2015.11.009](https://doi.org/10.1016/j.soilbio.2015.11.009){target="_blank" rel="noopener"}
 
-<p>Redfield, A. C. (1958). Biological control of chemical factors.
-<em>American Scientist, 46</em>, 205–221.</p>
+Redfield, A. C. (1958). Biological control of chemical factors. *American Scientist, 46*, 205–221.
 
-<p>Romanowicz, R. B., et al. (1996). Changes in potassium cycling.
-<em>Soil Science Society of America Journal, 60</em>, 1664–1674.
-<a href="https://doi.org/10.2136/sssaj1996.03615995006000060016x">https://doi.org/10.2136/sssaj1996.03615995006000060016x</a></p>
+Romanowicz, R. B., et al. (1996).  Changes in the Biogeochemistry of Potassium following a Whole-Tree Harvest. *Soil Science Society of America Journal, 60*, 1664–1674. [ https://doi.org/10.2136/sssaj1996.03615995006000060009x]( https://doi.org/10.2136/sssaj1996.03615995006000060009x){target="_blank" rel="noopener"}
 
-<p>Ryan, D. F., & Bormann, F. H. (1982). Nutrient resorption.
-<em>BioScience, 32</em>, 29–32.
-<a href="https://doi.org/10.2307/1308560">https://doi.org/10.2307/1308560</a></p>
+Ryan, D. F., & Bormann, F. H. (1982). Nutrient Resorption in Northern Hardwood Forests . *BioScience, 32*, 29–32. [https://doi.org/10.2307/1308751](https://doi.org/10.2307/1308751){target="_blank" rel="noopener"}
 
-<p>See, C. R., et al. (2015). Soil nitrogen affects phosphorus
-recycling. <em>Ecology, 96</em>, 2488–2498.
-<a href="https://doi.org/10.1890/14-2068.1">https://doi.org/10.1890/14-2068.1</a></p>
+See, C. R., et al. (2015). Soil nitrogen affects phosphorus recycling: foliar resorption and plant–soil feedbacks in a northern hardwood forest. *Ecology, 96*, 2488–2498. [ https://doi.org/10.1890/15-0188.1]( https://doi.org/10.1890/15-0188.1){target="_blank" rel="noopener"}
 
-<p>Shaffer, K. A., Fritton, D. D., & Baker, D. E. (1979). Drainage water
-sampling. <em>Journal of Environmental Quality, 8</em>, 241–246.
-<a href="https://doi.org/10.2134/jeq1979.00472425000800020020x">https://doi.org/10.2134/jeq1979.00472425000800020020x</a></p>
+Shaffer, K. A., Fritton, D. D., & Baker, D. E. (1979). Drainage Water Sampling in a Wet, Dual-Pore Soil System . *Journal of Environmental Quality, 8*, 241–246. [https://doi.org/10.2134/jeq1979.00472425000800020022x](https://doi.org/10.2134/jeq1979.00472425000800020022x){target="_blank" rel="noopener"}
 
-<p>Vadeboncoeur, M. A. (2010). Meta-analysis of fertilization
-experiments. <em>Canadian Journal of Forest Research, 40</em>,
-1766–1780.
-<a href="https://doi.org/10.1139/X10-127">https://doi.org/10.1139/X10-127</a></p>
+Vadeboncoeur, M. A. (2010). Meta-analysis of fertilization experiments indicates multiple limiting nutrients in northeastern deciduous forests. *Canadian Journal of Forest Research, 40*, 1766–1780. [https://doi.org/10.1139/X10-127](https://doi.org/10.1139/X10-127){target="_blank" rel="noopener"}
 
-<p>Vitousek, P. M. (1982). Nutrient cycling and efficiency. <em>The
-American Naturalist, 119</em>, 553–572.
-<a href="https://doi.org/10.1086/283931">https://doi.org/10.1086/283931</a></p>
+Vitousek, P. M. (1982). Nutrient cycling and efficiency. *The American Naturalist, 119*, 553–572. [https://doi.org/10.1086/283931](https://doi.org/10.1086/283931){target="_blank" rel="noopener"}
 
-<p>Vitousek, P. M., Fahey, T., Johnson, D. W., & Swift, M. J. (1988).
-Element interactions in forest ecosystems. <em>Biogeochemistry, 5</em>,
-7–34.
-<a href="https://doi.org/10.1007/BF02180318">https://doi.org/10.1007/BF02180318</a></p>
+Vitousek, P. M., Fahey, T., Johnson, D. W., & Swift, M. J. (1988). Element Interactions in Terrestrial Ecosystems. *Biogeochemistry, 5*, 7–34. [https://www.jstor.org/stable/i263979](https://www.jstor.org/stable/i263979){target="_blank" rel="noopener"}
 
-<p>Vitousek, P. M., Porder, S., Houlton, B. Z., & Chadwick, O. A.
-(2010). Terrestrial phosphorus limitation. <em>Ecological Applications,
-20</em>, 5–15.
-<a href="https://doi.org/10.1890/08-0127.1">https://doi.org/10.1890/08-0127.1</a></p>
+Vitousek, P. M., Porder, S., Houlton, B. Z., & Chadwick, O. A. (2010). Terrestrial phosphorus limitation: mechanisms, implications, and nitrogen–phosphorus interactions. *Ecological Applications, 20*, 5–15. [ https://doi.org/10.1890/08-0127.1]( https://doi.org/10.1890/08-0127.1){target="_blank" rel="noopener"}
 
-<p>Whittaker, R. H., Likens, G. E., Bormann, F. H., Easton, J. S., &
-Siccama, T. G. (1979). Forest nutrient cycling. <em>Ecology, 60</em>,
-203–220.
-<a href="https://doi.org/10.2307/1936471">https://doi.org/10.2307/1936471</a></p>
-:::
+Whittaker, R. H., Likens, G. E., Bormann, F. H., Easton, J. S., & Siccama, T. G. (1979). The Hubbard Brook Ecosystem Study: Forest Nutrient Cycling and Element Behavior. *Ecology, 60*, 203–220. [ https://doi.org/10.2307/1936481]( https://doi.org/10.2307/1936481){target="_blank" rel="noopener"}
