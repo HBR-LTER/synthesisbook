@@ -107,7 +107,7 @@ The cause of this striking response is not fully understood, but slight increase
 
 ::: {#fig-organicmatterplotly}
 
-<iframe src="https://hubbardbrook.github.io/decompCarbon/Fig5B_organicMatter.html" width="100%" height="600" style="border: none;">
+<iframe src="https://hbr-lter.github.io/OnlineBookGraphs/chapters/decomposition_carbon/W1W6byHorizon_organicMatter.html" width="100%" height="600" style="border: none;">
 </iframe>
 
 Changes in organic matter content of forest floor horizons in reference (WS6) and calcium-amended (WS1) watersheds at Hubbard Brook Experimental Forest. This figure is updated with current data available in the Environmental Data Initiative Repository ( Johnson, C.E. 2022. Mass and Chemistry of Organic Horizons and Surface Mineral Soils on Watershed 1 at the Hubbard Brook Experimental Forest 1996-present ver 3. Environmental Data Initiative. https://doi.org/10.6073/pasta/7395cf86c134440f38d800ca59a4857b and Johnson, C.E. 2024. Mass and Chemistry of Organic Horizons and Surface Mineral Soils on Watershed 6 at the Hubbard Brook Experimental Forest, 1976 - present ver 4. Environmental Data Initiative. https://doi.org/10.6073/pasta/ab29c15538e75cafd4a43a30d8033cec (Accessed 2024-04-11). Hover over graph to access interactive controls available at the top right (zoom/pan/etc).
