@@ -12,7 +12,7 @@ format: html
 </video>
 
 <p class="video-caption">
-CAPTION
+In this video, Miranda Zammarelli (Guarini '26) speaks about Hubbard Brook's long-term Bird Study, which was started in 1969 by Dartmouth Professor of Biological Sciences Dick Holmes. For her dissertation, Miranda carefully digitized 52 years of hand-drawn territorial survey maps of songbirds at Hubbard Brook that Holmes and generations of students carefully mapped out each year from 1969-2021. This video was created by Chris Johnson for Dartmouth College. 
 </p>
 
 
