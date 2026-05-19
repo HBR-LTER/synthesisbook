@@ -55,7 +55,7 @@ The population of sugar maple, the second most abundant species at HB, appears t
 
 
 
-Thirty years of change in the relative dominance (proportion of total basal area) for three dominant tree species on reference watershed 6 and Ca-treated W1 based on 5-year surveys of all stems on the watershed. Error bars indicate 95% confidence intervals.
+Thirty years of change in the relative dominance (proportion of total basal area) for three dominant tree species on reference watershed 6 and Ca-treated W1 based on 5-year surveys of all stems on the watershed. Error bars indicate 95% confidence intervals. This figure is updated with current data available in the Environmental Data Initiative Repository. Battles, J.J., T.J. Fahey, and N.L. Cleavitt. 2026. Hubbard Brook Experimental Forest: Watershed 1 Tree Inventory, 1996 - ongoing ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/3d0031ea82d308f81ab26000a106b264 AND Battles, J.J., T.J. Fahey, N.L. Cleavitt, and T.G. Siccama. 2026. Hubbard Brook Experimental Forest: Watershed 6 Tree Inventory, 1965 - ongoing ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/1aa4c3ad4c98ed151decc9ea7fa76694. Hover over graph to access interactive controls available at the top right (zoom/pan/etc). 
 
 :::
 
@@ -69,13 +69,19 @@ Forest composition and its trends differ considerably between the south-facing e
 
 The regeneration cycle of forest trees includes seed production and dispersal; seed dormancy, germination and establishment; understory tolerance and release and; vegetative reproduction. Most of these features are quite well understood in general for the dominant tree species in the HB valley. Pulsed seed production is observed for most trees, as illustrated for two of the three dominant trees at HB, sugar maple and American beech (@fig-seeddynamics). This behavior is interpreted as so-called “masting” for large-seeded species like beech, selected to satiate the mammalian seed predators that also serve as dispersal agents. The reasons for pulsed seed production of a tiny-seeded species like yellow birch is not conclusively known but could include greater efficiency of pollination.Dispersal limitation of HB tree species varies with the dispersal mechanism and typical dispersal distance of their seeds. At one extreme, the tiny, wind-dispersed seeds of birches exhibit little dispersal limitation in their spatial pattern (Schwarz et al. 2003). In contrast, dispersal distance of beech seeds that rely on small mammals is usually limited to a few tens of meters, explaining the species limited regeneration by seed after large-scale disturbance (e.g., logging of WS2 and WS5 at HB; Hughes and Fahey 1988). The importance of “safe-sites” for germination and establishment also varies with seed size, with tiny-seeded birches being restricted to exposed mineral soil or decaying logs where moisture retention is sufficient. Even on so-called safe sites, most germinants of all species soon die, often from damage by fungal pathogens and invertebrates such as slugs and insects (Cleavitt et al. 2011). However, it only takes a small percentage of survivors to maintain a bank of seedlings in the forest understory (Marks and Gardescu 1998), poised to take advantage of any disturbance to the canopy trees that will release them from severe competition and resource limitation.
 
-::: {#fig-seeddynamics}
-<iframe src="https://hubbardbrook.github.io/ForestComposition_Dynamics/fig7_ACSA_FAGR_seeds.html" width="100%" height="600" style="border: none;">
 
+
+::: {#fig-seeddynamics}
+
+<iframe src="https://hbr-lter.github.io/OnlineBookGraphs/chapters/forest_composition/ACSA_FAGR_seeds.html" width="100%" height="600" style="border: none;">
 </iframe>
 
+
+
 Seed production for sugar maple (ASCA) and American beech (FAGR) at Hubbard Brook Experimental Forest, NH from 1993-2016. A-B: Bars show the annual mean for all collectors and asterisks denote mast years. The long-term mean is shown by a solid line. C-D: The standardized deviation of annual seed production from the long-term means (ASD). The dotted line shows the positive reflection of the minimum standardized deviate used to denote mast years as indicated in A. These data were first published in Cleavitt and Fahey (2017). This figure is updated with current data available in the Environmental Data Initiative Repository (Fahey, T. and N. Cleavitt. 2025. Tree Seed Data at the Hubbard Brook Experimental Forest, 1993 - ongoing ver 4. Environmental Data Initiative. https://doi.org/10.6073/pasta/19e69d787124d60ccdfede1b5b813061). Hover over graph to access interactive controls available at the top right (zoom/pan/etc).
+
 :::
+
 
 A particularly intriguing regeneration strategy is exhibited by pin cherry, as studied in detail at HB (Marks 1974, Thurston et al. 1992). The seeds of this extremely shade-intolerant species can remain viable in a dormant seed bank in the soil for many decades. Pin cherry only germinates when a large canopy opening has occurred creating a change in enviromental conditions such as high light, soil temperature fluctuation and changes in soil nitrate. The seedlings grow very quickly in this high resource environment and soon begin flowering and fruiting, replenishing the seed bank. At HB the density of pin cherry in the seed bank apparently grew exponentially in response to the repeated disturbances in the late 19th and 20th century (Tierney and Fahey 1998).
 
