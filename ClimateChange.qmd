@@ -79,7 +79,7 @@ Historically, the HBEF has had a continuous snowpack throughout the winter that 
 
 ::: {#fig-snowplotly}
 
-<iframe src="https://hubbardbrook.github.io/climateChange/fig_3_snow_depth_cover_swe.html" width="100%" height="600" style="border: none;">
+<iframe src="https://hbr-lter.github.io/OnlineBookGraphs/chapters/climate_change/snow_depth_cover_swe.html" width="100%" height="800" style="border: none;">
 
 </iframe>
 Long-term trends in the maximum annual snow depth, maximum annual snow water equivalent, and number of days with snow cover measured at weather station 2 at Hubbard Brook Experimental Forest. (Original figure in Campbell et al., 2007). This figure is updated with current data available in the Environmental Data Initiative Repository (EDI; https://portal.edirepository.org). Hover over graph to access interactive controls available at the top right (zoom/pan/etc).

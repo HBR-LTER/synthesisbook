@@ -116,9 +116,20 @@ A full accounting of the potential for intensified harvest to deplete soil nutri
 
 ![Estimated years to soil nutrient (Ca, unless indicated as K or Mg) exhaustion under different harvest regimes for 15 White Mountain forest sites developed from varying till sources (Vadeboncouer et al. 2014).](figs/mgmt/nutexhaustion.png){#fig-nutexhaustion}
 
-These observations raise interesting and unresolved questions about mineral weathering rates in forest soils. For example, the prolonged acceleration of base cation losses by leaching from soils following harvest (@fig-streamca), despite rapid accumulation in re-growing vegetation, suggests that weathering rates have increased above their long-term average values (Yanai et al. 2005).
+These observations raise interesting and unresolved questions about mineral weathering rates in forest soils. For example, the prolonged acceleration of base cation losses by leaching from soils following harvest (@fig-mgmt-streamca), despite rapid accumulation in re-growing vegetation, suggests that weathering rates have increased above their long-term average values (Yanai et al. 2005).
 
-![Stream water calcium concentration for cutover (WS2, WS4, WS5) and reference (WS6 - open circles) watersheds at Hubbard Brook (Likens et al. 1998).](figs/mgmt/streamca.png){#fig-streamca}
+
+
+::: {#fig-mgmt-streamca}
+
+<iframe src="https://hbr-lter.github.io/OnlineBookGraphs/chapters/forest_management/StreamwaterCalcium.html" width="100%" height="1500" style="border: none;"></iframe>
+
+Stream water calcium concentration for cutover (WS2, WS4, WS5) and reference (WS6 - open circles) watersheds at Hubbard Brook (Likens et al. 1998).
+
+:::
+
+
+
 
 Perhaps biological acceleration of mineral weathering by mycorrhizae can mitigate soil nutrient depletion (Rosling et al. 2004). In any case, considerable uncertainty remains in understanding the implications of intensified and short-rotation forestry practices for the sustainability of forest production in northern hardwood ecosystems.
 

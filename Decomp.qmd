@@ -41,6 +41,7 @@ Gosz et al. (1973) measured dry weight loss and nutrient release from leaf litte
 ::: {style="float: right; width: 40%; margin-left: 1em;"}
 
 ![Percentage of the original leaf dry weight remaining after various periods of decomposition. Values are means and standard errors for leaves from the 550-, 670-, and 770-m elevation sites. Sample size = 3 for 0-9 month and 6 for 10-12 month collection times. Single and double asterisks indicate significant (p=0.05) and highly significant (P= 0.01) differences respectively (Gosz et al., 1973)](figs/Decomp/LeafDecompFig.png){#fig-LeafDecomp}
+
 :::
 
 
@@ -51,6 +52,7 @@ Lignin is a polyphenolic polymer in plant cell walls that is resistant to decay,
 ::: {style="float: left; width: 40%; margin-right: 1em;"}
 
 ![Correlations between first-year leaf litter decomposition and litter lignin-to-nitrogen ratio for several tree species at two hardwood forest sites (Melillo et al., 1982)](figs/Decomp/Decomp-LigninNitrogenRation.png){#fig-LigNit}
+
 :::
 
 The microbial decomposer community is highly diverse and complex, and the role of variation in microbial decomposers in determining leaf litter decay rate is not well understood. At the coarsest level fungi and bacteria are both dominant decomposers, but they are quite distinct in their physiological activity in the decay process (Waring 2013). Both groups produce extracellular enzymes that depolymerize the large biomolecules that contribute most of the mass of litter: cellulose, lignin, hemi-celluloses, proteins and fatty acids. Fungi have higher biomass C:N, broader enzymatic capabilities, slower biomass turnover rates and probably higher carbon-use efficiency than bacteria. In the low pH soils at HB, fungi are more abundant than bacteria and the high substrate C:N of leaf litter also favors fungi over bacteria. The litter decay process and the fate of litter C (and N) are influenced by this high fungal abundance.
@@ -90,8 +92,7 @@ Complex patterns of mobilization and retention of dissolved organic matter withi
 
 ::: {#fig-edidecompW6}
 
-<iframe src="https://hbr-lter.github.io/OnlineBookGraphs/chapters/decomposition_carbon/ForestFloor_OrganicMatter.html" width="100%" height="600" style="border: none;">
-</iframe>
+<iframe src="https://hbr-lter.github.io/OnlineBookGraphs/chapters/decomposition_carbon/OrganicMatter.html" width="100%" height="600" style="border: none;"></iframe>
 
 Organic matter content of the surface organic horizons (Oie + Oa) on the reference watershed (WS6) at the Hubbard Brook Experimental Forest. Error bars indicate standard errors. (Fahey et al., 2005). This figure is updated with current data available in the Environmental Data Initiative Repository ( Johnson, C.E. 2024. Mass and Chemistry of Organic Horizons and Surface Mineral Soils on Watershed 6 at the Hubbard Brook Experimental Forest, 1976 - present ver 4. Environmental Data Initiative. https://doi.org/10.6073/pasta/ab29c15538e75cafd4a43a30d8033cec (Accessed 2024-04-11). Hover over graph to access interactive controls available at the top right (zoom/pan/etc).
 
@@ -107,7 +108,10 @@ The cause of this striking response is not fully understood, but slight increase
 
 ::: {#fig-organicmatterplotly}
 
-<iframe src="https://hbr-lter.github.io/OnlineBookGraphs/chapters/decomposition_carbon/W1W6byHorizon_organicMatter.html" width="100%" height="600" style="border: none;">
+<iframe src="https://hbr-lter.github.io/OnlineBookGraphs/chapters/decomposition_carbon/W1W6_Oa_organicMatter.html" width="100%" height="600" style="border: none;">
+</iframe>
+
+<iframe src="https://hbr-lter.github.io/OnlineBookGraphs/chapters/decomposition_carbon/W1W6_OiOe_organicMatter.html" width="100%" height="600" style="border: none;">
 </iframe>
 
 Changes in organic matter content of forest floor horizons in reference (WS6) and calcium-amended (WS1) watersheds at Hubbard Brook Experimental Forest. This figure is updated with current data available in the Environmental Data Initiative Repository ( Johnson, C.E. 2022. Mass and Chemistry of Organic Horizons and Surface Mineral Soils on Watershed 1 at the Hubbard Brook Experimental Forest 1996-present ver 3. Environmental Data Initiative. https://doi.org/10.6073/pasta/7395cf86c134440f38d800ca59a4857b and Johnson, C.E. 2024. Mass and Chemistry of Organic Horizons and Surface Mineral Soils on Watershed 6 at the Hubbard Brook Experimental Forest, 1976 - present ver 4. Environmental Data Initiative. https://doi.org/10.6073/pasta/ab29c15538e75cafd4a43a30d8033cec (Accessed 2024-04-11). Hover over graph to access interactive controls available at the top right (zoom/pan/etc).

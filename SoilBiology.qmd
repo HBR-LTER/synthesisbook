@@ -44,19 +44,22 @@ At the same time that fumigated and inoculated samples are incubating, parallel 
 
 Microbial biomass carbon (@fig-MicrobialCarbon) and nitrogen (@fig-MicrobialNitrogen) content vary markedly with soil horizon, with higher concentrations in the Oie (surface, less decomposed organic material) than in the Oa (just below the Oie, more decomposed organic material) and much lower levels in the top 10 cm of the mineral soil. These differences closely track the organic matter content of the different horizons and are consistent with ideas that microbial biomass represents approximately 1% of the total soil organic carbon pool (Anderson and Domsch 1989). The C:N (@fig-MicrobialCN) of the microbial biomass does not consistently vary with soil horizon.
 
-::: {#fig-MicrobialCarbon}
-<iframe src="https://hubbardbrook.github.io/soilBiology/f1_micro_biomass_C.html" width="100%" height="600" style="border: none;">
 
-</iframe>
+
+::: {#fig-MicrobialCarbon}
+
+<iframe src="https://hbr-lter.github.io/OnlineBookGraphs/chapters/soilBiology/MicrobialBiomassCarbon.html" width="100%" height="600" style="border: none;"> </iframe>
+
 
 Microbial biomass carbon in the Oie, Oa and mineral soil horizons in the Bear Brook watershed (west of the reference watershed 6) at the Hubbard Brook Experimental Forest. Samples were taken in mid-summer (early July) each year from four sites along an elevation gradient ranging from 200 to 700 meters. This figure is updated with current data available in the Environmental Data Initiative Repository (EDI; https://portal.edirepository.org). Hover over graph to access interactive controls available at the top right (zoom/pan/etc).
 
 :::
 
+
+
 ::: {#fig-MicrobialNitrogen}
 
-<iframe src="https://hubbardbrook.github.io/soilBiology/f2_micro_biomass_N.html" width="100%" height="600" style="border: none;">
-</iframe>
+<iframe src="https://hbr-lter.github.io/OnlineBookGraphs/chapters/soilBiology/MicrobialBiomassNitrogen.html" width="100%" height="600" style="border: none;"> </iframe>
 
 Microbial biomass nitrogen in the Oie, Oa and mineral soil horizons in the Bear Brook watershed (west of the reference watershed 6) at the Hubbard Brook Experimental Forest. Samples were taken in mid-summer (early July) each year from four sites along an elevation gradient ranging from 200 to 700 meters. This figure is updated with current data available in the Environmental Data Initiative Repository (EDI; https://portal.edirepository.org). Hover over graph to access interactive controls available at the top right (zoom/pan/etc).
 
@@ -67,8 +70,7 @@ Temporal patterns in microbial biomass are difficult to discern. Microbial bioma
 
 ::: {#fig-MicrobialCN}
 
-<iframe src="https://hubbardbrook.github.io/soilBiology/f3_micro_CN.html" width="100%" height="600" style="border: none;">
-</iframe>
+<iframe src="https://hbr-lter.github.io/OnlineBookGraphs/chapters/soilBiology/MicrobialBiomassCN.html" width="100%" height="600" style="border: none;"> </iframe>
 
 Microbial C:N in the Oie, Oa and mineral soil horizons in the Bear Brook watershed (west of the reference watershed 6) at the Hubbard Brook Experimental Forest. Samples were taken in mid-summer (early July) each year from four sites along an elevation gradient ranging from 200 to 700 meters. This figure is updated with current data available in the Environmental Data Initiative Repository (EDI; https://portal.edirepository.org). Hover over graph to access interactive controls available at the top right (zoom/pan/etc).
 
@@ -76,8 +78,7 @@ Microbial C:N in the Oie, Oa and mineral soil horizons in the Bear Brook watersh
 
 ::: {#fig-MicrobialRespiration}
 
-<iframe src="https://hubbardbrook.github.io/soilBiology/f4_micro_respiration.html" width="100%" height="600" style="border: none;">
-</iframe>
+<iframe src="https://hbr-lter.github.io/OnlineBookGraphs/chapters/soilBiology/MicrobialBiomassRespiration.html" width="100%" height="600" style="border: none;"> </iframe>
 
 Microbial respiration in the Oie, Oa and mineral soil horizons in the Bear Brook watershed (west of the reference watershed 6) at the Hubbard Brook Experimental Forest. Samples were taken in mid-summer (early July) each year from four sites along an elevation gradient ranging from 200 to 700 meters. This figure is updated with current data available in the Environmental Data Initiative Repository (EDI; https://portal.edirepository.org). Hover over graph to access interactive controls available at the top right (zoom/pan/etc).
 
@@ -96,8 +97,7 @@ The long-term microbial biomass data provide a context for evaluating microbial 
 
 ::: {#fig-DenitrificationBB}
 
-<iframe src="https://hubbardbrook.github.io/soilBiology/f5_micro_Denitrification.html" width="100%" height="600" style="border: none;">
-</iframe>
+<iframe src="https://hbr-lter.github.io/OnlineBookGraphs/chapters/soilBiology/MicrobialBiomassDEA.html" width="100%" height="600" style="border: none;"> </iframe>
 
 Denitrification potential in the Oie, Oa and mineral soil horizons in the Bear Brook watershed (west of the reference watershed 6) at the Hubbard Brook Experimental Forest. Samples were taken in mid-summer (early July) each year from four sites along an elevation gradient ranging from 200 to 700 meters. This figure is updated with current data available in the Environmental Data Initiative Repository (EDI; https://portal.edirepository.org). Hover over graph to access interactive controls available at the top right (zoom/pan/etc).
 
@@ -105,8 +105,7 @@ Denitrification potential in the Oie, Oa and mineral soil horizons in the Bear B
 
 ::: {#fig-DenitrificationDEA}
 
-<iframe src="https://hubbardbrook.github.io/soilBiology/f6_denitrification_biomass_C.html" width="100%" height="600" style="border: none;">
-</iframe>
+<iframe src="https://hbr-lter.github.io/OnlineBookGraphs/chapters/soilBiology/MicrobialBiomassDEABIOC.html" width="100%" height="600" style="border: none;"> </iframe>
 
 Denitrification potential (DEA): Microbial biomass C (BIOC) in the Oie, Oa and mineral soil horizons in the Bear Brook watershed (west of the reference watershed 6) at the Hubbard Brook Experimental Forest. Samples were taken in mid-summer (early July) each year from four sites along an elevation gradient ranging from 200 to 700 meters. This figure is updated with current data available in the Environmental Data Initiative Repository (EDI; https://portal.edirepository.org). Hover over graph to access interactive controls available at the top right (zoom/pan/etc).
 

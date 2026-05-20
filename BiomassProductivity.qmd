@@ -188,7 +188,14 @@ Aboveground live tree biomass of the forest on reference watershed 6 and
 adjacent Ca-treated watershed 1. Error bars indicate 95% confidence
 intervals based on DBH measurements of all trees on the watersheds.
 
-![Aboveground live tree biomass of the forest on reference watershed 6 and adjacent Ca-treated watershed 1. Error bars indicate 95% confidence intervals based on DBH measurements of all trees on the watersheds.](figs/biomass/biomassW1W6.jpg){#fig-biomassw1w6graph}
+
+::: {#fig-biomassw1w6graph}
+
+<iframe src="https://hbr-lter.github.io/OnlineBookGraphs/chapters/biomass_productivity/Aboveground_Biomass.html" width="100%" height="600" style="border: none;"></iframe>
+
+Aboveground live tree biomass of the forest on reference watershed 6 and adjacent Ca-treated watershed 1. Error bars indicate 95% confidence intervals based on DBH measurements of all trees on the watersheds.
+
+:::
 
 ## Primary Productivity
 
