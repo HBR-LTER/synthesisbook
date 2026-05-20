@@ -98,7 +98,7 @@ Recent declines in atmospheric N deposition and unexplained declines in N export
 
 Perhaps the most conclusive evidence for the changing N cycle and N oligotrophication is the long-term pattern of foliar N concentration of canopy trees of the three dominant species in the Hubbard Brook forest (Lany et al. 2026). The 32-year record of foliar N in the forest west of W6 indicates a peak in concentration in the early 2000s followed by a significant decline over the past 20 years (@fig-nitrogen-foliarN). This pattern clearly coincides with the pattern of atmospheric N deposition suggesting a cause-and-effect relationship. Notably over the same period the C:N ratio in canopy foliage has significantly increased perhaps resulting in a reinforcing feedback of slowing litter decay and increasing microbial N immobilization. Continued monitoring of foliar nutrients will be valuable for elucidating the implications of changing N cycling for forest production. 
 
-![Thirty-year trends in canopy foliar N concentration of three dominant tree species of four elevation zones in the reference forest west of W6. ](figs/nitrogen/nitrogen-foliarN.png){@fig-nitrogen-foliarN}
+![Thirty-year trends in canopy foliar N concentration of three dominant tree species of four elevation zones in the reference forest west of W6. ](figs/nitrogen/nitrogen-foliarN.png){#fig-nitrogen-foliarN}
 
 
 
