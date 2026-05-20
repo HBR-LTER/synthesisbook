@@ -51,7 +51,7 @@ Biomass is the living (and sometimes including recently dead) organic material s
 
 ::: {.chapter-item}
 
-[![](figs/thumbs/decompThumbnail.jpg)](Decomp.qmd)
+[![](figs/thumbs/decompThumbnail.png)](Decomp.qmd)
 
 **6. [Decomposition and Soil Carbon Sequestration](Decomp.qmd)**  
 Biomass is the living (and sometimes including recently dead) organic material synthesized by plants and other organisms. The accumulation of biomass in forests is greater than in other Earth biomes because the trees must effectively lift their leaves above their neighbors in order to compete for the light resource; hence, forest biomass provides the structural material that allows the plants to grow tall. The biomass of trees in forests forms the three-dimensional structure in which all the other organisms are entrained and to which they are adapted for growth, survival and reproduction. Much of the energy and carbon stored in the forest resides in the biomass of the trees and understanding the factors regulating forest biomass and its accumulation is of fundamental importance to ecologists and foresters, alike.
@@ -61,9 +61,39 @@ Biomass is the living (and sometimes including recently dead) organic material s
 
 ::: {.chapter-item}
 
-[![](figs/thumbs/soilbiologyThumbnail.jpg)](SoilBiology.qmd)
+[![](figs/thumbs/soilbiologyThumbnail.png)](SoilBiology.qmd)
 
 **7. [Soil Biology](SoilBiology.qmd)**  
 One of the great mysteries in the forest at Hubbard Brook is where do the leaves go? Each autumn, there is a massive transfer of mass, carbon and nutrients from the trees to the forest floor via “litterfall”, yet the forest is not filling up with leaves.
+
 :::
+
+::: {.chapter-item}
+
+[![](figs/thumbs/biogeochemistryThumbnail.jpg)](Biogeochemistry.qmd)
+
+**8. [Biogeochemistry: Element behavior and Interactions](Biogeochemistry.qmd)**  
+The stream draining a small watershed provides an integrated measurement of nutrient flux from the complex forest landscape. At Hubbard Brook, the role of forest vegetation in regulating biogeochemical cycles is evaluated by manipulating the forest ecosystem at the scale of the small watershed. Such studies provided novel insights into nutrient cycles in northern hardwood forest ecosystems; this led naturally to further mechanistic studies that would open up the watershed black box for a look inside..
+
+:::
+
+
+::: {.chapter-item}
+
+[![](figs/thumbs/atmosphericinputsThumbnail.png)](AtmosphericInputs.qmd)
+
+**9. [Atmospheric inputs and canopy interactions of nutrients and pollutants](AtmosphericInputs.qmd)**  
+While many of the nutrients that trees at Hubbard Brook need for growth are supplied from minerals in the soil, some, notably nitrogen (N) and sulfur (S), are primarily supplied by atmospheric deposition. In addition to being important for the nutrient supply of the forest, atmospheric deposition also delivers pollutants to the forest, particularly oxides of N and S and trace metals such as lead (Pb) and mercury (Hg). Because Hubbard Brook is downwind of many air pollution sources in the eastern and midwestern US, the forest has been receiving excess N, S and trace metal deposition for decades and has suffered consequences of that deposition. In this chapter we discuss the rates and mechanisms of deposition of these and other substances to the forest and how they interact with the canopy after they are deposited.
+
+:::
+
+::: {.chapter-item}
+
+[![](figs/thumbs/atmdepositioneffectsThumbnail.jpg)](AcidDepositionEffects.qmd)
+
+**10. [Ecosystem Effects of Acidic Deposition](AcidDepositionEffects.qmd)**  
+Acidic deposition, which includes sulfuric and nitric acids and ammonium, has altered forest soils by depleting available calcium and magnesium and increasing concentrations of dissolved inorganic aluminum in soil waters, impacting the health of trees. Stream water quality has also been impaired in acid impacted regions like Hubbard Brook, which has reduced the species diversity and abundance of aquatic life. In eastern North America and Europe decreases in sulfur dioxide and nitrogen oxide emissions have decreased acidic deposition with some improvement in surface water quality. However, recovery of forest soils and biota has lagged. In this chapter effects of acidic deposition are illustrated using examples from the Hubbard Brook Ecosystem Study.
+
+:::
+
 
