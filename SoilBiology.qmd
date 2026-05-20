@@ -91,6 +91,7 @@ We have most recently observed a striking increase in emissions of CO2 from soil
 ![Mean soil CO2 flux at Hubbard Brook showing post-2012 increase](figs/SoilBiology/meanflux.png){#fig-co2flux}
 
 
+
 The likelihood that dead microbial biomass is a substantial contribution to persistent pools of organic C and nutrients in soils (Kallenbach et al. 2016) highlights the need to complement biomass with turnover measures if we are to understand the microbial role in nutrient sequestration in these soils (Fisk et al. 2015).
 
 The long-term microbial biomass data provide a context for evaluating microbial populations responsible for specific microbial processes, such as denitrification. For example, our long-term data on denitrification potential (@fig-DenitrificationBB) are based on an enzyme assay that estimates the biomass of denitrifying enzymes present in soil at the time of sampling (Smith and Tiedje 1979). The ratio of denitrification potential to microbial biomass carbon (@fig-DenitrificationDEA) thus provides information on spatial and temporal variation in the importance of this form of anaerobic nitrate-based respiration in the soils at Hubbard Brook. Declining trends in both denitrification potential and the ratio of denitrification potential to microbial biomass carbon are consistent with ideas and data (including a decline in nitrous oxide emissions from soil) showing nitrogen oligotrophication at the site (Groffman et al. 2018).

@@ -123,6 +123,10 @@ Watershed-scale experiments at HB provide a basis for evaluating forest harvest 
 
 However, disturbances like forest harvest disrupt this synchrony. Rastetter et al. (2013) applied the MEL model to forest harvest at HB to illustrate how P should ultimately limit the rate of ecosystem recovery because of the relatively low N:P ratio of harvest residues and consequently higher relative N vs P losses. Perhaps biologically-enhanced primary mineral weathering of P is capable of overcoming such ultimate P limitation.
 
+In fact, recent evidence strongly suggests that biologically-enhanced mineral weathering has been stimulated by the high P demand of regrowing forest on W5 and the relative scarcity of available P owing to removal in the whole-tree harvest (Bernhardt et al. 2025). Immediately following the harvest of W5 stream concentrations of dissolved Si increased markedly in comparison with the adjacent reference W6 (@fig-phos-streamchem). Although in the initial stages of recovery much of this increase has been attributed to the dissolution of amorphous Si from residual biomass and soil, the continuation of this pattern beyond the first two decades must be attributed to weathering of silicate minerals. It is likely that this enhanced weathering has been driven by tree demand for P, perhaps facilitated by the dominance of ectomycorrhizal tree species (beech, birches, conifers) in the regrowing forest. These plant-fungal associations have been shown to promote weathering of mineral P in the Hubbard Brook soils (Blum et al. 2002). 
+
+![Streamwater pH, soluble calcium, and soluble silicate concentrations are shown for three adjacent Hubbard Brook watersheds which were unmanipulated (W6, black), deforeseted (W5, red), or wollastonite enriched (W1, blue). Arrows indicate the years of the two experimental manipulations. Precipitation pH and calcium concentrations are shown as grey-shded area plots in the first two panels](figs/phos/phos-streamchem.png){#fig-phos-streamchem}
+
 ### Soil acidification
 
 
