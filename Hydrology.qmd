@@ -22,20 +22,15 @@ Hydrologists at the HBEF developed a long-term record of the water balance and a
 
 ::: {#fig-waterbalance}
 
-<iframe src="https://hubbardbrook.github.io/Hydrology/fig2_precip_stream_evapotranspiration.html" width="100%" height="600" style="border: none;">
+<iframe src="https://hubbardbrook.github.io/Hydrology/fig2_precip_stream_evapotranspiration.html" width="100%" height="600" style="border: none;"> </iframe>
 
-</iframe>
 Long-term water balance in four watershed at Hubbard Brook: A. WS3, B. WS6, C. WS7, D. WS8. Originally published in Campbell et al. 2011; this figure is updated with current data available in the Environmental Data Initiative Repository (EDI; https://portal.edirepository.org). Hover over graph to access interactive controls available at the top right (zoom/pan/etc).
 
 :::
 
-::: {style="float: right; width: 40%; margin-right: 1em;"}
-
 ![Response of streamflow, evapotranspiration and stream water nutrient concentrations to devegetation treatment (shaded) of Watershed 2. (Likens et al., 1970).](figs/Hydrology/hydroResponseDeveg.png){#fig-hydroDeveg}
-:::
 
 The long-term record at the HBEF also demonstrates the response of the forest water balance to atmospheric and climate change. Three key environmental drivers have increased gradually at the HBEF since the 1950s: air temperature, annual precipitation and atmospheric CO2 concentration. In theory, increasing air temperature would be expected to cause higher evaporation (and ET) rates and, a longer leaf-on season of the deciduous trees, that should also contribute to higher ET. Indeed, phenological records from the HBEF indicate a lengthening leaf-on period (Keenan et al. 2014; @fig-hydroPhenology).
-
 
 ![Manual ground observations of spring (left column) and autumn (right column) phenology over two decades at Harvard Forest from 1990- 2012 (Red oak (a)) and Hubbard Brook 1989 - 2012 (American beech (b); Sugar maple (c); Yellow birch (d)). (Keenan et al., 2014).](figs/Hydrology/phenologyFigs.png){#fig-hydroPhenology}
 
