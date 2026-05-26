@@ -6,9 +6,10 @@ format: html
 <div id="sec-soilbiologychapter"></div>
 
 
-# Where do the leaves go: The importance of soil biology in the forest ecosystem.
 
 Chapter Editors: Peter Groffman and Melany Fisk
+
+## Where do the leaves go: The importance of soil biology in the forest ecosystem.
 
 One of the great mysteries in the forest at Hubbard Brook is where do the leaves go? Each autumn, there is a massive transfer of mass, carbon and nutrients from the trees to the forest floor via “litterfall”, yet the forest is not filling up with leaves. Where do they go? The topic of this chapter is how microbes and other components of the soil biological community decompose these leaves; returning most of the carbon to the atmosphere, facilitating cycling of nutrients back to the trees, and making most of the mass disappear.
 

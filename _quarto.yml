@@ -6,9 +6,8 @@ project:
 book:
   title: ""
   chapters:
-    - index.qmd
-    #- test.qmd
     - WhatsNew.qmd
+    - index.qmd
     - SiteHistory.qmd
     - ClimateChange.qmd
     - Hydrology.qmd
@@ -30,6 +29,7 @@ book:
     - Birds.qmd
     - Understory.qmd
     - Scaling.qmd
+    - Homework.qmd
 
   sidebar:
     style: docked
