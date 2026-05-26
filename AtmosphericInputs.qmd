@@ -114,11 +114,11 @@ Lindberg, S. E., & Lovett, G. M. (1992). Deposition and canopy interactions of a
 
 Lovett, G. M. (1994). Atmospheric deposition of nutrients and pollutants in North America: An ecological perspective. *Ecological Applications, 4*, 629–650. [https://doi.org/10.2307/1941997](https://doi.org/10.2307/1941997){target="_blank" rel="noopener"}
 
-Lovett, G. M., Bowser, J. J., & Edgerton, E. S. (1997). Atmospheric deposition to watersheds in complex terrain. *Hydrological Processes, 11*, 645–654. [https://doi.org/10.1002/(SICI)1099-1085(19970415)11:5<645::AID-HYP479>3.0.CO;2-A](https://doi.org/10.1002/(SICI)1099-1085(19970415)11:5<645::AID-HYP479>3.0.CO;2-A){target="_blank" rel="noopener"}
+Lovett, G. M., Bowser, J. J., & Edgerton, E. S. (1997). Atmospheric deposition to watersheds in complex terrain. *Hydrological Processes, 11*, 645–654. [https://doi.org/10.1002/(SICI)1099-1085(19970415)11:5<645::AID-HYP479>3.0.CO;2-A](https://doi.org/10.1002/\(SICI\)1099-1085\(19970415\)11:5<645::AID-HYP479>3.0.CO;2-A){target="_blank" rel="noopener"}
 
-Lovett, G. M., Likens, G. E., Buso, D. C., Driscoll, C. T., & Bailey, S. W. (2005). The biogeochemistry of chlorine at Hubbard Brook, New Hampshire, USA. *Biogeochemistry, 72*, 191–232. https://doi.org/10.1002/(SICI)1099-1085(199706)11:7<645::AID-HYP526>3.0.CO;2-2](https://doi.org/10.1002/(SICI)1099-1085(199706)11:7<645::AID-HYP526>3.0.CO;2-2/){target="_blank" rel="noopener"}
+Lovett, G. M., Likens, G. E., Buso, D. C., Driscoll, C. T., & Bailey, S. W. (2005). The biogeochemistry of chlorine at Hubbard Brook, New Hampshire, USA. *Biogeochemistry, 72*, 191–232. [https://doi.org/10.1002/\(SICI\)1099-1085\(199706\)11:7<645::AID-HYP526>3.0.CO;2-2](https://doi.org/10.1002/(SICI)1099-1085(199706)11:7<645::AID-HYP526>3.0.CO;2-2/){target="_blank" rel="noopener"}
 
-Lovett, G. M., Likens, G. E., Nolan, S. S., & Schwarz, S. E. (1992). Dry deposition of sulfur to the Hubbard Brook Experimental Forest: A preliminary comparison of methods. Pages 1391–1402 in Precipitation Scavenging and Atmosphere-Surface Exchange, Volume 3. Hemisphere Publ. Co., Washington, D.C. *(no DOI available — book chapter in conference proceedings)*
+Lovett, G. M., Likens, G. E., Nolan, S. S., & Schwarz, S. E. (1992). Dry deposition of sulfur to the Hubbard Brook Experimental Forest: A preliminary comparison of methods. Pages 1391–1402 in Precipitation Scavenging and Atmosphere-Surface Exchange, Volume 3. Hemisphere Publ. Co., Washington, D.C.
 
 Lovett, G. M., Nolan, S. S., Driscoll, C. T., & Fahey, T. J. (1996). Factors regulating throughfall flux in New Hampshire forested landscape. *Canadian Journal of Forest Research, 26*, 2134–2144. [https://doi.org/10.1139/x26-242](https://doi.org/10.1139/x26-242){target="_blank" rel="noopener"}
 
