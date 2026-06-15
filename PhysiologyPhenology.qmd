@@ -142,7 +142,7 @@ Campbell, J. L., Socci, A. M., & Templer, P. H. (2014). Increased nitrogen leach
 
 Chuine, I., Cour, P., & Rousseau, D. D. (1999). Selecting models to predict the timing of flowering of temperate trees: Implications for tree phenology modelling. *Plant, Cell & Environment, 22*(1), 1–13. [https://doi.org/10.1046/j.1365-3040.1999.00395.x](https://doi.org/10.1046/j.1365-3040.1999.00395.x){target="_blank" rel="noopener"}
 
-Cleavitt, N. L., Fairbairn, M., & Fahey, T. J. (2008a). Growth and survivorship of American beech (Fagus grandifolia Ehrh.) seedlings in a northern hardwood forest following a mast event. *Journal of the Torrey Botanical Society, 135*(3), 328–345. [https://doi.org/10.3159/08-RA-025.1](https://doi.org/10.3159/08-RA-025.1){target="_blank" rel="noopener"}
+Cleavitt, N. L., Fairbairn, M., & Fahey, T. J. (2008a). Growth and survivorship of American beech (*Fagus grandifolia* Ehrh.) seedlings in a northern hardwood forest following a mast event. *Journal of the Torrey Botanical Society, 135*(3), 328–345. [https://doi.org/10.3159/08-RA-025.1](https://doi.org/10.3159/08-RA-025.1){target="_blank" rel="noopener"}
 
 Cleavitt, N. L., Fahey, T. J., Groffman, P. M., Hardy, J. P., Henry, K. S., & Driscoll, C. T. (2008b). Effects of soil freezing on fine roots in a northern hardwood forest. *Canadian Journal of Forest Research, 38*(1), 82–91. [https://doi.org/10.1139/X07-133](https://doi.org/10.1139/X07-133){target="_blank" rel="noopener"}
 
@@ -180,7 +180,7 @@ Groffman, P. M., Hardy, J. P., Fashu-Kanu, S., Driscoll, C. T., Cleavitt, N. L.,
 
 Groffman, P.M., Rustad, L.E., Templer, P.H., Campbell, J.L., Christenson, L.M., Lany, N.K., Socci, A.M., Vadeboncouer, M.A., Schaberg, P.G., Wilson, G.F., Driscoll, C.T., Fahey, T.J., Fisk, M.C., Goodale, C.L., Green, M.B., Hamburg, S.P., Johnson, C.E., Mitchell, M.J., Morse, J.L., Pardo, L.H., and Rodenhouse N.L. 2012. Climate change effects are manifest in complex and surprising ways in the northern hardwood forest. BioScience 62:10561066.
 
-Halman, J. M., Schaberg, P. G., Hawley, G. J., and Eagar, C. 2008. Calcium addition at the Hubbard Brook Experimental Forest increases sugar storage, antioxidant activity and cold tolerance in native red spruce (Picea rubens). Tree Physiology 28(6):855-862.
+Halman, J. M., Schaberg, P. G., Hawley, G. J., and Eagar, C. 2008. Calcium addition at the Hubbard Brook Experimental Forest increases sugar storage, antioxidant activity and cold tolerance in native red spruce (*Picea rubens*). Tree Physiology 28(6):855-862.
 
 Halman, J. M., Schaberg, P. G., Hawley, G. J., Pardo, L. H., and Fahey, T. J. 2013. Calcium and aluminum impacts on sugar maple physiology in a northern hardwood forest. Tree Physiology 33(11):1242-1251.
 
@@ -190,7 +190,7 @@ Hornbeck, J. W., Martin, C. W., and Eagar, C. (1997). Summary of water yield exp
 
 Houston, D. R. 1999. History of sugar maple decline. In: Horsley, Stephen B.; Long, Robert P., eds. Sugar maple ecology and health: proceedings of an international symposium; 1998 June 2-4; Warren, PA. Gen. Tech. Rep. NE-261. Radnor, PA: US Department of Agriculture, Forest Service, Northeastern Research Station: 19-26. (Vol. 261).
 
-Huggett, B. A., Schaberg, P. G., Hawley, G. J., and Eagar, C. 2007. Long-term calcium addition increases growth release, wound closure, and health of sugar maple (Acer saccharum) trees at the Hubbard Brook Experimental Forest. Canadian Journal of Forest Research 37(9):1692-1700.
+Huggett, B. A., Schaberg, P. G., Hawley, G. J., and Eagar, C. 2007. Long-term calcium addition increases growth release, wound closure, and health of sugar maple (*Acer saccharum*) trees at the Hubbard Brook Experimental Forest. Canadian Journal of Forest Research 37(9):1692-1700.
 
 Janowiak, M.K., A. D’Amato, C.W. Swanston, L. Iverson, F. Thompson III, W. Dijak, S. Matthews, M. Peters, A. Prasad, J.S. Fraser, L.A. Brandt, P.R. Butler, S.D. Handler, P.D. Shannon, D. Burbank, J. Campbell, C. Cogbill, M.J. Duveneck, M. Emery, N. Fisichelli, J. Foster, J. Hushaw, L. Kenefic, A. Mahaffey, T.L. Morelli, N. Reo, P. Schaberg, K.R. Simmons, A. Weiskittel, S. Wilmot, D. Hollinger, E. Lane, L. Rustad, P. Templer. 2018. New England Forest ecosystem vulnerability assessment: a report from the New England Climate Change Response Framework. General Technical Report NRS-173. Newtown Square, PA: U.S. Department of Agriculture, Forest Service, Northern Research Station.
 

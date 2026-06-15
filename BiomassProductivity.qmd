@@ -235,7 +235,7 @@ tissues (leaves and fine roots). Some of the other loss terms in
 usually comprise a relatively small proportion of aboveground NPP
 (ANPP), herbivory can be substantial during rare irruptions of
 defoliating insects. For example, during the peak year of a 3-yr
-irruption of a defoliating caterpillar (Heterocampa guttivita) about 44%
+irruption of a defoliating caterpillar (*Heterocampa guttivita* Walker) about 44%
 of leaf tissue was consumed in the hardwood forest at HBEF, with local
 patches of 100% defoliation (Holmes and Sturges 1975). Finally, loss
 terms for belowground NPP (BNPP) are notoriously difficult to measure

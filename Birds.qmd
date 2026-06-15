@@ -135,7 +135,7 @@ Holmes, R. T., & Sturges, F. W. (1973). Annual energy expenditure by the avifaun
 
 Johnson, M. D., Sherry, T. W., Holmes, R. T., & Marra, P. P. (2006). Assessing habitat quality for a migratory songbird wintering in natural and agricultural habitats. Conservation Biology, 20(5), 1433-1444.
 
-Kaiser, S. A., L. E. Forg, A. N. Stillman, J. F. Deitsch, T. S. Sillett, and G. V. Clucas (2024). Black‐throated blue warblers ( Setophaga caerulescens ) exhibit diet flexibility and track seasonal changes in insect availability. Ecology and Evolution 14:e70340.
+Kaiser, S. A., L. E. Forg, A. N. Stillman, J. F. Deitsch, T. S. Sillett, and G. V. Clucas (2024). Black‐throated blue warblers (*Setophaga caerulescens*) exhibit diet flexibility and track seasonal changes in insect availability. Ecology and Evolution 14:e70340.
 
 Kaiser, S. A., T. S. Sillett, B. B. Risk, and M. S. Webster (2015). Experimental food supplementation reveals habitat-dependent male reproductive investment in a migratory bird. Proceedings of the Royal Society of London B: Biological Sciences 282:20142523.
 
