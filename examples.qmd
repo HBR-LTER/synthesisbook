@@ -62,8 +62,10 @@ $$ {#eq-npp}
 Create anchor in chapter:
 <div id="sec-climatechangechapter"></div>
 
+
+or just link to chapter file
 Create link in another chapter:
-See [Climate Change](climatechangechapter.qmd}
+See [Climate Change](ClimateChange.qmd)
 
 
 ################ create table with anchor ######################
