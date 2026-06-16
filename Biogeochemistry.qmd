@@ -252,7 +252,7 @@ of woody vs. deciduous tissues during forest development (i.e. more and
 more wood) results in changing C:N:P stoichiometry; both C:N and C:P in
 the forest increase with forest age but C:N increases faster than C:P.
 
-![Relative growth rate of trees growing in young, mid-age and mature forest plots fertilized for 5 years with (A) phosphorus or (B) nitrogen in comparison with control plots (from Goswami et al. in review)](figs/Biogeochemistry/RelativeGrowthRate.jpg){#fig-relgrowth}
+![Relative growth rate of trees growing in young, mid-age and mature forest plots fertilized for 5 years with (A) phosphorus or (B) nitrogen in comparison with control plots (from Goswami et al. 2018)](figs/Biogeochemistry/RelativeGrowthRate.jpg){#fig-relgrowth}
 
 The implication of these stoichiometric considerations for forest
 nutrient limitation was realized by Rastetter et al. (2013) who
@@ -672,10 +672,6 @@ regarding the behavior and interactions of elements in forest
 biogeochemical cycles. We trust that this overview has stimulated the
 reader's interest in the fascinating study of nutrient cycling.
 
-Overall response of the change in potassium relative to nitrate in
-solutions following disturbances of different watersheds at the Hubbard
-Brook Experimental Forest.
-
 ![Overall response of the change in potassium relative to nitrate in solutions following disturbances of different watersheds at the Hubbard Brook Experimental Forest](figs/Biogeochemistry/K-vs-NO3.png){#fig-kvno3}
 
 ## Questions for Further Study.
@@ -725,6 +721,8 @@ Fuss, C. B., Driscoll, C. T., Johnson, C. E., et al. (2011). Dynamics of oxidize
 Godsey, S. E., Kirchner, J. W., & Clow, D. W. (2009). Concentration–discharge relationships reflect chemostatic characteristics. *Hydrological Processes, 23*, 1844–1864. [https://doi.org/10.1002/hyp.7315](https://doi.org/10.1002/hyp.7315){target="_blank" rel="noopener"}
 
 Gonzales, K. E., Yanai, R. D., Fahey, T. J., & Fisk, M. C. (2023). Evidence for P limitation. *Forest Ecology and Management, 529*, 120696. [https://doi.org/10.1016/j.foreco.2022.120696](https://doi.org/10.1016/j.foreco.2022.120696){target="_blank" rel="noopener"}
+
+Goswami, S., Fisk, M. C., Vadeboncoeur, M. A., Garrison‐Johnston, M., Yanai, R. D., & Fahey, T. J. (2018). Phosphorus limitation of aboveground production in northern hardwood forests. Ecology, 99(2), 438-449.[https://doi.org/10.1002/ecy.2100](https://doi.org/10.1002/ecy.2100){target="_blank" rel="noopener"}
 
 Gosz, J. R., Likens, G. E., & Bormann, F. H. (1973). Nutrient release from decomposing litter. *Ecological Monographs, 43*, 173–191. [https://doi.org/10.2307/1942193](https://doi.org/10.2307/1942193){target="_blank" rel="noopener"}
 
