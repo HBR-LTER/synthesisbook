@@ -303,7 +303,7 @@ hardwoods in and around HB indicate that N and P resorption decrease
 with increasing soil nutrients (@fig-resorp; Fahey et al 1998; See et al.
 2015; Gonzalez et al, in review). One consequence of foliar nutrient
 resorption is the effect on the quality of plant litter and consequently
-microbial decomposition of litter (see Decomposition chapter).
+microbial decomposition of litter (see [Decomposition](Decomp.qmd) chapter).
 
 Whittaker et al. (1979) noted that nutrient resorption from other dying
 plant tissues also occurs at HB; the transition from living sapwood to
@@ -333,7 +333,7 @@ differs markedly among elements and tissues. At one extreme, K release
 from decaying leaves is very rapid and largely independent of the
 pattern of overall litter decay. In contrast, the mineralization of N
 and P is closely tied to the progression of organic matter decomposition
-and the microbially-mediated decay process (see Decomposition chapter).
+and the microbially-mediated decay process (see [Decomposition](Decomp.qmd) chapter).
 Classical theory suggests that the release pattern of N and P from
 decaying litter depends upon the ratio of carbon to nutrient (C:Nt) in
 the residue, with immobilization occurring at high C:Nt and
@@ -418,13 +418,13 @@ very strongly correlated with their abundance and mobility (@fig-basecation).
 ![Annual stream-water flux of strong-base cations is highly correlated with flux of strong-acid anions in W6 (from Likens et al. 1998)](figs/Biogeochemistry/BaseCationOutput.jpg){#fig-basecation}
 
 These mineral acid anions, NO~3~^-^ and SO~4~^2-^, are supplied to the soil
-solution both by atmospheric deposition ("acid rain"; Climate Change
+solution both by atmospheric deposition ("acid rain"; [Climate Change](ClimateChange.qmd)
 chapter) and by internal processes. Most of the SO~4~ is supplied by wet
 and dry deposition with a much smaller amount from weathering of
 S-bearing minerals in bedrock and glacial till (Likens et al. 2002). In
 addition to atmospheric deposition, NO~3~ is supplied to soil solution by
 the process of nitrification of NH4+ which is carried out by prokaryotic
-soil microbes (see Nitrogen Cycling chapter). Note that this is an
+soil microbes (see [Nitrogen Cycling](Nitrogen.qmd) chapter). Note that this is an
 acidifying process as two moles of H^+^ are generated for each mole of N
 nitrified.
 
@@ -468,8 +468,8 @@ flowpaths allow rapid transport from forest floor to stream water
 The importance of DOC in soil nutrient leaching is also evident from the
 high proportion of N and P leaching associated with dissolved organic
 matter; under undisturbed conditions half or more of N and P leaching
-occurs in organic forms at HB (see Nitrogen Cycling chapter and
-Phosphorus chapter). Thus, besides being the source of mineral nutrients
+occurs in organic forms at HB (see [Nitrogen Cycling](Nitrogen.qmd) chapter and
+[Phosphorus](Phosphorus.qmd) chapter). Thus, besides being the source of mineral nutrients
 released by decomposition, the forest floor also serves as the source of
 leaching power in the form of soluble organic matter.
 
@@ -650,7 +650,7 @@ Fe, S and N. The mostly well drained soils at HB only rarely reach O~2~
 levels at which such biochemical reduction processes would be expected.
 However, some evidence indicates that reduction of NO~3~ to gaseous forms
 by denitrification may be a qualitatively significant N flux pathway at
-HB (see Nitrogen Cycling chapter).
+HB (see [Nitrogen Cycling](Nitrogen.qmd) chapter).
 
 The redox situation with Fe is also intriguing. Iron is a major
 rock-forming element and when weathered from soil minerals, can occur in

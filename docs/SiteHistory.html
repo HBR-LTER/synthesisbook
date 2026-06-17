@@ -23,7 +23,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -280,6 +300,7 @@ window.Quarto = {
   <li><a href="#gaseous-output" id="toc-gaseous-output" class="nav-link" data-scroll-target="#gaseous-output"><span class="header-section-number">1.13</span> Gaseous Output</a></li>
   <li><a href="#internal-element-fluxes" id="toc-internal-element-fluxes" class="nav-link" data-scroll-target="#internal-element-fluxes"><span class="header-section-number">1.14</span> Internal Element Fluxes</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">1.15</span> References</a></li>
+  <li><a href="#references-1" id="toc-references-1" class="nav-link" data-scroll-target="#references-1"><span class="header-section-number">1.16</span> References</a></li>
   </ul>
 </nav>
     </div>
@@ -336,7 +357,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <p>For over 60 years scientists have been studying the dynamics of forests and linked aquatic ecosystems in the Hubbard Brook Experimental Forest, New Hampshire, USA. The Hubbard Brook Ecosystem Study (HBES) is an ongoing effort to understand the ecology, hydrology, energetics and biogeochemistry of this temperate forest ecosystem. The synthesis that follows provides an overview of several components of the HBES interpreted in light of current understanding at the level of the advanced student. The objective is to provide interested researchers with a succinct summary that will be helpful for guiding research and education efforts.</p>
 <section id="site-description" class="level2" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="site-description"><span class="header-section-number">1.1</span> Site Description</h2>
-<p>The Hubbard Brook Experimental Forest (HBEF) is located in the southern part of the White Mountain National Forest (WMNF) in central New Hampshire (<a href="#fig-map" class="quarto-xref">Figure&nbsp;<span>1.1</span></a>). The HBEF is characteristic of much of the White Mountain National Forest (Fahey et al.&nbsp;2015) The National Forest has hilly, occasionally steep topography; coarse, acidic, glacially-derived soils; bedrock dominated by metamorphic rock of igneous and sedimentary origin; northern hardwood forests on lower slopes and spruce-fir forests at higher elevations (above ca. 800 m).</p>
+<p>The Hubbard Brook Experimental Forest (HBEF) is located in the southern part of the White Mountain National Forest (WMNF) in central New Hampshire (<a href="#fig-map" class="quarto-xref">Figure&nbsp;<span>1.1</span></a>). The HBEF is characteristic of much of the White Mountain National Forest <span class="citation" data-cites="fahey2015">(<a href="SiteHistory.html#ref-fahey2015" role="doc-biblioref">Fahey et al., 2015</a>)</span>. The National Forest has hilly, occasionally steep topography; coarse, acidic, glacially-derived soils; bedrock dominated by metamorphic rock of igneous and sedimentary origin; northern hardwood forests on lower slopes and spruce-fir forests at higher elevations (above ca. 800 m).</p>
 <div id="fig-map" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-map-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -350,7 +371,7 @@ Figure&nbsp;1.1: Hubbard Brook Experimental Forest Map
 </section>
 <section id="climate" class="level2" data-number="1.2">
 <h2 data-number="1.2" class="anchored" data-anchor-id="climate"><span class="header-section-number">1.2</span> Climate</h2>
-<p>The continental climate at the HBEF features long, cold winters and mild to cool summers (see Climate chapter). Major air flow over the forest is either (1) continental polar air from subarctic North America (the predominant direction), (2) maritime tropical air from the Caribbean and Gulf of Mexico from the south or southwest, or (3) maritime air from the North Atlantic out of the east or northeast. In spite of the proximity of Hubbard Brook to the ocean (116 km), the climate is predominantly continental.</p>
+<p>The continental climate at the HBEF features long, cold winters and mild to cool summers (see <a href="./ClimateChange.html">Climate Change</a> chapter). Major air flow over the forest is either (1) continental polar air from subarctic North America (the predominant direction), (2) maritime tropical air from the Caribbean and Gulf of Mexico from the south or southwest, or (3) maritime air from the North Atlantic out of the east or northeast. In spite of the proximity of Hubbard Brook to the ocean (116 km), the climate is predominantly continental.</p>
 <p>Annual precipitation averages about 1,400 mm, of which about one third to one quarter is snow. A snowpack usually persists from mid-December until mid-April, with a peak depth in March of about 1,000 mm, having about 250 to 300 mm of water content.</p>
 <p>Winters are long and cold. January averages about -9oC, and long periods of low temperatures from -12˚C to -18˚C are common. Even though temperatures are low most of the time, occasional midwinter thaws result in elevated streamflow. Short, cool summers are the rule. The average July temperature is 18oC.</p>
 <p>The average number of days without killing frost is 145; however, the growing season for trees is considered to be from 15 May, the approximate time of full leaf development, to 15 September, when the leaves begin to fall.</p>
@@ -462,14 +483,14 @@ Figure&nbsp;1.2: Conceptual model underlying the Hubbard Brook Ecosystem Study
 </figcaption>
 </figure>
 </div>
-<p>In <a href="#fig-changing-chemistry" class="quarto-xref">Figure&nbsp;<span>1.3</span></a> we illustrate measured and hypothesized changes in ecosystem concentrations and fluxes in response to long-term decreases in S and N atmospheric deposition and increases in CO2 concentrations. Up and down arrows indicate increases and decreases. Gold arrows reflect measured changes, purple arrows show hypothesized changes. Gray arrows indicate major ecosystem processes driving other responses in the ecosystem. We have observed increases in soil pH and base saturation in response to declining S and N deposition and expect these changes to increase soil P availability. We have also observed increases in soil microbial biomass, decreases in forest floor organic matter stocks, and shifts in solution N losses from inorganic to organic forms. We hypothesize that rising atmospheric CO2 contributes to these changes by stimulating plant CO2 uptake and nutrient demand for growth, which in turn drives an increase in plant N and P uptake from solution, increased nutrient resorption from litter and decreased litter C/N ratios, as well as increases in allocation of plant C belowground to spur organic matter mineralization and soil respiration.</p>
+<p>In <a href="#fig-changing-chemistry" class="quarto-xref">Figure&nbsp;<span>1.3</span></a> we illustrate measured and hypothesized changes in ecosystem concentrations and fluxes in response to long-term decreases in S and N atmospheric deposition and increases in CO<sub>2</sub> concentrations. Up and down arrows indicate increases and decreases. Gold arrows reflect measured changes, purple arrows show hypothesized changes. Gray arrows indicate major ecosystem processes driving other responses in the ecosystem. We have observed increases in soil pH and base saturation in response to declining S and N deposition and expect these changes to increase soil P availability. We have also observed increases in soil microbial biomass, decreases in forest floor organic matter stocks, and shifts in solution N losses from inorganic to organic forms. We hypothesize that rising atmospheric CO<sub>2</sub> contributes to these changes by stimulating plant CO<sub>2</sub> uptake and nutrient demand for growth, which in turn drives an increase in plant N and P uptake from solution, increased nutrient resorption from litter and decreased litter C/N ratios, as well as increases in allocation of plant C belowground to spur organic matter mineralization and soil respiration.</p>
 <div id="fig-changing-chemistry" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-changing-chemistry-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="figs/Intro/Conceptual_ChangingChemistry.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-changing-chemistry-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1.3: Illustration of measured and hypothesized changes in ecosystem concentrations and fluxes in response to long-term decreases in S and N atmospheric deposition and increases in CO2 concentrations.
+Figure&nbsp;1.3: Illustration of measured and hypothesized changes in ecosystem concentrations and fluxes in response to long-term decreases in S and N atmospheric deposition and increases in CO<sub>2</sub> concentrations.
 </figcaption>
 </figure>
 </div>
@@ -513,12 +534,12 @@ Figure&nbsp;1.6: The conceptual model of the biogeophysical template on an ideal
 <p><span id="eq-et"><span class="math display">\[
 AET = Precipitation – stream discharge
 \tag{1.1}\]</span></span></p>
-<p>For chemical elements without a gas phase at Earth temperature, the small watershed also allows estimation of soil weathering (Johnson et al.&nbsp;1981) {<a href="#eq-weathering" class="quarto-xref">Equation&nbsp;<span>1.2</span></a>}</p>
+<p>For chemical elements without a gas phase at Earth temperature, the small watershed also allows estimation of soil weathering <span class="citation" data-cites="johnson1981">(<a href="SiteHistory.html#ref-johnson1981" role="doc-biblioref">Johnson et al., 1981</a>)</span> {<a href="#eq-weathering" class="quarto-xref">Equation&nbsp;<span>1.2</span></a>}</p>
 <p><span id="eq-weathering"><span class="math display">\[
 Weathering = stream output – atmospheric input + ∆ storage
 \tag{1.2}\]</span></span></p>
 <p>Here, the stream output and atmospheric input of an element are determined as the product of water flux and the element concentration in the water. The ∆ storage term refers to any change in the stock or pool of an element in the soil organic matter or vegetation biomass in the ecosystem. For example, when vegetation biomass is aggrading some of the chemicals weathered from soil minerals are accumulating in the trees rather than lost in stream discharge and the ∆ storage term is positive in Equation 2. Also, some elements enter the ecosystems as dry rather than wet deposition (e.g.&nbsp;dust particles), and this flux is included in the atmospheric input term.</p>
-<p>For elements with gaseous phases (e.g., N, C), separate measurements of gas fluxes in and out of the ecosystem are needed to estimate material budgets (see below). Experimental manipulations (e.g., forest harvest, fertilization) can be applied at the small watershed scale to quantify whole ecosystem responses (Bormann et al.&nbsp;1974). The internal processes determining the whole ecosystem responses are measured at the plot scale at selected locations within or nearby the small watershed. Together these measurements form the basis for much of the research in the HBES including long-term monitoring as detailed below.</p>
+<p>For elements with gaseous phases (e.g., N, C), separate measurements of gas fluxes in and out of the ecosystem are needed to estimate material budgets (see below). Experimental manipulations (e.g., forest harvest, fertilization) can be applied at the small watershed scale to quantify whole ecosystem responses <span class="citation" data-cites="bormann1974">(<a href="SiteHistory.html#ref-bormann1974" role="doc-biblioref">Bormann et al., 1974</a>)</span>. The internal processes determining the whole ecosystem responses are measured at the plot scale at selected locations within or nearby the small watershed. Together these measurements form the basis for much of the research in the HBES including long-term monitoring as detailed below.</p>
 </section>
 <section id="atmospheric-inputs" class="level2" data-number="1.9">
 <h2 data-number="1.9" class="anchored" data-anchor-id="atmospheric-inputs"><span class="header-section-number">1.9</span> Atmospheric Inputs</h2>
@@ -535,7 +556,7 @@ Figure&nbsp;1.7: Atmospheric deposition collectors at Hubbard Brook.
 </figure>
 </div>
 </div>
-<p>Dry deposition of particles and gases is more difficult to quantify than wet deposition and can constitute a substantial proportion of the input of several important elements, especially nitrogen and sulfur, that are derived partly from pollutant emissions. Some of the dry deposition can be captured on artificial samplers or as canopy throughfall, but the calculation of dry deposition flux is complex and uncertain, and we refer the reader to detailed explanations in the literature (Likens et al.&nbsp;2002).</p>
+<p>Dry deposition of particles and gases is more difficult to quantify than wet deposition and can constitute a substantial proportion of the input of several important elements, especially nitrogen and sulfur, that are derived partly from pollutant emissions. Some of the dry deposition can be captured on artificial samplers or as canopy throughfall, but the calculation of dry deposition flux is complex and uncertain, and we refer the reader to detailed explanations in the literature <span class="citation" data-cites="likens2002">(<a href="SiteHistory.html#ref-likens2002" role="doc-biblioref">Likens et al., 2002</a>)</span>).</p>
 </section>
 <section id="stream-output" class="level2" data-number="1.10">
 <h2 data-number="1.10" class="anchored" data-anchor-id="stream-output"><span class="header-section-number">1.10</span> Stream Output</h2>
@@ -555,15 +576,15 @@ Figure&nbsp;1.8: Photograph of a V-notch weir at Hubbard Brook
 </section>
 <section id="forest-vegetation" class="level2" data-number="1.11">
 <h2 data-number="1.11" class="anchored" data-anchor-id="forest-vegetation"><span class="header-section-number">1.11</span> Forest Vegetation</h2>
-<p>The composition, biomass and element content of the vegetation is measured periodically within the gauged watersheds and throughout the entire HBEF. The basic approach is to measure the diameter of trees across the whole watershed (e.g., WS6, WS1) or in smaller plots usually at five-year intervals. Forest biomass is estimated using allometric equations relating DBH to other tree dimensions (e.g.&nbsp;total biomass and biomass of tissue components like leaves, branches, etc.). These equations were developed at the site by directly measuring trees harvested during experimental manipulations (Whittaker et al.&nbsp;1974, Siccama et al.&nbsp;1994). The pool or stock of an element is estimated from the product of mass and element concentration in various tissues. Thus, changes in the stock of an element in the forest biomass are calculated typically at a 5-year intervals.</p>
+<p>The composition, biomass and element content of the vegetation is measured periodically within the gauged watersheds and throughout the entire HBEF. The basic approach is to measure the diameter of trees across the whole watershed (e.g., WS6, WS1) or in smaller plots usually at five-year intervals. Forest biomass is estimated using allometric equations relating DBH to other tree dimensions (e.g.&nbsp;total biomass and biomass of tissue components like leaves, branches, etc.). These equations were developed at the site by directly measuring trees harvested during experimental manipulations <span class="citation" data-cites="whittaker1974 siccama1994">(<a href="SiteHistory.html#ref-siccama1994" role="doc-biblioref">Siccama et al., 1994</a>; <a href="SiteHistory.html#ref-whittaker1974" role="doc-biblioref">Whittaker et al., 1974</a>)</span>. The pool or stock of an element is estimated from the product of mass and element concentration in various tissues. Thus, changes in the stock of an element in the forest biomass are calculated typically at a 5-year intervals.</p>
 </section>
 <section id="soils-1" class="level2" data-number="1.12">
 <h2 data-number="1.12" class="anchored" data-anchor-id="soils-1"><span class="header-section-number">1.12</span> Soils</h2>
-<p>The mass and element stocks of soils have been estimated using the quantitative pit approach. The soil is carefully excavated manually from a 0.5 m2 area through depth increments to the C horizon. Soil mass in each depth increment is weighed and sieved in the field and subsamples are taken for chemical analysis in the laboratory. Because of the large stocks and high spatial variability of elements in soil, detection of changes through time or in response to treatments is challenging. Nevertheless, we have been able to estimate the net soil release for major elements resulting from acid deposition and forest harvest on the basis of quantitative pit sampling (Johnson et al.&nbsp;1991).</p>
+<p>The mass and element stocks of soils have been estimated using the quantitative pit approach. The soil is carefully excavated manually from a 0.5 m2 area through depth increments to the C horizon. Soil mass in each depth increment is weighed and sieved in the field and subsamples are taken for chemical analysis in the laboratory. Because of the large stocks and high spatial variability of elements in soil, detection of changes through time or in response to treatments is challenging. Nevertheless, we have been able to estimate the net soil release for major elements resulting from acid deposition and forest harvest on the basis of quantitative pit sampling [johnson1991].</p>
 </section>
 <section id="gaseous-output" class="level2" data-number="1.13">
 <h2 data-number="1.13" class="anchored" data-anchor-id="gaseous-output"><span class="header-section-number">1.13</span> Gaseous Output</h2>
-<p>The small watershed approach does not, by itself, account for outputs in gas phase, an important flux pathways for the nutrient element nitrogen. Gaseous flux of N remains a key uncertainty in the N budget at the HBEF (Yanai et al.&nbsp;2013). The principal gaseous flux of N results from denitrification, a process that is notoriously variable in space and time. The flux chamber approach, in which the accumulation of gaseous N diffusing from soil is measured over short time intervals (e.g.&nbsp;minutes), is applied routinely to estimate flux of nitrous oxide in several plots in and around the experimental watersheds at the HBEF. Unfortunately, because of the high background in the atmosphere this approach is not effective for measuring N2 flux. Laboratory, isotopic and modeling approaches have provided indirect estimates of N2 flux from soils (e.g., Wexler et al.&nbsp;2014).</p>
+<p>The small watershed approach does not, by itself, account for outputs in gas phase, an important flux pathways for the nutrient element nitrogen. Gaseous flux of N remains a key uncertainty in the N budget at the HBEF <span class="citation" data-cites="yanai2013">(<a href="SiteHistory.html#ref-yanai2013" role="doc-biblioref">Yanai et al., 2013</a>)</span>. The principal gaseous flux of N results from denitrification, a process that is notoriously variable in space and time. The flux chamber approach, in which the accumulation of gaseous N diffusing from soil is measured over short time intervals (e.g.&nbsp;minutes), is applied routinely to estimate flux of nitrous oxide in several plots in and around the experimental watersheds at the HBEF. Unfortunately, because of the high background in the atmosphere this approach is not effective for measuring N2 flux. Laboratory, isotopic and modeling approaches have provided indirect estimates of N2 flux from soils <span class="citation" data-cites="wexler2014">(<a href="SiteHistory.html#ref-wexler2014" role="doc-biblioref">Wexler et al., 2014</a>)</span>.</p>
 <p>Fluxes of carbon dioxide and water vapor from the forest ecosystem can be estimated using aerodynamic approaches with eddy flux towers. Recently, an eddy flux tower has been installed in the lower valley at the HBEF and began collecting data in 2016 (<a href="#fig-flux-tower" class="quarto-xref">Figure&nbsp;<span>1.9</span></a>). The facility will soon provide the first direct estimates of gross primary production, autotrophic and total ecosystem respiration, and net ecosystem productivity for the forest in the footprint of the tower.</p>
 <div style="float: left; width: 40%; margin-right: 1em;">
 <div id="fig-flux-tower" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -580,11 +601,79 @@ Figure&nbsp;1.9: Photograph of flux tower instrumentation at Hubbard Brook.
 </section>
 <section id="internal-element-fluxes" class="level2" data-number="1.14">
 <h2 data-number="1.14" class="anchored" data-anchor-id="internal-element-fluxes"><span class="header-section-number">1.14</span> Internal Element Fluxes</h2>
-<p>The processes regulating the biogeochemistry of the forest ecosystem include a variety of major internal element fluxes which are monitored in selected intensive plot locations in and around the experimental watersheds at the HBEF. In particular, element leaching through soils is measured using zero-tension lysimeters positioned beneath the forest floor, Bh and Bs horizons. Water fluxes at each depth, estimated with a hydrologic model, are used with measured element concentrations in soil solutions to estimate soil leaching fluxes (Cho et al.&nbsp;2010).</p>
-<p>Litterfall is measured using permanent litter traps co-located in plots with soil lysimeters. Litter is sorted by species, providing annual estimates of leaf biomass and leaf area index in these plots. Periodically, the chemistry of leaf litter is measured; combined with chemistry of live foliage from the plots, these measurements provide estimates of nutrient resorption from senescing foliage, a large internal ecosystem flux especially for N and P (Ryan and Bormann 1982). Deposition of woody litter as coarse woody debris is measured annually on cleared 2.5 m2 plots co-located with litter traps. The chemistry of canopy throughfall and element fluxes in canopy leaching also have been measured in these intensive plots (Lovett et al.&nbsp;1996) as well as the biomass, chemistry and turnover of fine and coarse roots, using coring and rhizotron methods, so that a comprehensive accounting of the principal internal element fluxes is available for the forest ecosystems in the experimental watersheds.</p>
+<p>The processes regulating the biogeochemistry of the forest ecosystem include a variety of major internal element fluxes which are monitored in selected intensive plot locations in and around the experimental watersheds at the HBEF. In particular, element leaching through soils is measured using zero-tension lysimeters positioned beneath the forest floor, Bh and Bs horizons. Water fluxes at each depth, estimated with a hydrologic model, are used with measured element concentrations in soil solutions to estimate soil leaching fluxes <span class="citation" data-cites="cho2010">(<a href="SiteHistory.html#ref-cho2010" role="doc-biblioref">Cho et al., 2010</a>)</span>.</p>
+<p>Litterfall is measured using permanent litter traps co-located in plots with soil lysimeters. Litter is sorted by species, providing annual estimates of leaf biomass and leaf area index in these plots. Periodically, the chemistry of leaf litter is measured; combined with chemistry of live foliage from the plots, these measurements provide estimates of nutrient resorption from senescing foliage, a large internal ecosystem flux especially for N and P <span class="citation" data-cites="ryan1982">(<a href="SiteHistory.html#ref-ryan1982" role="doc-biblioref">Ryan &amp; Bormann, 1982</a>)</span>. Deposition of woody litter as coarse woody debris is measured annually on cleared 2.5 m2 plots co-located with litter traps. The chemistry of canopy throughfall and element fluxes in canopy leaching also have been measured in these intensive plots [lovet]1996) as well as the biomass, chemistry and turnover of fine and coarse roots, using coring and rhizotron methods, so that a comprehensive accounting of the principal internal element fluxes is available for the forest ecosystems in the experimental watersheds.</p>
 </section>
 <section id="references" class="level2" data-number="1.15">
 <h2 data-number="1.15" class="anchored" data-anchor-id="references"><span class="header-section-number">1.15</span> References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-bormann1974" class="csl-entry" role="listitem">
+Bormann, F. H., Likens, G. E., Siccama, T. G., Pierce, R. S., &amp;
+Eaton, J. S. (1974). The export of nutrients and recovery of stable
+conditions following deforestation at <span>Hubbard Brook</span>.
+<em>Ecological Monographs</em>, <em>44</em>(3), 255–277. <a href="https://doi.org/10.2307/2937031">https://doi.org/10.2307/2937031</a>
+</div>
+<div id="ref-cho2010" class="csl-entry" role="listitem">
+Cho, Y., Driscoll, C. T., Johnson, C. E., &amp; Siccama, T. G. (2010).
+Chemical changes in soil and soil solution after calcium silicate
+addition to a northern hardwood forest. <em>Biogeochemistry</em>,
+<em>100</em>(1–3), 3–20. <a href="https://doi.org/10.1007/s10533-009-9397-6">https://doi.org/10.1007/s10533-009-9397-6</a>
+</div>
+<div id="ref-fahey2015" class="csl-entry" role="listitem">
+Fahey, T. J., Templer, P. H., Anderson, B. T., Battles, J. J., Campbell,
+J. L., Driscoll, C. T., Fusco, A. R., Green, M. B., Kassam, K. A. S.,
+Rodenhouse, N. L., &amp; Rustad, L. (2015). The promise and peril of
+intensive site-based ecological research: Insights from the
+<span>Hubbard Brook</span> ecosystem study. <em>Ecology</em>,
+<em>96</em>(4), 885–901. <a href="https://doi.org/10.1890/14-1043.1">https://doi.org/10.1890/14-1043.1</a>
+</div>
+<div id="ref-johnson1981" class="csl-entry" role="listitem">
+Johnson, N. M., Driscoll, C. T., Eaton, J. S., Likens, G. E., &amp;
+McDowell, W. H. (1981). Acid rain, dissolved aluminum, and chemical
+weathering at the <span>Hubbard Brook</span> experimental forest, new
+hampshire. <em>Geochimica Et Cosmochimica Acta</em>, <em>45</em>(9),
+1421–1437. <a href="https://doi.org/10.1016/0016-7037(81)90276-0">https://doi.org/10.1016/0016-7037(81)90276-0</a>
+</div>
+<div id="ref-likens2002" class="csl-entry" role="listitem">
+Likens, G. E., Driscoll, C. T., Buso, D. C., Mitchell, M. J., Lovett, G.
+M., Bailey, S. W., Siccama, T. G., Reiners, W. A., &amp; Alewell, C.
+(2002). The biogeochemistry of sulfur at <span>Hubbard Brook</span>.
+<em>Biogeochemistry</em>, <em>60</em>(3), 235–316. <a href="https://doi.org/10.1023/A:1020972100496">https://doi.org/10.1023/A:1020972100496</a>
+</div>
+<div id="ref-ryan1982" class="csl-entry" role="listitem">
+Ryan, D. F., &amp; Bormann, F. H. (1982). Nutrient resorption in
+northern hardwood forests. <em>BioScience</em>, <em>32</em>(1), 29–32.
+<a href="https://doi.org/10.2307/1308751">https://doi.org/10.2307/1308751</a>
+</div>
+<div id="ref-siccama1994" class="csl-entry" role="listitem">
+Siccama, T. G., Hamburg, S. P., Arthur, M. A., Yanai, R. D., Bormann, F.
+H., &amp; Likens, G. E. (1994). Corrections to allometric equations and
+plant tissue chemistry for <span>Hubbard Brook</span> experimental
+forest. <em>Ecology</em>, <em>75</em>(1), 246–248. <a href="https://doi.org/10.2307/1939398">https://doi.org/10.2307/1939398</a>
+</div>
+<div id="ref-wexler2014" class="csl-entry" role="listitem">
+Wexler, S. K., Goodale, C. L., McGuire, K. J., Bailey, S. W., &amp;
+Groffman, P. M. (2014). Isotopic signals of summer denitrification in a
+northern hardwood forested catchment. <em>Proceedings of the National
+Academy of Sciences</em>, <em>111</em>(46), 16413–16418. <a href="https://doi.org/10.1073/pnas.1404321111">https://doi.org/10.1073/pnas.1404321111</a>
+</div>
+<div id="ref-whittaker1974" class="csl-entry" role="listitem">
+Whittaker, R. H., Bormann, F. H., Likens, G. E., &amp; Siccama, T. G.
+(1974). The <span>Hubbard Brook</span> ecosystem study: Forest biomass
+and production. <em>Ecological Monographs</em>, <em>44</em>(2), 233–254.
+<a href="https://doi.org/10.2307/1942313">https://doi.org/10.2307/1942313</a>
+</div>
+<div id="ref-yanai2013" class="csl-entry" role="listitem">
+Yanai, R. D., Vadeboncoeur, M. A., Hamburg, S. P., Arthur, M. A., Fuss,
+C. B., Groffman, P. M., Siccama, T. G., &amp; Driscoll, C. T. (2013).
+From missing source to missing sink: Long-term changes in the nitrogen
+budget of a northern hardwood forest. <em>Environmental Science &amp;
+Technology</em>, <em>47</em>(20), 11440–11448. <a href="https://doi.org/10.1021/es4025723">https://doi.org/10.1021/es4025723</a>
+</div>
+</div>
+</section>
+<section id="references-1" class="level2" data-number="1.16">
+<h2 data-number="1.16" class="anchored" data-anchor-id="references-1"><span class="header-section-number">1.16</span> References</h2>
 <p>Bormann, F. H., Likens, G. E., Siccama, T. G., Pierce, R. S., &amp; Eaton, J. S. (1974). The export of nutrients and recovery of stable conditions following deforestation at Hubbard Brook. <em>Ecological Monographs, 44</em>(3), 255–277. <a href="https://doi.org/10.2307/2937031" target="_blank">https://doi.org/10.2307/2937031</a></p>
 <p>Cho, Y., Driscoll, C. T., Johnson, C. E., &amp; Siccama, T. G. (2010).<br>
 Chemical changes in soil and soil solution after calcium silicate addition to a northern hardwood forest. <em>Biogeochemistry, 100</em>, 103–???. <a href="https://doi.org/10.1007/s10533-009-9397-6" target="_blank">https://doi.org/10.1007/s10533-009-9397-6</a></p>
