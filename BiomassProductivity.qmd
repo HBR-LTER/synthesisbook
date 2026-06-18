@@ -177,7 +177,7 @@ owing to both natural disturbances (ice storm in 1998) and tree
 declines. In particular, widespread decline of sugar maple has
 contributed to the decrease in live biomass on W6. The cause of this
 decline is undoubtedly associated with depletion of soil base cations by
-acid deposition (see [Acid Rain chapter](AcidDepositionEffects.qmd)). For example, the experimental
+acid deposition (see [Acid Deposition Effects chapter](AcidDepositionEffects.qmd)). For example, the experimental
 replacement on W1 of calcium, lost as a result of soil leaching in the
 20th century, reinvigorated sugar maple and consequently biomass
 accumulation resumed in the early 21st century (@fig-biomassw1w6graph). Continued

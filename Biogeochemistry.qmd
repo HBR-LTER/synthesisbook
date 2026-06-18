@@ -10,7 +10,7 @@ Chapter Editors: Tim Fahey
 
 The Hubbard Brook Ecosystem Study (HBES) originated in 1960 with the
 idea of using a small watershed approach to study element flux and
-cycling (Bormann and Likens 1967; see Introductory chapter for details).
+cycling (Bormann and Likens 1967; see [Site History](SiteHistory.qmd) chapter for details).
 The stream draining a small watershed provides an integrated measurement
 of nutrient flux from the complex forest landscape, and the role of the
 forest vegetation in regulating biogeochemical cycles could be evaluated
@@ -61,7 +61,7 @@ derived primarily from earth minerals, do not enter gas phase at Earth
 temperatures, and are transported from the watershed as dissolved or
 particulate matter. This grouping includes the base cations (Ca^2+^, Mg^2+^,
 K^+^, Na^+^ ) as well as the rock-forming elements (Al, Si, Fe) and the
-often growth limiting P (see Phosphorus chapter). In contrast are
+often growth limiting P (see [Phosphorus](Phosphorus.qmd) chapter). In contrast are
 elements with a gas phase (O, C, N, H, and S) that can also be
 transported from the watershed as gases. Another useful way to classify
 the elements is as nutrients essential to plant nutrition, non-essential
@@ -104,8 +104,7 @@ along the elevation gradient (from Johnson et al.
 2000)](figs/Biogeochemistry/Cross-section-till.jpg){#fig-till}
 
 Six headwater catchments were originally chosen to provide paired small
-watersheds for comparative and experimental studies (see Introductory
-chapter for full description). These watersheds encompass a steep hill
+watersheds for comparative and experimental studies (see [Site History](SiteHistory.qmd) chapter for full description). These watersheds encompass a steep hill
 slope that exhibits characteristic soil and landscape features which
 influence biogeochemical and hydrological behavior . The watersheds can
 conveniently be sub-divided into three zones (@fig-till). At the highest
@@ -233,7 +232,7 @@ complex conjunction of climate, soils, biota and hydrology, with a
 particular emphasis on the last-named. One implication is that in terms
 of biogeochemical behavior, the greatest effects of climate change at HB
 may be associated with increasing precipitation rather than increasing
-air temperature (see Climate Change chapter).
+air temperature (see [Climate Change](ClimateChange.qmd) chapter).
 
 ## Plant nutrient uptake, storage and resorption
 
@@ -481,7 +480,7 @@ such, Ca exerts control over the pH of soils and soil solution; when Ca
 decreases so also does pH. Importantly, when Ca and pH are very low,
 toxic aluminum becomes very soluble; many of the effects of acid rain on
 ecosystem health stem from Ca depletion and Al toxicity (Driscoll et al.
-1980; see Aluminum chapter \[forthcoming\]). At HB, long-term monitoring
+1980; see [Acid Deposition Effects](AcidDepositionEffects.qmd) chapter). At HB, long-term monitoring
 has demonstrated that soil Ca pools were seriously depleted in the 20th
 century as a result of increased leaching by acid deposition and removal
 by logging (Likens et al. 1996). The resulting low soil and surface

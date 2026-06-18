@@ -145,7 +145,7 @@ The composition, biomass and element content of the vegetation is measured perio
 
 ## Soils
 
-The mass and element stocks of soils have been estimated using the quantitative pit approach. The soil is carefully excavated manually from a 0.5 m2 area through depth increments to the C horizon. Soil mass in each depth increment is weighed and sieved in the field and subsamples are taken for chemical analysis in the laboratory. Because of the large stocks and high spatial variability of elements in soil, detection of changes through time or in response to treatments is challenging. Nevertheless, we have been able to estimate the net soil release for major elements resulting from acid deposition and forest harvest on the basis of quantitative pit sampling [johnson1991].
+The mass and element stocks of soils have been estimated using the quantitative pit approach. The soil is carefully excavated manually from a 0.5 m2 area through depth increments to the C horizon. Soil mass in each depth increment is weighed and sieved in the field and subsamples are taken for chemical analysis in the laboratory. Because of the large stocks and high spatial variability of elements in soil, detection of changes through time or in response to treatments is challenging. Nevertheless, we have been able to estimate the net soil release for major elements resulting from acid deposition and forest harvest on the basis of quantitative pit sampling [@johnson1991].
 
 ## Gaseous Output
 
@@ -172,38 +172,3 @@ Litterfall is measured using permanent litter traps co-located in plots with soi
 :::
 
 
-## References
-
-Bormann, F. H., Likens, G. E., Siccama, T. G., Pierce, R. S., & Eaton, J. S. (1974).
-The export of nutrients and recovery of stable conditions following deforestation at Hubbard Brook. *Ecological Monographs, 44*(3), 255–277. [https://doi.org/10.2307/2937031](https://doi.org/10.2307/2937031){target="_blank"}  
-
-Cho, Y., Driscoll, C. T., Johnson, C. E., & Siccama, T. G. (2010).  
-Chemical changes in soil and soil solution after calcium silicate addition to a northern hardwood forest. *Biogeochemistry, 100*, 103–???. [https://doi.org/10.1007/s10533-009-9397-6](https://doi.org/10.1007/s10533-009-9397-6){target="_blank"}  
-
-Fahey, T. J., Templer, P. H., Anderson, B. T., Battles, J. J., Campbell, J. L., Driscoll, C. T., Fusco, A. R., Green, M. B., Kassam, K. A. S., Rodenhouse, N. L., & Rustad, L. (2015).  
-The promise and peril of intensive site-based ecological research: Insights from the Hubbard Brook ecosystem study. *Ecology, 96*(4), 885–901. [https://doi.org/10.1890/14-1043.1](https://doi.org/10.1890/14-1043.1){target="_blank"}  
-
-Johnson, C. E., Johnson, A. H., Huntington, T. G., & Siccama, T. G. (1991).  
-Whole-tree clear-cutting effects on soil horizons and organic-matter pools. *Soil Science Society of America Journal, 55*, 497–502. [https://doi.org/10.2136/sssaj1991.03615995005500020035x](https://doi.org/10.2136/sssaj1991.03615995005500020035x){target="_blank"}  
-
-Johnson, N. M., Driscoll, C. T., Eaton, J. S., Likens, G. E., & McDowell, W. H. (1981).  
-Acid rain, dissolved aluminum, and chemical weathering at the Hubbard Brook Experimental Forest, New Hampshire. *Geochimica et Cosmochimica Acta, 45*(9), 1421–1437. [https://doi.org/10.1016/0016-7037(81)90276-0](https://doi.org/10.1016/0016-7037(81)90276-0){target="_blank"}  
-
-Likens, G. E., Driscoll, C. T., Buso, D. C., Mitchell, M. J., Lovett, G. M., Bailey, S. W., Siccama, T. G., Reiners, W. A., & Alewell, C. (2002).  
-The biogeochemistry of sulfur at Hubbard Brook. *Biogeochemistry, 60*(3), 235–316. [https://doi.org/10.1023/A:1020972100496](https://doi.org/10.1023/A:1020972100496){target="_blank"}  
-
-Lovett, G. M., Nolan, S. S., Driscoll, C. T., & Fahey, T. J. (1996).  
-Factors regulating throughfall flux in a New Hampshire forested landscape. *Canadian Journal of Forest Research, 26*, 2134–2144. [https://doi.org/10.1139/x26-242](https://doi.org/10.1139/x26-242){target="_blank"}  
-
-Ryan, D. F., & Bormann, F. H. (1982). Nutrient resorption in northern hardwood forests. *BioScience, 32*(1), 29–32. [https://doi.org/10.2307/1308751](https://doi.org/10.2307/1308751){target="_blank"}  
-
-Siccama, T. G., Hamburg, S. P., Arthur, M. A., Yanai, R. D., Bormann, F. H., & Likens, G. E. (1994).  
-Corrections to allometric equations and plant tissue chemistry for Hubbard Brook Experimental Forest. *Ecology, 75*(1), 246–248. [https://doi.org/10.2307/1939398](https://doi.org/10.2307/1939398){target="_blank"}  
-
-Wexler, S. K., Goodale, C. L., McGuire, K. J., Bailey, S. W., & Groffman, P. M. (2014).  
-Isotopic signals of summer denitrification in a northern hardwood forested catchment. *Proceedings of the National Academy of Sciences, 111*(46), 16413–16418. [https://doi.org/10.1073/pnas.1404321111](https://doi.org/10.1073/pnas.1404321111){target="_blank"}  
-
-Whittaker, R. H., Bormann, F. H., Likens, G. E., & Siccama, T. G. (1974).  
-The Hubbard Brook ecosystem study: Forest biomass and production. *Ecological Monographs, 44*(2), 233–254. [https://doi.org/10.2307/1942313](https://doi.org/10.2307/1942313){target="_blank"}  
-
-Yanai, R. D., Vadeboncoeur, M. A., Hamburg, S. P., Arthur, M. A., Fuss, C. B., Groffman, P. M., Siccama, T. G., & Driscoll, C. T. (2013). From missing source to missing sink: Long-term changes in the nitrogen budget of a northern hardwood forest. *Environmental Science & Technology, 47*(20), 11440–11448. [https://doi.org/10.1021/es4025723](https://doi.org/10.1021/es4025723){target="_blank"}    
