@@ -66,7 +66,7 @@ The existence of strong correlations between foliar nutrients (especially N) and
 
 The PnET family of models (Aber and Federer 1992) has been widely applied in the HBES to simulate forest water, carbon and nutrient fluxes and to predict responses to environmental changes. Ollinger and Smith (2005) parameterized PnET with spatially-distributed canopy N content to map forest productivity in BEF (@fig-scaling-BEFNPP). A field-based validation using measured wood growth increment indicated satisfactory agreement, supporting the conclusion that N exerts primary control over landscape-level patterns of forest productivity and reinforcing concerns about ecosystem N saturation, as discussed next.
 
-![Map of predicted net primary production (NPP, g/m2-yr) based on PnET and AVIRIS-derived canopy N concentration for Bartlett Experimental Forest. From Ollinger and Smith 2005.](figs/scaling/ScalingUp_BEF_CanopyNPPmap.png){#fig-scaling-BEFNPP}
+![Map of predicted net primary production (NPP, g/m^2^-yr) based on PnET and AVIRIS-derived canopy N concentration for Bartlett Experimental Forest. From Ollinger and Smith 2005.](figs/scaling/ScalingUp_BEF_CanopyNPPmap.png){#fig-scaling-BEFNPP}
 
 ## Critical Loads Mapping
 
