@@ -4,7 +4,9 @@
 
 
 __New release of THIS BOOK!!__
-This book has moved to a new platform! There have been updates to content, this new 'What's New' section for quick reference, improvements in the user interface, addition of more interactive figures, and more. A special shout-out to a a team from the Virginia Tech Environmental Data Science Capstone class (Samantha Libor and Maryann Nwude under the guidance of JP Gannon) for creating more graphs for the book that are directly tied to our published data in the Environmental Data Intiative Repository.
+
+
+This book has moved to a new platform to add new features and to make future updates easier. It is now published through GitHub Pages. There have been updates to content, this new 'What's New' section for quick reference, improvements in the user interface, addition of more interactive figures, and more. A special shout-out to a a team from the Virginia Tech Environmental Data Science Capstone class (Samantha Libor and Maryann Nwude under the guidance of JP Gannon) for creating more graphs for the book that are directly tied to our published data in the Environmental Data Intiative Repository.
 
 ## February 2026
 
