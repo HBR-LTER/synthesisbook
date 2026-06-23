@@ -31,11 +31,15 @@ book:
     - Scaling.qmd
     - Homework.qmd
 
+  
   sidebar:
     style: docked
     collapse-level: 2
   search: false  
 
+resources:
+  - files/HBEF_history_Hornbeck.pdf  
+  
 bibliography: references.bib
 link-citations: true
 link-bibliography: true
@@ -49,6 +53,9 @@ format:
     toc-title: "Chapter Sections"
     include-before-body: includes/banner.html
     link-external-newwindow: true
+
+
+
 #  pdf:
 #    documentclass: scrreprt # Example PDF specific option    
     
