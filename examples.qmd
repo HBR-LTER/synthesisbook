@@ -24,7 +24,7 @@ __figure float right__
 
 
 
-From smugmug, get link from share/embed/video/hidef
+From smugmug, get link from share/embed/video/hide
 
 :::
 <video controls 

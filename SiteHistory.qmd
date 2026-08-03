@@ -74,7 +74,7 @@ The Hubbard Brook Ecosystem Study originated in 1960 with the idea of using a sm
 
 HBES has developed into a relatively complex matrix of projects involving a large number of scientists from diverse disciplines. Beginning in 1987, core funding for the HBES has been provided through the Long-term Ecological Research (LTER) network of the National Science Foundation. Together with support from the USDA Forest Service, the LTER program provides base funding for most monitoring activities in the HBES. Individuals or groups of researchers are supported by competitive grants to pursue a variety of specific research studies in the HBES in cooperation with the LTER program. From 1963, over 1750 publications have been produced through the HBES, providing a wealth of information on the structure, function and development of forest, stream and lake ecosystems.
 
-For more history of Hubbard Brook Experimental Forest: [Events Leading to the Establishment of the HBEF](files/HBEF_history_Hornbeck.pdf), written by Jim Hornbeck, May 2001 (pdf)
+For more history of Hubbard Brook Experimental Forest: [Events Leading to the Establishment of the HBEF](files/HBEF_history_Hornbeck.pdf), written by Jim Hornbeck, May 2001
 
 ## Conceptual Background
 
