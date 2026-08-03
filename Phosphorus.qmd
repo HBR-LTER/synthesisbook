@@ -147,7 +147,7 @@ No immediate (i.e. first year) response of streamwater P concentrations was repo
 ![Foliar N:P in Watershed 6 in 1966 (Likens and Bormann 1970) and 30 years later (Fahey unpublished data).](figs/phos/foliarNtoP.png){#fig-folnp}
 
  
-## Nitrogen deposition and colimitation
+## Nitrogen deposition and colimitation {#sec-ndep-and-colimitation}
 
 As noted at the outset, temperate forests growing on glacially-derived soils are expected to be more limited by N than P because of the presence of easily weathered P minerals in the rooting zone of these younger soils. However, decades of anthropogenic N deposition might be expected to induce transactional P limitation (Vitousek et al. 2010). Indeed, a meta-analysis of fertilization studies in eastern deciduous forests (Vadeboncoeur 2010) suggested that both N and P are commonly limiting forest production. Long-term observations from HB indicate that foliar N:P ratios increased between the 1960s and 1990s (@fig-folnp). Moreover, foliar N:P ratios indicate NP colimitation for a suite of northern hardwood stands in and around HBEF (@fig-folnp3; Gonzalez et al. 2023). Five years of relatively low-level addition of N (30 kg N/ha-yr) to these stands resulted in foliar N:P ratios suggestive of P limitation (@fig-folnp3), and low-level P additions (10 kg P/ha-yr) caused significant increases in tree growth (@fig-relgrow) whereas no response to N additions was observed (Goswami et al. 2018). Moreover, P additions induced a significant decline of foliar P resorption, further suggesting P limitation in untreated plots.
 
@@ -160,6 +160,14 @@ Anthropogenic N deposition has declined markedly in the early 21st century in ea
 ![Foliar P resorption efficiency and proficiency (i.e. litter P concentration) depends upon soil N, C and P pools across a soil fertility gradient at Bartlett EF (See et al. 2015).](figs/phos/resorpEfficiency.png){#fig-resorpeff}
 
 ![Forest floor phosphatase activity varies with net N mineralization rate in young, mid-age and mature northern hardwood forests in and near HB (Ratliff and Fisk 2016).](figs/phos/phosphataseActivityCaAddition.jpg){#fig-phosactivity}
+
+Most recently, after ten years of treatment colimitation of tree growth by N and P was detected with the highest tree growth observed in the plots treated with N and P (@fig-BlumenthalTreeGrowth; Blumenthal et al. 2025).
+
+![Tree growth observations from Blumenthal et al. 2025](figs/phos/BlumenthalTreeGrowth.png){#fig-BlumenthalTreeGrowth} 
+
+
+
+
 
 ## Questions for Further Study
 

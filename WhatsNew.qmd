@@ -11,7 +11,7 @@ This book has moved to a new platform to add new features and to make future upd
 
 __Co-limitation of tree growth by nitrogen and phosphorus in thirteen northern hardwood stands across the White Mountains__
 
-Current theory suggests that forest production should trend towards coincident limitation by multiple environmental factors. Based on a long-term, factorial N and P addition experiment at Hubbard Brook and other regional forests, we demonstrated additive co-limitation of tree growth by N and P. These results have important implications in light of rapidly changing environmental drivers in the region. See the Phosphorus Cycling chapter in this volume for details.
+Current theory suggests that forest production should trend towards coincident limitation by multiple environmental factors. Based on a long-term, factorial N and P addition experiment at Hubbard Brook and other regional forests, we demonstrated additive co-limitation of tree growth by N and P. These results have important implications in light of rapidly changing environmental drivers in the region. See the Phosphorus Cycling chapter in this volume for details @sec-ndep-and-colimitation.
 
 Blumenthal, N. M., Stevens, M. H. H., Goswami, S., Yanai, R. D., Fahey, T. J., & Fisk, M. C. (2025). Nitrogen and phosphorus co‐limitation of tree growth in northern hardwood forests. Ecology, 106(10), e70217.
 
