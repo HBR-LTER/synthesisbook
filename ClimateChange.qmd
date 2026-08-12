@@ -4,7 +4,7 @@ title: "Climate Change"
 
 <div id="sec-climatechangechapter"></div>
 
-Chapter Editor:  
+Chapter Editor: [Pamela Templer](https://hubbardbrook.org/people/pamela-templer/){target="_blank" rel="noopener"}
 
 <video controls 
        style="width:80%; max-width:900px; display:block; margin:1.5rem auto;">
