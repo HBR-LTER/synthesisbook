@@ -96,58 +96,62 @@ References
 
 ## References
 
-Aber, J.D. and Federer, C.A., 1992. A generalized, lumped-parameter model of photosynthesis, evapotranspiration and net primary production in tem), pp.109-176.
+Aber, J. D., & Federer, C. A. (1992). A generalized, lumped-parameter model of photosynthesis, evapotranspiration and net primary production in temperate and boreal forest ecosystems. *Oecologia, 92*(4), 463–474. [https://doi.org/10.1007/BF00317837](https://doi.org/10.1007/BF00317837){target="_blank" rel="noopener"}
 
-Baldocchi, D.D., 2003. Assessing the eddy covariance technique for evaluating carbon dioxide exchange rates of ecosystems: past, present and future. Global change biology, 9(4), pp.479-492.
+Bae, K., Fahey, T. J., Yanai, R. D., & Fisk, M. (2015). Soil nitrogen availability affects belowground carbon allocation and soil respiration in northern hardwood forests of New Hampshire. *Ecosystems, 18*(7), 1179–1191. [https://doi.org/10.1007/s10021-015-9892-7](https://doi.org/10.1007/s10021-015-9892-7){target="_blank" rel="noopener"}
 
-Bae, K., Fahey, T.J., Yanai, R.D. and Fisk, M., 2015. Soil nitrogen availability affects belowground carbon allocation and soil respiration in northern hardwood forests of New Hampshire. Ecosystems, 18(7), pp.1179-1191.
+Baldocchi, D. D. (2003). Assessing the eddy covariance technique for evaluating carbon dioxide exchange rates of ecosystems: past, present and future. *Global Change Biology, 9*(4), 479–492. [https://doi.org/10.1046/j.1365-2486.2003.00629.x](https://doi.org/10.1046/j.1365-2486.2003.00629.x){target="_blank" rel="noopener"}
 
-Beven, K. J., & Kirkby, M. J. (1979). A physically based, variable contributing area model of basin hydrology/Un modèle à base physique de zone d'appel variable de l'hydrologie du bassin versant. Hydrological Sciences Journal, 24(1), 43-69.
+Beven, K. J., & Kirkby, M. J. (1979). A physically based, variable contributing area model of basin hydrology. *Hydrological Sciences Bulletin, 24*(1), 43–69. [https://doi.org/10.1080/02626667909491834](https://doi.org/10.1080/02626667909491834){target="_blank" rel="noopener"}
 
-Blackard, J.A., Finco, M.V., Helmer, E.H., Holden, G.R., Hoppus, M.L., Jacobs, D.M., Lister, A.J., Moisen, G.G., Nelson, M.D., Riemann, R. and Ruefenacht, B., 2008. Mapping US forest biomass using nationwide forest inventory data and moderate resolution information. Remote sensing of Environment, 112(4), pp.1658-1677.
+Blackard, J. A., Finco, M. V., Helmer, E. H., Holden, G. R., Hoppus, M. L., Jacobs, D. M., Lister, A. J., Moisen, G. G., Nelson, M. D., Riemann, R., & Ruefenacht, B. (2008). Mapping US forest biomass using nationwide forest inventory data and moderate resolution information. *Remote Sensing of Environment, 112*(4), 1658–1677. [https://doi.org/10.1016/j.rse.2007.08.021](https://doi.org/10.1016/j.rse.2007.08.021){target="_blank" rel="noopener"}
 
-Bonan, G.B., 2008. Forests and climate change: forcings, feedbacks, and the climate benefits of forests. science, 320(5882), pp.1444-1449.
+Bonan, G. B. (2008). Forests and climate change: forcings, feedbacks, and the climate benefits of forests. *Science, 320*(5882), 1444–1449. [https://doi.org/10.1126/science.1155121](https://doi.org/10.1126/science.1155121){target="_blank" rel="noopener"}
 
-Bormann, F.H. and Likens, G.E., 1967. Nutrient cycling. Science, 155(3761), pp.424-429.Pardo, L.H., Fenn, M.E., Goodale, C.L., Geiser, L.H., Driscoll, C.T., Allen, E.B., Baron, J.S., Bobbink, R., Bowman, W.D., Clark, C.M. and Emmett, B., 2011. Effects of nitrogen deposition and empirical nitrogen critical loads for ecoregions of the United States. Ecological Applications, 21(8), pp.3049-3082.
+Bormann, F. H., & Likens, G. E. (1967). Nutrient cycling. *Science, 155*(3761), 424–429. [https://doi.org/10.1126/science.155.3761.424](https://doi.org/10.1126/science.155.3761.424){target="_blank" rel="noopener"}
 
-Burakowski, E.A., Ollinger, S.V., Lepine, L., Schaaf, C.B., Wang, Z., Dibb, J.E., Hollinger, D.Y., Kim, J., Erb, A. and Martin, M., 2015. Spatial scaling of reflectance and surface albedo over a mixed-use, temperate forest landscape during snow-covered periods. Remote Sensing of Environment, 158, pp.465-477.Evans, J.R., 1989. Photosynthesis and nitrogen relationships in leaves of C 3 plants. Oecologia, 78(1), pp.9-19.
+Burakowski, E. A., Ollinger, S. V., Lepine, L., Schaaf, C. B., Wang, Z., Dibb, J. E., Hollinger, D. Y., Kim, J., Erb, A., & Martin, M. (2015). Spatial scaling of reflectance and surface albedo over a mixed-use, temperate forest landscape during snow-covered periods. *Remote Sensing of Environment, 158*, 465–477. [https://doi.org/10.1016/j.rse.2014.11.023](https://doi.org/10.1016/j.rse.2014.11.023){target="_blank" rel="noopener"}
 
-Fahey, T.J., Templer, P.H., Anderson, B.T., Battles, J.J., Campbell, J.L., Driscoll, C.T., Fusco, A.R., Green, M.B., Kassam, K.A.S., Rodenhouse, N.L. and Rustad, L., 2015. The promise and peril of intensive‐site‐based ecological research: insights from the Hubbard Brook ecosystem study. Ecology, 96(4), pp.885-901.
+Compton, J. E., & Boone, R. D. (2000). Long-term impacts of agriculture on soil carbon and nitrogen in New England forests. *Ecology, 81*(8), 2314–2330. <https://doi.org/10.1890/0012-9658(2000)081[2314:LTIOAO]2.0.CO;2>{target="_blank" rel="noopener"}
 
-Hamburg, S.P., 1983. Effects of forest growth on soil nitrogen and organic matter pools following release from subsistence agriculture. In 6. North American Forest Soils Conference, Knoxville (USA), Jun 1983. Dept. of Forestry, University of Tennessee.
+Evans, J. R. (1989). Photosynthesis and nitrogen relationships in leaves of C₃ plants. *Oecologia, 78*(1), 9–19. [https://doi.org/10.1007/BF00377192](https://doi.org/10.1007/BF00377192){target="_blank" rel="noopener"}
 
-Jenkins, J.P., Richardson, A.D., Braswell, B.H., Ollinger, S.V., Hollinger, D.Y. and Smith, M.L., 2007. Refining light-use efficiency calculations for a deciduous forest canopy using simultaneous tower-based carbon flux and radiometric measurements. Agricultural and Forest Meteorology, 143(1), pp.64-79.
+Fahey, T. J., Templer, P. H., Anderson, B. T., Battles, J. J., Campbell, J. L., Driscoll, C. T., Fusco, A. R., Green, M. B., Kassam, K. A. S., Rodenhouse, N. L., & Rustad, L. (2015). The promise and peril of intensive-site-based ecological research: insights from the Hubbard Brook ecosystem study. *Ecology, 96*(4), 885–901. [https://doi.org/10.1890/14-1043.1](https://doi.org/10.1890/14-1043.1){target="_blank" rel="noopener"}
 
-Hornbeck, J.W., Bailey, S.W., Buso, D.C. and Shanley, J.B., 1997. Streamwater chemistry and nutrient budgets for forested watersheds in New England: variability and management implications. Forest Ecology and Management, 93(1), pp.73-89.
+Hamburg, S. P. (1983). Effects of forest growth on soil nitrogen and organic matter pools following release from subsistence agriculture. In *Proceedings of the 6th North American Forest Soils Conference,* Knoxville, TN. Department of Forestry, University of Tennessee.
 
-Likens, G.E., Driscoll, C.T., Buso, D.C., Siccama, T.G., Johnson, C.E., Lovett, G.M., Ryan, D.F., Fahey, T. and Reiners, W.A., 1994. The biogeochemistry of potassium at Hubbard Brook. Biogeochemistry, 25(2), pp.61-125.
+Hornbeck, J. W., Bailey, S. W., Buso, D. C., & Shanley, J. B. (1997). Streamwater chemistry and nutrient budgets for forested watersheds in New England: variability and management implications. *Forest Ecology and Management, 93*(1–2), 73–89. [https://doi.org/10.1016/S0378-1127(96)03937-0](https://doi.org/10.1016/S0378-1127(96)03937-0){target="_blank" rel="noopener"}
 
-McGuire, K.J., Torgersen, C.E., Likens, G.E., Buso, D.C., Lowe, W.H. and Bailey, S.W., 2014. Network analysis reveals multiscale controls on streamwater chemistry. Proceedings of the National Academy of Sciences, 111(19), pp.7030-7035.
+Jenkins, J. P., Richardson, A. D., Braswell, B. H., Ollinger, S. V., Hollinger, D. Y., & Smith, M. L. (2007). Refining light-use efficiency calculations for a deciduous forest canopy using simultaneous tower-based carbon flux and radiometric measurements. *Agricultural and Forest Meteorology, 143*(1–2), 64–79. [https://doi.org/10.1016/j.agrformet.2006.11.008](https://doi.org/10.1016/j.agrformet.2006.11.008){target="_blank" rel="noopener"}
 
-Martin, M.E. and Aber, J.D., 1997. High spectral resolution remote sensing of forest canopy lignin, nitrogen, and ecosystem processes. Ecological applications, 7(2), pp.431-443.
+Likens, G. E., Driscoll, C. T., Buso, D. C., Siccama, T. G., Johnson, C. E., Lovett, G. M., Ryan, D. F., Fahey, T., & Reiners, W. A. (1994). The biogeochemistry of potassium at Hubbard Brook. *Biogeochemistry, 25*(2), 61–125. [https://doi.org/10.1007/BF00000881](https://doi.org/10.1007/BF00000881){target="_blank" rel="noopener"}
 
-Melaas, E.K., Friedl, M.A. and Richardson, A.D., 2016. Multiscale modeling of spring phenology across Deciduous Forests in the Eastern United States. Global change biology, 22(2), pp.792-805.
+Martin, M. E., & Aber, J. D. (1997). High spectral resolution remote sensing of forest canopy lignin, nitrogen, and ecosystem processes. *Ecological Applications, 7*(2), 431–443. <https://doi.org/10.1890/1051-0761(1997)007[0431:HSRRSO]2.0.CO;2>{target="_blank" rel="noopener"}
 
-Monteith, J.L., 1972. Solar radiation and productivity in tropical ecosystems. Journal of applied ecology, 9(3), pp.747-766.
+McGuire, K. J., Torgersen, C. E., Likens, G. E., Buso, D. C., Lowe, W. H., & Bailey, S. W. (2014). Network analysis reveals multiscale controls on streamwater chemistry. *Proceedings of the National Academy of Sciences, 111*(19), 7030–7035. [https://doi.org/10.1073/pnas.1404820111](https://doi.org/10.1073/pnas.1404820111){target="_blank" rel="noopener"}
 
-Ollinger, S.V. and Smith, M.L., 2005. Net primary production and canopy nitrogen in a temperate forest landscape: an analysis using imaging spectroscopy, modeling and field data. Ecosystems, 8(7), pp.760-778.Park, B.B., Yanai, R.D., Fahey, T.J., Bailey, S.W., Siccama, T.G., Shanley, J.B. and Cleavitt, N.L., 2008. Fi
+Melaas, E. K., Friedl, M. A., & Richardson, A. D. (2016). Multiscale modeling of spring phenology across deciduous forests in the eastern United States. *Global Change Biology, 22*(2), 792–805. [https://doi.org/10.1111/gcb.13122](https://doi.org/10.1111/gcb.13122){target="_blank" rel="noopener"}
 
-Ollinger, S.V., Aber, J.D., Lovett, G.M., Millham, S.E., Lathrop, R.G. and Ellis, J.M., 1993. A spatial model of atmospheric deposition for the northeastern US. Ecological Applications, 3(3), pp.459-472.Pardo, L.H. and Driscoll, C.T., 1996. Critical loads for nitrogen deposition: case studies at two northern hardwood forests. Water, Air, & Soil Pollution, 89(1), pp.105-128.
+Monteith, J. L. (1972). Solar radiation and productivity in tropical ecosystems. *Journal of Applied Ecology, 9*(3), 747–766. [https://doi.org/10.2307/2401901](https://doi.org/10.2307/2401901){target="_blank" rel="noopener"}
 
-Pardo, L.H., Fenn, M.E., Goodale, C.L., Geiser, L.H., Driscoll, C.T., Allen, E.B., Baron, J.S., Bobbink, R., Bowman, W.D., Clark, C.M. and Emmett, B., 2011. Effects of nitrogen deposition and empirical nitrogen critical loads for ecoregions of the United States. Ecological Applications, 21(8), pp.3049-3082.
+Ollinger, S. V., Aber, J. D., Lovett, G. M., Millham, S. E., Lathrop, R. G., & Ellis, J. M. (1993). A spatial model of atmospheric deposition for the northeastern US. *Ecological Applications, 3*(3), 459–472. [https://doi.org/10.2307/1941915](https://doi.org/10.2307/1941915){target="_blank" rel="noopener"}
 
-Peterson, D.L., Aber, J.D., Matson, P.A., Card, D.H., Swanberg, N., Wessman, C. and Spanner, M., 1988. Remote sensing of forest canopy and leaf biochemical contents. Remote Sensing of Environment, 24(1), pp.85-108.
+Ollinger, S. V., & Smith, M. L. (2005). Net primary production and canopy nitrogen in a temperate forest landscape: an analysis using imaging spectroscopy, modeling and field data. *Ecosystems, 8*(7), 760–778. [https://doi.org/10.1007/s10021-005-0079-5](https://doi.org/10.1007/s10021-005-0079-5){target="_blank" rel="noopener"}
 
-Posch, M., de Smet, P.A., Hettelingh, J.P. and Downing, R.J., 1995. Calculation and mapping of critical thresholds in Europe: Status report 1995.
+Pardo, L. H., & Driscoll, C. T. (1996). Critical loads for nitrogen deposition: case studies at two northern hardwood forests. *Water, Air, and Soil Pollution, 89*(1–2), 105–128. [https://doi.org/10.1007/BF00300425](https://doi.org/10.1007/BF00300425){target="_blank" rel="noopener"}
 
-Reed, B.C., Brown, J.F., VanderZee, D., Loveland, T.R., Merchant, J.W. and Ohlen, D.O., 1994. Variability of land cover phenology in the United States. Journal of Vegetation Science, 5(5), pp.703-714.
+Pardo, L. H., Fenn, M. E., Goodale, C. L., Geiser, L. H., Driscoll, C. T., Allen, E. B., Baron, J. S., Bobbink, R., Bowman, W. D., Clark, C. M., & Emmett, B. (2011). Effects of nitrogen deposition and empirical nitrogen critical loads for ecoregions of the United States. *Ecological Applications, 21*(8), 3049–3082. [https://doi.org/10.1890/10-2341.1](https://doi.org/10.1890/10-2341.1){target="_blank" rel="noopener"}
 
-Richardson, A.D., Bailey, A.S., Denny, E.G., Martin, C.W. and O'Keefe, J., 2006. Phenology of a northern hardwood forest canopy. Global Change Biology, 12(7), pp.1174-1188.
+Peterson, D. L., Aber, J. D., Matson, P. A., Card, D. H., Swanberg, N., Wessman, C., & Spanner, M. (1988). Remote sensing of forest canopy and leaf biochemical contents. *Remote Sensing of Environment, 24*(1), 85–108. [https://doi.org/10.1016/0034-4257(88)90007-7](https://doi.org/10.1016/0034-4257(88)90007-7){target="_blank" rel="noopener"}
 
-Richardson, A.D., Braswell, B.H., Hollinger, D.Y., Jenkins, J.P. and Ollinger, S.V., 2009. Near‐surface remote sensing of spatial and temporal variation in canopy phenology. Ecological Applications, 19(6), pp.1417-1428.
+Posch, M., de Smet, P. A., Hettelingh, J. P., & Downing, R. J. (1995). *Calculation and Mapping of Critical Thresholds in Europe: Status Report 1995.* Coordination Centre for Effects, RIVM, Bilthoven.
 
-Ruimy, A., Kergoat, L., Bondeau, A.1999. Comparing global models of terrestrial net primary productivity (NPP): Analysis of differences in light absorption and light‐use efficiency. Global Change Biology, 5(S1), pp.56-64.
+Reed, B. C., Brown, J. F., VanderZee, D., Loveland, T. R., Merchant, J. W., & Ohlen, D. O. (1994). Variability of land cover phenology in the United States. *Journal of Vegetation Science, 5*(5), 703–714. [https://doi.org/10.2307/3235884](https://doi.org/10.2307/3235884){target="_blank" rel="noopener"}
 
-Compton, J.E. and Boone, R.D., 2000. Long‐term impacts of agriculture on soil carbon and nitrogen in New England forests. Ecology, 81(8), pp.2314-2330.
+Richardson, A. D., Bailey, A. S., Denny, E. G., Martin, C. W., & O'Keefe, J. (2006). Phenology of a northern hardwood forest canopy. *Global Change Biology, 12*(7), 1174–1188. [https://doi.org/10.1111/j.1365-2486.2006.01164.x](https://doi.org/10.1111/j.1365-2486.2006.01164.x){target="_blank" rel="noopener"}
 
-Schwarz, P.A., Fahey, T.J. and McCulloch, C.E., 2003. Factors controlling spatial variation of tree species abundance in a forested landscape. Ecology, 84(7), pp.1862-1878.
+Richardson, A. D., Braswell, B. H., Hollinger, D. Y., Jenkins, J. P., & Ollinger, S. V. (2009). Near-surface remote sensing of spatial and temporal variation in canopy phenology. *Ecological Applications, 19*(6), 1417–1428. [https://doi.org/10.1890/08-2022.1](https://doi.org/10.1890/08-2022.1){target="_blank" rel="noopener"}
+
+Ruimy, A., Kergoat, L., & Bondeau, A. (1999). Comparing global models of terrestrial net primary productivity (NPP): Analysis of differences in light absorption and light-use efficiency. *Global Change Biology, 5*(S1), 56–64. [https://doi.org/10.1046/j.1365-2486.1999.00007.x](https://doi.org/10.1046/j.1365-2486.1999.00007.x){target="_blank" rel="noopener"}
+
+Schwarz, P. A., Fahey, T. J., & McCulloch, C. E. (2003). Factors controlling spatial variation of tree species abundance in a forested landscape. *Ecology, 84*(7), 1862–1878. <https://doi.org/10.1890/0012-9658(2003)084[1862:FCSVOT]2.0.CO;2>{target="_blank" rel="noopener"}

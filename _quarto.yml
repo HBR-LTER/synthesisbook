@@ -41,6 +41,7 @@ resources:
   - files/HBEF_history_Hornbeck.pdf  
   
 bibliography: references.bib
+reference-section-title: References
 link-citations: true
 link-bibliography: true
 csl: https://www.zotero.org/styles/apa
