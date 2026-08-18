@@ -23,7 +23,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -56,6 +76,16 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+document.addEventListener("click", function (event) {
+  const link = event.target.closest('a[href^="https://doi.org/"]');
+
+  if (link) {
+    event.preventDefault();
+    window.open(link.href, "_blank", "noopener");
+  }
+}, true);
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -244,6 +274,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#questions-for-further-study" id="toc-questions-for-further-study" class="nav-link" data-scroll-target="#questions-for-further-study"><span class="header-section-number">4.6</span> Questions for Further Study</a></li>
   <li><a href="#access-data" id="toc-access-data" class="nav-link" data-scroll-target="#access-data"><span class="header-section-number">4.7</span> Access Data</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">4.8</span> References</a></li>
+  <li><a href="#bibliography" id="toc-bibliography" class="nav-link" data-scroll-target="#bibliography">References</a></li>
   </ul>
 </nav>
     </div>
@@ -296,18 +327,18 @@ document.addEventListener("DOMContentLoaded", function() {
 <div id="sec-forestcompositionchapter">
 
 </div>
-<p>Chapter Editor(s): John Battles</p>
+<p>Chapter Editor: <a href="https://hubbardbrook.org/people/john-battles/" target="_blank" rel="noopener">John Battles</a></p>
 <section id="historical-overview" class="level2" data-number="4.1">
 <h2 data-number="4.1" class="anchored" data-anchor-id="historical-overview"><span class="header-section-number">4.1</span> Historical Overview</h2>
-<p>As originally conceived by Bormann and Likens (1979), the Hubbard Brook landscape is dominated by northern hardwood forest which consists of a patchwork of stands of varying structure and composition that shifts through time, the “shifting-mosaic steady state.” The forest is dominated by three broadleaf deciduous tree species, sugar maple, yellow birch and American beech, with a mixture of several deciduous and evergreen conifer species. Above about 800 meters in the HB valley, subalpine forest of red spruce and balsam fir (and formerly mountain paper birch) is dominant, especially on thinner, less fertile soils.</p>
-<p>The composition of the forest at Hubbard Brook has seen periods of relative stability interspersed with shifts owing to a variety of forces. These include climatic changes, natural disturbances such as pests and pathogens, and most recently human activity, especially logging in the 19th and 20th century. The Holocene forest vegetation history of the Hubbard Brook area has been reconstructed on the basis of sediment coring of Mirror Lake, located near the valley outlet (<a href="#fig-pollen" class="quarto-xref">Figure&nbsp;<span>4.1</span></a>; Davis 1985). The area was deglaciated between 13-14,000 yr BP, and the climate soon warmed to resemble the modern climate. Spruce was the first tree species to invade post-glacial tundra around Mirror Lake and pollen data suggest that it spread widely through the HB valley by 11,000 yr BP. Fir, birch and Populus increased about 1,000 years later and spruce abundance subsequently declined. Thereafter, pine and oak became more abundant suggestive of a warmer climate 9-8,000 yr BP. By 7,000 yr BP, abundance of fir, pine and oak declined, while maple, beech and hemlock increased. Hemlock exhibited a sudden decline at about 5,000 yr BP that has been ascribed to an insect or pathogen, (but see Foster et al.&nbsp;2006), and it then gradually recovered over a 1,000 year period. With that notable exception, and a resurgence in spruce abundance beginning about 2,000 yr BP, the forest composition in the HB valley was fairly stable after 6,000 yr BP until the arrival of Europeans in the 19th century. At the time of European settlement, the composition of the northern hardwood forest in the HB valley was comparable to the modern forest, being dominated by yellow birch, sugar maple and American beech; however, based on historical records (Chittenden 1905) red spruce was more abundant and sugar maple less so in the pre-settlement forests of the White Mountains. Spruce was selectively logged from the HB valley in the late 19th century, reducing its abundance thereafter. Much of the HB valley was subsequently heavily logged during the first two decades of the 20thcentury and most of the modern forest stands date from this time period. An exceptional hurricane disturbance in 1938 blew down extensive areas of the south and east facing slopes and salvage logging following this event further opened the residual forest. Notably, the 1938 hurricane caused much less damage to younger stands that arose following early 20th century logging than older lightly cut areas of the forest (Peart et al.&nbsp;1992). In summary, the modern forest in the HB valley exhibits a complex age and size structure that varies spatially as a result of these historical large-scale disturbance events. However, despite this anthropogenic disturbance history the current structure and composition of the HB forest is similar to that of a virgin remnant forest at the Bowl Research National Area located about 30 km east of HB (<a href="#fig-sizeclass" class="quarto-xref">Figure&nbsp;<span>4.2</span></a>, <a href="#fig-basalarea" class="quarto-xref">Figure&nbsp;<span>4.3</span></a>; Schwarz et al.&nbsp;2001, Martin and Bailey 1999).</p>
+<p>As originally conceived by <span class="citation" data-cites="bormann1979">Bormann &amp; Likens (<a href="#ref-bormann1979" role="doc-biblioref">1979</a>)</span>, the Hubbard Brook landscape is dominated by northern hardwood forest which consists of a patchwork of stands of varying structure and composition that shifts through time, the “shifting-mosaic steady state.” The forest is dominated by three broadleaf deciduous tree species, sugar maple, yellow birch and American beech, with a mixture of several deciduous and evergreen conifer species. Above about 800 meters in the HB valley, subalpine forest of red spruce and balsam fir (and formerly mountain paper birch) is dominant, especially on thinner, less fertile soils.</p>
+<p>The composition of the forest at Hubbard Brook has seen periods of relative stability interspersed with shifts owing to a variety of forces. These include climatic changes, natural disturbances such as pests and pathogens, and most recently human activity, especially logging in the 19th and 20th century. The Holocene forest vegetation history of the Hubbard Brook area has been reconstructed on the basis of sediment coring of Mirror Lake, located near the valley outlet (<a href="#fig-pollen" class="quarto-xref">Figure&nbsp;<span>4.1</span></a>; <span class="citation" data-cites="davis1985">Davis (<a href="#ref-davis1985" role="doc-biblioref">1985</a>)</span>). The area was deglaciated between 13-14,000 yr BP, and the climate soon warmed to resemble the modern climate. Spruce was the first tree species to invade post-glacial tundra around Mirror Lake and pollen data suggest that it spread widely through the HB valley by 11,000 yr BP. Fir, birch and Populus increased about 1,000 years later and spruce abundance subsequently declined. Thereafter, pine and oak became more abundant suggestive of a warmer climate 9-8,000 yr BP. By 7,000 yr BP, abundance of fir, pine and oak declined, while maple, beech and hemlock increased. Hemlock exhibited a sudden decline at about 5,000 yr BP that has been ascribed to an insect or pathogen, (but see <span class="citation" data-cites="foster2006">Foster et al. (<a href="#ref-foster2006" role="doc-biblioref">2006</a>)</span>), and it then gradually recovered over a 1,000 year period. With that notable exception, and a resurgence in spruce abundance beginning about 2,000 yr BP, the forest composition in the HB valley was fairly stable after 6,000 yr BP until the arrival of Europeans in the 19th century. At the time of European settlement, the composition of the northern hardwood forest in the HB valley was comparable to the modern forest, being dominated by yellow birch, sugar maple and American beech; however, based on historical records <span class="citation" data-cites="chittenden1905">(<a href="#ref-chittenden1905" role="doc-biblioref">Chittenden, 1905</a>)</span> red spruce was more abundant and sugar maple less so in the pre-settlement forests of the White Mountains. Spruce was selectively logged from the HB valley in the late 19th century, reducing its abundance thereafter. Much of the HB valley was subsequently heavily logged during the first two decades of the 20thcentury and most of the modern forest stands date from this time period. An exceptional hurricane disturbance in 1938 blew down extensive areas of the south and east facing slopes and salvage logging following this event further opened the residual forest. Notably, the 1938 hurricane caused much less damage to younger stands that arose following early 20th century logging than older lightly cut areas of the forest <span class="citation" data-cites="peart1992">(<a href="#ref-peart1992" role="doc-biblioref">Peart et al., 1992</a>)</span>. In summary, the modern forest in the HB valley exhibits a complex age and size structure that varies spatially as a result of these historical large-scale disturbance events. However, despite this anthropogenic disturbance history the current structure and composition of the HB forest is similar to that of a virgin remnant forest at the Bowl Research National Area located about 30 km east of HB (<a href="#fig-sizeclass" class="quarto-xref">Figure&nbsp;<span>4.2</span></a>, <a href="#fig-basalarea" class="quarto-xref">Figure&nbsp;<span>4.3</span></a>; <span class="citation" data-cites="schwarz2001">Schwarz et al. (<a href="#ref-schwarz2001" role="doc-biblioref">2001</a>)</span>, <span class="citation" data-cites="martin1999">Martin &amp; Bailey. (<a href="#ref-martin1999" role="doc-biblioref">1999</a>)</span>).</p>
 <div id="fig-pollen" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-pollen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="figs/Composition/pollenComposition.s.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pollen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;4.1: Pollen accumulation rates for pollen types in Mirror Lake (Davis 1985).
+Figure&nbsp;4.1: Pollen accumulation rates for pollen types in Mirror Lake <span class="citation" data-cites="davis1985">(<a href="#ref-davis1985" role="doc-biblioref">Davis, 1985</a>)</span>.
 </figcaption>
 </figure>
 </div>
@@ -512,6 +543,32 @@ Figure&nbsp;4.12: Seedling colonization by read oak (QURU) and white pine (PIST)
 <p>Weeks, B. C., S. P. Hamburg and M. Vadeboncoeur. 2009. Ice storm effects on the canopy structure of a northern hardwood forest after 8 years. <em>Canadian Journal of Forest Research</em> 39(8):1475–1483. <a href="https://doi.org/10.1139/X09-076" target="_blank" rel="noopener">https://doi.org/10.1139/X09-076</a></p>
 
 
+</section>
+<section id="bibliography" class="level1 unnumbered">
+<h1 class="unnumbered">References</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-bormann1979" class="csl-entry" role="listitem">
+Bormann, F. H., &amp; Likens, G. E. (1979). <em>Pattern and process in a forested ecosystem</em>. Springer-Verlag, New York.
+</div>
+<div id="ref-chittenden1905" class="csl-entry" role="listitem">
+Chittenden, A. K. (1905). <em>Forest conditions of northern new hampshire (USDA bureau of forestry bulletin no. 55). U.s. Department of agriculture</em>.
+</div>
+<div id="ref-davis1985" class="csl-entry" role="listitem">
+Davis, M. B. (1985). History of the vegetation of the mirror lake watershed. In G. E. Likens (Ed.), <em>An ecosystem approach to aquatic ecology</em> (pp. 53–64). Springer.
+</div>
+<div id="ref-foster2006" class="csl-entry" role="listitem">
+Foster, D. R., Oswald, W. W., Faison, E. K., Doughty, E. D., &amp; Hansen., B. C. S. (2006). A climatic driver for abrupt mid-holocene vegetation dynamics and the hemlock decline in new england. <em>Ecology</em>, <em>87</em>(12), 2959–2966. <a href="https://doi.org/10.1890/0012-9658(2006)87[2959:ACDFAM]2.0.CO;2">https://doi.org/10.1890/0012-9658(2006)87[2959:ACDFAM]2.0.CO;2</a>
+</div>
+<div id="ref-martin1999" class="csl-entry" role="listitem">
+Martin, C. W., &amp; Bailey., A. S. (1999). Twenty years of change in a northern hardwood forest. <em>Forest Ecology and Management</em>, <em>123</em>(2–3), 253–260. <a href="https://doi.org/10.1016/S0378-1127(99)00045-6">https://doi.org/10.1016/S0378-1127(99)00045-6</a>
+</div>
+<div id="ref-peart1992" class="csl-entry" role="listitem">
+Peart, D. R., Cogbill, C. V., &amp; Palmiotto., P. A. (1992). Effects of logging history and hurricane damage on canopy structure in a northern hardwoods forest. <em>Bulletin of the Torrey Botanical Club</em>, <em>119</em>(1), 29–38. <a href="https://doi.org/10.2307/2996917">https://doi.org/10.2307/2996917</a>
+</div>
+<div id="ref-schwarz2001" class="csl-entry" role="listitem">
+Schwarz, P. A., Fahey, T. J., Martin, C. W., &amp; Siccama., T. G. (2001). Structure and composition of three northern hardwood-conifer forests with differing disturbance histories. <em>Forest Ecology and Management</em>, <em>144</em>, 201–212. <a href="https://doi.org/10.1016/S0378-1127(00)00371-6">https://doi.org/10.1016/S0378-1127(00)00371-6</a>
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->

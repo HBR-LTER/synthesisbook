@@ -1,0 +1,10 @@
+<script>
+document.addEventListener("click", function (event) {
+  const link = event.target.closest('a[href^="https://doi.org/"]');
+
+  if (link) {
+    event.preventDefault();
+    window.open(link.href, "_blank", "noopener");
+  }
+}, true);
+</script>
