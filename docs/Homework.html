@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>22&nbsp; Watershed Ecosystem Homework Exercises</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<link href="./Scaling.html" rel="prev">
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-c614dc152840027ed1d225942eae4f22.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+document.addEventListener("click", function (event) {
+  const link = event.target.closest('a[href^="https://doi.org/"]');
+
+  if (link) {
+    event.preventDefault();
+    window.open(link.href, "_blank", "noopener");
+  }
+}, true);
+</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Homework.html"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Watershed Ecosystem Homework Exercises</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./WhatsNew.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">What’s New</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./SiteHistory.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Site, History, and Research Approaches</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ClimateChange.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Climate Change</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Hydrology.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Hydrology</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./CompositionDynamics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Forest Composition and Dynamics</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./BiomassProductivity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Forest Biomass and Primary Productivity</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Decomp.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Decomposition and Soil Carbon Sequestration</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./SoilBiology.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Soil Biology in the Forested Ecosystem</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Biogeochemistry.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Biogeochemistry: Element behavior and Interactions</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./AtmosphericInputs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Atmospheric inputs and canopy interactions of nutrients and pollutants</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./AcidDepositionEffects.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Ecosystem Effects of Acidic Deposition</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./MineralWeathering.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Mineral Weathering</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Roots.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Roots and Mycorrhizae</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Nitrogen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Nitrogen</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Phosphorus.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Phosphorus</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./StreamEcosystems.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Stream Ecosystems in the Hubbard Brook Experimental Forest</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./PhysiologyPhenology.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Forest Physiology and Phenology</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ForestManagement.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Forest Management and Ecosystem Dynamics</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Beech.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Trouble with Beech</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Birds.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">All About Birds</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Understory.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Understory Vegetation</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Scaling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Scaling Up: Gradients, Models and Remote Sensing</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Homework.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Watershed Ecosystem Homework Exercises</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Chapter Sections</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">22.1</span> Introduction</a></li>
+  <li><a href="#hydrology" id="toc-hydrology" class="nav-link" data-scroll-target="#hydrology"><span class="header-section-number">22.2</span> Hydrology</a></li>
+  <li><a href="#streamwater-nutrient-fluxes" id="toc-streamwater-nutrient-fluxes" class="nav-link" data-scroll-target="#streamwater-nutrient-fluxes"><span class="header-section-number">22.3</span> Streamwater nutrient fluxes</a></li>
+  <li><a href="#element-input-in-bulk-precipitation" id="toc-element-input-in-bulk-precipitation" class="nav-link" data-scroll-target="#element-input-in-bulk-precipitation"><span class="header-section-number">22.4</span> Element input in bulk precipitation</a></li>
+  <li><a href="#nutrient-accumulation-in-forest-vegetation" id="toc-nutrient-accumulation-in-forest-vegetation" class="nav-link" data-scroll-target="#nutrient-accumulation-in-forest-vegetation"><span class="header-section-number">22.5</span> Nutrient Accumulation in Forest Vegetation</a></li>
+  <li><a href="#net-soil-release" id="toc-net-soil-release" class="nav-link" data-scroll-target="#net-soil-release"><span class="header-section-number">22.6</span> Net soil release</a></li>
+  <li><a href="#access-to-data" id="toc-access-to-data" class="nav-link" data-scroll-target="#access-to-data"><span class="header-section-number">22.7</span> Access to Data</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const banner = document.createElement("div");
+  banner.className = "hb-banner-global";
+
+  banner.innerHTML = `
+    <a href="https://hubbardbrook.org" class="hb-banner-link">
+      <div class="hb-banner-image">
+        <img src="images/banner.jpg" alt="">
+        <div class="hb-banner-overlay">
+          <div class="hb-banner-title">
+            Online Book: A Synthesis of Scientific Research at Hubbard Brook
+          </div>
+          <div class="hb-banner-subline">
+            [return to hubbardbrook.org]
+          </div>
+        </div>
+      </div>
+    </a>
+  `;
+
+  document.body.prepend(banner);
+});
+</script>
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Watershed Ecosystem Homework Exercises</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction" class="level2" data-number="22.1">
+<h2 data-number="22.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">22.1</span> Introduction</h2>
+<p>The fluxes of materials, water and other chemicals, play key roles in the delivery of ecosystem services (or disservices). For example, the availability of water for human uses depends upon the balance between precipitation and evapotranspiration fluxes in the catchments supplying reservoirs, and tree growth can be constrained by nutrient input and recycling fluxes in soils. Similarly, the delivery of toxic chemicals like aluminum to downstream ecosystems depends upon flux pathways through upland forest ecosystems. Thus, scientists seek to understand and measure flux processes in ecosystems.</p>
+<p>The small watershed approach was devised as a means to estimate some key flux processes that are difficult to measure directly. In particular, this approach facilitates estimation of actual evapotranspiration – the total evaporative flux of water from a landscape unit – as well as the flux of chemical elements from soils to surface waters, streams, wetlands, lakes. As detailed in several of the online book chapters this approach permits the construction of chemical budgets and in conjunction with experimental manipulations at the whole-watershed scale, the response of these budgets to disturbances and environmental change.</p>
+<p>In the following exercises students will be challenged to make the calculations required to calculate watershed-scale fluxes of water and chemical elements using the data sets of the Hubbard Brook Ecosystem Study.</p>
+</section>
+<section id="hydrology" class="level2" data-number="22.2">
+<h2 data-number="22.2" class="anchored" data-anchor-id="hydrology"><span class="header-section-number">22.2</span> Hydrology</h2>
+<p>As explained in the <a href="./Hydrology.html">Hydrology</a> chapter, the hydrologic budget is calculated at the small watershed scale in units for mm H2O, i.e.&nbsp;analogous to the depth of water measured in a rain gauge. The flux of water from the watershed is measured as volume discharge (e.g., units of L/s) through a V-notch weir at the catchment outlet (Fig. 1, <a href="./Hydrology.html">Hydrology</a> chapter). The small watershed is delineated on the basis of surface topography, such that the precipitation falling on the catchment is delivered by gravity to the outlet and that falling outside the catchment to an adjacent watershed unit. To calculate the discharge from a small watershed in units of mm H2O, the volume discharge at the weir must be divided by the area of the catchment from which it was derived. This area could be measured either as planimetric area – the projected area as on maps – or as “on-the-ground” area, measured as such.</p>
+<p><strong><em>Question: Which of these two measurements of watershed area – planimetric or on-the-ground area – would be appropriate for calculating the water budget? Why?</em></strong></p>
+<p>The first calculation you will make is the annual water balance (AET = precipitation – streamflow) for the hydrologic reference watershed (WS3); see Fig. 2 in <a href="./Hydrology.html">Hydrology</a> chapter. This balance assumes constant water storage within the watershed; the standard practice in the HBES is to calculate the annual water balance on the basis of the “water year” from 1 June to the following 31 May. The assumption underlying the water-year is that the volume of water stored within the small watershed is roughly equal every year following drainage of the spring snowmelt and prior to high root uptake supplying transpiration by the vegetation.</p>
+<p>In recent years the long-term water balance at the HBEF reference watersheds suggests that the assumption of constant water storage in spring may be false.</p>
+<p><strong><em>Question: What water storage pool in the catchment might be changing through the years? Why? How could you verify whether this storage pool has been changing?</em></strong></p>
+<p>In the data set set entitled “Daily Streamflow by Watershed” , the data for daily streamflow are published in units of mmH2O/day, converted from instantaneous volume discharge at the weir. See sidebar for data access instructions. For a detailed description of the methods underlying this file you can view the metatdata as displayed when you select the dataset, and/or download the metadata. Using these data, first calculate annual discharge in water year 2013-2014 for the hydrologic reference watershed (WS3). For this purpose you can copy the data for this water-year from the file and paste into Excel or any spreadsheet. Next, calculate total annual precipitation for this year and watershed using the data set entitled, “Daily Precipitation by Watershed” which can be located and accessed in a similar way</p>
+<p><strong><em>Question: Rainfall is measured with several standard rain gauges scattered around the HBEF and the amount of rain varies among rainfall stations. How could these “point measurements” of rainfall be converted to represent the whole watershed rainfall flux for any particular watershed?</em></strong></p>
+<p>Now calculate annual actual evapotranspiration (AET) for WS3 in water year 2013-2014.</p>
+<p>As illustrated in Fig. 2, <a href="./Hydrology.html">Hydrology</a> chapter, AET in WS3 has apparently declined slightly over the long period of record, 1958-2014. This observation is hard to reconcile with increasing air temperatures at HBEF (see Ch. 8) in that heat energy drives AET. We also see considerable annual variation in estimated AET. We might hypothesize that annual variation in AET is caused by climate; we would predict higher AET in warm than colder growing seasons. You can test this hypothesis by quantifying the relationship between daily average air temperature from 1 June to 30 September (growing season) and annual AET for the years 1995-2010. Daily air temperature data are found in the data file entitled, “Daily Mean Temperature”; for convenience you can use the temperature data for station 1. To save you tedious work, we provide the annual AET for the years 1995-2010 [download file].</p>
+<p><strong><em>Question: How can we reconcile the observed positive relationship between AET and growing season temperature with the long-term decline in AET in the warming climate?</em></strong></p>
+<p>Next we will observe the effects of forest cutting on stream discharge and the forest ecosystem water balance. In winter 1984-1985 the forest on WS5 was clearcut in a whole-tree harvest. Using the precipitation and stream discharge data sets introduced above, evaluate the effect of this treatment on water yield and AET, i.e.&nbsp;compare AET in WS5 between 1983 (pre-cut) and 1985 (post-cut).</p>
+<p><strong><em>Question: It has been proposed that forest cutting could be an effective strategy to increase water supply for human uses. What do the results from the WS5 experiment suggest?</em></strong></p>
+</section>
+<section id="streamwater-nutrient-fluxes" class="level2" data-number="22.3">
+<h2 data-number="22.3" class="anchored" data-anchor-id="streamwater-nutrient-fluxes"><span class="header-section-number">22.3</span> Streamwater nutrient fluxes</h2>
+<p>The small watershed approach facilitates the estimation of nutrient losses from the ecosystem resulting from leaching of soils by percolating water. Essentially, the streamwater integrates all the pathways of nutrient flux through the infinitely complex soil pore network.</p>
+<p>First we will calculate the annual flux of calcium from the biogeochemical reference watershed (WS6) for two different years, one early in the record (1965) and one late in the record (2010). To calculate these fluxes go to the data set entitled, “Chemistry of Streamwater, Watershed 6”, again by scrolling down in the data catalog. In this data set the researchers present the monthly average concentration of various chemicals in units of mg/L. They also present stream discharge for each month in units of mmH2O. Streamwater Ca flux for these years can be estimated as the sum of over 12 months (kg-ha-1-yr-1) of the product of Ca concentration and water flux. To make this calculation you will need to make unit conversions; note that “mmH2O” is essentially the same as mm3/mm2 and again the concentration units are in mg/L. In the copied spreadsheet you will sum the product of these values for the twelve months in the year 1965 and 2010 and then make the appropriate unit conversions to express as kg-ha-1-yr-1.</p>
+<p><strong><em>Question: On the basis of this limited sample has Ca flux from WS6 likely declined, increased or remained constant since the 1960s? Why?</em></strong></p>
+<p>Bormann et al.&nbsp;(1974) showed that the elimination of plant root uptake by devegetation of WS2 caused a striking increase in nutrient loss by leaching from soils to the stream. Using the dataset entitled “Chemistry of Streamwater, Watershed 2”, compare streamwater Ca export for WS2 in the year before (1965) and two years after (1968) devegetation of WS2.</p>
+<p><strong><em>Question: Did the increase in Ca loss following devegetation on WS2 result primarily from increased water flux or increased streamwater Ca concentration? What was the principal mechanism that caused increased base cation losses following devegetation of WS2 (Clue: see Ch. 7 Nitrogen cycle)?</em></strong></p>
+</section>
+<section id="element-input-in-bulk-precipitation" class="level2" data-number="22.4">
+<h2 data-number="22.4" class="anchored" data-anchor-id="element-input-in-bulk-precipitation"><span class="header-section-number">22.4</span> Element input in bulk precipitation</h2>
+<p>A simple funnel apparatus has been used since 1963 to collect rain water for analysis of dissolved chemicals. Element flux via so-called “bulk deposition” can be calculated as the product of precipitation amount and chemical concentrations, analogous to the streamwater flux, above. Using the dataset entitled, “Chemistry of Bulk Precipitation, Watershed 6” calculate the annual input flux of Ca to WS6 for the same two years (1965, 2010) for which you previously calculated stream output. Again the monthly water input (mmH20) and the average monthly water chemistry (mg/L) are summarized in the file and the same sort of unit conversions are needed,</p>
+<p><strong><em>Question: On the basis of this limited sample has bulk precipitation input of Ca likely increased, decreased or remained constant since the 1960s? Why? Do you suppose that the changing bulk precipitation inputs largely explain the changing stream losses of Ca? Why or why not?</em></strong></p>
+</section>
+<section id="nutrient-accumulation-in-forest-vegetation" class="level2" data-number="22.5">
+<h2 data-number="22.5" class="anchored" data-anchor-id="nutrient-accumulation-in-forest-vegetation"><span class="header-section-number">22.5</span> Nutrient Accumulation in Forest Vegetation</h2>
+<p>The vegetation is often the most dynamic nutrient pool or stock in the forest ecosystem. Forest disturbances like severe windstorms, or clearcutting, initiate the process of secondary succession and consequent rapid accumulation of nutrients in the vegetation. We can calculate this flux by estimating the biomass of the vegetation and nutrient concentrations in the plant tissues at two different points in time. Whittaker et al.&nbsp;(1974, 1979) reported that the living biomass of the forest on WS6 averaged 16107 grams/m2 and the calcium content of the forest was 50.7 grams/m2. Between 1965 and 1992 the forest on WS6 continued to accumulate biomass and mineral nutrients. In 1997 the diameter of every tree on WS6 was measured, and the biomass of each tree was estimated using regression equations relating diameter and biomass as determined by felling and weighing lots of trees (Whittaker et al.&nbsp;1974, Siccama et al.&nbsp;1994). The weight of each tree in 1997 is compiled in the following data file [download file]. Calculate the total biomass of the WS6 forest in 1997 using these data. Express the value on a unit area basis using the measured planimetric area of WS6 (13.2 ha). Finally calculate the calcium content of the forest on WS6 in 1997 using the average concentration of calcium in the vegetation: 3.13 mg Ca/gram dry weight. How does the Ca content of the forest compare between 1965 and 1997?</p>
+<p><strong><em>Question: Calcium rapidly accumulated in tree biomass in the youngish forest on WS6 between 1965 and 1987. What do you suppose was the principal source of that Ca?</em></strong></p>
+</section>
+<section id="net-soil-release" class="level2" data-number="22.6">
+<h2 data-number="22.6" class="anchored" data-anchor-id="net-soil-release"><span class="header-section-number">22.6</span> Net soil release</h2>
+<p>In the long term, primary mineral weathering is the principal pathway supplying nutrients with sedimentary cycles (e.g., P, K, Ca); however, measurement of mineral weathering at the scale of forest ecosystems is difficult. One approach to the problem of measuring mineral weathering is to utilize the small watershed mass-balance:</p>
+<p>Weathering input = stream output – precipitation input + ∆ storage</p>
+<p>In this formulation ∆ storage refers to changes in element content of any of the major storage pools in the ecosystem, including forest floor organic matter, mineral soils and vegetation.If we assume that the forest floor and mineral soil pools (excluding primary minerals) are constant, then weathering of an element can be estimated from the foregoing calculations in sections 2 to 5. By convention we refer to this formulation as “net soil release” because it actually represents primary mineral weathering plus any unmeasured long-term changes in other soil pools such as soil organic matter or secondary minerals (e.g.&nbsp;clays).</p>
+<p>The calculation of net soil release is usually conducted over a relatively long-time span largely because the ∆ storage for the vegetation pool is estimated on the basis of long-term increases in tree diameters. Calculate annual net soil release of Ca for WS6 averaged over the time interval for which you previously calculated ∆ storage in biomass (1965-1997).For this you need to calculate the total bulk precipitation input and stream output over this entire interval, as previously explained in sections 3 and 4, above. These can be readily calculated in Excel using the data files on chemistry of bulk precipitation and streamflow that you accessed.</p>
+<p><strong><em>Question: An independent estimate of primary mineral weathering of Ca during this interval is 2.8 kg/ha-yr. What does this estimate imply about overall changes in the soil pool during this interval of relatively intense acid deposition?</em></strong></p>
+<p>The whole-tree harvest (WTH) of WS5 in 1985 was expected to seriously deplete soil Ca pools because unlike standard harvest in which lots of Ca is left behind in branches and twigs, much more Ca was removed from the site by WTH. Assuming that all the aboveground vegetation was removed from the site, compare the amount of Ca removed in this treatment vs.&nbsp;the net soil depletion from 1965 to 1997 on WS6 calculated above as the difference between net soil release and the independent estimate of primary mineral weathering rate. For convenience simply assume that the Ca content of the vegetation on WS5 prior to harvest was equal to that on WS6 in 1997 (calculated above). What would you conclude about acid deposition vs.&nbsp;forest harvest as causes of soil calcium depletion in the 20th century?</p>
+</section>
+<section id="access-to-data" class="level2" data-number="22.7">
+<h2 data-number="22.7" class="anchored" data-anchor-id="access-to-data"><span class="header-section-number">22.7</span> Access to Data</h2>
+<p>Data for these exercises can be found in the Environmental Data Intiative Repository (EDI). At the links below, you can download the necessary datafiles. If you are working in a scripted language, see the ‘code generation’ feature on the dataset landing page. This will provide you with a direct link to the data, which can then be read directly into your workflow. If there has been a data update, since the publication date of this webpage, you will see a link to the newer data at the top of the dataset landing page.</p>
+<ul>
+<li><p>USDA Forest Service, Northern Research Station. 2025. Hubbard Brook Experimental Forest: Daily Streamflow by Watershed, 1956 - present ver 15. Environmental Data Initiative. <a href="https://doi.org/10.6073/pasta/355cda48aaf6764dd146990ab76a1a7b" target="_blank" rel="noopener">https://doi.org/10.6073/pasta/355cda48aaf6764dd146990ab76a1a7b</a></p></li>
+<li><p>USDA Forest Service, Northern Research Station. 2026. Hubbard Brook Experimental Forest: Total Daily Precipitation by Watershed, 1956 - ongoing ver 21. Environmental Data Initiative. <a href="https://doi.org/10.6073/pasta/cb5f623deb94bdefc7502655b03f6645" target="_blank" rel="noopener">https://doi.org/10.6073/pasta/cb5f623deb94bdefc7502655b03f6645</a></p></li>
+<li><p>USDA Forest Service, Northern Research Station. 2026. Hubbard Brook Experimental Forest: Daily Temperature Record, 1955 - ongoing ver 17. Environmental Data Initiative. <a href="https://doi.org/10.6073/pasta/64e377327384710dac0bab96455d91fe" target="_blank" rel="noopener">https://doi.org/10.6073/pasta/64e377327384710dac0bab96455d91fe</a></p></li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./Scaling.html" class="pagination-link" aria-label="Scaling Up: Gradients, Models and Remote Sensing">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Scaling Up: Gradients, Models and Remote Sensing</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
